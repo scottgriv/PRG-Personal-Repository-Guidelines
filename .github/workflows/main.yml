@@ -1,0 +1,42 @@
+name: weekly-project-tier-list-update
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+      
+jobs:
+  run-python-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository content
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.MY_GITHUB_TOKEN }}  # Using the token for checkout
+
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r scripts/requirements.txt
+
+    - name: Run Python script
+      run: python scripts/build_project_tier_list.py 
+      env:
+        GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+
+    - name: Set Git user
+      run: |
+        git config user.name "${{ github.actor }}"
+        git config user.email "${{ github.actor }}@users.noreply.github.com"
+    
+    - name: Commit and push if changed
+      run: |
+        git add -A
+        git diff-index --quiet HEAD || git commit -m "Update project tier list"
+        git push

@@ -49,8 +49,8 @@ Width×Height
 ![](../docs/images/brand_sizes/icon-sizer.png)
 
 > [!IMPORTANT] 
-> This is the file that will be used for the logo in your project's `projet_tier_list.md` file.
-> See [Project Tier List](../README.md#project-tier-list-github-actions) for more information.
+> This is the file that will be used for the logo in your project's `projet_tier_table.md` file.
+> See [Project Tier List](../README.md#project-tier-table) for more information.
 
 ### Banners
 

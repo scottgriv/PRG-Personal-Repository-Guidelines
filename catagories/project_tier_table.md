@@ -1,4 +1,4 @@
-# Project Tier List
+# Project Tier Table
 
 Below are my projects ranked with **[Personal Repository Guidelines (PRG)](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines)**:
 

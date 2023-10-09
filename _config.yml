@@ -1,0 +1,3 @@
+title: Personal Repository Guidelines (PRG)
+description: A repository categorization and guideline system developed to standardize repositories, projects, README's, and overall repository structure. Utilizes GitHub Actions to create a custom table to showcase your categorized repositories utilizing a tier based structure.
+theme: jekyll-theme-minimal

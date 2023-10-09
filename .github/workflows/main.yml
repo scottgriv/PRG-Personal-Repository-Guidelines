@@ -1,4 +1,4 @@
-name: weekly-project-tier-list-update
+name: weekly-project-tier-table-generator
 
 on:
   schedule:
@@ -26,7 +26,7 @@ jobs:
         pip install -r scripts/requirements.txt
 
     - name: Run Python script
-      run: python scripts/build_project_tier_list.py 
+      run: python scripts/project_tier_table_generator.py 
       env:
         GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
@@ -38,5 +38,10 @@ jobs:
     - name: Commit and push if changed
       run: |
         git add -A
-        git diff-index --quiet HEAD || git commit -m "Update project tier list"
+        git diff-index --quiet HEAD || git commit -m "Update Project Tier Table and Badge References"
         git push
+
+    - name: Copy README.md to index.md
+      run: |
+        mkdir -p docs  # ensures the docs directory exists
+        cp README.md docs/index.md  # adjust the path as needed

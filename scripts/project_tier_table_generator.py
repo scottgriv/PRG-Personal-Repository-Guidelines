@@ -19,10 +19,11 @@ USERNAME = os.environ.get('GITHUB_ACTOR', 'default_username') # Uncomment this l
 
 # File Paths
 # Add an extra . to the beginning of the path to make it relative to the root of the repository when testing locally (i.e. ../docs)
-MD_FILE_PATH = './guides/project_tier_list.md' # Path to the the main project tier list markdown file
-MD_FILE_PATH_PRIVATE = './guides/project_tier_list_private.md' # Path to the private project tier list markdown file
-MD_BADGE_REF_PATH = './guides/badge_references.md' # Path to the badge reference markdown file
+MD_FILE_PATH = './categories/project_tier_table.md' # Path to the the main project tier table markdown file
+MD_FILE_PATH_PRIVATE = './categories/project_tier_table_private.md' # Path to the private project tier table markdown file
+MD_BADGE_REF_PATH = './templates/badge_reference_template.md' # Path to the badge reference markdown file
 PLACEHOLDER_ICON = './docs/images/icon_placeholder-rounded.png' # Placeholder for missing icons
+TIER_TABLE_URL = 'https://github.com/{USERNAME}/PRG-Personal-Repository-Guidelines/blob/main/categories/project_tier_table.md'
 
 # Configuration Flags
 INCLUDE_NO_PRG_FILE_PROJECTS = False  # Set to False if you don't want to include projects that don't have a PRG file
@@ -53,45 +54,45 @@ Use this file as a template to gather and add badges to your project's `README.m
 - Optionally, you can change the `href` attributes below to point to your project's repository by changing the username to your GitHub username.
 
 ### Gold Project Badge
-<a href="https://github.com/{USERNAME}/PRG-Personal-Repository-Guidelines/blob/main/guides/project_tier_list.md">
+<a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Gold']}" alt="Gold PRG Badge" />
 </a>
 
 ### Silver Project Badge
-<a href="https://github.com/{USERNAME}/PRG-Personal-Repository-Guidelines/blob/main/guides/project_tier_list.md">
+<a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Silver']}" alt="Silver PRG Badge" />
 </a>
 
 ### Bronze Projext Badge
-<a href="https://github.com/{USERNAME}/PRG-Personal-Repository-Guidelines/blob/main/guides/project_tier_list.md">
+<a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Bronze']}" alt="Bronze PRG Badge" />
 </a>
 
 ### Purple Brand Badge
-<a href="https://github.com/{USERNAME}/PRG-Personal-Repository-Guidelines/blob/main/guides/project_tier_list.md">
+<a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Purple']}" alt="Purple PRG Badge" />
 </a>
 
 ### Black Brand Badge
-<a href="https://github.com/{USERNAME}/PRG-Personal-Repository-Guidelines/blob/main/guides/project_tier_list.md">
+<a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Black']}" alt="Black PRG Badge" />
 </a>
 
 ### White Brand Badge
-<a href="https://github.com/{USERNAME}/PRG-Personal-Repository-Guidelines/blob/main/guides/project_tier_list.md">
+<a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['White']}" alt="White PRG Badge" />
 </a>
 
 ## Profile README Badge
-Add one of the two badges below to your Profile `README` to show that you follow **PRG**, the hpyerlink will take your profile visitors to your catagorized project tier list. You may need to adjust the `src` attribute of the image tag to point to the correct path of the image and also include the "prg_optimized-rounded.png" file in your repository.
+Add one of the two badges below to your Profile `README` to show that you follow **PRG**, the hpyerlink will take your profile visitors to your catagorized project tier table. You may need to adjust the `src` attribute of the image tag to point to the correct path of the image and also include the "prg_optimized-rounded.png" file in your repository.
 
 ### PRG Optimized Badge
-<a href="https://github.com/{USERNAME}/PRG-Personal-Repository-Guidelines/blob/main/guides/project_tier_list.md">
+<a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Optimized']}" alt="PRG Optimized Badge" />
 </a>
 
 ### PRG Optimized Logo
-<a href="https://github.com/{USERNAME}/PRG-Personal-Repository-Guidelines/blob/main/guides/project_tier_list.md" target="_blank">
+<a href="{TIER_TABLE_URL}" target="_blank">
     <img src="../docs/images/prg_optimized-rounded.png" alt="PRG Optimized Logo" />
 </a>
 """
@@ -285,7 +286,7 @@ try:
         # Load existing repos from the private markdown file
         existing_repos_data = parse_private_md_file(MD_FILE_PATH_PRIVATE)
 
-        # Append the existing repos to the repos_data list
+        # Append the existing repos to the repos_data table
         repos_data.extend(existing_repos_data)
     else:
         print("Skipping Private Repositories as per the configuration.")
@@ -300,7 +301,7 @@ try:
         counter = 1 
 
         # Writing title
-        md_file.write('# Project Tier List\n\n')
+        md_file.write('# Project Tier Table\n\n')
 
         # Writing description below the title:
         md_file.write('Below are my projects ranked with **[Personal Repository Guidelines (PRG)](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines)**:\n\n')
@@ -314,9 +315,8 @@ try:
 
             # Fetching the tier information and constructing the badge URL
             tier_key = repo_data['tier']
-            tier_list_url = f'https://github.com/{USERNAME}/PRG-Personal-Repository-Guidelines/blob/main/guides/project_tier_list.md'
             badge_url = BADGES.get(tier_key)  # If the tier_key is not found, it returns None by default, so no need to specify None
-            tier = f'<a href="{tier_list_url}" target="_blank"><img src="{badge_url}" alt="{tier_key} Project Badge" /></a>' if badge_url else "Tier Not Available"
+            tier = f'<a href="{TIER_TABLE_URL}" target="_blank"><img src="{badge_url}" alt="{tier_key} Project Badge" /></a>' if badge_url else "Tier Not Available"
 
             # First check if the 'icon_html' is in the repo_data (it means it's coming from the private markdown file),
             # otherwise, try to fetch the icon from the public URL

@@ -36,7 +36,7 @@ Use this file as a template to gather and add badges to your project's `README.m
 </a>
 
 ## Profile README Badge
-Add one of the two badges below to your Profile `README` to show that you follow **PRG**, the hpyerlink will take your profile visitors to your catagorized project tier list. You may need to adjust the `src` attribute of the image tag to point to the correct path of the image and also include the "prg_optimized-rounded.png" file in your repository.
+Add one of the two badges below to your Profile `README` to show that you follow **PRG**, the hpyerlink will take your profile visitors to your catagorized project tier table. You may need to adjust the `src` attribute of the image tag to point to the correct path of the image and also include the "prg_optimized-rounded.png" file in your repository.
 
 ### PRG Optimized Badge
 <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/guides/project_tier_list.md">

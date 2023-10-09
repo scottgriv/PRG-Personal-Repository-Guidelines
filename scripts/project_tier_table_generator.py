@@ -23,7 +23,7 @@ MD_FILE_PATH = './categories/project_tier_table.md' # Path to the the main proje
 MD_FILE_PATH_PRIVATE = './categories/project_tier_table_private.md' # Path to the private project tier table markdown file
 MD_BADGE_REF_PATH = './templates/badge_reference_template.md' # Path to the badge reference markdown file
 PLACEHOLDER_ICON = './docs/images/icon_placeholder-rounded.png' # Placeholder for missing icons
-TIER_TABLE_URL = 'https://github.com/{USERNAME}/PRG-Personal-Repository-Guidelines/blob/main/categories/project_tier_table.md'
+TIER_TABLE_URL = f'https://github.com/{USERNAME}/PRG-Personal-Repository-Guidelines/blob/main/categories/project_tier_table.md'
 
 # Configuration Flags
 INCLUDE_NO_PRG_FILE_PROJECTS = False  # Set to False if you don't want to include projects that don't have a PRG file

@@ -1,4 +1,4 @@
-# Project Tier Table
+# Private Project Tier Table
 
 Below are my private projects ranked with **[Personal Repository Guidelines (PRG)](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines)**:
 

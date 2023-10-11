@@ -38,7 +38,7 @@
 
 ---
 
-This `README` highlights the three main areas of **PRG**:
+This `README` highlights the **three** main areas of **PRG**:
 1. **Categories**: categorize your repositories into three tiers: `#FFD700` **Gold**, `#C0C0C0` **Silver**, and `#CD7F32` **Bronze** then display them in a "project tier table" (built using GitHub Actions).
 2. **Guidelines**: defined guidelines for repository `README`, files, and overall structure. Brand guidelines for your **Gold** tier projects are also defined.
 3. **Templates**: templates for your `README`'s and associated files.

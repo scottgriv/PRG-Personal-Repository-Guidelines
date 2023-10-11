@@ -1,23 +1,5 @@
-# README Guidelies
-General guidelines for creating a `README` file for your project (specifically for **PRG** projects) but this can be applied to any project.
-
-Here are some general guidelines to follow:
-
-## README File
-> [!WARNING] 
-> A `README.md` file is **REQUIRED** for **ALL** tiers.
-
-- A Profile `README` is always required. Read more about it [here](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
-    - View [GitHub Profile README Generator](https://rahuldkjain.github.io/gh-profile-readme-generator/) for a quick and easy way to generate a profile `README` for your GitHub profile.
-    - Use the templates in the next section as a starting point for your profile `README` (espcially if you're using **PRG**).
-
-*Below is a descrption of each section of the `README` and what it should contain.*
-
-> [!NOTE]  
-> I only mentioned the important parts of a `README` file, there are many other things you can add to your `README` file that I didn't mention here. Feel free to add whatever you want to your `README` file including new sections, images, GIFs, etc.
-
-### Templates
-For templates and examples of `README files`, see the [templates](../templates) directory.
+## README Guidelies (All Tiers)
+For templates and examples of README files, see the [templates](../templates) directory.
 Templates are broken down by the three tiers of projects: **Gold**, **Silver**, and **Bronze**.
 
 See the following links for `README` templates for each tier:
@@ -25,11 +7,14 @@ See the following links for `README` templates for each tier:
 - [Silver Tier README Template](../templates/README_silver.md)
 - [Bronze Tier README Template](../templates/README_bronze.md)
 
-## Banner
-> [!WARNING] 
-> **REQUIRED** section for **Gold** tier only.
-> **Silver** and **Bronze** tier projects do not require this section, but feel free to add it if you want (or a logo of the technology you used to develop your project).
+A `README.md` file is ***REQUIRED section for ALL tiers.***
+Below is a descrption of each section of the `README` and what it should contain.
 
+> [!NOTE]  
+> I only mentioned the important parts of a `README` file, there are many other things you can add to your `README` file that I didn't mention here. Feel free to add whatever you want to your `README` file including new sections, images, GIFs, etc.
+
+### Banner
+***REQUIRED section for GOLD tier only.***
 - The banner should be a custom design created to represent your project.
 - I use [Sketch](https://www.sketch.com/) to create my banners and designs, but you can use any design software you want.
 - See [PRG Brand Guidelines](brand_guidelines.md) for more information on creating banners and other graphics for your project.
@@ -43,10 +28,8 @@ See the following links for `README` templates for each tier:
 > [!NOTE]  
 > Append `#gh-dark-mode-only` or `#gh-light-mode-only` to the end of the image URL to only show the image in dark or light mode respectively. Be sure to have both a dark and light version of the image when necessary. More on this (shameless plug) [here](https://github.com/scottgriv/markdown-demo#images).
 
-## Badges
-> [!WARNING] 
-> **REQUIRED** section for **ALL** tiers.
-
+### Badges
+***REQUIRED section for ALL tiers.***
 - Badges are a great way to showcase the technologies, frameworks, and languages used in your project. 
 - Badges are generated using [Shields.io](https://shields.io/).
 - You should include all major technologies, frameworks, and languages used in your project (one badge per technology). This badge should contain the technology name and version you used to develop your project.
@@ -64,10 +47,8 @@ See the following links for `README` templates for each tier:
 > [!NOTE] 
 > To demonstrate your project adheres to **PRG**, please include the appropriate badge at the top of your repository README. See the top of this README for an example.
 
-## Description
-> [!WARNING] 
-> **REQUIRED** section for **ALL** tiers.
-
+### Description
+***REQUIRED section for ALL tiers.***
 - The description should be a short paragraph describing what your project is and what it does.
 - This should be the first section after the badges.
     - i.e. "A Python, Django, Plotly, and Pandas web application that visualizes river data pulled using an API from the United States Geological Survey (USGS)."
@@ -78,44 +59,31 @@ See the following links for `README` templates for each tier:
         - [Snagit](https://www.techsmith.com/screen-capture.html) is another great tool for creating GIFs and screenshots.
         - Both of these tools are paid, but there are plenty of free alternatives out there as well.
 
-## Table of Contents
-> [!WARNING] 
-> **REQUIRED** section for **Gold** tier only.
-
+### Table of Contents
+***REQUIRED section for GOLD tier only.***
 - The table of contents should be a list of links to each section of your README.
 - This should be the second section after the description.
 
-## Background Story
-> [!WARNING] 
-> **REQUIRED** section for **Gold** tier only.
-> **Silver** and **Bronze** tier projects do not require this section, but feel free to add it if you want.
-
+### Background Story
+***REQUIRED section for GOLD tier only.*** (but encouraged for **Silver** tier projects as well).
 - The background story should be a short paragraph describing why you created the project and what inspired you to create it.
 
-## Definitions
-> [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
-
+### Definitions
+*OPTIONAL section for ALL tiers.*
 - This section should contain a list of definitions for any terms or acronyms used in your project.
 
-## Limitations
-> [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
-
+### Limitations
+*OPTIONAL section for ALL tiers.*
 - This section should contain a list of limitations for your project.
 
-## Features
-> [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
-
+### Features
+***REQUIRED section for GOLD tier only.***
 - This section should contain a list of features for your project.
 - Explain what each feature does and how it works.
 - You can also add screenshots of each feature if you want.
 
-## What's Inside?
-> [!WARNING] 
-> **REQUIRED** section for **Gold** tier only.
-
+### What's Inside?
+***REQUIRED section for GOLD tier only.***
 - This section should contain a list of files and folders in your project and what each one does.
 - Generally, you should only list the main files and folders in your project, not every single file.
 - Use a **tree diagram** to show the relationship between files and folders:
@@ -142,10 +110,8 @@ See the following links for `README` templates for each tier:
     ```
     - You can use a tool like [tree.nathanfriend.io](https://tree.nathanfriend.io/) to generate a tree diagram for your project.
 
-## Dependencies
-> [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
-
+### Dependencies
+*OPTIONAL section for ALL tiers.*
 - This section should contain a list of dependencies for your project.
 - There is no need to list every single dependency, just the major ones.
 - There's also no need to list the version or website for each dependency (this will be done in the *Resouces* area, more on that soon), just the name is fine.
@@ -158,10 +124,8 @@ See the following links for `README` templates for each tier:
             - **Python-Decouple:** For storing sensitive information in a `.env` file. <br>
 - You can use a tool like [Dependabot](https://dependabot.com/) to automatically generate a list of dependencies for your project.
 
-## Getting Started
-> [!WARNING] 
-> **REQUIRED** section for **ALL** tiers.
-
+### Getting Started
+***REQUIRED section for ALL tiers.***
 - This section should contain a list of steps to get your project up and running.
 - Utilize code blocks to show the commands needed to run your project.
 - i.e.
@@ -172,62 +136,50 @@ See the following links for `README` templates for each tier:
         ```bash
         python manage.py runserver
         ```
-## Configuration
-> [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
-
+### Configuration
+*OPTIONAL section for ALL tiers.*
 - Include any configuration information for your project here.
 
-## Deployment
-> [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
-
+### Deployment
+*OPTIONAL section for ALL tiers.*
 - Include any deployment information for your project here.
 
-## Closing
-> [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
-
+### Closing
+*OPTIONAL section for ALL tiers.*
 - Add any closing notes or remarks here.
 
-## Disclaimer
-> [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
-
+### Disclaimer
+*OPTIONAL section for ALL tiers.*
 - Include any disclaimers for your project here.
 - i.e. "This project is not affiliated with the United States Geological Survey (USGS)."
 
-## Resources
-***REQUIRED section for GOLD tier only.*** *(but encouraged for **Silver** and **Bronze** tier projects as well).*
+### Resources
+***REQUIRED section for GOLD tier only.*** (but encouraged for **Silver** and **Bronze** tier projects as well).
 - This section should contain a list of resources used to create your project.
 - Include the name of the resource, a link to the resource, and a short description of what the resource is.
     - i.e. [Plotly](https://plotly.com/python/) - A Python graphing library that makes interactive, publication-quality graphs online.
     - i.e. [Django](https://www.djangoproject.com/) - A high-level Python Web framework that encourages rapid development and clean, pragmatic design.
     - i.e. [Pandas](https://pandas.pydata.org/) - A fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
 
-## What's Next?
-> [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
-
+### What's Next?
+*OPTIONAL section for ALL tiers.*
 - Include any future plans for your project here.
 
-## Project
-> [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
-
+### Project
+*OPTIONAL section for ALL tiers.*
 - Include a link to your project plan here on GitHub if you do create one.
 
-## Contributing
-> [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
-
+### Contributing
+*OPTIONAL section for ALL tiers.*
 - Include any information on how to contribute to your project here.
 - Include a `CONTRIBUTING` file in your repository for more detailed information on how to contribute to your project.
 
-## License
-> [!WARNING] 
-> **REQUIRED** section for **ALL** tiers.
+### Found a Bug?
+*OPTIONAL section for ALL tiers.*
+- Include any information on how to report a bug for your project here.
 
+### License
+***REQUIRED section for ALL tiers.***
 - Describe the license for your project here.
 - I chose [GNU GPLv3]() for my **Gold** projects.
     - Why? I spent a lot of time on my **Gold** projects and I want to protect my work as much as possible.
@@ -244,10 +196,8 @@ See the following links for `README` templates for each tier:
     - **Bronze** - The Unlicense
 - A list of licenses can be found [here](https://choosealicense.com/licenses/).
 
-## Credits
-> [!WARNING] 
-> **REQUIRED** section for **ALL** tiers.
-
+### Credits
+This section is **always** required for all tiers of projects.
 - Include a credit block for each person who contributed to your project.
 - If you worked on the project by yourself, you can just include your name and other details such as:
     - Author: - your name.
@@ -256,9 +206,7 @@ See the following links for `README` templates for each tier:
     - Reference: - A link to the main branch of your repository.
 - Include a `CREDITS` file in your repository for more detailed information on the credits for your project.
 
-## Footer
-> [!WARNING] 
-> **REQUIRED** section for **Gold** tier only.
-
+### Footer
+The **footer** is only required for **Gold** projects.
 - The footer should contain a image of your application's icon.
 - See the [bottom of this project README](../README.md#credits) for an example.

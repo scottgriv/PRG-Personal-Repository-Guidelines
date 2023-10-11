@@ -53,15 +53,15 @@ This `README` highlights the three main areas of **PRG**:
 - [2. Guidelines](#2-guidelines)
     - [Repository Settings Guidelines)](#repository-settings-guidelines)
     - [README Guidelines](#readme-guidelines)
-    - [Project Structure](#project-structure-guidelines)
+    - [Repository Structure](#repository-structure-guidelines)
     - [Brand Guidelines](#brand-guidelines)
 - [3. Templates](#3-templates)
     - [Tier README Templates](#tier-readme-templates)
 - [What's Inside?](#whats-inside)
 - [Closing](#closing)
 - [Resources](#resources)
+- [What's Next?](#whats-next)
 - [Project](#project)
-- [Forking](#forking)
 - [Contributing](#contributing)
 - [License](#license)
 - [Credits](#credits)
@@ -70,14 +70,43 @@ This `README` highlights the three main areas of **PRG**:
 I needed a system to showcase my GitHub portfolio and keep it organized and standardized. My repository README and folder/file structures were different from each other, which was a pain to maintain or use as a template for a future projects, so I created this repository and document, the <u><b>Personal Repository Guidelines</b></u> or **PRG** for short, to help solve my problem. 
 - This document primarily applies to the version control system here on *GitHub* but it can be extended or applied to other version control systems as well. 
 - [This](#) repository is treated no different than my other repositories, it also adheres to **PRG** (itself in this case). 
-- Feel free to fork this repo and adjust the guidelines to fit your own needs, this was designed to be a template above all else.
-- If you decide to fork it and make changes to it, please provide proper credit by linking back to the main branch of this repository! Thank you!
 
 ### "The GitHub Portfolio Problem"
 Another reason I created this document was to solve the "GitHub Portfolio Problem" (as I like to call it):
 > GitHub is being used to showcase my portfolio, but I don't want to showcase every single repository I have created. I want to showcase my best work, but I also want to showcase my other work that I am proud of. How do I do that?
 
-**PRG** was designed to solve this problem.
+***PRG** was designed to solve this problem.*
+
+## What's Inside?
+Below is a list of the files and folders in this repository and what they are used for:
+    
+    ├── .github
+    │   └── workflows
+    │       └── project_tier_table.yml
+    ├── docs
+    │   ├── api
+    │   ├── images
+    │   └── PRG.txt
+    ├── guides
+    │   ├── brand_guidelines.md
+    │   ├── readme_guidelines.md
+    │   ├── repository_structure_guidelines.md
+    │   └── repository_settings_guidelines.md
+    ├── scripts
+    │   └── build_project_tier_table.py
+    ├── templates
+    │   ├── gold_tier_readme_template.md
+    │   ├── silver_tier_readme_template.md
+    │   ├── bronze_tier_readme_template.md
+    │   └── badge_reference_template.md
+    ├── .gitignore
+    ├── CONTRIBUTING.md
+    ├── LICENSE
+    ├── README.md
+    └── .gitattributes
+
+## Getting Started
+To get started, you can fork this repository and adjust the guidelines to fit your own needs, this was designed to be a template above all else. If you decide to fork it and make changes to it, please provide proper credit by linking back to the main branch of this repository! Thank you!
 
 ## 1. Categories
 To solve the "GitHub Portfolio Problem" above, **PRG** categorizes repositories into three tiers: `Gold`, `Silver`, and `Bronze` to destinguish the quality of the project. It does this by utilizing GitHub Actions to automatically create a project tier table based on a simple text file placed in each of your repositories.
@@ -181,13 +210,13 @@ See [Badge References](/guides/badge_references.md) for more details on how to c
 Below are the guidelines for repository `README`'s, files, and overall structure. This applies to **all** tiers.
 
 ### Repository Settings Guidelines
-See [Repository Settings](./guides/repository_settings.md) for more details on how to configure your repository settings.
+See [Repository Settings](./guides/repository_settings_guidelines.md) for more details on how to configure your repository settings.
 
 ### README Guidelines 
 See [README Guidelies](./guides/readme_guidelines.md) for more details on how to structure your repository `README`.
 
-### Project Structure Guidelines
-See [Project Structures](./guides/project_structure.md) for more details on how to structure your overall repository/files.
+### Repository Structure Guidelines
+See [Project Structures](./guides/repository_structure_guidelines.md) for more details on how to structure your overall repository/files.
 
 ### Brand Guidelines
 See [Brand Guidelines](./guides/brand_guidelines.md) for more details on how to create your own brand for your project.
@@ -196,10 +225,13 @@ See [Brand Guidelines](./guides/brand_guidelines.md) for more details on how to 
 The following templates are provided for you to use in your repositories. These templates are designed to be used with the **PRG** system.
 
 ### Tier README Templates
-See the following links for README templates for each tier:
-- [Gold Tier README Template](./templates/gold_tier_readme_template.md)
-- [Silver Tier README Template](./templates/silver_tier_readme_template.md)
-- [Bronze Tier README Template](./templates/bronze_tier_readme_template.md)
+For templates and examples of `README files`, see the [templates](../templates) directory.
+Templates are broken down by the three tiers of projects: **Gold**, **Silver**, and **Bronze**.
+
+See the following links for `README` templates for each tier:
+- [Gold Tier README Template](../templates/README_gold.md)
+- [Silver Tier README Template](../templates/README_silver.md)
+- [Bronze Tier README Template](../templates/README_bronze.md)
 
 ## Closing
 - By default, forked repositories will not have the `Tier` label, so you will need to add it manually.
@@ -223,49 +255,29 @@ See the following links for README templates for each tier:
 Thank you for taking the time to read through this document and I hope you find it useful!
 If you have any questions or suggestions, please feel free to reach out to me.
 
-## What's Inside?
-Below is a list of the files and folders in this repository and what they are used for:
-.
-├── .github
-│   └── workflows
-│       └── project_tier_table.yml
-├── docs
-│   ├── api
-│   ├── images
-│   └── PRG.txt
-├── guides
-│   ├── brand_guidelines.md
-│   ├── project_structure_guidelines.md
-│   ├── readme_guidelines.md
-│   └── repository_settings_guidelines.md
-├── scripts
-│   └── build_project_tier_table.py
-├── templates
-│   ├── gold_tier_readme_template.md
-│   ├── silver_tier_readme_template.md
-│   ├── bronze_tier_readme_template.md
-│   └── badge_reference_template.md
-├── .gitignore
-├── CONTRIBUTING.md
-├── LICENSE
-├── README.md
-└── .gitattributes
-
 ## Resources
 Below are some resources I found helpful when creating my repositories and **PRG** in general:
 - [GitHub Docs](https://docs.github.com/en)
 - [GitHub Docs - About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
 
+## What's Next?
+- [ ] Conform all repositories to **PRG**.
+
+I'm looking forward to seeing how this project evolves over time and how it can help others with their GitHub portfolio.
+- Please reference the [CHANGELOG](CHANGELOG.md) file in this repository for more details.
+
 ## Project
 Please reference the [GitHub Project](https://github.com/users/scottgriv/projects/8) tab inside this Repo to get a good understanding of where I'm currently at with the overall project. 
-- Bugs and Enhancements will also be tracked there as well.
-
-## Forking
-Feel free to fork this repository and adjust the guidelines to fit your own needs, this was designed to be a template above all else. 
-- Be sure to link back to the main branch of this repository if you decide to fork it and/or make changes to it to give proper credit! Thank you!
+- Issues and Enhancements will also be tracked there as well.
 
 ## Contributing
-Feel free to submit a pull request if you find any issues or have any suggestions on how to improve this project.
+Feel free to submit a pull request if you find any issues or have any suggestions on how to improve this project. You can also open an issue with the tag "bug" or "enhancement".
+- How to contribute:
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/PRG-Personal-Repository-Guidelines`)
+3. Commit your Changes (`git commit -m 'Add new feature'`)
+4. Push to the Branch (`git push origin feature/PRG-Personal-Repository-Guidelines`)
+5. Open a Pull Request
 - Please reference the [CONTRIBUTING](CONTRIBUTING.md) file in this repository for more details.
 
 ## License

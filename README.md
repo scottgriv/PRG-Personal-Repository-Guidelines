@@ -32,6 +32,7 @@
 <h1 align="center">Personal Repository Guidelines (PRG)</h1>
 
 **PRG** is a repository categorization, guideline, and template system developed to help you standardize and develop repositories for your projects, `README`'s, and overall repository structure.
+- Get your projects up and running quickly and easily so you can focus on what matters most - your project and your code!
 - Categorize repositories and projects for your GitHub portfolio.
 - Define guidelines and templates for repository `README`'s and files.
 

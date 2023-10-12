@@ -232,8 +232,15 @@ try:
         data['size'] = repo['size']
 
         # Fetching the content of PRG.txt to determine the tier
-        png_txt_response = requests.get(f'https://api.github.com/repos/{USERNAME}/{name}/contents/docs/PRG.txt',
-                                        headers={'Authorization': f'token {GITHUB_TOKEN}'})
+        # png_txt_response = requests.get(f'https://api.github.com/repos/{USERNAME}/{name}/contents/docs/PRG.txt',
+        #                                headers={'Authorization': f'token {GITHUB_TOKEN}'})
+
+        # Directories to check for the PRG.md file
+        directories = ['', 'docs/', '.github/']
+
+        for directory in directories:
+            url = f'https://api.github.com/repos/{USERNAME}/{name}/contents/{directory}PRG.md'
+            png_txt_response = requests.get(url, headers={'Authorization': f'token {GITHUB_TOKEN}'})
 
         # Default values
         data['tier'] = 'No Tier Info Available'  

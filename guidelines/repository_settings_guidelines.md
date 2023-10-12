@@ -24,7 +24,7 @@ Use a description that is short and to the point. This is the first thing people
     - [Hugo](https://gohugo.io/) is a great static site generator that is built into Netlify.
     - [Gatsby](https://www.gatsbyjs.com/) is a great static site generator that is built into Netlify.
 
-### Topics (Required)
+### Topics
 > [!WARNING]
 > **REQUIRED** file for **ALL** tiers.
 
@@ -32,7 +32,7 @@ Use a description that is short and to the point. This is the first thing people
 - Topics should highlight the main technologies, frameworks, and languages used in the project.
     - i.e. visualization, python, api, charts, data, django, plotly, pandas, data-visualization, dataset, webapp, data-analysis, usgs, usgs-api
 
-### Misc. Settings (Optional)
+### Misc. Settinges
 - Releases, Packages, Deployments should only be checked under "Include in the home page" if you're using those features.
 - I strongly recommend using Releases for **Gold** projects.
 - Make sure you Pin your project to your profile if you want it to show up on your profile page. 

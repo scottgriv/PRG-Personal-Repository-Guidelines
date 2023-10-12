@@ -184,12 +184,12 @@ Included in this project is a GitHub Action that will automatically generate a t
 - The script will also update the [Badge References](/guides/badge_references.md) file with the latest badges for your repository under your GitHub username.
 
 #### Pre-requisites:
-1. You must have a `Tier` label on each repository (defined in the `PRG.txt` file)
+1. You must have a `Repository Tier` label on each repository (defined in the `PRG.txt` file)
     - In each repository, there should be a folder path that looks like this: `[project_root]/docs`.
     - Inside the `docs` folder, there should be a file called `PRG.txt`.
     - Change the repository's `Tier` label to match the tier of the repository (Gold, Silver, or Bronze).
     - See the PRG Tier file used in this repo, [here](/docs/PRG.txt), for an example.
-2. Also inside the `docs` folder, there should be a subfolder called `images`.
+2. Also, inside the `docs` folder, there should be a subfolder called `images`.
     - Inside the `images` folder, there should be a file called `icon-rounded.png`.
     - This is the icon that will be used for the project tier table.
     - See the PRG Tier file used in this repo, [here](/docs/images/icon-rounded.png), for an example.

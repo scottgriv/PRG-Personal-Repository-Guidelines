@@ -1,0 +1,17 @@
+This file is a list of people who have contributed to the PRG
+project. If you have contributed a pull request or made some other contribution to
+PRG, please submit a pull request with this file with yourself added to it, thanks!
+
+The list is sorted by surname and formatted to allow easy grepping and
+beautification by scripts. 
+
+The fields are: 
+(N) name
+(E) email
+(W) website
+(D) description
+
+N: Scott Grivner
+E: scott.grivner@gmail.com
+W: https://www.scottgrivner.dev
+D: Original Creator and Developer of PRG

@@ -231,16 +231,11 @@ try:
         data['description'] = repo['description'] if repo['description'] else 'No description provided'
         data['size'] = repo['size']
 
-        # Fetching the content of PRG.txt to determine the tier
-        # png_txt_response = requests.get(f'https://api.github.com/repos/{USERNAME}/{name}/contents/docs/PRG.txt',
-        #                                headers={'Authorization': f'token {GITHUB_TOKEN}'})
-
-        # Directories to check for the PRG.md file
-        directories = ['', 'docs/', '.github/']
-
-        for directory in directories:
-            url = f'https://api.github.com/repos/{USERNAME}/{name}/contents/{directory}PRG.md'
-            png_txt_response = requests.get(url, headers={'Authorization': f'token {GITHUB_TOKEN}'})
+        # Fetching the content of PRG.md to determine the tier
+        # Adjust the URL to point to the correct path of the PRG.md file (if it is not in the root directory)
+        # If you change the path, you will have to change it in every repository or adjust it to dynamically fetch the file
+        prg_md_response = requests.get(f'https://api.github.com/repos/{USERNAME}/{name}/contents/PRG.md',
+                                        headers={'Authorization': f'token {GITHUB_TOKEN}'})
 
         # Default values
         data['tier'] = 'No Tier Info Available'  
@@ -248,10 +243,10 @@ try:
         data['category'] = ''
         data['order'] = float('inf')  # Default to infinity for those without an order
 
-        if png_txt_response.status_code == 200 or INCLUDE_NO_PRG_FILE_PROJECTS:
-            if png_txt_response.status_code == 200:
-                png_txt_content = png_txt_response.json()
-                content = base64.b64decode(png_txt_content['content']).decode('utf-8').strip()
+        if prg_md_response.status_code == 200 or INCLUDE_NO_PRG_FILE_PROJECTS:
+            if prg_md_response.status_code == 200:
+                prg_txt_content = prg_md_response.json()
+                content = base64.b64decode(prg_txt_content['content']).decode('utf-8').strip()
                 lines = content.split('\n')
 
                 if lines:

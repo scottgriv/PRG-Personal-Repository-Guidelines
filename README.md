@@ -31,9 +31,9 @@
 
 <h1 align="center">Personal Repository Guidelines (PRG)</h1>
 
-**PRG** is a repository categorization, guideline, and template system developed to help you standardize and develop repositories for your projects, `README`'s, and overall repository structure.
+**PRG** is a robust repository categorization, guideline, and template system developed to help you standardize and develop repositories for your projects, `README`'s, and overall repository structure.
 - Get your projects up and running quickly and easily so you can focus on what matters most - your project and your code!
-- Categorize repositories and projects for your GitHub portfolio.
+- Categorize repositories and projects for your **GitHub Portfolio**.
 - Define guidelines and templates for repository `README`'s and files.
 
 ---
@@ -42,6 +42,7 @@ This `README` highlights the **three** main areas of **PRG**:
 1. **Categories**: categorize your repositories into three tiers: `#FFD700` **Gold**, `#C0C0C0` **Silver**, and `#CD7F32` **Bronze** then display them in a "project tier table" (built using GitHub Actions).
 2. **Guidelines**: defined guidelines for repository `README`, files, and overall structure. Brand guidelines for your **Gold** tier projects are also defined.
 3. **Templates**: templates for your `README`'s and associated files.
+*Each section will have hyperlinks to the appropriate files and folders in this repository for more details.*
 
 ## Table of Contents
 - [Background Story](#background-story)
@@ -88,8 +89,7 @@ Below is a list of the files and folders in this repository and what they are us
     │       └── project_tier_table.yml
     ├── docs
     │   ├── api
-    │   ├── images
-    │   └── PRG.txt
+    │   └── images
     ├── guides
     │   ├── brand_guidelines.md
     │   ├── readme_guidelines.md
@@ -106,7 +106,8 @@ Below is a list of the files and folders in this repository and what they are us
     ├── CONTRIBUTING.md
     ├── LICENSE
     ├── README.md
-    └── .gitattributes
+    ├── .gitattributes
+    └── PRG.md
 
 ## Getting Started
 To get started, you can fork this repository and adjust the guidelines to fit your own needs, this was designed to be a template above all else. If you decide to fork it and make changes to it, please provide proper credit by linking back to the main branch of this repository! Thank you!
@@ -184,16 +185,18 @@ Included in this project is a GitHub Action that will automatically generate a t
 - The script will also update the [Badge References](/guides/badge_references.md) file with the latest badges for your repository under your GitHub username.
 
 #### Pre-requisites:
-1. You must have a `Repository Tier` label on each repository (defined in the `PRG.txt` file)
-    - In each repository, there should be a folder path that looks like this: `[project_root]/docs`.
-    - Inside the `docs` folder, there should be a file called `PRG.txt`.
-    - Change the repository's `Tier` label to match the tier of the repository (Gold, Silver, or Bronze).
-    - See the PRG Tier file used in this repo, [here](/docs/PRG.txt), for an example.
-2. Also, inside the `docs` folder, there should be a subfolder called `images`.
-    - Inside the `images` folder, there should be a file called `icon-rounded.png`.
+1. In each repository, inside the root project folder, there should be a markdown file called `PRG.md`. 
+    - The GitHub Action Workflow (explained below) uses this file to categorize your repositories.
+    - You must have a `Repository Tier` label for each repository for the categorization to work.
+        - Change the repository's `Tier` label to match the tier of the repository (Gold, Silver, or Bronze).
+    - There are optioanl labels you can add to your repository as well: `Technology`, `Category`, and `Order`.
+    - See the PRG Tier file used in this repo, [here](PRG.md), for an example and more information on how to use it.
+2. Also, each repository should have a `docs/` folder in the root of the project.
+    - Inside the `docs/` folder, there should be a subfolder called `images/`.
+    - Inside the `images/` folder, there should be a file called `icon-rounded.png`.
     - This is the icon that will be used for the project tier table.
-    - See the PRG Tier file used in this repo, [here](/docs/images/icon-rounded.png), for an example.
-    - See [Brand Guidelines](/guides/brand_guidelines.md) for more details on how to create your own icon.
+        - See the PRG Tier file used in this repo, [here](/docs/images/icon-rounded.png), for an example.
+        - See [Brand Guidelines](/guides/brand_guidelines.md) for more details on how to create your own icon.
 
 > [!NOTE] 
 > You can reference your built project tier table in your repository `README` or wherever you see fit.

@@ -232,8 +232,8 @@ try:
         data['size'] = repo['size']
 
         # Fetching the content of PRG.md to determine the tier
-        # Adjust the URL to point to the correct path of the PRG.md file (if it is not in the root directory)
-        # If you change the path, you will have to change it in every repository or adjust it to dynamically fetch the file
+            # Adjust the URL to point to the correct path of the PRG.md file (if it is not in the root directory)
+                # If you change the path, you will have to change it in every repository or adjust it to dynamically fetch the file (which will slow down the process)
         prg_md_response = requests.get(f'https://api.github.com/repos/{USERNAME}/{name}/contents/PRG.md',
                                         headers={'Authorization': f'token {GITHUB_TOKEN}'})
 
@@ -279,7 +279,7 @@ try:
 
             repos_data.append(data)
         else:
-            print(f"Skipping {name} as it does not contain a PRG.txt file.")
+            print(f"Skipping {name} as it does not contain a PRG.md file.")
 
     # Parse the private markdown file if the flag is set to True
     if INCLUDE_PRIVATE_FILE_PROJECTS:

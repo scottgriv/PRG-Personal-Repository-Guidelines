@@ -251,7 +251,7 @@ try:
                 
                 if lines:
                     # Tier info
-                    tier_info = lines[4].split(':')  # Adjusted the index
+                    tier_info = lines[7].split(':')  # Adjusted the index
                     if len(tier_info) > 1 and tier_info[1].strip():
                         data['tier'] = tier_info[1].strip()
                     else:
@@ -259,21 +259,21 @@ try:
                     
                     # Technology info
                     data['technology'] = ''  # Default value
-                    if len(lines) > 5:  # Adjusted the index
-                        tech_info = lines[5].split(':')  # Adjusted the index
+                    if len(lines) > 8:  # Adjusted the index
+                        tech_info = lines[8].split(':')  # Adjusted the index
                         if len(tech_info) > 1 and tech_info[1].strip():
                             data['technology'] = tech_info[1].strip()
 
                     # Category info
                     data['category'] = ''  # Default value
-                    if len(lines) > 6:  # Adjusted the index
-                        cat_info = lines[6].split(':')  # Adjusted the index
+                    if len(lines) > 9:  # Adjusted the index
+                        cat_info = lines[9].split(':')  # Adjusted the index
                         if len(cat_info) > 1 and cat_info[1].strip():
                             data['category'] = cat_info[1].strip()
 
                     # Extracting order
-                    if len(lines) > 7:  # Adjusted the index
-                        order_info = lines[7].split(':')  # Adjusted the index
+                    if len(lines) > 10:  # Adjusted the index
+                        order_info = lines[10].split(':')  # Adjusted the index
                         if len(order_info) > 1 and order_info[1].strip().isdigit():
                             data['order'] = int(order_info[1].strip())
 

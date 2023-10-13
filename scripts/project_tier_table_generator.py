@@ -245,35 +245,35 @@ try:
 
         if prg_md_response.status_code == 200 or INCLUDE_NO_PRG_FILE_PROJECTS:
             if prg_md_response.status_code == 200:
-                prg_txt_content = prg_md_response.json()
-                content = base64.b64decode(prg_txt_content['content']).decode('utf-8').strip()
-                lines = content.split('\n')
-
+                prg_md_content = prg_md_response.json()
+                content = base64.b64decode(prg_md_content['content']).decode('utf-8').strip()
+                lines = [re.sub('<[^<]+?>', '', line) for line in content.split('\n')]  # Clean HTML tags
+                
                 if lines:
                     # Tier info
-                    tier_info = lines[0].split(':')
+                    tier_info = lines[4].split(':')  # Adjusted the index
                     if len(tier_info) > 1 and tier_info[1].strip():
                         data['tier'] = tier_info[1].strip()
                     else:
                         data['tier'] = 'No Tier Info Available'
-
+                    
                     # Technology info
                     data['technology'] = ''  # Default value
-                    if len(lines) > 1:
-                        tech_info = lines[1].split(':')
+                    if len(lines) > 5:  # Adjusted the index
+                        tech_info = lines[5].split(':')  # Adjusted the index
                         if len(tech_info) > 1 and tech_info[1].strip():
                             data['technology'] = tech_info[1].strip()
 
                     # Category info
                     data['category'] = ''  # Default value
-                    if len(lines) > 2:
-                        cat_info = lines[2].split(':')
+                    if len(lines) > 6:  # Adjusted the index
+                        cat_info = lines[6].split(':')  # Adjusted the index
                         if len(cat_info) > 1 and cat_info[1].strip():
                             data['category'] = cat_info[1].strip()
 
                     # Extracting order
-                    if len(lines) > 3:
-                        order_info = lines[3].split(':')
+                    if len(lines) > 7:  # Adjusted the index
+                        order_info = lines[7].split(':')  # Adjusted the index
                         if len(order_info) > 1 and order_info[1].strip().isdigit():
                             data['order'] = int(order_info[1].strip())
 

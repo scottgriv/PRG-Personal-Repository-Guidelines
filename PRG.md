@@ -5,8 +5,8 @@ This repository is catagorized under the **PRG** system.
 ## Project Information
 
 Repository Tier: Gold <br>
-Technology: Markdown, GitHub Actions <br>
-Category: Guidelines <br>
+Technology: Markdown, API, GitHub Actions <br>
+Category: Documentation <br>
 Order: 6 <br>
 
 ## How this works

@@ -130,7 +130,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 - [Citation File Format](https://citation-file-format.github.io/)
 - [About Citation Files](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files)
 
-# .github/ISSUE_TEMPLATE.md File or .github/ISSUE_TEMPLATE Folder
+# .github/ISSUE_TEMPLATE.md File or ./ISSUE_TEMPLATE Folder
 > [!WARNING]
 > **OPTIONAL** file for **ALL** tiers.
 
@@ -144,7 +144,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 - [Awesome Template Lists](https://github.com/devspace/awesome-github-templates)
 - [Creating a default community health file for your organization](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
 
-# .github/PULL_REQUEST_TEMPLATE.md File .github/PULL_REQUEST_TEMPLATE Directory
+# .github/PULL_REQUEST_TEMPLATE.md File ./PULL_REQUEST_TEMPLATE Directory
 > [!WARNING]
 > **OPTIONAL** file for **ALL** tiers.
 

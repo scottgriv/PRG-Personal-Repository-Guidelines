@@ -206,7 +206,7 @@ def get_all_repos(username):
 
 # Function to sort the repositories
 def sort_repos(repos_data):
-    tier_order = {'Gold': 1, 'Silver': 2, 'Bronze': 3, 'No Tier Info Available': 4}
+    tier_order = {'Gold': 1, 'Silver': 2, 'Bronze': 3, 'Optimized': 4}
     
     return sorted(repos_data, key=lambda x: (tier_order.get(x['tier'], 4), x['order'], datetime.strptime(x['created_at'], '%Y-%m-%d')))
 
@@ -238,7 +238,7 @@ try:
                                         headers={'Authorization': f'token {GITHUB_TOKEN}'})
 
         # Default values
-        data['tier'] = 'No Tier Info Available'  
+        data['tier'] = 'Optimized'  
         data['technology'] = ''
         data['category'] = ''
         data['order'] = float('inf')  # Default to infinity for those without an order
@@ -256,7 +256,7 @@ try:
                     if len(tier_info) > 1 and tier_info[1].strip():
                         data['tier'] = tier_info[1].strip()
                     else:
-                        data['tier'] = 'No Tier Info Available'
+                        data['tier'] = 'Optimized'
                     
                     # Technology info
                     data['technology'] = ''  # Default value

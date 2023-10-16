@@ -20,7 +20,7 @@ This file connects this repository to the **PRG** guideline and categorization s
 
 ## Parameters
 
-- **Repository Tier (Required):** Gold, Silver, or Bronze (required for PRG)
+- **Repository Tier (Required):** Gold, Silver, Bronze (required for PRG - if you don't add a category it will be displayed as "Optimized")
 - **Technologies (Optional):** List the technologies used to build your project here (optional)
 - **Category (Optional):** List categories for your project here (optional)
 - **Order (Optional):** By default, repos are ranked by Tier, then Create Date, but you can also add an integer (1, 2, 12, etc.) to sort in between Tier and Create Date (optional)

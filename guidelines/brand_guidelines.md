@@ -20,6 +20,9 @@ The color pallete for a **PRG** project is as follows:
 - ![#7A7A7A](https://via.placeholder.com/15/7A7A7A/000000?text=+) `#7A7A7A`
 - ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) `#6236FF`
 - ![#680F7F](https://via.placeholder.com/15/680F7F/000000?text=+) `#680F7F`
+- ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) `#FFD700`
+- ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) `#C0C0C0`
+- ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) `#CD7F32`
 
 ### Typography
 The typography for a **PRG** project is as follows:

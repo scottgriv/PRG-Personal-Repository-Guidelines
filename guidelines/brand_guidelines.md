@@ -33,7 +33,7 @@ The typography for a **PRG** project is as follows:
 - Create a logo that is unique to your project.
 - **PRG** logo example:
 
-![](../docs/images/icon.png)
+![Logo](../docs/images/icon.png)
 
 ### Icon
 
@@ -49,7 +49,7 @@ Width×Height
     - See [Footer](./readme_guidelines.md#footer) for more information.
 - The size of the `icon.png` file should be `414x414` pixels.
 
-![](../docs/images/brand_sizes/icon-sizer.png)
+![Icon](../docs/images/brand_sizes/icon-sizer.png)
 
 > [!IMPORTANT] 
 > This is the file that will be used for the logo in your project's `projet_tier_table.md` file.
@@ -61,20 +61,20 @@ Width×Height
 - This can be placed on your personal `README.md` file, or wherever you'd like to place it.
 - The size of the `banner_small.png` file should be `400x128` pixels.
 
-![](../docs/images/brand_sizes/banner_small-sizer.png)
+![Small Banner](../docs/images/brand_sizes/banner_small-sizer.png)
 
 #### Large Banner
 - This can be placed on the top of your project `README.md` file, or wherever you'd like to place it.
 - The size of the `banner_large.png` file should be `1280x260` pixels.
 
-![](../docs/images/brand_sizes/banner_large-sizer.png)
+![Large Banner](../docs/images/brand_sizes/banner_large-sizer.png)
 
 #### Social Banner
 - This can be used for social sharing of your repository link.
 - See Settings -> Social preview for more information under your project's settings.
 - The size of the `banner_social.png` file should be `1280px640` pixels.
 
-![](../docs/images/brand_sizes/banner_social-sizer.png)
+![Social Banner](../docs/images/brand_sizes/banner_social-sizer.png)
 
 #### Rounded Corners
 - I round my corners for both the `icon.png` and `banner_small.png` files.

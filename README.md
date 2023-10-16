@@ -40,7 +40,7 @@
 
 This `README` highlights the **three** main areas of **PRG**:
 1. **Categories**: categorize your repositories into three tiers: ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze** then display them in a "project tier table" (built using GitHub Actions).
-2. **Guidelines**: defined guidelines for repository `README`, files, and overall structure. Brand guidelines for your **Gold** tier projects are also defined.
+2. **Guidelines**: defined guidelines for repository `README`, files, and overall structure. Brand guidelines for your ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold** tier projects are also defined.
 3. **Templates**: templates for your `README`'s and associated files.
 *Each section will have hyperlinks to the appropriate files and folders in this repository for more details.*
 
@@ -119,7 +119,7 @@ To get started, you can fork this repository and adjust the guidelines to fit yo
 
 ## 1. Categories
 
-To solve the "GitHub Portfolio Problem" above, **PRG** categorizes repositories into three tiers: ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze** to destinguish the quality of the project. It does this by utilizing GitHub Actions to automatically create a project tier table based on a simple text file placed in each of your repositories.
+To solve the "GitHub Portfolio Problem" above, **PRG** categorizes repositories into three tiers: ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze** to destinguish the quality of the project. It does this by utilizing GitHub Actions to automatically create a project tier table based on a simple markdown file placed in each of your repositories.
 
 ### Repository Tiers and Naming Conventions
 
@@ -143,7 +143,7 @@ To solve the "GitHub Portfolio Problem" above, **PRG** categorizes repositories 
 	- `Application-Brand-Name`
 	- i.e. [River-Charts](https://github.com/scottgriv/River-Charts)
 
-**Gold Repo Additional Requirements:**
+#### Gold Repo Additional Requirements
 - Use **upper** case letters for the first letter of each word in the project name.
 - Use dashes `-` to separate words or apply spaces in the project name.
 - The name should be "catchy" and easy to remember, but also descriptive of what the project is (which is why coming up with a brand for your project is important).
@@ -177,14 +177,14 @@ To solve the "GitHub Portfolio Problem" above, **PRG** categorizes repositories 
     - i.e. [rust-json_note_manager](https://github.com/scottgriv/rust-json_note_manager) 
     - i.e. [python-convert_html_table_to_csv](https://github.com/scottgriv/python-convert_html_table_to_csv)
 
-#### ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver & ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) Bronze Additional Requirements:**: 
+#### Silver & Bronze Additional Requirements 
 - If you have multiple languages or technologies you want to highlight, you can use the following naming scheme: language-language-language-project_name`
     - i.e. [json-xml-yaml-portfolio_template](https://github.com/scottgriv/json-xml-yaml-portfolio_template)
 - Use **lower** case letters for the first letter of each word in the project name.
 - Use underscores `_` to separate words in the project name.
 - Use dashesa `-` to separate each language/technology.
 - The languages/technologies don't necessarily have to be in any particular order, but I would recommend putting the most important one first.
-- View the [badge reference](/guides/badge_references.md) file for more details on how to create badges for your repository. 
+- View the [Badge References](./categories/badge_references.md) file for more details on how to create badges for your repository. 
 - By default, (and this goes without saying) forked repositories will not have the `PRG Connection File`, so make sure you add it to your forked repository:
     - If you forked the repository without making any changes, by default the repo will be considered a ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze** tier.
     - If you make significant changes to the repository, you can consider it a ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver** tier.
@@ -194,7 +194,7 @@ To solve the "GitHub Portfolio Problem" above, **PRG** categorizes repositories 
 
 - I won't say this is *required*, because I don't want to tell you what to do with your personal profile `README`, but I strongly encourage adding one of thw two following badges to your main "About Me" profile `README` to showcase your **PRG** tier collection (this is the essence of fixing the "GitHub Portfolio Problem" I mentioned earlier):
 
-<a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/guides/project_tier_table.md">
+<a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/categories/project_tier_table.md">
     <img src="https://img.shields.io/badge/PRG-Optimized-6236FF?style=for-the-badge&logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjYuMDAwMDAwcHQiIGhlaWdodD0iMzQuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCAyNi4wMDAwMDAgMzQuMDAwMDAwIgogcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+Cgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwzNC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiNGRkZGRkYiIHN0cm9rZT0ibm9uZSI+CjxwYXRoIGQ9Ik0xMiAzMjggYy04IC04IC0xMiAtNTEgLTEyIC0xMzUgMCAtMTA5IDIgLTEyNSAxOSAtMTQwIDQyIC0zOCA0OAotNDIgNTkgLTMxIDcgNyAxNyA2IDMxIC0xIDEzIC03IDIxIC04IDIxIC0yIDAgNiAyOCAxMSA2MyAxMyBsNjIgMyAwIDE1MCAwCjE1MCAtMTE1IDMgYy04MSAyIC0xMTkgLTEgLTEyOCAtMTB6IG0xMDIgLTc0IGMtNiAtMzMgLTUgLTM2IDE3IC0zMiAxOCAyIDIzCjggMjEgMjUgLTMgMjQgMTUgNDAgMzAgMjUgMTQgLTE0IC0xNyAtNTkgLTQ4IC02NiAtMjAgLTUgLTIzIC0xMSAtMTggLTMyIDYKLTIxIDMgLTI1IC0xMSAtMjIgLTE2IDIgLTE4IDEzIC0xOCA2NiAxIDc3IDAgNzIgMTggNzIgMTMgMCAxNSAtNyA5IC0zNnoKbTExNiAtMTY5IGMwIC0yMyAtMyAtMjUgLTQ5IC0yNSAtNDAgMCAtNTAgMyAtNTQgMjAgLTMgMTQgLTE0IDIwIC0zMiAyMCAtMTgKMCAtMjkgLTYgLTMyIC0yMCAtNyAtMjUgLTIzIC0yNiAtMjMgLTIgMCAyOSA4IDMyIDEwMiAzMiA4NyAwIDg4IDAgODggLTI1eiIvPgo8L2c+Cjwvc3ZnPgo=" alt="PRG Badge" />
 </a>
 
@@ -209,7 +209,7 @@ To solve the "GitHub Portfolio Problem" above, **PRG** categorizes repositories 
 
 > [!IMPORTANT] 
 > Make sure you run the GitHub action workflow to replace the projects in the table with your own.
-> Running the workflow will output badges with your username as a hyperlink in the [Badge References](/guides/badge_references.md) file.
+> Running the workflow will output badges with your username as a hyperlink in the [Badge References](./categories/badge_references.md) file.
 > If you choose to not run the Action, make sure you change the username in the badge to your own to link to your forked repositories Project Tier Table if you choose to not use the Action.
 
 ### Project Tier Table
@@ -218,15 +218,15 @@ Included in this project is a GitHub Action that will automatically generate a t
 - The script is located in the `.github/workflows` folder called `project_tier_table.yml`.
 - The workflow will call `scripts/build_project_tier_table.py` which will build the table and output it to `docs/project_tier_table.md`.
 - The script will run on a weekly basis.
-- See the [Project Tier Table](/guides/project_tier_table.md) for an output of what the table looks like.
-- The script will also update the [Badge References](/guides/badge_references.md) file with the latest badges for your repository under your GitHub username.
+- See the [Project Tier Table](/categories/project_tier_table.md) for an output of what the table looks like.
+- The script will also update the [Badge References](./categories/badge_references.md) file with the latest badges for your repository under your GitHub username.
 
 #### Pre-requisites
 
 1. In each repository, inside the root project folder, there should be a markdown file called `PRG.md`. 
     - The GitHub Action Workflow (explained below) uses this file to categorize your repositories.
     - You must have a `Repository Tier` label for each repository for the categorization to work.
-        - Change the repository's `Tier` label to match the tier of the repository (Gold, Silver, or Bronze).
+        - Change the repository's `Tier` label to match the tier of the repository (![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**).
     - There are optioanl labels you can add to your repository as well: `Technology`, `Category`, and `Order`.
     - See the PRG Tier file used in this repo, [here](PRG.md), for an example and more information on how to use it.
 2. Also, each repository should have a `docs/` folder in the root of the project.
@@ -253,7 +253,7 @@ Included in this project is a GitHub Action that will automatically generate a t
 
 ### Project Tier Badges
 
-See [Badge References](/guides/badge_references.md) for more details on how to create badges for your repository.
+See [Badge References](./categories/badge_references.md) for more details on how to create badges for your repository.
 - Run the workflow above to get an update `badge_references.md` file pointing to your **PRG** system.
 
 ## 2. Guidelines
@@ -283,7 +283,7 @@ The following templates are provided for you to use in your repositories. These 
 ### Tier README Templates
 
 For templates and examples of `README files`, see the [templates](../templates) directory.
-Templates are broken down by the three tiers of projects: **Gold**, **Silver**, and **Bronze**.
+Templates are broken down by the three tiers of projects: ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**.
 
 See the following links for `README` templates for each tier:
 - [Gold Tier README Template](../templates/README_gold.md)
@@ -335,7 +335,7 @@ This project is released under the terms of the **GNU General Public License, ve
 **Author:** Scott Grivner <br>
 **Email:** scott.grivner@gmail.com <br>
 **Website:** [scottgrivner.dev](https://www.scottgrivner.dev) <br>
-**Reference:** [Main Branch](https://github.com/scottgriv/River-Charts) <br>
+**Reference:** [Main Branch](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines) <br>
 <div align="center">
     <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
         <img src="./docs/images/icon-rounded.png" width="100" height="100"/>
@@ -343,5 +343,3 @@ This project is released under the terms of the **GNU General Public License, ve
 </div>
 
 <!-- End README -->
-
-

@@ -21,7 +21,7 @@ USERNAME = os.environ.get('GITHUB_ACTOR', 'default_username') # Uncomment this l
 # Add an extra . to the beginning of the path to make it relative to the root of the repository when testing locally (i.e. ../docs)
 MD_FILE_PATH = './categories/project_tier_table.md' # Path to the the main project tier table markdown file
 MD_FILE_PATH_PRIVATE = './categories/project_tier_table_private.md' # Path to the private project tier table markdown file
-MD_BADGE_REF_PATH = './templates/badge_reference_template.md' # Path to the badge reference markdown file
+MD_BADGE_REF_PATH = './categories/badge_references.md' # Path to the badge reference markdown file
 PLACEHOLDER_ICON = './docs/images/icon_placeholder-rounded.png' # Placeholder for missing icons
 TIER_TABLE_URL = f'https://github.com/{USERNAME}/PRG-Personal-Repository-Guidelines/blob/main/categories/project_tier_table.md'
 
@@ -63,7 +63,7 @@ Use this file as a template to gather and add badges to your project's `README.m
     <img src="{BADGES['Silver']}" alt="Silver PRG Badge" />
 </a>
 
-### Bronze Projext Badge
+### Bronze Project Badge
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Bronze']}" alt="Bronze PRG Badge" />
 </a>
@@ -83,7 +83,7 @@ Use this file as a template to gather and add badges to your project's `README.m
     <img src="{BADGES['White']}" alt="White PRG Badge" />
 </a>
 
-## Profile README Badge
+## Profile README Badges
 Add one of the two badges below to your Profile `README` to show that you follow **PRG**, the hpyerlink will take your profile visitors to your catagorized project tier table. You may need to adjust the `src` attribute of the image tag to point to the correct path of the image and also include the "prg_optimized-rounded.png" file in your repository.
 
 ### PRG Optimized Badge

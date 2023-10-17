@@ -283,9 +283,9 @@ For templates and examples of `README files`, see the [templates](../templates) 
 Templates are broken down by the three tiers of projects: ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**.
 
 See the following links for `README` templates for each tier:
-- [Gold Tier README Template](../templates/README_gold.md)
-- [Silver Tier README Template](../templates/README_silver.md)
-- [Bronze Tier README Template](../templates/README_bronze.md)
+- [Gold Tier README Template](templates/README_gold.md)
+- [Silver Tier README Template](templates/README_silver.md)
+- [Bronze Tier README Template](templates/README_bronze.md)
 
 ## Closing
 

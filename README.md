@@ -1,9 +1,6 @@
 <!-- Begin README -->
 
-> [!WARNING] 
-> THIS REPO IS STILL A WORK IN PROGRESS - CHECK BACK SOON FOR MORE UPDATES
-
-[![App Logo](./docs/images/banner_large.png)](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines)
+[![Banner Large](./docs/images/banner_large.png)](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines)
 
 <p align="center">
     <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines">
@@ -201,7 +198,7 @@ To solve the "GitHub Portfolio Problem" above, **PRG** categorizes repositories 
 **OR**
 
 <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/categories/project_tier_table.md" target="_blank">
-    <img src="docs/images/prg_optimized-rounded.png" alt="PRG Optimized Logo" />
+    <img src="docs/images/prg_optimized.png" alt="PRG Optimized Logo" width="138" height="51"/>
 </a>
 
 - This will link to your `project_tier_table.md` file in your forked repository to showcase all of your repositories under *PRG*. 

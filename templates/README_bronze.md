@@ -2,7 +2,7 @@
 
 <div align="center">
     <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
-        <img src="../docs/images/icon_placeholder-rounded.png" width="150" height="150"/>
+        <img src="../docs/images/icon-placeholder-rounded.png" width="150" height="150"/>
     </a>
 </div>
 <br>

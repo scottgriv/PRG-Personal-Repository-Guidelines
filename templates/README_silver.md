@@ -2,7 +2,7 @@
 
 <div align="center">
     <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
-        <img src="../docs/images/icon_placeholder-rounded.png" width="150" height="150"/>
+        <img src="../docs/images/icon-placeholder-rounded.png" width="150" height="150"/>
     </a>
 </div>
 <br>
@@ -87,7 +87,7 @@ This project is released under the terms of the **MIT License**, which permits u
 **Reference:** [Main Branch](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines) <br>
 <div align="center">
     <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
-        <img src="../docs/images/icon_placeholder-rounded.png" width="100" height="100"/>
+        <img src="../docs/images/icon-placeholder-rounded.png" width="100" height="100"/>
     </a>
 </div>
 

@@ -22,7 +22,7 @@ USERNAME = os.environ.get('GITHUB_ACTOR', 'default_username') # Uncomment this l
 MD_FILE_PATH = './categories/project_tier_table.md' # Path to the the main project tier table markdown file
 MD_FILE_PATH_PRIVATE = './categories/project_tier_table_private.md' # Path to the private project tier table markdown file
 MD_BADGE_REF_PATH = './categories/badge_references.md' # Path to the badge reference markdown file
-PLACEHOLDER_ICON = './docs/images/icon_placeholder-rounded.png' # Placeholder for missing icons
+PLACEHOLDER_ICON = './docs/images/icon-placeholder-rounded.png' # Placeholder for missing icons
 TIER_TABLE_URL = f'https://github.com/{USERNAME}/PRG-Personal-Repository-Guidelines/blob/main/categories/project_tier_table.md'
 
 # Configuration Flags
@@ -84,7 +84,7 @@ Use this file as a template to gather and add badges to your project's `README.m
 </a>
 
 ## Profile README Badges
-Add one of the two badges below to your Profile `README` to show that you follow **PRG**, the hpyerlink will take your profile visitors to your catagorized project tier table. You may need to adjust the `src` attribute of the image tag to point to the correct path of the image and also include the "prg_optimized-rounded.png" file in your repository.
+Add one of the two badges below to your Profile `README` to show that you follow **PRG**, the hpyerlink will take your profile visitors to your catagorized project tier table. You may need to adjust the `src` attribute of the image tag to point to the correct path of the image and also include the "prg_optimized.png" file in your repository.
 
 ### PRG Optimized Badge
 <a href="{TIER_TABLE_URL}" target="_blank">
@@ -93,7 +93,7 @@ Add one of the two badges below to your Profile `README` to show that you follow
 
 ### PRG Optimized Logo
 <a href="{TIER_TABLE_URL}" target="_blank">
-    <img src="../docs/images/prg_optimized-rounded.png" alt="PRG Optimized Logo" />
+    <img src="../docs/images/prg_optimized.png" alt="PRG Optimized Logo" width="138" height="51" />
 </a>
 """
 

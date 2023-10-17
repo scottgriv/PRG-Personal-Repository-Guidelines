@@ -1,6 +1,6 @@
 <!-- Begin README -->
 
-[![App Logo](../docs/images/brand_sizes/banner_large-sizer.png)](../guidelines/brand_guidelines.md)
+[![App Logo](../docs/images/brand_templates/banner_large-template.png)](../guidelines/brand_guidelines.md)
 
 <p align="center">
     <a href="https://www.python.org/">
@@ -120,7 +120,7 @@ This project is released under the terms of the **GNU General Public License, ve
 **Reference:** [Main Branch](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines) <br>
 <div align="center">
     <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
-        <img src="../docs/images/icon_placeholder-rounded.png" width="100" height="100"/>
+        <img src="../docs/images/icon-placeholder-rounded.png" width="100" height="100"/>
     </a>
 </div>
 

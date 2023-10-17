@@ -28,12 +28,12 @@ The color pallete for a **PRG** project is as follows:
 The typography for a **PRG** project is as follows:
 - Font Family: [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro)
 
-### Logo
+### Icon/Logo
 - The logo should adhere to your brand and color pallete.
 - Create a logo that is unique to your project.
 - **PRG** logo example:
 
-![Logo](../docs/images/icon.png)
+<img src="../docs/images/icon-placeholder.png" alt="Logo" width="200" height="200" />
 
 ### Icon
 
@@ -49,7 +49,8 @@ Width×Height
     - See [Footer](./readme_guidelines.md#footer) for more information.
 - The size of the `icon.png` file should be `414x414` pixels.
 
-![Icon](../docs/images/brand_sizes/icon-sizer.png)
+<img src="../docs/images/brand_templates/icon-template.png" alt="Icon" width="414" height="414" />
+
 
 > [!IMPORTANT] 
 > This is the file that will be used for the logo in your project's `projet_tier_table.md` file.
@@ -61,20 +62,27 @@ Width×Height
 - This can be placed on your personal `README.md` file, or wherever you'd like to place it.
 - The size of the `banner_small.png` file should be `400x128` pixels.
 
-![Small Banner](../docs/images/brand_sizes/banner_small-sizer.png)
+<img src="../docs/images/brand_templates/banner_small-template.png" alt="Small Banner" width="400" height="128" />
 
 #### Large Banner
 - This can be placed on the top of your project `README.md` file, or wherever you'd like to place it.
 - The size of the `banner_large.png` file should be `1280x260` pixels.
 
-![Large Banner](../docs/images/brand_sizes/banner_large-sizer.png)
+<img src="../docs/images/brand_templates/banner_large-template.png" alt="Large Banner" width="1280" height="260" />
 
 #### Social Banner
 - This can be used for social sharing of your repository link.
 - See Settings -> Social preview for more information under your project's settings.
-- The size of the `banner_social.png` file should be `1280px640` pixels.
+- The size of the `banner_social.png` file should be `1280x640` pixels.
 
-![Social Banner](../docs/images/brand_sizes/banner_social-sizer.png)
+<img src="../docs/images/brand_templates/banner_social-template.png" alt="Social Banner" width="1280" height="640" />
+
+#### Footer
+- The footer is the same as the icon/logo but with rounded corners.
+- Place the footer at the bottom of your `README.md` file.
+- The size of the `icon-rounded.png` file used for the footer should be `100x100` pixels.
+
+<img src="../docs/images/icon-placeholder-rounded.png" alt="Footer" width="100" height="100" />
 
 #### Rounded Corners
 - I round my corners for both the `icon.png` and `banner_small.png` files.

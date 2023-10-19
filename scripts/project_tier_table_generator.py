@@ -341,9 +341,8 @@ try:
         current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # Adjust the format as needed
 
         # Create the footer under the table
-        md_file.write(f'\n<br><div align="center"><i><b>Built with GitHub Actions</b></i><br>'
-                      f'<a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank"><img src="../assets/images/github-mark-white.png" alt="GitHub Icon" width="15" height="15"/><b><span> Check out PRG on GitHub!</span></b></a>'
-                      f'<br><b>Last Updated: {current_time}</b></div>\n')        
+        md_file.write(f'\n<br><div align="center"><i><b>Built with GitHub Actions</b></i><br><a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank"><img src="../assets/images/github-mark-white.png" alt="GitHub Icon" width="15" height="15"/><b><span> Check out PRG on GitHub!</span></b></a>'
+                    f'<br><b>Last Updated: {current_time}</b></div>\n')        
         
         print(f"Markdown file '{MD_FILE_PATH}' has been updated.")
 

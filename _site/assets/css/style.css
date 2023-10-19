@@ -1,25 +1,35 @@
 /* Global styles */
-body {
-    background-color: black;
-    color: white;
-    font-family: 'Arial', sans-serif; /* Replace 'Arial' with the desired font name */
+
+/* Import Source Code Pro font */
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('../fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');
 }
 
+/* Set default font and font size */
+body {
+    background-color: black; /* Black background */
+    color: white; /* White text color */
+    font-family: 'Source Code Pro', sans-serif; /* Use Source Code Pro font */
+    font-size: 16px; /* Set default font size */
+}
+
+/* Set default link color */
 a {
-    color: #6236FF; /* Change 'blue' to your desired link color */
+    color: #6236FF; /* PRG Purple link */
 }
 
 /* Table styles */
 table {
     border-collapse: collapse;
     width: 100%;
-    background-color: black !important; /* Updated */
-    color: white; /* White text color */
+    background-color: black !important; /* Black background */
+    color: white;
 }
 
 th, td {
     padding: 8px;
-    border: 1px solid grey ; /* Grey border */
+    border: 1px solid grey; /* Grey border */
     text-align: left;
 }
 
@@ -46,13 +56,9 @@ tbody tr:hover a {
     color: white;
 }
 
-/* Other UI elements if needed */
-/* ... */
-
 /* Media queries for responsiveness if needed */
 @media (max-width: 768px) {
-    /* Your responsive styles here */
-    /* ... */
+
 }
 
 /* Style the DataTables search input */
@@ -60,10 +66,10 @@ tbody tr:hover a {
     background-color: #333;
     color: white;
     border: 1px solid gray;
-    border-radius: 5px; /* Adjust the border-radius as needed */
-    padding: 10px; /* Adjust the padding to make it bigger */
-    margin-bottom: 20px; /* Add margin to create a line break */
-    width: 200px; /* Adjust the width as needed */
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 200px;
 }
 
 /* Move the DataTables search input to the right */
@@ -84,7 +90,7 @@ tbody tr:hover a {
     display: none;
 }
 
-
+/* CSS to style the pagination buttons */
 table.dataTable thead .sorting::after,
 table.dataTable thead .sorting_asc::after {
     display:none;
@@ -122,21 +128,17 @@ h1, h2 {
     margin: 15px; /* Remove margin (optional) */
 }
 
-/* Style the clear button (X) in the search input */
-.dataTables_filter input[type="search"]::-webkit-search-clear-button {
-    color: red; /* Change the color to red */
-}
-
+/* Search icon for DataTables search bar */
 .dataTables_filter input {
     background-image: url('/assets/images/search.png');
-    background-position: 10px 10px; /* Position the search icon */
-    background-repeat: no-repeat; /* Do not repeat the icon image */
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
     background-size: 21px 21px;
-    width: 100%; /* Full-width */
-    font-size: 16px; /* Increase font-size */
-    padding: 12px 20px 12px 40px; /* Add some padding */
-    border: 1px solid #ddd; /* Add a grey border */
-    margin-bottom: 12px; /* Add some space below the input */
+    width: 100%;
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
     box-sizing: border-box;
     position: sticky;
 }

@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Grivner"
+    given-names: "Scott"
+title: "Personal Repository Guidelines (PRG)"
+version: 1.0.0
+date-released: 2023-10-08
+url: "https://github.com/scottgriv/PRG-Personal-Repository-Guidelines"

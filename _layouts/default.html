@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Replace the meta tags with your information (optional)-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A repository categorization and guideline system developed to standardize repositories, projects, README's, and overall repository structure. Utilizes GitHub Actions to create a custom table to showcase your categorized repositories utilizing a tier based structure.">
+    <!-- Sharing on social media and X -->
+    <meta property="og:title" content="Personal Repository Guidelines (PRG)">
+    <meta property="og:description" content="A repository categorization and guideline system developed to standardize repositories, projects, README's, and overall repository structure. Utilizes GitHub Actions to create a custom table to showcase your categorized repositories utilizing a tier based structure.">
+    <meta property="og:image" content="/assets/images/banner_social.png">
+    <meta property="og:url" content="https://scottgriv.github.io/PRG-Personal-Repository-Guidelines/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@scottgrivner">
+    <meta name="twitter:title" content="Personal Repository Guidelines (PRG)">
+    <meta name="twitter:description" content="A repository categorization and guideline system developed to standardize repositories, projects, README's, and overall repository structure. Utilizes GitHub Actions to create a custom table to showcase your categorized repositories utilizing a tier based structure.">
+    <meta name="twitter:image" content="/assets/images/banner_social.png">
+    <meta name="robots" content="index, follow">
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#6236ff">
+    <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ff0000">
+    <meta name="msapplication-config" content="/assets/images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#6236ff">
+    <!-- Web page title -->
+    <title>{{ page.title }}</title>
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <!-- Include jQuery and DataTables Libraries -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+</head></head>
+
+<body>
+    <div style="text-align: center; background-color: #333;">
+        <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
+            <img src="{{ '/assets/images/banner_large.png' | relative_url }}" alt="PRG Logo" class="logo" width="100%">
+        </a>
+        <h1>Welcome to PRG!</h1>
+        <div style="text-align: center; padding: 20px; background-color: #333; color: white; max-width: 1000px; margin: 0 auto;">
+            {{ site.description }}
+        </div>
+    </div>
+    <main>
+        <div id="content">
+            {{ content }}
+        </div>
+    </main>
+    <script>
+        $(document).ready(function() {
+    // Add data attributes before DataTables initialization
+    addDataAttributes();
+
+    // Initialize DataTables
+    var table = $('#content table').DataTable({
+        columnDefs: [
+            { targets: [0], orderable: false }
+        ],
+        language: {
+            search: '',
+            searchPlaceholder: "Search Repositories...",
+            info: "Showing _TOTAL_ Repositories",
+            emptyTable: "No projects available",
+            zeroRecords: "No projects found"
+        },
+        dom: '<if<t>>'
+    });
+
+    // Function to add data attributes
+    function addDataAttributes() {
+        $('#content table tbody tr').each(function() {
+            $(this).children().each(function(index) {
+                var cell = $(this);
+
+                if (index === 0) {
+                    cell.attr('data-search', '');
+                } else if (index === $(this).siblings().length) {
+                    var altText = cell.find('img').attr('alt');
+                    cell.attr('data-search', altText);
+                    cell.attr('data-order', altText); 
+                } else {
+                    cell.attr('data-search', cell.text().trim());
+                }
+            });
+        });
+    }
+});
+
+    </script>
+    
+    
+    
+    
+
+</body>
+
+</html>

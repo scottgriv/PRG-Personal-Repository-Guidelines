@@ -7,15 +7,16 @@ import re
 from datetime import datetime
 
 # GitHub token for API requests
-GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '') # Uncomment this line when done testing for GitHub Actions (environment variable)
-# GITHUB_TOKEN = '' # Uncomment this line when testing locally and add your API token to it (hardcoded)
+# GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '') # Uncomment this line when done testing for GitHub Actions (environment variable)
+GITHUB_TOKEN = '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' # Uncomment this line when testing locally and add your API token to it (hardcoded)
+
 if GITHUB_TOKEN is None:
     print("GitHub token is not set. Set the GITHUB_TOKEN environment variable.")
     sys.exit(1)
 
 # Username for your GitHub account
-USERNAME = os.environ.get('GITHUB_ACTOR', 'default_username') # Uncomment this line when done testing for GitHub Actions (environment variable)
-# USERNAME = 'scottgriv' # Uncomment this line when testing locally and add your username to it (hardcoded)
+# USERNAME = os.environ.get('GITHUB_ACTOR', 'default_username') # Uncomment this line when done testing for GitHub Actions (environment variable)
+USERNAME = 'scottgriv' # Uncomment this line when testing locally and add your username to it (hardcoded)
 
 # File Paths
 # Add an extra . to the beginning of the path to make it relative to the root of the repository when testing locally (i.e. ../docs)
@@ -47,49 +48,59 @@ BADGES = {
 def create_repo_badges(username):
 
     repo_badge_template = f"""## Tier Badges
+
 Use this file as a template to gather and add badges to your project's `README.md` files.
 - Be sure to run the workflow to automatically update the badges with your username
 - Optionally, you can change the `href` attributes below to point to your project's repository by changing the username to your GitHub username.
 
 ### Gold Project Badge
+
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Gold']}" alt="Gold" />
 </a>
 
 ### Silver Project Badge
+
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Silver']}" alt="Silver" />
 </a>
 
 ### Bronze Project Badge
+
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Bronze']}" alt="Bronze" />
 </a>
 
 ### Purple Brand Badge
+
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Purple']}" alt="Optimized" />
 </a>
 
 ### Black Brand Badge
+
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Black']}" alt="Optimized" />
 </a>
 
 ### White Brand Badge
+
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['White']}" alt="Optimized" />
 </a>
 
 ## Profile README Badges
+
 Add one of the two badges below to your Profile `README` to show that you follow **PRG**, the hpyerlink will take your profile visitors to your catagorized project tier table. You may need to adjust the `src` attribute of the image tag to point to the correct path of the image and also include the "prg_optimized.png" file in your repository.
 
 ### PRG Optimized Badge
+
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Optimized']}" alt="Optimized" />
 </a>
 
 ### PRG Optimized Logo
+
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="../docs/images/prg_optimized.png" alt="Optimized" width="138" height="51" />
 </a>

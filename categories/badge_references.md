@@ -1,5 +1,3 @@
-
-
 ## Tier Badges
 Use this file as a template to gather and add badges to your project's `README.md` files.
 - Be sure to run the workflow to automatically update the badges with your username

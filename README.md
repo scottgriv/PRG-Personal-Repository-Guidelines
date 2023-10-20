@@ -1,6 +1,6 @@
 <!-- Begin README -->
 
-[![Banner Large](./docs/images/banner_large.png)](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines)
+[![Banner Large](./docs/images/banner_large.png)](https://scottgriv.github.io/PRG-Personal-Repository-Guidelines/)
 
 <p align="center">
     <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines">

@@ -84,6 +84,22 @@ tbody tr:hover a {
     padding-top: 20px;
 }
 
+/* Mobile Responsive Styles */
+@media screen and (max-width: 600px) {
+    .dataTables_filter {
+        float: none;
+        text-align: center; /* Optional: Center the search bar on mobile */
+        margin-bottom: 20px; /* Adjust the space below the search bar */
+    }
+
+    .dataTables_info {
+        position: static; /* Reset the position value on mobile */
+        float: none; /* Reset the float value on mobile */
+        text-align: center; /* Center the info label */
+        padding-bottom: 20px;
+    }
+}
+
 /* Hide the "Show entries" and pagination */
 .dataTables_length,
 .dataTables_paginate {

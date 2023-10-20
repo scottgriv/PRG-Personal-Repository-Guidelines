@@ -17,6 +17,7 @@ if GITHUB_TOKEN is None:
 # Username for your GitHub account
 USERNAME = os.environ.get('GITHUB_ACTOR', 'default_username') # Uncomment this line when done testing for GitHub Actions (environment variable)
 # USERNAME = 'scottgriv' # Uncomment this line when testing locally and add your username to it (hardcoded)
+print(f"GitHub Username: {USERNAME}")
 
 # File Paths
 # Add an extra . to the beginning of the path to make it relative to the root of the repository when testing locally (i.e. ../docs)

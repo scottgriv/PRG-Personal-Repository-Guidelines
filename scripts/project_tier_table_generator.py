@@ -141,7 +141,7 @@ def parse_private_md_file(file_path):
     with open(file_path, 'r') as file:
         lines = file.readlines()
 
-    lines = lines[3:]
+    lines = lines[4:]
 
     extra_repos_data = []
     for line in lines:

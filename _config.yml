@@ -1,2 +1,4 @@
 title: Personal Repository Guidelines (PRG)
-description: A repository categorization and guideline system developed to standardize repositories, projects, README's, and overall repository structure. Utilizes GitHub Actions to create a custom table to showcase your categorized repositories utilizing a tier based structure.
+description: A repository categorization and guideline system developed to standardize repositories, projects, README's, and overall repository structure. Utilizes GitHub Actions to create a custom tier table to showcase your categorized repositories for your GitHub portfolio.
+repo_url: "https://scottgriv.github.io/PRG-Personal-Repository-Guidelines"
+x_username: scottgrivner

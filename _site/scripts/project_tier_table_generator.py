@@ -7,16 +7,17 @@ import re
 from datetime import datetime
 
 # GitHub token for API requests
-# GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '') # Uncomment this line when done testing for GitHub Actions (environment variable)
-GITHUB_TOKEN = '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' # Uncomment this line when testing locally and add your API token to it (hardcoded)
+GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '') # Uncomment this line when done testing for GitHub Actions (environment variable)
+# GITHUB_TOKEN = '' # Uncomment this line when testing locally and add your API token to it (hardcoded)
 
 if GITHUB_TOKEN is None:
     print("GitHub token is not set. Set the GITHUB_TOKEN environment variable.")
     sys.exit(1)
 
 # Username for your GitHub account
-# USERNAME = os.environ.get('GITHUB_ACTOR', 'default_username') # Uncomment this line when done testing for GitHub Actions (environment variable)
-USERNAME = 'scottgriv' # Uncomment this line when testing locally and add your username to it (hardcoded)
+USERNAME = os.environ.get('GITHUB_ACTOR', 'default_username') # Uncomment this line when done testing for GitHub Actions (environment variable)
+# USERNAME = 'scottgriv' # Uncomment this line when testing locally and add your username to it (hardcoded)
+print(f"GitHub Username: {USERNAME}")
 
 # File Paths
 # Add an extra . to the beginning of the path to make it relative to the root of the repository when testing locally (i.e. ../docs)
@@ -149,45 +150,58 @@ def get_all_org_repos(username):
     return org_repos
 
 def parse_private_md_file(file_path):
-    with open(file_path, 'r') as file:
-        lines = file.readlines()
+    try:
+        with open(file_path, 'r') as file:
+            lines = file.readlines()
 
-    lines = lines[4:]
+        lines = lines[4:]
 
-    extra_repos_data = []
-    for line in lines:
-        columns = line.split('|')
-        if len(columns) >= 8:  # Adjusted the condition to check for 8 columns including the Order
-            icon_html = columns[1].strip()
+        extra_repos_data = []
+        for line in lines:
+            columns = line.split('|')
+            if len(columns) >= 8:
+                icon_html = columns[1].strip()
+                name_html = columns[2].strip()
 
-            name_match = re.search(r'\[(.+)\]\((.+)\)', columns[2].strip())
-            if name_match:
-                name = name_match.group(1)
-                url = name_match.group(2)
-                created_at = columns[3].strip()
-                description = columns[4].strip()
-                category = columns[5].strip()
-                technology = columns[6].strip()
-                tier = columns[7].strip()
-                
-                order = float('inf')  # Default to infinity
-                if len(columns) > 8 and columns[8].strip().isdigit():
-                    order = int(columns[8].strip())
+                # Extracting the URL and name directly using regex
+                name_match = re.search(r'<a href="([^"]+)" target="_blank">([^<]+)</a>', columns[2].strip())
+                if name_match:
+                    url = name_match.group(1)
+                    name = name_match.group(2)
 
-                data = {
-                    'name': name,
-                    'url': url,
-                    'created_at': created_at,
-                    'description': description,
-                    'category': category,
-                    'technology': technology,
-                    'tier': tier,
-                    'order': order,  # Added the 'order' key
-                    'icon_html': icon_html
-                }
-                extra_repos_data.append(data)
+                    created_at = columns[3].strip()
+                    description = columns[4].strip()
+                    category = columns[5].strip()
+                    technology = columns[6].strip()
+                    tier = columns[7].strip()
 
-    return extra_repos_data
+                    print(f"Found {name_html} in the private markdown file.")
+
+                    order = float('inf')  # Default to infinity
+                    if len(columns) > 8 and columns[8].strip().isdigit():
+                        order = int(columns[8].strip())
+
+                    data = {
+                        'name_html': name_html,
+                        'name': name,
+                        'url': url,
+                        'created_at': created_at,
+                        'description': description,
+                        'category': category,
+                        'technology': technology,
+                        'tier': tier,
+                        'order': order,
+                        'icon_html': icon_html
+                    }
+                    extra_repos_data.append(data)
+
+        return extra_repos_data
+
+    except Exception as e:
+        print("An error occurred while parsing the file:")
+        print(e)
+        traceback.print_exc()
+        return []
 
 # Function to get all the repositories
 def get_all_repos(username):
@@ -239,6 +253,7 @@ try:
         data['created_at'] = repo['created_at'].split('T')[0]  # Formatting date
         data['description'] = repo['description'] if repo['description'] else 'No description provided'
         data['size'] = repo['size']
+        data['homepage'] = repo['homepage']
 
         # Fetching the content of PRG.md to determine the tier
             # Adjust the URL to point to the correct path of the PRG.md file (if it is not in the root directory)
@@ -295,11 +310,13 @@ try:
     if INCLUDE_PRIVATE_FILE_PROJECTS:
         print(f"Parsing Private Repositories. Please wait...")
 
-        # Load existing repos from the private markdown file
         existing_repos_data = parse_private_md_file(MD_FILE_PATH_PRIVATE)
+        print(f"Number of repos fetched from private MD file: {len(existing_repos_data)}")
 
         # Append the existing repos to the repos_data table
         repos_data.extend(existing_repos_data)
+
+        print(f"Total number of repos after extending: {len(repos_data)}")
     else:
         print("Skipping Private Repositories as per the configuration.")
 
@@ -331,13 +348,20 @@ try:
             # otherwise, try to fetch the icon from the public URL
             if 'icon_html' in repo_data:
                 icon = repo_data['icon_html']
+                name = repo_data['name_html']
             else:
                 icon_url = f'https://github.com/{USERNAME}/{repo_data["name"]}/raw/main/docs/images/icon-rounded.png'
                 icon_response = requests.get(icon_url)
                 if icon_response.status_code != 200 or repo_data['size'] == 0:
                     print(f"No icon found for {repo_data['name']} or the repository is empty, using a placeholder.")
                     icon_url = PLACEHOLDER_ICON
-                icon = f'<a href="{repo_data["url"]}" target="_blank"><img src="{icon_url}" width="100" height="100" alt="Icon"></a>'
+                    
+                if repo_data['homepage']:
+                    icon = f'<a href="{repo_data["homepage"]}" target="_blank"><img src="{icon_url}" width="100" height="100" alt="Icon"></a>'
+                else:
+                    icon = f'<a href="{repo_data["url"]}" target="_blank"><img src="{icon_url}" width="100" height="100" alt="Icon"></a>'
+                    
+                # icon = f'<a href="{repo_data["url"]}" target="_blank"><img src="{icon_url}" width="100" height="100" alt="Icon"></a>'
                 name = f'<a href="{repo_data["url"]}" target="_blank">{repo_data["name"]}</a>'
 
             # Writing the data to the markdown file
@@ -351,7 +375,7 @@ try:
         gh_icon_url = f'https://github.com/{USERNAME}/PRG-Personal-Repository-Guidelines/raw/main/docs/images/github-mark-white.png'
 
         # Create the footer under the table
-        md_file.write(f'\n<div align="center"><i><b>Built with GitHub Actions</b></i><br><img src="{gh_icon_url}" alt="GitHub Icon" width="15" height="15"/><a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank"><b><span>Check out PRG on GitHub!</span></b></a>'
+        md_file.write(f'\n<div align="center"><i><b>Built with GitHub Actions</b></i><br><img src="{gh_icon_url}" alt="GitHub Icon" width="15" height="15" style="margin-right: 5px;"/><a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank"><b><span>Check out PRG on GitHub!</span></b></a>'
                     f'<br><b>Last Updated: {current_time}</b></div>\n')        
         
         print(f"Markdown file '{MD_FILE_PATH}' has been updated.")

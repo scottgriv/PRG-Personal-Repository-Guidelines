@@ -184,7 +184,8 @@ To solve the "GitHub Portfolio Problem" above, **PRG** categorizes repositories 
     - i.e. [rust-json_note_manager](https://github.com/scottgriv/rust-json_note_manager) 
     - i.e. [python-convert_html_table_to_csv](https://github.com/scottgriv/python-convert_html_table_to_csv)
 
-#### Silver & Bronze Additional Requirements 
+#### Silver & Bronze Additional Requirements
+ 
 - If you have multiple languages or technologies you want to highlight, you can use the following naming scheme: language-language-language-project_name`
     - i.e. [json-xml-yaml-portfolio_template](https://github.com/scottgriv/json-xml-yaml-portfolio_template)
 - Use **lower** case letters for the first letter of each word in the project name.

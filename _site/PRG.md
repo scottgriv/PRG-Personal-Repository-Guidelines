@@ -5,8 +5,8 @@ This repository is catagorized under the **PRG** system.
 ## Project Information
 
 Repository Tier: Gold <br>
-Technology: Markdown, API, GitHub Actions <br>
-Category: Documentation <br>
+Technology: Markdown, API, GitHub Actions, Jekyll, Python, DataTables <br>
+Category: Catagorization, Guidelines, Templates, Standards, Documentation <br>
 Order: 6 <br>
 
 ## How this works
@@ -28,3 +28,9 @@ This file connects this repository to the **PRG** guideline and categorization s
 ## Visit the PRG Repository
 
 Visit the official [Personal Repository Guidelines (PRG)](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines) repository for more details.
+
+<p align="center">
+    <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
+        <img src="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_optimized.png" alt="Optimized" width="138" height="51" />
+    </a>
+</p>  

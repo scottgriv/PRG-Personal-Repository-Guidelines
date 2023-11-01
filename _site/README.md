@@ -43,9 +43,8 @@
 - Define guidelines and templates for repository `README`'s and files.
 
 ---
-
 This `README` highlights the **three** main areas of **PRG**:
-1. **Categories**: categorize your repositories into three tiers: ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze** then display them in a "project tier table" (built using GitHub Actions).
+1. **Catagorization**: categorize your repositories into three tiers: ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze** then display them in a "project tier table" (built using GitHub Actions).
 2. **Guidelines**: defined guidelines for repository `README`, files, and overall structure. Brand guidelines for your ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold** tier projects are also defined.
 3. **Templates**: templates for your `README`'s and associated files.
 <br>
@@ -185,7 +184,8 @@ To solve the "GitHub Portfolio Problem" above, **PRG** categorizes repositories 
     - i.e. [rust-json_note_manager](https://github.com/scottgriv/rust-json_note_manager) 
     - i.e. [python-convert_html_table_to_csv](https://github.com/scottgriv/python-convert_html_table_to_csv)
 
-#### Silver & Bronze Additional Requirements 
+#### Silver & Bronze Additional Requirements
+ 
 - If you have multiple languages or technologies you want to highlight, you can use the following naming scheme: language-language-language-project_name`
     - i.e. [json-xml-yaml-portfolio_template](https://github.com/scottgriv/json-xml-yaml-portfolio_template)
 - Use **lower** case letters for the first letter of each word in the project name.

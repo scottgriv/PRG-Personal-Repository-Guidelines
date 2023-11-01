@@ -6,6 +6,32 @@
     src: url('../fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');
 }
 
+.header-content {
+
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+
+}
+
+.header-description {
+
+    text-align: center; 
+    padding: 20px; 
+    background-color: #333; 
+    color: white; 
+    max-width: 1000px;  
+    margin: 0 auto;
+}
+
+.header-logo-desktop {
+    display: block;
+}
+
+.header-logo-mobile {
+    display: none;
+}
+
 /* Set default font and font size */
 body {
     background-color: black; /* Black background */
@@ -98,6 +124,17 @@ tbody tr:hover a {
         text-align: center; /* Center the info label */
         padding-bottom: 20px;
     }
+
+    .header-logo-desktop {
+        display: none;
+    }
+    
+    .header-logo-mobile {
+        display: block;
+    }
+    
+
+
 }
 
 /* Hide the "Show entries" and pagination */

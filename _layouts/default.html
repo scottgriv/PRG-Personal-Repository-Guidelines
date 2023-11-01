@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta id="viewport" name="viewport" content="width=1100, initial-scale=1.0"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
     <meta name="robots" content="index, follow">
     <meta name="description" content="{{ site.description }}">
     <!-- Sharing on social media and X -->
@@ -36,12 +38,13 @@
     <script type="text/javascript" src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
 </head>
 <body>
-    <div style="text-align: center; background-color: #333;">
+    <div class="header-content">
         <a href="{{ site.repo_url }}" target="_blank">
-            <img src="{{ '/assets/images/banner_large.png' | relative_url }}" alt="PRG Logo" class="logo" width="100%">
+            <img src="{{ '/assets/images/banner_large.png' | relative_url }}" alt="PRG Logo" class="header-logo-desktop" width="100%">
+            <img src="{{ '/assets/images/banner_social.png' | relative_url }}" alt="PRG Logo" class="header-logo-mobile" width="100%">
         </a>
         <h1>Welcome to PRG!</h1>
-        <div style="text-align: center; padding: 20px; background-color: #333; color: white; max-width: 1000px; margin: 0 auto;">
+        <div class="header-description">
             {{ site.description }}
         </div>
     </div>
@@ -108,6 +111,25 @@
                     });
                 });
             }
+
+            function getZoomLevel() {
+    return window.innerWidth / window.screen.width;
+}
+
+window.addEventListener('resize', function() {
+    const zoomLevel = getZoomLevel();
+    const logo = document.querySelector('.logo');
+    
+    if (zoomLevel > 1) {
+        // User has zoomed in
+        logo.style.width = (100 / zoomLevel) + '%';
+    } else {
+        // User is at default zoom or has zoomed out
+        logo.style.width = '100%';
+    }
+});
+
+
         });
     </script>
 </body>

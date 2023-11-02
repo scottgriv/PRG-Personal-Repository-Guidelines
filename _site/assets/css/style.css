@@ -195,3 +195,24 @@ h1, h2 {
     box-sizing: border-box;
     position: sticky;
 }
+
+
+.social-links-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 10px; /* Space between icons */
+  }
+  
+  .social-links a {
+    color: #fff; /* Icon color */
+    font-size: 17px; /* Icon size */
+  }
+  
+  .social-links a:hover {
+    color: #6236FF; /* Green color for links hover effect, change as needed */
+  }
+  

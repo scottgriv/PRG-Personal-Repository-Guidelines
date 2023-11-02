@@ -112,6 +112,11 @@ tbody tr:hover a {
 
 /* Mobile Responsive Styles */
 @media screen and (max-width: 600px) {
+
+    table {
+        width: 100vw; 
+    }
+    
     .dataTables_filter {
         float: none;
         text-align: center; /* Optional: Center the search bar on mobile */

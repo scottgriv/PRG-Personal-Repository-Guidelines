@@ -6,6 +6,7 @@
     src: url('../fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');
 }
 
+
 .header-content {
 
     background-color: #333;
@@ -114,9 +115,9 @@ tbody tr:hover a {
 @media screen and (max-width: 600px) {
 
     table {
-        width: 100vw; 
+        width: 2000px; 
     }
-    
+
     .dataTables_filter {
         float: none;
         text-align: center; /* Optional: Center the search bar on mobile */

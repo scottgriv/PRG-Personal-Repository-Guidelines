@@ -115,7 +115,7 @@ tbody tr:hover a {
 @media screen and (max-width: 600px) {
 
     table {
-        width: 2000px; 
+        width: 1500px; 
     }
 
     .dataTables_filter {

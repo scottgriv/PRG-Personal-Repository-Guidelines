@@ -196,7 +196,6 @@ h1, h2 {
     position: sticky;
 }
 
-
 .social-links-wrapper {
     display: flex;
     justify-content: center;
@@ -215,4 +214,3 @@ h1, h2 {
   .social-links a:hover {
     color: #6236FF; /* Green color for links hover effect, change as needed */
   }
-  

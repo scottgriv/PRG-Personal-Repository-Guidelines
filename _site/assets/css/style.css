@@ -68,6 +68,7 @@ th {
 }
 
 tbody tr {
+    font-size: 16px;
     background-color: black !important; /* Black row background */
 }
 
@@ -187,6 +188,10 @@ h1, h2 {
     margin: 15px; /* Remove margin (optional) */
 }
 
+.dataTable tbody td {
+    font-size: 16px; /* Replace with the font size you want for body cells */
+  }
+
 /* Search icon for DataTables search bar */
 .dataTables_filter input {
     background-image: url('../images/search.png');
@@ -220,11 +225,3 @@ h1, h2 {
   .social-links a:hover {
     color: #6236FF; /* Green color for links hover effect, change as needed */
   }
-
-input[type="search"]::-webkit-search-decoration,
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-results-button,
-input[type="search"]::-webkit-search-results-decoration {
-    -webkit-appearance: none;
-    appearance: none;
-}

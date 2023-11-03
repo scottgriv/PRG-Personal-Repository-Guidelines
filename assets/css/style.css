@@ -46,26 +46,6 @@ a {
     color: #6236FF; /* PRG Purple link */
 }
 
-/* Table styles */
-table {
-    border-collapse: collapse;
-    width: 100%;
-    background-color: black !important; /* Black background */
-    color: white;
-}
-
-th, td {
-    padding: 8px;
-    border: 1px solid grey; /* Grey border */
-    text-align: left;
-}
-
-th {
-    position: sticky;
-    top: -1px;
-    background-color: #333 !important; /* Dark gray header background */
-    z-index: 2;
-}
 
 tbody tr {
     background-color: black !important; /* Black row background */
@@ -115,7 +95,7 @@ tbody tr:hover a {
 @media screen and (max-width: 600px) {
 
     table {
-        width: 2000px; 
+        width: 1500px; 
     }
 
     .dataTables_filter {
@@ -221,6 +201,7 @@ h1, h2 {
     color: #6236FF; /* Green color for links hover effect, change as needed */
   }
 
+/* Remove the search icon from the search input on iOS */
 [type="search"]::-webkit-search-decoration {
     appearance: none;
   }

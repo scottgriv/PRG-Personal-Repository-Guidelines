@@ -129,11 +129,6 @@ tbody tr:hover a {
   .header-logo-mobile {
     display: block;
   }
-
-  td:nth-child(4),
-  th:nth-child(4) {
-    font-size: 5px !important;
-  }
 }
 
 /* Hide the "Show entries" and pagination */

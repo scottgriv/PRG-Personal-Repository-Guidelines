@@ -219,34 +219,7 @@ h2 {
   appearance: none;
 }
 
-table.dataTable td {
-  font-size: 16px;
-}
-
-table.dataTable tr.dtrg-level-0 td {
-  font-size: 16px;
-}
-
-table.datatable th div.dataTables_sizing {
-    font-size: 16px;
-}
-
-.datatable th div.dataTables_sizing {
-  font-size: 16px;
-}
-
-table.datatable tr div.dataTables_sizing {
-  font-size: 16px;
-}
-
-.datatable tr div.dataTables_sizing {
-font-size: 16px;
-}
-
-table.datatable td div.dataTables_sizing {
-  font-size: 16px;
-}
-
-.datatable td div.dataTables_sizing {
-font-size: 16px;
+td:nth-child(4),
+th:nth-child(4){
+  font-size: 16px
 }

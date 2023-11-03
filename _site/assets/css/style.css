@@ -80,10 +80,6 @@ tbody tr:hover a {
   color: white;
 }
 
-/* Media queries for responsiveness if needed */
-@media (max-width: 768px) {
-}
-
 /* Style the DataTables search input */
 .dataTables_filter input {
   background-color: #333;
@@ -132,6 +128,11 @@ tbody tr:hover a {
 
   .header-logo-mobile {
     display: block;
+  }
+
+  td:nth-child(4),
+  th:nth-child(4) {
+    font-size: 5px !important;
   }
 }
 
@@ -217,9 +218,4 @@ h2 {
 /* Remove the search icon from the search input on iOS */
 [type="search"]::-webkit-search-decoration {
   appearance: none;
-}
-
-td:nth-child(4),
-th:nth-child(4){
-  font-size: 12px !important;
 }

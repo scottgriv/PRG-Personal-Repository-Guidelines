@@ -133,6 +133,14 @@ tbody tr:hover a {
   .header-logo-mobile {
     display: block;
   }
+
+  table.dataTable td {
+    font-size: 16px;
+  }
+
+  table.dataTable tr.dtrg-level-0 td {
+    font-size: 16px;
+  }
 }
 
 /* Hide the "Show entries" and pagination */
@@ -220,9 +228,9 @@ h2 {
 }
 
 table.dataTable td {
-  font-size: 1em; /* This is equivalent to 16px when the parent's font size is 16px */
+  font-size: 16px;
 }
 
 table.dataTable tr.dtrg-level-0 td {
-  font-size: 1.1em; /* This will be slightly larger, equivalent to 17.6px when the parent's font size is 16px */
+  font-size: 16px;
 }

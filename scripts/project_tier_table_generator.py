@@ -333,7 +333,7 @@ try:
         md_file.write('## Project Tier Table\n\n')
 
         # md_file.write('| Icon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Name | Created&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | Category | Technology | Tier&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |\n')
-        md_file.write('| Icon | Name | Created&nbsp; | Description | Category | Technology&nbsp; | Tier |\n')
+        md_file.write('| Icon | Name | Created&nbsp;&nbsp; | Description | Category | Technology&nbsp; | Tier |\n')
         md_file.write('| :---: | :---: | :---: | :--- | :--- | :--- | :---: |\n')
 
         for repo_data in sorted_repos:

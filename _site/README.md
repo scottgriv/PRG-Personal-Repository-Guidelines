@@ -13,7 +13,7 @@
         <img src="https://img.shields.io/badge/Jekyll-4.3.2-CA1D24?style=for-the-badge&logo=jekyll" alt="Jekyll Badge" />
     </a>
     <a href="https://datatables.net/">
-        <img src="https://img.shields.io/badge/DataTables-1.10.24-538AD0?style=for-the-badge&logo=jquery" alt="Data Tables Badge" />
+        <img src="https://img.shields.io/badge/DataTables-1.13.6-538AD0?style=for-the-badge&logo=jquery" alt="Data Tables Badge" />
     </a>
     <a href="https://www.python.org/">
         <img src="https://img.shields.io/badge/Python-3.11.0-244C6F?style=for-the-badge&logo=python" alt="Python Badge" />

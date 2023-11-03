@@ -126,11 +126,11 @@ To get started, you can fork this repository and adjust the guidelines to fit yo
 
 ## 1. Categories
 
-To solve the "GitHub Portfolio Problem" above, **PRG** categorizes repositories into three tiers: ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze** to destinguish the quality of the project. It does this by utilizing GitHub Actions to automatically create a project tier table based on a simple markdown file placed in each of your repositories.
+To solve the "GitHub Portfolio Problem" above, **PRG** categorizes repositories into four tiers: ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**, and **Optimized** to destinguish the quality of the project. It does this by utilizing GitHub Actions to automatically create a project tier table based on a simple markdown file placed in each of your repositories.
 
 ### Repository Tiers and Naming Conventions
 
-- There are <u>three</u> tiers to describe repository projects under **PRG** collection.
+- There are <u>four</u> tiers to describe repository projects under **PRG** collection.
 - The tier is **required** to be added to the top of each repository to conform to **PRG**.
 - This is what links your repository to the guidelines and helps categorize it.
 
@@ -198,7 +198,7 @@ To solve the "GitHub Portfolio Problem" above, **PRG** categorizes repositories 
     - If you make significant changes to the repository, you can consider it a ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver** tier.
     - Because you did not originate the work, a forked repo can only be considered a ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze** or ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver** tier, never ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**.
 
-#### ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) PRG Profile Badge
+#### ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) Optimized Badge
 
 - I won't say this is *required*, because I don't want to tell you what to do with your personal profile `README`, but I strongly encourage adding one of thw two following badges to your main "About Me" profile `README` to showcase your **PRG** tier collection (this is the essence of fixing the "GitHub Portfolio Problem" I mentioned earlier):
 

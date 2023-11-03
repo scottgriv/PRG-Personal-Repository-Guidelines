@@ -221,5 +221,5 @@ h2 {
 
 td:nth-child(4),
 th:nth-child(4){
-  font-size: 16px
+  font-size: 16px !important;
 }

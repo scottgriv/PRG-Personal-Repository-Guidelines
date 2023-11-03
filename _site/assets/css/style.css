@@ -133,14 +133,6 @@ tbody tr:hover a {
   .header-logo-mobile {
     display: block;
   }
-
-  table.dataTable td {
-    font-size: 16px;
-  }
-
-  table.dataTable tr.dtrg-level-0 td {
-    font-size: 16px;
-  }
 }
 
 /* Hide the "Show entries" and pagination */
@@ -233,4 +225,28 @@ table.dataTable td {
 
 table.dataTable tr.dtrg-level-0 td {
   font-size: 16px;
+}
+
+table.datatable th div.dataTables_sizing {
+    font-size: 16px;
+}
+
+.datatable th div.dataTables_sizing {
+  font-size: 16px;
+}
+
+table.datatable tr div.dataTables_sizing {
+  font-size: 16px;
+}
+
+.datatable tr div.dataTables_sizing {
+font-size: 16px;
+}
+
+table.datatable td div.dataTables_sizing {
+  font-size: 16px;
+}
+
+.datatable td div.dataTables_sizing {
+font-size: 16px;
 }

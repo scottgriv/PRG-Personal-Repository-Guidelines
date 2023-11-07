@@ -4,6 +4,7 @@ import base64
 import sys
 import traceback
 import re
+import pytz
 from datetime import datetime
 
 # GitHub token for API requests
@@ -371,8 +372,11 @@ try:
             # Increment the counter at the end of the loop
             counter += 1 
                     
-        # Get the current time
-        current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # Adjust the format as needed
+        # Set the timezone to Eastern Time
+        eastern = pytz.timezone('America/New_York')
+
+        # Get the current time in Eastern Time with timezone name
+        current_time = datetime.now(eastern).strftime("%Y-%m-%d %I:%M:%S %p %Z")
 
         # Create the footer under the table
         md_file.write(f'\n<div align="center"><i>Built with GitHub Actions</i>'

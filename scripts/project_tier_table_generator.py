@@ -43,7 +43,7 @@ TIER_TABLE_URL = f'https://prgoptimized.com' # URL to the project tier table usi
 # General Configuration:
 INCLUDE_PRG_FILE_PROJECTS = False  # Set to False if you want to include projects that don't have a PRG file
 INCLUDE_PRIVATE_FILE_PROJECTS = True  # Set to False if you want to exclude projects that are in the private markdown file
-MD_ONLY_TIER_TABLE = True  # Set to True if you only want to display the tier table in the markdown file and you don't plan on hosting it on GitHub Pages
+MD_ONLY_TIER_TABLE = False  # Set to True if you only want to display the tier table in the markdown file and you don't plan on hosting it on GitHub Pages
 
 # Note: 
 # If you want to exclude public projects and only include private projects, 
@@ -51,7 +51,7 @@ MD_ONLY_TIER_TABLE = True  # Set to True if you only want to display the tier ta
 # and set the INCLUDE_PRG_FILE_PROJECTS to False (and don't add PRG.md files to your public projects)
 
 # User Repo Configuration:
-INCLUDE_PRIVATE_REPOS = True  # Set to False if you don't want to include private repos
+INCLUDE_PRIVATE_REPOS = False  # Set to False if you don't want to include private repos
 INCLUDE_FORKS = True  # Set to False if you don't want to include forked repos
 
 ## Organization Repos Configuration:

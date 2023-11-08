@@ -391,12 +391,22 @@ try:
 
             # Increment the counter at the end of the loop
             counter += 1 
-                    
-        # Set the timezone to Eastern Time
-        eastern = pytz.timezone('America/New_York')
 
-        # Get the current time in Eastern Time with timezone name
-        current_time = datetime.now(eastern).strftime("%Y-%m-%d %I:%M:%S %p %Z")
+        # Set the timezone to Eastern Time  
+        if LOCAL_TESTING:
+            # Set the timezone to Eastern Time
+            eastern = pytz.timezone('America/New_York')
+
+            # Get the current time in Eastern Time with timezone name
+            current_time = datetime.now(eastern).strftime("%Y-%m-%d %I:%M:%S %p %Z")
+
+        else: 
+            # Get timezone from environment variable or default to 'UTC' if not set
+            timezone = os.getenv('TZ', 'UTC')
+            tz = pytz.timezone(timezone)
+
+            # Get the current time in the specified timezone
+            current_time = datetime.now(tz).strftime("%Y-%m-%d %I:%M:%S %p %Z")
 
         # Create the footer under the table
         md_file.write(f'\n<div align="center"><i>Built with GitHub Actions</i>'

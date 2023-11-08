@@ -4,38 +4,63 @@ import base64
 import sys
 import traceback
 import re
-import pytz
 from datetime import datetime
+import pytz
+
+# Local Testing Flag:
+LOCAL_TESTING = False # Set to True if you want to test locally, False if you want to test on GitHub Actions
+
+# Local Test Check:
+if LOCAL_TESTING:
+    path_start = '..'
+    GITHUB_TOKEN = '' # Add your API token here
+    # WARNING: MAKE SURE YOU REMOVE THE ABOVE BEFORE PUSHING TO GITHUB!!!
+    USERNAME = '' # Add your username here
+else:
+    path_start = '.'
+    GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '') # Used for GitHub Actions (environment variable)
+    USERNAME = os.environ.get('GITHUB_ACTOR', 'default_username') # Used for GitHub Actions (environment variable)
+
+print(f"GitHub Username: {USERNAME}")
 
 # GitHub token for API requests
-GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '') # Uncomment this line when done testing for GitHub Actions (environment variable)
-# GITHUB_TOKEN = '' # Uncomment this line when testing locally and add your API token to it (hardcoded)
-
 if GITHUB_TOKEN is None:
     print("GitHub token is not set. Set the GITHUB_TOKEN environment variable.")
     sys.exit(1)
 
-# Username for your GitHub account
-USERNAME = os.environ.get('GITHUB_ACTOR', 'default_username') # Uncomment this line when done testing for GitHub Actions (environment variable)
-# USERNAME = 'scottgriv' # Uncomment this line when testing locally and add your username to it (hardcoded)
-print(f"GitHub Username: {USERNAME}")
+# File Paths:
+MD_FILE_PATH = f'{path_start}/categories/project_tier_table.md' # Path to the the main project tier table markdown file
+MD_FILE_PATH_PRIVATE = f'{path_start}/categories/project_tier_table_private.md' # Path to the private project tier table markdown file
+MD_BADGE_REF_PATH = f'{path_start}/categories/badge_references.md' # Path to the badge reference markdown file
+PLACEHOLDER_ICON = f'{path_start}/docs/images/prg-placeholder.png' # Placeholder for missing icons
+PROJECT_ICON_PATH = 'docs/images/PRG.png' # Path to the project icons from your root directory of your repository (don't adjust for local testing)
+TIER_TABLE_URL = f'https://prgoptimized.com' # URL to the project tier table using GitHub Pages (update this if you're using a custom domain)
 
-# File Paths
-# Add an extra . to the beginning of the path to make it relative to the root of the repository when testing locally (i.e. ../docs)
-MD_FILE_PATH = './categories/project_tier_table.md' # Path to the the main project tier table markdown file
-MD_FILE_PATH_PRIVATE = './categories/project_tier_table_private.md' # Path to the private project tier table markdown file
-MD_BADGE_REF_PATH = './categories/badge_references.md' # Path to the badge reference markdown file
-PLACEHOLDER_ICON = './docs/images/icon-placeholder-rounded.png' # Placeholder for missing icons
-TIER_TABLE_URL = f'https://{USERNAME}.github.io/PRG-Personal-Repository-Guidelines/' # URL to the project tier table
+# Note: 
+# Private repo icons cannot be reached by users that are not logged in to GitHub and have access to the private repo.
+# Therefore, the best way to show private repos with icons is to add them to your private markdown file + don't add a PRG.md file to the repo.
 
-# Configuration Flags
-INCLUDE_NO_PRG_FILE_PROJECTS = False  # Set to False if you don't want to include projects that don't have a PRG file
-INCLUDE_PRIVATE_FILE_PROJECTS = True  # Set to False if you don't want to include projects that are in the private markdown file
+# Configuration Flags:
+# General Configuration:
+INCLUDE_PRG_FILE_PROJECTS = False  # Set to False if you want to include projects that don't have a PRG file
+INCLUDE_PRIVATE_FILE_PROJECTS = True  # Set to False if you want to exclude projects that are in the private markdown file
+MD_ONLY_TIER_TABLE = False  # Set to True if you only want to display the tier table in the markdown file and you don't plan on hosting it on GitHub Pages
+
+# Note: 
+# If you want to exclude public projects and only include private projects, 
+# set the INCLUDE_PRIVATE_FILE_PROJECTS flag to True 
+# and set the INCLUDE_PRG_FILE_PROJECTS to False (and don't add PRG.md files to your public projects)
+
+# User Repo Configuration:
+INCLUDE_PRIVATE_REPOS = False  # Set to False if you don't want to include private repos
 INCLUDE_FORKS = True  # Set to False if you don't want to include forked repos
-INCLUDE_ORG_REPOS = True  # Set to False if you don't want to include org repos
-INCLUDE_FORKS_ORG = True  # Set to False if you don't want to include forked org repos
 
-# Badges URLs
+## Organization Repos Configuration:
+INCLUDE_ORG_REPOS = True  # Set to False if you don't want to include org repos
+INCLUDE_ORG_PRIVATE_REPOS = False  # Set to False if you don't want to include private org repos (requires INCLUDE_ORG_REPOS to be True)
+INCLUDE_ORG_FORKS = True  # Set to False if you don't want to include forked org repos (requires INCLUDE_ORG_REPOS to be True)
+
+# Badges URLs:
 BADGES = {
     'Gold': 'https://img.shields.io/badge/PRG-Gold Project-FFD700?style=for-the-badge&logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjYuMDAwMDAwcHQiIGhlaWdodD0iMzQuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCAyNi4wMDAwMDAgMzQuMDAwMDAwIgogcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+Cgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwzNC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiNGRkQ3MDAiIHN0cm9rZT0ibm9uZSI+CjxwYXRoIGQ9Ik0xMiAzMjggYy04IC04IC0xMiAtNTEgLTEyIC0xMzUgMCAtMTA5IDIgLTEyNSAxOSAtMTQwIDQyIC0zOCA0OAotNDIgNTkgLTMxIDcgNyAxNyA2IDMxIC0xIDEzIC03IDIxIC04IDIxIC0yIDAgNiAyOCAxMSA2MyAxMyBsNjIgMyAwIDE1MCAwCjE1MCAtMTE1IDMgYy04MSAyIC0xMTkgLTEgLTEyOCAtMTB6IG0xMDIgLTc0IGMtNiAtMzMgLTUgLTM2IDE3IC0zMiAxOCAyIDIzCjggMjEgMjUgLTMgMjQgMTUgNDAgMzAgMjUgMTQgLTE0IC0xNyAtNTkgLTQ4IC02NiAtMjAgLTUgLTIzIC0xMSAtMTggLTMyIDYKLTIxIDMgLTI1IC0xMSAtMjIgLTE2IDIgLTE4IDEzIC0xOCA2NiAxIDc3IDAgNzIgMTggNzIgMTMgMCAxNSAtNyA5IC0zNnoKbTExNiAtMTY5IGMwIC0yMyAtMyAtMjUgLTQ5IC0yNSAtNDAgMCAtNTAgMyAtNTQgMjAgLTMgMTQgLTE0IDIwIC0zMiAyMCAtMTgKMCAtMjkgLTYgLTMyIC0yMCAtNyAtMjUgLTIzIC0yNiAtMjMgLTIgMCAyOSA4IDMyIDEwMiAzMiA4NyAwIDg4IDAgODggLTI1eiIvPgo8L2c+Cjwvc3ZnPgo=',
     'Silver': 'https://img.shields.io/badge/PRG-Silver Project-C0C0C0?style=for-the-badge&logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjYuMDAwMDAwcHQiIGhlaWdodD0iMzQuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCAyNi4wMDAwMDAgMzQuMDAwMDAwIgogcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+Cgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwzNC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiNDMEMwQzAiIHN0cm9rZT0ibm9uZSI+CjxwYXRoIGQ9Ik0xMiAzMjggYy04IC04IC0xMiAtNTEgLTEyIC0xMzUgMCAtMTA5IDIgLTEyNSAxOSAtMTQwIDQyIC0zOCA0OAotNDIgNTkgLTMxIDcgNyAxNyA2IDMxIC0xIDEzIC03IDIxIC04IDIxIC0yIDAgNiAyOCAxMSA2MyAxMyBsNjIgMyAwIDE1MCAwCjE1MCAtMTE1IDMgYy04MSAyIC0xMTkgLTEgLTEyOCAtMTB6IG0xMDIgLTc0IGMtNiAtMzMgLTUgLTM2IDE3IC0zMiAxOCAyIDIzCjggMjEgMjUgLTMgMjQgMTUgNDAgMzAgMjUgMTQgLTE0IC0xNyAtNTkgLTQ4IC02NiAtMjAgLTUgLTIzIC0xMSAtMTggLTMyIDYKLTIxIDMgLTI1IC0xMSAtMjIgLTE2IDIgLTE4IDEzIC0xOCA2NiAxIDc3IDAgNzIgMTggNzIgMTMgMCAxNSAtNyA5IC0zNnoKbTExNiAtMTY5IGMwIC0yMyAtMyAtMjUgLTQ5IC0yNSAtNDAgMCAtNTAgMyAtNTQgMjAgLTMgMTQgLTE0IDIwIC0zMiAyMCAtMTgKMCAtMjkgLTYgLTMyIC0yMCAtNyAtMjUgLTIzIC0yNiAtMjMgLTIgMCAyOSA4IDMyIDEwMiAzMiA4NyAwIDg4IDAgODggLTI1eiIvPgo8L2c+Cjwvc3ZnPgo=',
@@ -112,44 +137,6 @@ Add one of the two badges below to your Profile `README` to show that you follow
     with open(MD_BADGE_REF_PATH, 'w') as file:
         file.write(repo_badge_template)
 
-def get_all_org_repos(username):
-    org_repos = []
-    response = requests.get('https://api.github.com/user/orgs',
-                            headers={'Authorization': f'token {GITHUB_TOKEN}'})
-    if response.status_code != 200:
-        print(f"Failed to fetch organizations: {response.status_code}")
-        print(response.json())
-        return org_repos
-
-    orgs = response.json()
-    for org in orgs:
-        org_name = org['login']
-        page = 1
-        while True:
-            response = requests.get(f'https://api.github.com/orgs/{org_name}/repos?page={page}&per_page=100',
-                                    headers={'Authorization': f'token {GITHUB_TOKEN}'})
-            if response.status_code != 200:
-                print(f"Failed to fetch repositories for organization {org_name}: {response.status_code}")
-                print(response.json())
-                break
-
-            new_repos = response.json()
-            if not new_repos:
-                break
-
-            for repo in new_repos:
-
-                if not repo['private'] and (INCLUDE_ORG_REPOS or not repo['fork']):
-                    if repo['name'] == '.github':
-                        repo['name'] = org_name
-                        repo['html_url'] = f'https://github.com/{org_name}/.github/blob/main/profile/README.md'
-                    org_repos.append(repo)
-
-            page += 1
-
-    print(f"Fetched {len(org_repos)} public organization repositories.")
-    return org_repos
-
 def parse_private_md_file(file_path):
     try:
         with open(file_path, 'r') as file:
@@ -209,7 +196,8 @@ def get_all_repos(username):
     repos = []
     page = 1
     while True:
-        response = requests.get(f'https://api.github.com/users/{username}/repos?page={page}&per_page=100',
+        # response = requests.get(f'https://api.github.com/users/{username}/repos?page={page}&per_page=100',
+        response = requests.get(f'https://api.github.com/user/repos?page={page}&per_page=999',
                                 headers={'Authorization': f'token {GITHUB_TOKEN}'})
         if response.status_code != 200:
             print(f"Failed to fetch repositories: {response.status_code}")
@@ -221,8 +209,30 @@ def get_all_repos(username):
             break
 
         for repo in new_repos:
-            if INCLUDE_FORKS or not repo['fork']:
-                repos.append(repo)
+
+            # Org repos
+            if repo['owner']['login'].lower() != username.lower() and INCLUDE_ORG_REPOS:
+                # Apply the INCLUDE_FORKS filter
+                if not INCLUDE_ORG_FORKS and repo['fork']:
+                    continue
+                
+                # Apply the INCLUDE_PRIVATE_REPOS filter
+                if not INCLUDE_ORG_PRIVATE_REPOS and repo['private']:
+                    continue
+
+               
+
+            # User repos
+            if repo['owner']['login'].lower() == username.lower():
+                # Apply the INCLUDE_FORKS filter
+                if not INCLUDE_FORKS and repo['fork']:
+                    continue
+                
+                # Apply the INCLUDE_PRIVATE_REPOS filter
+                if not INCLUDE_PRIVATE_REPOS and repo['private']:
+                    continue
+
+            repos.append(repo)
 
         page += 1
 
@@ -239,28 +249,28 @@ try:
     print(f"Sending API Request. Please wait...")
 
     repos = get_all_repos(USERNAME)
-
-    if INCLUDE_ORG_REPOS:
-        org_repos = get_all_org_repos(USERNAME)
-        repos.extend(org_repos)  # This
     
     repos_data = []
 
     for repo in repos:
         data = {}
         name = repo['name']
+        owner = repo['owner']['login']
         data['name'] = name
         data['url'] = repo['html_url']
         data['created_at'] = repo['created_at'].split('T')[0]  # Formatting date
         data['description'] = repo['description'] if repo['description'] else 'No description provided'
         data['size'] = repo['size']
         data['homepage'] = repo['homepage']
+        data['owner'] = owner
 
         # Fetching the content of PRG.md to determine the tier
             # Adjust the URL to point to the correct path of the PRG.md file (if it is not in the root directory)
                 # If you change the path, you will have to change it in every repository or adjust it to dynamically fetch the file (which will slow down the process)
-        prg_md_response = requests.get(f'https://api.github.com/repos/{USERNAME}/{name}/contents/PRG.md',
+        prg_md_response = requests.get(f'https://api.github.com/repos/{owner}/{name}/contents/PRG.md',
                                         headers={'Authorization': f'token {GITHUB_TOKEN}'})
+
+
 
         # Default values
         data['tier'] = 'Optimized'  
@@ -268,7 +278,7 @@ try:
         data['category'] = ''
         data['order'] = float('inf')  # Default to infinity for those without an order
 
-        if prg_md_response.status_code == 200 or INCLUDE_NO_PRG_FILE_PROJECTS:
+        if prg_md_response.status_code == 200 or not INCLUDE_PRG_FILE_PROJECTS:
             if prg_md_response.status_code == 200:
                 prg_md_content = prg_md_response.json()
                 content = base64.b64decode(prg_md_content['content']).decode('utf-8').strip()
@@ -333,8 +343,10 @@ try:
         # Writing title
         md_file.write('## Project Tier Table\n\n')
 
-        # md_file.write('| Icon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Name | Created&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | Category | Technology | Tier&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |\n')
-        md_file.write('| Icon | Name | Created&nbsp;&nbsp;&nbsp;&nbsp; | Description | Category | Technology&nbsp; | Tier |\n')
+        if MD_ONLY_TIER_TABLE:
+            md_file.write('| Icon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Name | Created&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | Category | Technology | Tier&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |\n')
+        else:
+            md_file.write('| Icon | Name | Created&nbsp;&nbsp;&nbsp;&nbsp; | Description | Category | Technology&nbsp; | Tier |\n')
         md_file.write('| :---: | :---: | :---: | :--- | :--- | :--- | :---: |\n')
 
         for repo_data in sorted_repos:
@@ -351,18 +363,26 @@ try:
             if 'icon_html' in repo_data:
                 icon = repo_data['icon_html']
                 name = repo_data['name_html']
-            else:
-                icon_url = f'https://github.com/{USERNAME}/{repo_data["name"]}/raw/main/docs/images/icon-rounded.png'
+            else: 
+                owner = repo_data['owner']
+                icon_url = f'https://github.com/{owner}/{repo_data["name"]}/raw/main/{PROJECT_ICON_PATH}'
                 icon_response = requests.get(icon_url)
                 if icon_response.status_code != 200 or repo_data['size'] == 0:
                     print(f"No icon found for {repo_data['name']} or the repository is empty, using a placeholder.")
                     icon_url = PLACEHOLDER_ICON
-                    
+                else:
+                    print(f"Icon found for {repo_data['name']}!")
+
                 if repo_data['homepage']:
                     icon = f'<a href="{repo_data["homepage"]}" target="_blank"><img src="{icon_url}" width="100" height="100" alt="Icon"></a>'
                 else:
                     icon = f'<a href="{repo_data["url"]}" target="_blank"><img src="{icon_url}" width="100" height="100" alt="Icon"></a>'
-                    
+                
+                # Handle organization special repo case
+                if repo_data['name'] == '.github':
+                        repo_data['name'] = owner
+                        repo_data['url'] = f'https://github.com/{owner}/.github/blob/main/profile/README.md'
+                
                 # icon = f'<a href="{repo_data["url"]}" target="_blank"><img src="{icon_url}" width="100" height="100" alt="Icon"></a>'
                 name = f'<a href="{repo_data["url"]}" target="_blank">{repo_data["name"]}</a>'
 

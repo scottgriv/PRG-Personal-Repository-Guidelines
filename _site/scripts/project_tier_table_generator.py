@@ -10,6 +10,8 @@ import pytz
 # Local Testing Flag:
 LOCAL_TESTING = False # Set to True if you want to test locally, False if you want to test on GitHub Actions
 
+print(f"Local Testing?: {LOCAL_TESTING}")
+
 # Local Test Check:
 if LOCAL_TESTING:
     path_start = '..'
@@ -269,8 +271,6 @@ try:
                 # If you change the path, you will have to change it in every repository or adjust it to dynamically fetch the file (which will slow down the process)
         prg_md_response = requests.get(f'https://api.github.com/repos/{owner}/{name}/contents/PRG.md',
                                         headers={'Authorization': f'token {GITHUB_TOKEN}'})
-
-
 
         # Default values
         data['tier'] = 'Optimized'  

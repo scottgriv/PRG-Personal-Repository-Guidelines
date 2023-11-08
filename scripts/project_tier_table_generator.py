@@ -5,9 +5,12 @@ import sys
 import traceback
 import re
 from datetime import datetime
+import pytz
 
 # Local Testing Flag:
 LOCAL_TESTING = False # Set to True if you want to test locally, False if you want to test on GitHub Actions
+
+print(f"Local Testing?: {LOCAL_TESTING}")
 
 # Local Test Check:
 if LOCAL_TESTING:
@@ -269,8 +272,6 @@ try:
         prg_md_response = requests.get(f'https://api.github.com/repos/{owner}/{name}/contents/PRG.md',
                                         headers={'Authorization': f'token {GITHUB_TOKEN}'})
 
-
-
         # Default values
         data['tier'] = 'Optimized'  
         data['technology'] = ''
@@ -391,8 +392,11 @@ try:
             # Increment the counter at the end of the loop
             counter += 1 
                     
-        # Get the current time
-        current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # Adjust the format as needed
+        # Set the timezone to Eastern Time
+        eastern = pytz.timezone('America/New_York')
+
+        # Get the current time in Eastern Time with timezone name
+        current_time = datetime.now(eastern).strftime("%Y-%m-%d %I:%M:%S %p %Z")
 
         # Create the footer under the table
         md_file.write(f'\n<div align="center"><i>Built with GitHub Actions</i>'

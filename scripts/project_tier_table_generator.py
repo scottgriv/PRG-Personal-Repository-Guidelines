@@ -336,8 +336,14 @@ try:
     # Sort repos by tier and creation date
     sorted_repos = sort_repos(repos_data)
 
-   # Creating or updating markdown file
+    # Creating or updating markdown file
     with open(MD_FILE_PATH, 'w') as md_file:
+
+        # Initialize the counter before starting the loop
+        counter = 1 
+
+        md_file.write('## Project Tier Table\n\n')
+
         # Send a GET request to the GitHub API to fetch user details
         response = requests.get(f"https://api.github.com/users/{USERNAME}", headers={"Authorization": f"token {GITHUB_TOKEN}"})
 
@@ -396,7 +402,6 @@ try:
         else:
             print(f"Failed to fetch user data for {USERNAME}: {response.content}")
             # Handle error or add fallback content
-
 
         if MD_ONLY_TIER_TABLE:
             md_file.write('| Icon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Name | Created&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Owner | Description | Category | Technology | Tier&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |\n')

@@ -336,14 +336,8 @@ try:
     # Sort repos by tier and creation date
     sorted_repos = sort_repos(repos_data)
 
-    # Creating or updating markdown file
+   # Creating or updating markdown file
     with open(MD_FILE_PATH, 'w') as md_file:
-
-        # Initialize the counter before starting the loop
-        counter = 1 
-
-        md_file.write('## Project Tier Table\n\n')
-
         # Send a GET request to the GitHub API to fetch user details
         response = requests.get(f"https://api.github.com/users/{USERNAME}", headers={"Authorization": f"token {GITHUB_TOKEN}"})
 
@@ -353,25 +347,28 @@ try:
             profile_url = user_data["html_url"]
             avatar_url = user_data["avatar_url"]
 
+            # Write title and description
+            md_file.write('## Project Tier Table\n\n')
+            md_file.write('<p align="center"><em>PRG is optimized for the following users and organizations:</em></p>\n\n')
+
             # Start a div with display:flex to align items horizontally
-            md_file.write('<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">\n')
-            md_file.write('<em>PRG is optimized for the following users and organizations:</em>\n\n')
+            md_file.write('<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 20px;">\n')
 
             # User profile and image
-            md_file.write('  <div style="text-align: center;">\n')  # Wrapper div for the user
-            md_file.write('    <a href="{profile_url}">\n')
-            md_file.write('      <img src="{avatar_url}" alt="{USERNAME}" style="border-radius: 50%; width="100" height="100">\n')
-            md_file.write('    </a>\n')
-            md_file.write('    <br>\n')
-            md_file.write('    <a href="{profile_url}">@{USERNAME}</a>\n')
-            md_file.write('  </div>\n')
+            md_file.write(f'  <div style="text-align: center;">\n')  # Wrapper div for the user
+            md_file.write(f'    <a href="{profile_url}">\n')
+            md_file.write(f'      <img src="{avatar_url}" alt="{USERNAME}" style="border-radius: 50%; width: 100px; height: 100px;">\n')
+            md_file.write(f'    </a>\n')
+            md_file.write(f'    <br>\n')
+            md_file.write(f'    <a href="{profile_url}">@{USERNAME}</a>\n')
+            md_file.write(f'  </div>\n')
 
             # Organizations
             orgs_response = requests.get(f"https://api.github.com/user/orgs", headers={"Authorization": f"token {GITHUB_TOKEN}"})
 
             if orgs_response.status_code == 200:
                 orgs_data = orgs_response.json()
-                
+
                 # Loop through each organization and get details
                 for org in orgs_data:
                     org_response = requests.get(org["url"], headers={"Authorization": f"token {GITHUB_TOKEN}"})
@@ -381,24 +378,25 @@ try:
                         org_avatar_url = org_details["avatar_url"]
 
                         # Write the organization's details in a flex item
-                        md_file.write('  <div style="text-align: center;">\n')  # Wrapper div for each org
-                        md_file.write('    <a href="{org_profile_url}">\n')
-                        md_file.write('      <img src="{org_avatar_url}" alt="{org["login"]}" style="border-radius: 50%; width="100" height="100">\n')
-                        md_file.write('    </a>\n')
-                        md_file.write('    <br>\n')
-                        md_file.write('    <a href="{org_profile_url}">@{org["login"]}</a>\n')
-                        md_file.write('  </div>\n')
+                        md_file.write(f'  <div style="text-align: center;">\n')  # Wrapper div for each org
+                        md_file.write(f'    <a href="{org_profile_url}">\n')
+                        md_file.write(f'      <img src="{org_avatar_url}" alt="{org["login"]}" style="border-radius: 50%; width: 100px; height: 100px;">\n')
+                        md_file.write(f'    </a>\n')
+                        md_file.write(f'    <br>\n')
+                        md_file.write(f'    <a href="{org_profile_url}">@{org["login"]}</a>\n')
+                        md_file.write(f'  </div>\n')
 
             else:
                 print(f"Failed to fetch org data for {USERNAME}: {orgs_response.content}")
                 # Handle error or add fallback content
 
             # Close the flex container div
-            md_file.write(f'</div>\n\n')
+            md_file.write('</div>\n\n')
 
         else:
             print(f"Failed to fetch user data for {USERNAME}: {response.content}")
             # Handle error or add fallback content
+
 
         if MD_ONLY_TIER_TABLE:
             md_file.write('| Icon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Name | Created&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Owner | Description | Category | Technology | Tier&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |\n')

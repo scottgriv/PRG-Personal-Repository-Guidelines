@@ -380,9 +380,7 @@ try:
 
                         # Write the organization's details in a flex item
                         md_file.write(f'<div style="text-align: center;">\n')  # Wrapper div for each org
-                        md_file.write(f'<a href="{org_profile_url}" target="_blank" class="icon-container">\n')
-                        md_file.write(f'<img src="{org_avatar_url}" alt="{org["login"]}" style="border-radius: 50%; width: 100px; height: 100px;">\n')
-                        md_file.write(f'</a>\n')
+                        md_file.write(f'<a href="{org_profile_url}" target="_blank" class="icon-container"><img src="{org_avatar_url}" alt="{org["login"]}" style="border-radius: 50%; width: 100px; height: 100px;"></a>\n')
                         md_file.write(f'<br>\n')
                         md_file.write(f'<a href="{org_profile_url}" target="_blank">@{org["login"]}</a>\n')
                         md_file.write(f'</div>\n')

@@ -472,7 +472,8 @@ try:
 
         # Create the footer under the table
         md_file.write(f'\n<div align="center"><i>Built with GitHub Actions</i>'
-                    f'<br><b>Last Updated: {current_time}</b></div>\n')          
+                    f'<br><b>Last Updated:\n'
+                    f'{current_time}</b></div>\n')          
         
         print(f"Markdown file '{MD_FILE_PATH}' has been updated.")
 

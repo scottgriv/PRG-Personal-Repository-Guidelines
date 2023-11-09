@@ -103,6 +103,15 @@ tbody tr:hover a {
   padding-top: 20px;
 }
 
+.icon-container img {
+  transition: transform 0.3s; /* Smooth transition on hover */
+}
+
+/* Scale effect on hover for the icons */
+.icon-container:hover img {
+  transform: scale(1.08); /* Enlarge the icon on hover */
+}
+
 /* Mobile Responsive Styles */
 @media screen and (max-width: 600px) {
   table {

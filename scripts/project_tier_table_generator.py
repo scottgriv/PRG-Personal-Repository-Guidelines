@@ -360,7 +360,7 @@ try:
 
             # User profile and image
             md_file.write(f'  <div style="text-align: center;">\n')  # Wrapper div for the user
-            md_file.write(f'    <a href="{profile_url}" target="_blank">\n')
+            md_file.write(f'    <a href="{profile_url}" target="_blank" class="icon-container">\n')
             md_file.write(f'      <img src="{avatar_url}" alt="{USERNAME}" style="border-radius: 50%; width: 100px; height: 100px;">\n')
             md_file.write(f'    </a>\n')
             md_file.write(f'    <br>\n')
@@ -383,7 +383,7 @@ try:
 
                         # Write the organization's details in a flex item
                         md_file.write(f'  <div style="text-align: center;">\n')  # Wrapper div for each org
-                        md_file.write(f'    <a href="{org_profile_url}" target="_blank">\n')
+                        md_file.write(f'    <a href="{org_profile_url}" target="_blank" class="icon-container">\n')
                         md_file.write(f'      <img src="{org_avatar_url}" alt="{org["login"]}" style="border-radius: 50%; width: 100px; height: 100px;">\n')
                         md_file.write(f'    </a>\n')
                         md_file.write(f'    <br>\n')
@@ -414,7 +414,7 @@ try:
             # Fetching the tier information and constructing the badge URL
             tier_key = repo_data['tier']
             badge_url = BADGES.get(tier_key)  # If the tier_key is not found, it returns None by default, so no need to specify None
-            tier = f'<a href="{TIER_TABLE_URL}" target="_blank"><img src="{badge_url}" alt="{tier_key}" /></a>' if badge_url else "Tier Not Available"
+            tier = f'<a href="{TIER_TABLE_URL}" target="_blank" class="icon-container"><img src="{badge_url}" alt="{tier_key}" /></a>' if badge_url else "Tier Not Available"
 
             # First check if the 'icon_html' is in the repo_data (it means it's coming from the private markdown file),
             # otherwise, try to fetch the icon from the public URL
@@ -433,9 +433,9 @@ try:
                     print(f"Icon found for {repo_data['name']}!")
 
                 if repo_data['homepage']:
-                    icon = f'<a href="{repo_data["homepage"]}" target="_blank"><img src="{icon_url}" width="100" height="100" alt="Icon"></a>'
+                    icon = f'<a href="{repo_data["homepage"]}" class="icon-container" target="_blank"><img src="{icon_url}" width="100" height="100" alt="Icon"></a>'
                 else:
-                    icon = f'<a href="{repo_data["url"]}" target="_blank"><img src="{icon_url}" width="100" height="100" alt="Icon"></a>'
+                    icon = f'<a href="{repo_data["url"]}" class="icon-container" target="_blank"><img src="{icon_url}" width="100" height="100" alt="Icon"></a>'
                 
                 # Handle organization special repo case
                 if repo_data['name'] == '.github':

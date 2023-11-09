@@ -394,7 +394,7 @@ try:
                 # Handle error or add fallback content
 
             # Close the flex container div
-            md_file.write('</div><br \>\n\n')
+            md_file.write('</div><br>\n\n')
 
         else:
             print(f"Failed to fetch user data for {USERNAME}: {response.content}")

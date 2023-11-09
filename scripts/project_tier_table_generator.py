@@ -343,7 +343,6 @@ try:
         counter = 1 
 
         md_file.write('## Project Tier Table\n\n')
-        md_file.write('<em>PRG is optimized for the following users and organizations:</em>\n\n')
 
         # Send a GET request to the GitHub API to fetch user details
         response = requests.get(f"https://api.github.com/users/{USERNAME}", headers={"Authorization": f"token {GITHUB_TOKEN}"})
@@ -356,7 +355,8 @@ try:
 
             # Start a div with display:flex to align items horizontally
             md_file.write(f'<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">\n')
-
+            md_file.write('<em>PRG is optimized for the following users and organizations:</em>\n\n')
+            
             # User profile and image
             md_file.write(f'  <div style="text-align: center;">\n')  # Wrapper div for the user
             md_file.write(f'    <a href="{profile_url}">\n')

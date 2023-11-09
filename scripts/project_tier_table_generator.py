@@ -8,16 +8,16 @@ from datetime import datetime
 import pytz
 
 # Local Testing Flag:
-LOCAL_TESTING = False # Set to True if you want to test locally, False if you want to test on GitHub Actions
+LOCAL_TESTING = True # Set to True if you want to test locally, False if you want to test on GitHub Actions
 
 print(f"Local Testing?: {LOCAL_TESTING}")
 
 # Local Test Check:
 if LOCAL_TESTING:
     path_start = '..'
-    GITHUB_TOKEN = '' # Add your API token here
+    GITHUB_TOKEN = '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' # Add your API token here
     # WARNING: MAKE SURE YOU REMOVE THE ABOVE BEFORE PUSHING TO GITHUB!!!
-    USERNAME = '' # Add your username here
+    USERNAME = 'scottgriv' # Add your username here
 else:
     path_start = '.'
     GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '') # Used for GitHub Actions (environment variable)
@@ -152,6 +152,7 @@ def parse_private_md_file(file_path):
             if len(columns) >= 8:
                 icon_html = columns[1].strip()
                 name_html = columns[2].strip()
+                owner_html = columns[4].strip()
 
                 # Extracting the URL and name directly using regex
                 name_match = re.search(r'<a href="([^"]+)" target="_blank">([^<]+)</a>', columns[2].strip())
@@ -160,16 +161,16 @@ def parse_private_md_file(file_path):
                     name = name_match.group(2)
 
                     created_at = columns[3].strip()
-                    description = columns[4].strip()
-                    category = columns[5].strip()
-                    technology = columns[6].strip()
-                    tier = columns[7].strip()
+                    description = columns[5].strip()
+                    category = columns[6].strip()
+                    technology = columns[7].strip()
+                    tier = columns[8].strip()
 
                     print(f"Found {name_html} in the private markdown file.")
 
                     order = float('inf')  # Default to infinity
-                    if len(columns) > 8 and columns[8].strip().isdigit():
-                        order = int(columns[8].strip())
+                    if len(columns) > 9 and columns[9].strip().isdigit():
+                        order = int(columns[9].strip())
 
                     data = {
                         'name_html': name_html,
@@ -181,7 +182,8 @@ def parse_private_md_file(file_path):
                         'technology': technology,
                         'tier': tier,
                         'order': order,
-                        'icon_html': icon_html
+                        'icon_html': icon_html,
+                        'owner_html': owner_html
                     }
                     extra_repos_data.append(data)
 
@@ -340,14 +342,69 @@ try:
         # Initialize the counter before starting the loop
         counter = 1 
 
-        # Writing title
         md_file.write('## Project Tier Table\n\n')
+        md_file.write('<em>PRG is optimized for the following users and organizations:</em>\n\n')
+
+        # Send a GET request to the GitHub API to fetch user details
+        response = requests.get(f"https://api.github.com/users/{USERNAME}", headers={"Authorization": f"token {GITHUB_TOKEN}"})
+
+        # Check if the request was successful
+        if response.status_code == 200:
+            user_data = response.json()
+            profile_url = user_data["html_url"]
+            avatar_url = user_data["avatar_url"]
+
+            # Start a div with display:flex to align items horizontally
+            md_file.write(f'<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">\n')
+
+            # User profile and image
+            md_file.write(f'  <div style="text-align: center;">\n')  # Wrapper div for the user
+            md_file.write(f'    <a href="{profile_url}">\n')
+            md_file.write(f'      <img src="{avatar_url}" alt="{USERNAME}" style="border-radius: 50%; width="100" height="100">\n')
+            md_file.write(f'    </a>\n')
+            md_file.write(f'    <br>\n')
+            md_file.write(f'    <a href="{profile_url}">@{USERNAME}</a>\n')
+            md_file.write(f'  </div>\n')
+
+            # Organizations
+            orgs_response = requests.get(f"https://api.github.com/user/orgs", headers={"Authorization": f"token {GITHUB_TOKEN}"})
+
+            if orgs_response.status_code == 200:
+                orgs_data = orgs_response.json()
+                
+                # Loop through each organization and get details
+                for org in orgs_data:
+                    org_response = requests.get(org["url"], headers={"Authorization": f"token {GITHUB_TOKEN}"})
+                    if org_response.status_code == 200:
+                        org_details = org_response.json()
+                        org_profile_url = org_details["html_url"]
+                        org_avatar_url = org_details["avatar_url"]
+
+                        # Write the organization's details in a flex item
+                        md_file.write(f'  <div style="text-align: center;">\n')  # Wrapper div for each org
+                        md_file.write(f'    <a href="{org_profile_url}">\n')
+                        md_file.write(f'      <img src="{org_avatar_url}" alt="{org["login"]}" style="border-radius: 50%; width="100" height="100">\n')
+                        md_file.write(f'    </a>\n')
+                        md_file.write(f'    <br>\n')
+                        md_file.write(f'    <a href="{org_profile_url}">@{org["login"]}</a>\n')
+                        md_file.write(f'  </div>\n')
+
+            else:
+                print(f"Failed to fetch org data for {USERNAME}: {orgs_response.content}")
+                # Handle error or add fallback content
+
+            # Close the flex container div
+            md_file.write(f'</div>\n\n')
+
+        else:
+            print(f"Failed to fetch user data for {USERNAME}: {response.content}")
+            # Handle error or add fallback content
 
         if MD_ONLY_TIER_TABLE:
-            md_file.write('| Icon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Name | Created&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | Category | Technology | Tier&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |\n')
+            md_file.write('| Icon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Name | Created&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Owner | Description | Category | Technology | Tier&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |\n')
         else:
-            md_file.write('| Icon | Name | Created&nbsp;&nbsp;&nbsp;&nbsp; | Description | Category | Technology&nbsp; | Tier |\n')
-        md_file.write('| :---: | :---: | :---: | :--- | :--- | :--- | :---: |\n')
+            md_file.write('| Icon | Name | Created&nbsp;&nbsp;&nbsp;&nbsp; | Owner | Description | Category | Technology&nbsp; | Tier |\n')
+        md_file.write('| :---: | :---: | :---: | :---: | :--- | :--- | :--- | :---: |\n')
 
         for repo_data in sorted_repos:
 
@@ -363,6 +420,7 @@ try:
             if 'icon_html' in repo_data:
                 icon = repo_data['icon_html']
                 name = repo_data['name_html']
+                owner = repo_data['owner_html']
             else: 
                 owner = repo_data['owner']
                 icon_url = f'https://github.com/{owner}/{repo_data["name"]}/raw/main/{PROJECT_ICON_PATH}'
@@ -386,8 +444,11 @@ try:
                 # icon = f'<a href="{repo_data["url"]}" target="_blank"><img src="{icon_url}" width="100" height="100" alt="Icon"></a>'
                 name = f'<a href="{repo_data["url"]}" target="_blank">{repo_data["name"]}</a>'
 
+            # Get owner profile URL
+            owner_url = f'<a href="https://github.com/{owner}" target="_blank">@{owner}</a>'
+
             # Writing the data to the markdown file
-            md_file.write(f'| {icon} | {name} | {repo_data["created_at"]} | {repo_data["description"]} | {repo_data["category"]} | {repo_data["technology"]} | {tier} |\n')
+            md_file.write(f'| {icon} | {name} | {repo_data["created_at"]} | {owner_url} | {repo_data["description"]} | {repo_data["category"]} | {repo_data["technology"]} | {tier} |\n')
 
             # Increment the counter at the end of the loop
             counter += 1 

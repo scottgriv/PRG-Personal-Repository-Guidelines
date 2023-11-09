@@ -263,7 +263,7 @@ try:
         data['name'] = name
         data['url'] = repo['html_url']
         data['created_at'] = repo['created_at'].split('T')[0]  # Formatting date
-        data['description'] = repo['description']
+        data['description'] = repo['description'] if repo['description'] else 'No Description Provided.'
         data['size'] = repo['size']
         data['homepage'] = repo['homepage']
         data['owner'] = owner

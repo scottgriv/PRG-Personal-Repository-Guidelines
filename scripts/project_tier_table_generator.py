@@ -471,8 +471,7 @@ try:
             current_time = datetime.now(tz).strftime("%Y-%m-%d %I:%M:%S %p %Z")
 
         # Create the footer under the table
-        md_file.write(f'\n<div align="center"><i>Built with GitHub Actions</i>'
-                    f'<br><br><b>Last Updated:</b><br><b>{current_time}</b></div>\n')       
+        md_file.write(f'\n<div align="center"><b>Last Updated:</b><br><b>{current_time}</b></div>\n')       
         
         print(f"Markdown file '{MD_FILE_PATH}' has been updated.")
 

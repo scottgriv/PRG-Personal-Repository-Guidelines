@@ -353,7 +353,7 @@ try:
 
             # Write title and description
             md_file.write('## Project Tier Table\n\n')
-            md_file.write('<p align="center"><em>PRG is optimized for the following users and organizations:</em></p>\n\n')
+            md_file.write('<p align="center"><em>PRG is utilized on this webpage for the following users and organizations:</em></p>\n\n')
 
             # Start a div with display:flex to align items horizontally
             md_file.write('<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 20px;">\n')
@@ -400,6 +400,8 @@ try:
         else:
             print(f"Failed to fetch user data for {USERNAME}: {response.content}")
             # Handle error or add fallback content
+
+        md_file.write('<p align="center"><em>PRG is optimized for the following projects and repositories:</em></p>\n\n')
 
         if MD_ONLY_TIER_TABLE:
             md_file.write('| Icon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Name | Created&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Owner | Description | Category | Technology | Tier&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |\n')

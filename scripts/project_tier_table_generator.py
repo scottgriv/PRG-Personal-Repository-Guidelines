@@ -352,7 +352,6 @@ try:
             avatar_url = user_data["avatar_url"]
 
             # Write title and description
-            md_file.write('## Project Tier Table\n\n')
             md_file.write('<p align="center"><em>PRG is utilized on this webpage for the following users and organizations:</em></p>\n\n')
 
             # Start a div with display:flex to align items horizontally
@@ -401,6 +400,7 @@ try:
             print(f"Failed to fetch user data for {USERNAME}: {response.content}")
             # Handle error or add fallback content
 
+        md_file.write('## Project Tier Table\n\n')
         md_file.write('<p align="center"><em>PRG is optimized for the following projects and repositories:</em></p>\n\n')
 
         if MD_ONLY_TIER_TABLE:

@@ -358,13 +358,13 @@ try:
             md_file.write('<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 20px;">\n')
 
             # User profile and image
-            md_file.write(f'  <div style="text-align: center;">\n')  # Wrapper div for the user
-            md_file.write(f'    <a href="{profile_url}" target="_blank" class="icon-container">\n')
-            md_file.write(f'      <img src="{avatar_url}" alt="{USERNAME}" style="border-radius: 50%; width: 100px; height: 100px;">\n')
-            md_file.write(f'    </a>\n')
-            md_file.write(f'    <br>\n')
-            md_file.write(f'    <a href="{profile_url}" target="_blank">@{USERNAME}</a>\n')
-            md_file.write(f'  </div>\n')
+            md_file.write(f'<div style="text-align: center;">\n')  # Wrapper div for the user
+            md_file.write(f'<a href="{profile_url}" target="_blank" class="icon-container">\n')
+            md_file.write(f'<img src="{avatar_url}" alt="{USERNAME}" style="border-radius: 50%; width: 100px; height: 100px;">\n')
+            md_file.write(f'</a>\n')
+            md_file.write(f'<br>\n')
+            md_file.write(f'<a href="{profile_url}" target="_blank">@{USERNAME}</a>\n')
+            md_file.write(f'</div>\n')
 
             # Organizations
             orgs_response = requests.get(f"https://api.github.com/user/orgs", headers={"Authorization": f"token {GITHUB_TOKEN}"})
@@ -381,13 +381,13 @@ try:
                         org_avatar_url = org_details["avatar_url"]
 
                         # Write the organization's details in a flex item
-                        md_file.write(f'  <div style="text-align: center;">\n')  # Wrapper div for each org
-                        md_file.write(f'    <a href="{org_profile_url}" target="_blank" class="icon-container">\n')
-                        md_file.write(f'      <img src="{org_avatar_url}" alt="{org["login"]}" style="border-radius: 50%; width: 100px; height: 100px;">\n')
-                        md_file.write(f'    </a>\n')
-                        md_file.write(f'    <br>\n')
-                        md_file.write(f'    <a href="{org_profile_url}" target="_blank">@{org["login"]}</a>\n')
-                        md_file.write(f'  </div>\n')
+                        md_file.write(f'<div style="text-align: center;">\n')  # Wrapper div for each org
+                        md_file.write(f'<a href="{org_profile_url}" target="_blank" class="icon-container">\n')
+                        md_file.write(f'<img src="{org_avatar_url}" alt="{org["login"]}" style="border-radius: 50%; width: 100px; height: 100px;">\n')
+                        md_file.write(f'</a>\n')
+                        md_file.write(f'<br>\n')
+                        md_file.write(f'<a href="{org_profile_url}" target="_blank">@{org["login"]}</a>\n')
+                        md_file.write(f'</div>\n')
 
             else:
                 print(f"Failed to fetch org data for {USERNAME}: {orgs_response.content}")

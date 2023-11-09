@@ -8,16 +8,16 @@ from datetime import datetime
 import pytz
 
 # Local Testing Flag:
-LOCAL_TESTING = True # Set to True if you want to test locally, False if you want to test on GitHub Actions
+LOCAL_TESTING = False # Set to True if you want to test locally, False if you want to test on GitHub Actions
 
 print(f"Local Testing?: {LOCAL_TESTING}")
 
 # Local Test Check:
 if LOCAL_TESTING:
     path_start = '..'
-    GITHUB_TOKEN = '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' # Add your API token here
+    GITHUB_TOKEN = '' # Add your API token here
     # WARNING: MAKE SURE YOU REMOVE THE ABOVE BEFORE PUSHING TO GITHUB!!!
-    USERNAME = 'scottgriv' # Add your username here
+    USERNAME = '' # Add your username here
 else:
     path_start = '.'
     GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '') # Used for GitHub Actions (environment variable)
@@ -354,17 +354,17 @@ try:
             avatar_url = user_data["avatar_url"]
 
             # Start a div with display:flex to align items horizontally
-            md_file.write(f'<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">\n')
+            md_file.write('<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">\n')
             md_file.write('<em>PRG is optimized for the following users and organizations:</em>\n\n')
-            
+
             # User profile and image
-            md_file.write(f'  <div style="text-align: center;">\n')  # Wrapper div for the user
-            md_file.write(f'    <a href="{profile_url}">\n')
-            md_file.write(f'      <img src="{avatar_url}" alt="{USERNAME}" style="border-radius: 50%; width="100" height="100">\n')
-            md_file.write(f'    </a>\n')
-            md_file.write(f'    <br>\n')
-            md_file.write(f'    <a href="{profile_url}">@{USERNAME}</a>\n')
-            md_file.write(f'  </div>\n')
+            md_file.write('  <div style="text-align: center;">\n')  # Wrapper div for the user
+            md_file.write('    <a href="{profile_url}">\n')
+            md_file.write('      <img src="{avatar_url}" alt="{USERNAME}" style="border-radius: 50%; width="100" height="100">\n')
+            md_file.write('    </a>\n')
+            md_file.write('    <br>\n')
+            md_file.write('    <a href="{profile_url}">@{USERNAME}</a>\n')
+            md_file.write('  </div>\n')
 
             # Organizations
             orgs_response = requests.get(f"https://api.github.com/user/orgs", headers={"Authorization": f"token {GITHUB_TOKEN}"})
@@ -381,13 +381,13 @@ try:
                         org_avatar_url = org_details["avatar_url"]
 
                         # Write the organization's details in a flex item
-                        md_file.write(f'  <div style="text-align: center;">\n')  # Wrapper div for each org
-                        md_file.write(f'    <a href="{org_profile_url}">\n')
-                        md_file.write(f'      <img src="{org_avatar_url}" alt="{org["login"]}" style="border-radius: 50%; width="100" height="100">\n')
-                        md_file.write(f'    </a>\n')
-                        md_file.write(f'    <br>\n')
-                        md_file.write(f'    <a href="{org_profile_url}">@{org["login"]}</a>\n')
-                        md_file.write(f'  </div>\n')
+                        md_file.write('  <div style="text-align: center;">\n')  # Wrapper div for each org
+                        md_file.write('    <a href="{org_profile_url}">\n')
+                        md_file.write('      <img src="{org_avatar_url}" alt="{org["login"]}" style="border-radius: 50%; width="100" height="100">\n')
+                        md_file.write('    </a>\n')
+                        md_file.write('    <br>\n')
+                        md_file.write('    <a href="{org_profile_url}">@{org["login"]}</a>\n')
+                        md_file.write('  </div>\n')
 
             else:
                 print(f"Failed to fetch org data for {USERNAME}: {orgs_response.content}")

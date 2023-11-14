@@ -126,7 +126,7 @@ Add the following badge to your profile `README` to showcase your **PRG** collec
 - The hyperlink will take your profile visitors to your catagorized project tier table. 
 - This will complete the **PRG** experience for your profile visitors.
 
-### ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) Profile Badge
+### ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) Optimized Profile Badge
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_optimized.png" alt="Optimized" width="138" height="51" />

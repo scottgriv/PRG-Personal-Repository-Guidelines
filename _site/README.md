@@ -185,7 +185,7 @@ Consult the [Table Generator Guide](./categories/table_generator_guide.md) for m
 
 ## 2. Guidelines
 
-Below are the guidelines for repository `README`'s, files, and overall structure. This applies to **ALL** tiers.
+Below are the guidelines for repository `READMEs`, files, and overall structure. This applies to **ALL** tiers.
 
 ### README Guidelines
 

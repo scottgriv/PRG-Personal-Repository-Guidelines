@@ -30,15 +30,17 @@ if GITHUB_TOKEN is None:
     print("GitHub token is not set. Set the GITHUB_TOKEN environment variable.")
     sys.exit(1)
 
-# File Paths, URLs, and Timezone:
+# Required Configurations - PRG Collection URL, and Timezone:
+TIER_TABLE_URL = f'https://prgoptimized.com' # URL to the project tier table using GitHub Pages (update this if you're using a custom domain)
+MY_TIME_ZONE = 'America/New_York' # Your timezone (used for the last updated timestamp) for local testing, otherwise it will use an environment variable for GitHub Actions.
+# For a list of timezones: https://gist.github.com/heyalexej/8bf688fd67d7199be4a1682b3eec7568
+
+# Optional Configurations - File Paths:
 MD_FILE_PATH = f'{path_start}/categories/project_tier_table.md' # Path to the the main project tier table markdown file
 MD_FILE_PATH_PRIVATE = f'{path_start}/categories/project_tier_table_private.md' # Path to the private project tier table markdown file
 MD_BADGE_REF_PATH = f'{path_start}/categories/badge_references.md' # Path to the badge reference markdown file
 PLACEHOLDER_ICON = f'{path_start}/docs/images/prg-placeholder.png' # Placeholder for missing icons
 PROJECT_ICON_PATH = 'docs/images/PRG.png' # Path to the project icons from your root directory of your repository (don't adjust for local testing)
-TIER_TABLE_URL = f'https://prgoptimized.com' # URL to the project tier table using GitHub Pages (update this if you're using a custom domain)
-MY_TIME_ZONE = 'America/New_York' # Your timezone (used for the last updated timestamp) for local testing, otherwise it will use an environment variable for GitHub Actions.
-# For a list of timezones: https://gist.github.com/heyalexej/8bf688fd67d7199be4a1682b3eec7568
 
 # Note: 
 # Private repo icons cannot be reached by users that are not logged in to GitHub and have access to the private repo.
@@ -126,7 +128,7 @@ Add the following badge to your profile `README` to showcase your **PRG** collec
 - The hyperlink will take your profile visitors to your catagorized project tier table. 
 - This will complete the **PRG** experience for your profile visitors.
 
-### ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) Profile Badge
+### ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) Optimized Profile Badge
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_optimized.png" alt="Optimized" width="138" height="51" />
@@ -350,7 +352,7 @@ try:
             avatar_url = user_data["avatar_url"]
 
             # Write title and description
-            md_file.write('<p align="center"><em><strong>PRG</strong> is used by the following personal and organizational accounts on this webpage:</em></p>\n\n')
+            md_file.write('<p align="center"><em><strong>PRG</strong> is used by the following personal and organizational accounts:</em></p>\n\n')
 
             # Start a div with display:flex to align items horizontally
             md_file.write('<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 20px;">\n')

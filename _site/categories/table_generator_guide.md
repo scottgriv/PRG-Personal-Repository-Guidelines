@@ -30,7 +30,7 @@ Included in this project is a GitHub Action CI/CD workflow and `python` script t
 In order to get the **PRG** system to work, you must do the following:
 
 1. In each repository, inside the root project folder, there should be a markdown file called `PRG.md`.
-  - See the PRG Tier file used in this repo, [here](../PRG.md), for an example and more information on how to use it.
+  - See the **PRG Connection File** used in this repo, [here](../PRG.md), for an example and more information on how to use it.
   - Follow the instructions in the file to configure your repository.
   - The file name and path can be changed in the `project_tier_table_generator.py` script (default path is your project root directory).
 

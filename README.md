@@ -29,7 +29,7 @@
 
 <div align="center">
   <a href="https://prgoptimized.com" target="_blank">
-    <img src="./docs/images/demo/demo_1.png" alt="Demo_1" style="width: 35%; margin: 5px;">
+    <img src="./docs/images/demo/demo_1.gif" alt="Demo_1" style="width: 50%; margin: 5px;">
   </a>
   <br>
   <i>PRG creates a project tier table for your GitHub portfolio.</i>
@@ -91,6 +91,20 @@ Another reason I created this document was to solve the **"GitHub Portfolio Prob
 
 **PRG** was designed to solve this problem.
 
+## Getting Started
+
+To get started, you'll need to do the following:
+1. Fork this repository.
+2. Adjust the **Required Configurations** section in the `scripts/project_tier_table_generator.py` script to fit your needs.
+  - Add your custom domain name or your github.io URL to the `TIER_TABLE_URL` variable.
+  - Consult the [Table Generator Guide](./categories/table_generator_guide.md) for more details.
+3. Add a [PRG Connection File](PRG.md) file to the root of each of your repositories.
+
+  - Consult the [Category Guidelines](#1-categories) section for more details.
+
+
+ If you decide to fork it and make changes to it, please provide proper credit by linking back to the main branch of this repository! Thank you!
+
 ## What's Inside?
 
 Below is a list of the files and folders in this repository and what they are used for:
@@ -131,15 +145,11 @@ Below is a list of the files and folders in this repository and what they are us
   ├─ CITATION.cff # Citation file
   ├─ CNAME # Custom domain file
   ├─ LICENSE # License file
-  ├─ PRG.md # PRG document
+  ├─ PRG.md # PRG Connection File
   ├─ README.md # README file
   ├─ _config.yml # Jekyll configuration file
   └─ index.md # Site index file
   ```
-
-## Getting Started
-
-To get started, you can fork this repository and adjust the guidelines to fit your own needs, this was designed to be a template above all else. If you decide to fork it and make changes to it, please provide proper credit by linking back to the main branch of this repository! Thank you!
 
 ## 1. Categories
 
@@ -150,7 +160,7 @@ To solve the **"GitHub Portfolio Problem"** above and to destinguish the quality
 ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**   
 ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) **Optimized** (uncategorized) <br> 
 
-It does this by utilizing GitHub Actions to automatically create a project tier table based on a simple markdown file ([PRG.md](PRG.md)) placed in the root of each of your repositories.
+It does this by utilizing GitHub Actions to automatically create a project tier table based on a simple markdown file ([PRG Connection File](PRG.md)) placed in the root of each of your repositories.
 
 ### Tier Badges
 
@@ -185,7 +195,7 @@ Consult the [Table Generator Guide](./categories/table_generator_guide.md) for m
 
 ## 2. Guidelines
 
-Below are the guidelines for repository `README`'s, files, and overall structure. This applies to **ALL** tiers.
+Below are the guidelines for repository `READMEs`, files, and overall structure. This applies to **ALL** tiers.
 
 ### README Guidelines
 
@@ -209,7 +219,7 @@ The following templates are provided for you to use in your repositories. These 
 
 ### Tier README Templates
 
-For templates and examples of `README files`, see the [templates](/templates) directory.
+For templates and examples of `README` files, see the [templates](/templates) directory.
 Templates are broken down by the three (catagorized) tiers of projects: ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**.
 
 See the following links for `README` templates for each tier:

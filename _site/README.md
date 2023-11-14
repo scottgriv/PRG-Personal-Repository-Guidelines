@@ -70,11 +70,11 @@ This `README` highlights the **three** main areas of **PRG**:
 I needed a system to showcase my GitHub portfolio and keep it organized and standardized. My repository `README` and folder/file structures were different from each other, which was a pain to maintain or use as a template for a future projects, so I created this repository and document, the <u><b>Personal Repository Guidelines</b></u> or **PRG** for short, to help solve my problem.
 
 - This document primarily applies to the version control system here on _GitHub_ but it can be extended or applied to other version control systems as well.
-- [This](#) repository is treated no different than my other repositories, it also adheres to **PRG** (itself in this case).
+- This repository is treated no different than my other repositories, it also adheres to **PRG** (_itself in this case_).
 
 ### "The GitHub Portfolio Problem"
 
-Another reason I created this document was to solve the "GitHub Portfolio Problem" (as I like to call it):
+Another reason I created this document was to solve the **"GitHub Portfolio Problem"** (as I like to call it):
 
 > GitHub is being used to showcase my portfolio, but I don't want to showcase every single repository I have created. I want to showcase my best work, but I also want to showcase my other work that I am proud of. How do I do that?
 
@@ -111,11 +111,17 @@ Below is a list of the files and folders in this repository and what they are us
 
 ## Getting Started
 
-To get started, you can fork this repository and adjust the guidelines to fit your own needs, this was designed to be a template above all else. If you decide to fork it and make changes to it, please provide proper credit by linking back to the main branch of this repository! Thank you!
+To get started, you can fork this repository and adjust the guidelines to fit your own needs, this was designed to be a template above all else. 
+
+Next, follow the instructions below on how to set up your repository to use **PRG**.
+- Use the provided templates and guidelines to create your own `README`'s and repository structures.
+- Run the provided script to create your own project tier table.
+
+If you decide to fork it and make changes to it, please provide proper credit by linking back to the main branch of this repository! Thank you!
 
 ## 1. Categories
 
-To solve the "GitHub Portfolio Problem" above, **PRG** categorizes repositories into four tiers: ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**, and **Optimized** to destinguish the quality of the project. It does this by utilizing GitHub Actions to automatically create a project tier table based on a simple markdown file placed in each of your repositories.
+To solve the **"GitHub Portfolio Problem"** above, **PRG** categorizes repositories into four tiers: ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**, and **Optimized** to destinguish the quality of the project. It does this by utilizing GitHub Actions to automatically create a project tier table based on a simple markdown file placed in each of your repositories.
 
 ### Repository Tiers and Naming Conventions
 
@@ -190,7 +196,7 @@ To solve the "GitHub Portfolio Problem" above, **PRG** categorizes repositories 
 
 #### ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) Optimized Badge
 
-- I won't say this is _required_, because I don't want to tell you what to do with your personal profile `README`, but I strongly encourage adding one of thw two following badges to your main "About Me" profile `README` to showcase your **PRG** tier collection (this is the essence of fixing the "GitHub Portfolio Problem" I mentioned earlier):
+- I won't say this is _required_, because I don't want to tell you what to do with your personal profile `README`, but I strongly encourage adding one of thw two following badges to your main "About Me" profile `README` to showcase your **PRG** tier collection (this is the essence of fixing the **"GitHub Portfolio Problem"** I mentioned earlier):
 
 <a href="https://prgoptimized.com" target="_blank">
     <img src="https://img.shields.io/badge/PRG-Optimized-6236FF?style=for-the-badge&logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjYuMDAwMDAwcHQiIGhlaWdodD0iMzQuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCAyNi4wMDAwMDAgMzQuMDAwMDAwIgogcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+Cgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwzNC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiNGRkZGRkYiIHN0cm9rZT0ibm9uZSI+CjxwYXRoIGQ9Ik0xMiAzMjggYy04IC04IC0xMiAtNTEgLTEyIC0xMzUgMCAtMTA5IDIgLTEyNSAxOSAtMTQwIDQyIC0zOCA0OAotNDIgNTkgLTMxIDcgNyAxNyA2IDMxIC0xIDEzIC03IDIxIC04IDIxIC0yIDAgNiAyOCAxMSA2MyAxMyBsNjIgMyAwIDE1MCAwCjE1MCAtMTE1IDMgYy04MSAyIC0xMTkgLTEgLTEyOCAtMTB6IG0xMDIgLTc0IGMtNiAtMzMgLTUgLTM2IDE3IC0zMiAxOCAyIDIzCjggMjEgMjUgLTMgMjQgMTUgNDAgMzAgMjUgMTQgLTE0IC0xNyAtNTkgLTQ4IC02NiAtMjAgLTUgLTIzIC0xMSAtMTggLTMyIDYKLTIxIDMgLTI1IC0xMSAtMjIgLTE2IDIgLTE4IDEzIC0xOCA2NiAxIDc3IDAgNzIgMTggNzIgMTMgMCAxNSAtNyA5IC0zNnoKbTExNiAtMTY5IGMwIC0yMyAtMyAtMjUgLTQ5IC0yNSAtNDAgMCAtNTAgMyAtNTQgMjAgLTMgMTQgLTE0IDIwIC0zMiAyMCAtMTgKMCAtMjkgLTYgLTMyIC0yMCAtNyAtMjUgLTIzIC0yNiAtMjMgLTIgMCAyOSA4IDMyIDEwMiAzMiA4NyAwIDg4IDAgODggLTI1eiIvPgo8L2c+Cjwvc3ZnPgo=" alt="PRG Badge" />
@@ -296,16 +302,10 @@ See the following links for `README` templates for each tier:
 Thank you for taking the time to read through this document and I hope you find it useful!
 If you have any questions or suggestions, please feel free to reach out to me.
 
-## Resources
-
-Below are some resources I found helpful when creating my repositories and **PRG** in general:
-
-- [GitHub Docs](https://docs.github.com/en)
-- [GitHub Docs - About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
-
 ## What's Next?
 
-- [ ] Conform all repositories to **PRG**.
+- [X] Conform all repositories to **PRG**.
+- Check out the Discussion and [GitHub Project](https://github.com/users/scottgriv/projects/8) under the Enhancements column to see what's next for this project.
 
 I'm looking forward to seeing how this project evolves over time and how it can help others with their GitHub portfolio.
 
@@ -331,10 +331,16 @@ Feel free to submit a pull request if you find any issues or have any suggestion
 
 - Please reference the [CONTRIBUTING](CONTRIBUTING.md) file in this repository for more details.
 
+## Resources
+
+Below are some resources I found helpful when creating my repositories and **PRG** in general:
+
+- [GitHub Docs](https://docs.github.com/en)
+- [GitHub Docs - About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
+
 ## License
 
 This project is released under the terms of the **GNU General Public License, version 3 (GPLv3)**.
-
 - The GPLv3 is a "copyleft" license, ensuring that derivatives of the software remain open source and under the GPL.
 - For more details and to understand all requirements and conditions, see the [LICENSE](LICENSE) file in this repository.
 

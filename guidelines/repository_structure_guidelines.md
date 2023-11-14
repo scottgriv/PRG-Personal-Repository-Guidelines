@@ -1,4 +1,5 @@
-# Project Structure
+# Project Structure Guidelines
+
 This section describes requirements for the project file structure of your repository.
 
 > [!IMPORTANT] 
@@ -8,6 +9,7 @@ This section describes requirements for the project file structure of your repos
 Here are some general guidelines to follow regarding **PRG** and GitHub in general:
 
 ## Images, Gifs, Videos, and Documents
+
 > [!WARNING] 
 > **OPTIONAL** files for **ALL** tiers.
 
@@ -17,6 +19,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 - Add more folders as needed.
 
 ## README File
+
 > [!WARNING] 
 > **REQUIRED** file for **ALL** tiers.
 
@@ -30,6 +33,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 - [Organization README](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile)
 
 ## LICENSE File
+
 > [!WARNING] 
 > **REQUIRED** file for **ALL** tiers.
 
@@ -41,6 +45,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 - [Open Source Licenses](https://opensource.org/licenses)
 
 ## .github/CREDITS File
+
 > [!WARNING] 
 > **OPTIONAL** file for **ALL** tiers.
 
@@ -48,6 +53,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 - Compare this file to `AUTHORS`, `CONTRIBUTORS`, and `ACKNOWLEDGMENTS` files below.
 
 ## .github/CHANGELOG.md File
+
 > [!WARNING]
 > **OPTIONAL** file for **ALL** tiers.
 
@@ -56,6 +62,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 - Use the [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) format for your changelog
 
 ## .github/CONTRIBUTING.md File
+
 > [!WARNING] 
 > **OPTIONAL** file for **ALL** tiers.
 
@@ -69,6 +76,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 - [Creating a default community health file for your organization](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
 
 ## .github/CODE_OF_CONDUCT.md File
+
 > [!WARNING]
 > **OPTIONAL** file for **ALL** tiers.
 
@@ -81,6 +89,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 - [Creating a default community health file for your organization](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
 
 ## .github/SECURITY.md File
+
 > [!WARNING]
 > **OPTIONAL** file for **ALL** tiers.
 
@@ -91,6 +100,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 - [Creating a default community health file for your organization](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
 
 ## .github/SUPPORT.md File
+
 > [!WARNING]
 > **OPTIONAL** file for **ALL** tiers.
 
@@ -102,6 +112,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 
 
 ## .github/CODEOWNERS File
+
 > [!WARNING]
 > **OPTIONAL** file for **ALL** tiers.
 
@@ -111,6 +122,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 - [About code owners](https://help.github.com/articles/about-codeowners/)
 
 ## FUNDING.yml File
+
 > [!WARNING]
 > **OPTIONAL** file for **ALL** tiers.
 
@@ -121,6 +133,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 - [Creating a default community health file for your organization](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
 
 ## CITATION.cff File
+
 > [!WARNING]
 > **OPTIONAL** file for **ALL** tiers.
 
@@ -131,6 +144,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 - [About Citation Files](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files)
 
 # .github/ISSUE_TEMPLATE.md File or ./ISSUE_TEMPLATE Folder
+
 > [!WARNING]
 > **OPTIONAL** file for **ALL** tiers.
 
@@ -145,6 +159,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 - [Creating a default community health file for your organization](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
 
 # .github/PULL_REQUEST_TEMPLATE.md File ./PULL_REQUEST_TEMPLATE Directory
+
 > [!WARNING]
 > **OPTIONAL** file for **ALL** tiers.
 
@@ -158,6 +173,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 - [About automation for issues and pull requests with query parameters](https://docs.github.com/en/github/building-a-strong-community/about-automation-for-issues-and-pull-requests-with-query-parameters)
 
 ## Other GitHub Special Files
+
 > [!WARNING] 
 > **OPTIONAL** files for **ALL** tiers.
 
@@ -169,6 +185,7 @@ Below are some other popular files used in GitHub repositories:
 - `GOVERNANCE` file in your repository for more detailed information on the governance for your project.
 
 ## .gitignore File
+
 > [!WARNING] 
 > **REQUIRED** file for **ALL** tiers.
 
@@ -177,6 +194,7 @@ Below are some other popular files used in GitHub repositories:
     - i.e. `.vscode/`, `venv/`, `.env`
 
 ## .gitattributes File
+
 > [!WARNING] 
 > **OPTIONAL** file for **ALL** tiers.
 
@@ -186,6 +204,7 @@ Below are some other popular files used in GitHub repositories:
 [Linguist](https://github.com/github-linguist/linguist/tree/master) 
 
 ## .editorconfig File
+
 > [!WARNING]
 > **OPTIONAL** file for **ALL** tiers.
 
@@ -195,6 +214,7 @@ Below are some other popular files used in GitHub repositories:
 [EditorConfig](https://editorconfig.org/)
 
 ## .prettierrc File
+
 > [!WARNING]
 > **OPTIONAL** file for **ALL** tiers.
 
@@ -204,6 +224,7 @@ Below are some other popular files used in GitHub repositories:
 [Prettier](https://prettier.io/)
 
 ## .eslintrc File
+
 > [!WARNING]
 > **OPTIONAL** file for **ALL** tiers.
 
@@ -213,6 +234,7 @@ Below are some other popular files used in GitHub repositories:
 [ESLint](https://eslint.org/)
 
 ## .stylelintrc File
+
 > [!WARNING]
 > **OPTIONAL** file for **ALL** tiers.
 
@@ -222,6 +244,7 @@ Below are some other popular files used in GitHub repositories:
 [Stylelint](https://stylelint.io/)
 
 ## .huskyrc File
+
 > [!WARNING]
 > **OPTIONAL** file for **ALL** tiers.
 
@@ -231,6 +254,7 @@ Below are some other popular files used in GitHub repositories:
 [Husky](https://typicode.github.io/husky/#/)
 
 ## .github Folder
+
 > [!WARNING]
 > **OPTIONAL** folder for **ALL** tiers.
 
@@ -240,6 +264,7 @@ Below are some other popular files used in GitHub repositories:
 [GitHub Docs](https://docs.github.com/en/github/building-a-strong-community)
 
 ## .github/workflows Folder
+
 > [!WARNING]
 > **OPTIONAL** folder for **ALL** tiers.
 
@@ -249,6 +274,7 @@ Below are some other popular files used in GitHub repositories:
 [GitHub Actions Docs](https://docs.github.com/en/actions)
 
 ## .github/dependabot.yml File
+
 > [!WARNING]
 > **OPTIONAL** file for **ALL** tiers.
 
@@ -258,6 +284,7 @@ Below are some other popular files used in GitHub repositories:
 [Dependabot Docs](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/configuration-options-for-dependency-updates) 
 
 ## api Folder
+
 > [!WARNING]
 > **OPTIONAL** folder for **ALL** tiers.
 
@@ -266,6 +293,7 @@ Below are some other popular files used in GitHub repositories:
 - Iclude any postman collections in this folder.
 
 ## Misc. Folders
+
 > [!WARNING]
 > **OPTIONAL** folders for **ALL** tiers.
 
@@ -274,6 +302,7 @@ Below are some other popular files used in GitHub repositories:
 - Its important to follow your frameworks conventions and programming style guides.
 
 ### Resources
+
 Below is a great resource for GitHub special files and paths:
 - [GitHub Special Files and Paths](https://github.com/joelparkerhenderson/github-special-files-and-paths).
 

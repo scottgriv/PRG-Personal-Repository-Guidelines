@@ -4,6 +4,7 @@
 
 ### Added or Changed
 - Added this changelog file :D
+- Initial Release of the PRG repository guidelines.
 
 ### Removed
-- Removed push action from workflow
+- N/A

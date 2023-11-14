@@ -20,7 +20,7 @@ Here are some general guidelines to follow:
 
 ### Templates
 
-For templates and examples of `README files`, see the [templates](../templates) directory.
+For templates and examples of `README` files, see the [templates](../templates) directory.
 Templates are broken down by the three tiers of projects: **Gold**, **Silver**, and **Bronze**.
 
 See the following links for `README` templates for each tier:
@@ -39,10 +39,10 @@ See the following links for `README` templates for each tier:
 - See [PRG Brand Guidelines](brand_guidelines.md) for more information on creating banners and other graphics for your project.
 - **Silver** projects don't require a banner, but feel free to add a logo of the technology you used to develop your project.
     - i.e. Svelte + Firebase Logos <br>
-    <img src="./docs/images/demo/svelte_logo.png" alt="Svelte" style="width: 5%; vertical-align: left;" />
-    <img src="./docs/images/demo/plus-dark.png#gh-dark-mode-only" alt="+" style="width: 5%;vertical-align: left;"/>
-    <img src="./docs/images/demo/plus-light.png#gh-light-mode-only" alt="+" style="width: 5%; vertical-align: left;" />
-    <img src="./docs/images/demo/firebase_logo.png" alt="Firebase" style="width: 5%; vertical-align: left;" />
+    <img src="../docs/images/demo/svelte_logo.png" alt="Svelte" style="width: 5%; vertical-align: left;" />
+    <img src="../docs/images/demo/plus-dark.png#gh-dark-mode-only" alt="+" style="width: 5%;vertical-align: left;"/>
+    <img src="../docs/images/demo/plus-light.png#gh-light-mode-only" alt="+" style="width: 5%; vertical-align: left;" />
+    <img src="../docs/images/demo/firebase_logo.png" alt="Firebase" style="width: 5%; vertical-align: left;" />
 
 > [!NOTE]  
 > Append `#gh-dark-mode-only` or `#gh-light-mode-only` to the end of the image URL to only show the image in dark or light mode respectively. Be sure to have both a dark and light version of the image when necessary. More on this (shameless plug) [here](https://github.com/scottgriv/markdown-demo#images).
@@ -84,7 +84,7 @@ See the following links for `README` templates for each tier:
 - The description should be a short paragraph describing what your project is and what it does.
 - This should be the first section after the badges.
     - i.e. "A Python, Django, Plotly, and Pandas web application that visualizes river data pulled using an API from the United States Geological Survey (USGS)."
-- Add **screenshots** of your project below the description and throughout the rest of the README as needed.
+- Add **screenshots** of your project below the description and throughout the rest of the `README` as needed.
     - This is optional, but highly recommended especially for **Gold** projects.
     - Animations in the form of GIFs are also a great way to showcase your project.
         - I use [GiFox](https://gifox.io/) to create GIFs of my projects, but you can use any GIF creation software you want.
@@ -97,7 +97,7 @@ See the following links for `README` templates for each tier:
 > **REQUIRED** section for **Gold** and **Silver** tiers.
 > **Bronze** tier projects do not require this section, but feel free to add it if you want.
 
-- The table of contents should be a list of links to each section of your README.
+- The table of contents should be a list of links to each section of your `README`.
 - This should be the second section after the description.
 
 ## Background Story
@@ -269,7 +269,7 @@ See the following links for `README` templates for each tier:
     - I do not want people to use my code to profit off of it without my permission which is why I chose this more restrictive license.
 - I chose [MIT]() for my **Silver** projects.
     - Why? I put more work into my **Silver** projects than my **Bronze** projects, so I want to protect my work a little more but still allow people to use my code in their own projects by giving me credit for it.
-- I chose [The Unlicense]() for my **Bronze** projects.
+- I chose [The Unlicense](../templates/license_examples/Un) for my **Bronze** projects.
     - Why? Because I want to encourage people to use my code in their own projects, even if they don't give me credit for it.
 - Include a `LICENSE` file in your repository for more detailed information on the license for your project.
 - The above licenses are the licenses I chose for my projects, but you can choose whatever license you want for your projects.

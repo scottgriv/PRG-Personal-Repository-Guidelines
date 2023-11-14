@@ -6,8 +6,11 @@ Here are some general guidelines to follow:
 
 ## README File
 
-> [!WARNING] 
-> A `README.md` file is **REQUIRED** for **ALL** tiers.
+> [!WARNING]
+> A `README` file is **REQUIRED** for **ALL** tiers.
+
+> [!NOTE]
+> Your Profile `README` does not need to adhere to the **PRG** guidelines defined in this document, but it is encouraged to include the [Profile Badge](../README.md#6236ff-profile-badge) to link to your **PRG** project collection.
 
 - A Profile `README` is always required. Read more about it [here](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
     - View [GitHub Profile README Generator](https://rahuldkjain.github.io/gh-profile-readme-generator/) for a quick and easy way to generate a profile `README` for your GitHub profile.
@@ -63,11 +66,11 @@ See the following links for `README` templates for each tier:
     - i.e. [![Email Badge](https://img.shields.io/badge/gmail-contact_me-DC4233?style=for-the-badge&logo=gmail)](mailto:scott.grivner@gmail.com)
     - i.e. [![GitHub Badge](https://img.shields.io/badge/github-follow-9031AC?style=for-the-badge&logo=github&color=9031AC)](https://github.com/scottgriv)
     - i.e. [![BuyMeACoffee Badge](https://img.shields.io/badge/buy_me_a_coffee-support_me-FEDE1F?style=for-the-badge&logo=buymeacoffee&color=FEDE1F)](https://www.buymeacoffee.com/scottgriv)
-- Next, add a horizontal rule to separate the badges from the rest of the README.
+- Next, add a horizontal rule to separate the badges from the rest of the `README`.
     - i.e. `---`
 
 > [!NOTE] 
-> To demonstrate your project adheres to **PRG**, please include the appropriate badge at the top of your repository README. See the top of this README for an example.
+> To demonstrate your project adheres to **PRG**, please include the appropriate badge at the top of your repository `README`. See the top of this `README` for an example.
 
 ## Title
 
@@ -84,7 +87,7 @@ See the following links for `README` templates for each tier:
 - The description should be a short paragraph describing what your project is and what it does.
 - This should be the first section after the badges.
     - i.e. "A Python, Django, Plotly, and Pandas web application that visualizes river data pulled using an API from the United States Geological Survey (USGS)."
-- Add **screenshots** of your project below the description and throughout the rest of the README as needed.
+- Add **screenshots** of your project below the description and throughout the rest of the `README` as needed.
     - This is optional, but highly recommended especially for **Gold** projects.
     - Animations in the form of GIFs are also a great way to showcase your project.
         - I use [GiFox](https://gifox.io/) to create GIFs of my projects, but you can use any GIF creation software you want.
@@ -97,7 +100,7 @@ See the following links for `README` templates for each tier:
 > **REQUIRED** section for **Gold** and **Silver** tiers.
 > **Bronze** tier projects do not require this section, but feel free to add it if you want.
 
-- The table of contents should be a list of links to each section of your README.
+- The table of contents should be a list of links to each section of your `README`.
 - This should be the second section after the description.
 
 ## Background Story
@@ -264,19 +267,19 @@ See the following links for `README` templates for each tier:
 > **REQUIRED** section for **ALL** tiers.
 
 - Describe the license for your project here.
-- I chose [GNU GPLv3]() for my **Gold** projects.
-    - Why? I spent a lot of time on my **Gold** projects and I want to protect my work as much as possible.
-    - I do not want people to use my code to profit off of it without my permission which is why I chose this more restrictive license.
-- I chose [MIT]() for my **Silver** projects.
-    - Why? I put more work into my **Silver** projects than my **Bronze** projects, so I want to protect my work a little more but still allow people to use my code in their own projects by giving me credit for it.
-- I chose [The Unlicense]() for my **Bronze** projects.
-    - Why? Because I want to encourage people to use my code in their own projects, even if they don't give me credit for it.
-- Include a `LICENSE` file in your repository for more detailed information on the license for your project.
-- The above licenses are the licenses I chose for my projects, but you can choose whatever license you want for your projects.
 - I found it helpful to break down what license I choose based on the `PRG Tier` of the project:
     - **Gold** - GNU GPLv3
     - **Silver** - MIT
     - **Bronze** - The Unlicense
+- I chose [GNU GPLv3](../templates/license_examples/GNU/LICENSE) for my **Gold** projects.
+    - Why? I spent a lot of time on my **Gold** projects and I want to protect my work as much as possible.
+    - I do not want people to use my code to profit off of it without my permission which is why I chose this more restrictive license.
+- I chose [MIT](../templates/license_examples/MIT/LICENSE) for my **Silver** projects.
+    - Why? I put more work into my **Silver** projects than my **Bronze** projects, so I want to protect my work a little more but still allow people to use my code in their own projects by giving me credit for it.
+- I chose [The Unlicense](../templates/license_examples/Unlicense/LICENSE) for my **Bronze** projects.
+    - Why? Because I want to encourage people to use my code in their own projects, even if they don't give me credit for it.
+- Include a `LICENSE` file in your repository for more detailed information on the license for your project.
+- The above licenses are the licenses I chose for my projects, but you can choose whatever license you want for your projects.
 - A list of licenses can be found [here](https://choosealicense.com/licenses/).
 
 ## Credits

@@ -1,15 +1,18 @@
-## Repository Settings
+# Repository Settings Guidelines
+
 I will be using my project [River-Charts](https://github.com/scottgriv/River-Charts) as an example for the following guideline:
 - Click the gear icon next to "About" in the upper right corner of your repository to access the repository settings.
 
-### Description
+## Description
+
 > [!WARNING]
 > **REQUIRED** file for **ALL** tiers.
 
 Use a description that is short and to the point. This is the first thing people will see when they visit your repository. Make it count!
 - i.e. "A Python, Django, Plotly, and Pandas web application that visualizes river data pulled using an API from the United States Geological Survey (USGS)."
 
-### Website
+## Website
+
 > [!WARNING]
 > **OPTIONAL** file for **ALL** tiers.
 > Strongly encouraged if you're able to host a static website to demonstrate your project.
@@ -24,7 +27,8 @@ Use a description that is short and to the point. This is the first thing people
     - [Hugo](https://gohugo.io/) is a great static site generator that is built into Netlify.
     - [Gatsby](https://www.gatsbyjs.com/) is a great static site generator that is built into Netlify.
 
-### Topics
+## Topics
+
 > [!WARNING]
 > **REQUIRED** file for **ALL** tiers.
 
@@ -32,7 +36,8 @@ Use a description that is short and to the point. This is the first thing people
 - Topics should highlight the main technologies, frameworks, and languages used in the project.
     - i.e. visualization, python, api, charts, data, django, plotly, pandas, data-visualization, dataset, webapp, data-analysis, usgs, usgs-api
 
-### Misc. Settinges
+## Misc. Settinges
+
 - Releases, Packages, Deployments should only be checked under "Include in the home page" if you're using those features.
 - I strongly recommend using Releases for **Gold** projects.
 - Make sure you Pin your project to your profile if you want it to show up on your profile page. 

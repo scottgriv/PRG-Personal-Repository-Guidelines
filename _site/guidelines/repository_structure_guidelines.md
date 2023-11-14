@@ -52,7 +52,12 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 > **OPTIONAL** file for **ALL** tiers.
 
 - This file contains a list of changes for each version of your project.
-- Follow [Semantic Versioning](https://semver.org/) guidelines mentioned above.
+- Follow [Semantic Versioning](https://semver.org/) guidelines.
+    - Given a version number **MAJOR.MINOR.PATCH** (e.g. 1.0.0), increment the:
+        - **MAJOR** version when you make incompatible API changes
+        - **MINOR** version when you add functionality in a backward compatible manner
+        - **PATCH** version when you make backward compatible bug fixes
+        - Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 - Use the [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) format for your changelog
 
 ## .github/CONTRIBUTING.md File

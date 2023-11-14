@@ -16,6 +16,8 @@ Use a description that is short and to the point. This is the first thing people
 > Link the website to the `banner_large.png` file if it is for a **Gold** tier project.
 > Link the website to the `banner_small.png` file if it is for a **Silver** or **Bronze** tier project.
 
+e.g. https://www.rivercharts.app/
+
 - [PythonAnywhere](https://www.pythonanywhere.com/) is a great free option for hosting Python web applications.
     - i.e. http://scottgriv.pythonanywhere.com/
 - [GitHub Pages](https://pages.github.com/) is a great free option for hosting static websites for your project.

@@ -30,12 +30,12 @@
 
 ---
 
-<h1 align="center">Project Title</h1>
+<h1 align="center"><img src="https://via.placeholder.com/15/CD7F32/000000?text=+"> Bronze Tier Project Title</img></h1>
 
 - The description should be a short paragraph describing what your project is and what it does.
 - This should be the first section after the badges.
     - i.e. "A Python, Django, Plotly, and Pandas web application that visualizes river data pulled using an API from the United States Geological Survey (USGS)."
-- Add **screenshots** of your project below the description and throughout the rest of the README as needed.
+- Add **screenshots** of your project below the description and throughout the rest of the `README` as needed.
     - This is optional, but highly recommended especially for **Gold** projects.
     - Animations in the form of GIFs are also a great way to showcase your project.
         - I use [GiFox](https://gifox.io/) to create GIFs of my projects, but you can use any GIF creation software you want.
@@ -59,9 +59,9 @@
 
 ## License
 
-This project is released under the terms of the **MIT License**, which permits use, modification, and distribution of the code, subject to the conditions outlined in the license.
-- The [MIT License](https://choosealicense.com/licenses/mit/) provides certain freedoms while preserving rights of attribution to the original creators.
-- For more details, see the [LICENSE](./license_examples/MIT_LICENSE) file in this repository.
+This project is released under the terms of the **Unlicense** License, which allows you to use, modify, and distribute the code as you see fit. 
+- The Unlicense removes traditional copyright restrictions, giving you the freedom to use the code in any way you choose.
+- For more details, see the [LICENSE](./license_examples/Unlicense/LICENSE) file in this repository.
 - A list of licenses can be found [here](https://choosealicense.com/licenses/).
 
 ## Credits

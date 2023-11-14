@@ -1,7 +1,7 @@
 ## Tier Badges
 
-Use this file as a template to gather and add badges to your project's `README.md` files.
-- Be sure to run the workflow to automatically update the badges with your username
+Use this file as a template to gather and add badges to your project's `README` files.
+- Be sure to run the workflow to automatically update the badges with your username.
 - Optionally, you can change the `href` attributes below to point to your project's repository by changing the username to your GitHub username.
 
 ### Gold Project Badge

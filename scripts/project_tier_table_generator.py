@@ -78,57 +78,51 @@ def create_repo_badges(username):
 
     repo_badge_template = f"""## Tier Badges
 
-Use this file as a template to gather and add badges to your project's `README.md` files.
-- Be sure to run the workflow to automatically update the badges with your username
-- Optionally, you can change the `href` attributes below to point to your project's repository by changing the username to your GitHub username.
+Use this file as a template to gather and add badges to your project's `README` files.
+- Be sure to run the workflow to automatically update the badges below with your username.
+- Prior to running the workflow, update the `project_tier_table_generator.py` script's `TIER_TABLE_URL` parameter to point to your project's **PRG** website/domain.
 
-### Gold Project Badge
+#### ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) Gold Tier Project Badge
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Gold']}" alt="Gold" />
 </a>
 
-### Silver Project Badge
+### ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) Silver Tier Project Badge
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Silver']}" alt="Silver" />
 </a>
 
-### Bronze Project Badge
+### ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) Bronze Tier Project Badge
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Bronze']}" alt="Bronze" />
 </a>
 
-### Purple Brand Badge
+### ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) Optimized Project Badge (Purple Book - Default)
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Purple']}" alt="Optimized" />
 </a>
 
-### Black Brand Badge
+### ![#6236FF](https://via.placeholder.com/15/000000/000000?text=+) Optimized Project Badge (Black Book)
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Black']}" alt="Optimized" />
 </a>
 
-### White Brand Badge
+### ![#6236FF](https://via.placeholder.com/15/FFFFFF/000000?text=+) Optimized Project Badge (White Book)
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['White']}" alt="Optimized" />
 </a>
 
-## Profile README Badges
+## Profile Badge
 
-Add one of the two badges below to your Profile `README` to show that you follow **PRG**, the hpyerlink will take your profile visitors to your catagorized project tier table. You may need to adjust the `src` attribute of the image tag to point to the correct path of the image and also include the "prg_optimized.png" file in your repository.
+Add the followinf badge to your Profile `README` to show that you use **PRG**, the hpyerlink will take your profile visitors to your catagorized project tier table. You may need to adjust the `src` attribute of the image tag to point to the correct path of the image and also include the "prg_optimized.png" file in your repository.
 
-### PRG Optimized Badge
-
-<a href="{TIER_TABLE_URL}" target="_blank">
-    <img src="{BADGES['Optimized']}" alt="Optimized" />
-</a>
-
-### PRG Optimized Logo
+### ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) Profile Badge
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="../docs/images/prg_optimized.png" alt="Optimized" width="138" height="51" />
@@ -352,7 +346,7 @@ try:
             avatar_url = user_data["avatar_url"]
 
             # Write title and description
-            md_file.write('<p align="center"><em><strong>PRG</strong> is used by the following users and organizations on this webpage:</em></p>\n\n')
+            md_file.write('<p align="center"><em><strong>PRG</strong> is used by the following personal and organizational accounts on this webpage:</em></p>\n\n')
 
             # Start a div with display:flex to align items horizontally
             md_file.write('<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 20px;">\n')
@@ -426,6 +420,8 @@ try:
                 icon_response = requests.get(icon_url)
                 if icon_response.status_code != 200 or repo_data['size'] == 0:
                     print(f"No icon found for {repo_data['name']} or the repository is empty, using a placeholder.")
+                    if MD_ONLY_TIER_TABLE:
+                        path_start = '..'
                     icon_url = PLACEHOLDER_ICON
                 else:
                     print(f"Icon found for {repo_data['name']}!")

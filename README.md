@@ -149,14 +149,9 @@ Below is a list of the files and folders in this repository and what they are us
   ├─ _config.yml # Jekyll configuration file
   └─ index.md # Site index file
   ```
+---------------
 
 ## 1. Categories
-
-> **Related Section Documents:** <br>
-> [Category Guidelines](./guidelines/category_guidelines.md) <br>
-> [Table Generator Guide](./categories/table_generator_guide.md) <br>
-> [Project Tier Table](./categories/project_tier_table.md) <br>
-> [Project Tier Table (Private)](./categories/project_tier_table_private.md)
 
 To solve the **"GitHub Portfolio Problem"** above and to destinguish the quality of the project, **PRG** categorizes repositories into four tiers: <br>
 <br>
@@ -200,13 +195,15 @@ Consult the [Category Guidelines](./guidelines/category_guidelines.md) for more 
 
 Consult the [Table Generator Guide](./categories/table_generator_guide.md) for more details on how to setup the project tier table generator using GitHub Actions and GitHub Pages.
 
-## 2. Guidelines
-
 > **Related Section Documents:** <br>
-> [README Guidelies](./guidelines/readme_guidelines.md) <br>
-> [Brand Guidelines](./guidelines/brand_guidelines.md) <br>
-> [Repository Structure Guidelines](./guidelines/repository_structure_guidelines.md) <br>
-> [Repository Settings Guidelines](./guidelines/repository_settings_guidelines.md)
+> [Category Guidelines](./guidelines/category_guidelines.md) <br>
+> [Table Generator Guide](./categories/table_generator_guide.md) <br>
+> [Project Tier Table](./categories/project_tier_table.md) <br>
+> [Project Tier Table (Private)](./categories/project_tier_table_private.md)
+
+---------------
+
+## 2. Guidelines
 
 Below are the guidelines for repository `READMEs`, files, and overall structure. This applies to **ALL** tiers.
 
@@ -226,16 +223,19 @@ See [Repository Structure Guidelines](./guidelines/repository_structure_guidelin
 
 See [Repository Settings Guidelines](./guidelines/repository_settings_guidelines.md) for more details on how to configure your repository settings.
 
+> **Related Section Documents:** <br>
+> [README Guidelies](./guidelines/readme_guidelines.md) <br>
+> [Brand Guidelines](./guidelines/brand_guidelines.md) <br>
+> [Repository Structure Guidelines](./guidelines/repository_structure_guidelines.md) <br>
+> [Repository Settings Guidelines](./guidelines/repository_settings_guidelines.md)
+
+---------------
+
 ## 3. Templates
 
 The following templates are provided for you to use in your repositories. These templates are designed to be used with the **PRG** system.
 
 ### Tier README Templates
-
-> **Related Section Documents:** <br>
-> [Gold Tier README Template](templates/README_gold.md) <br>
-> [Silver Tier README Template](templates/README_silver.md) <br>
-> [Bronze Tier README Template](templates/README_bronze.md)
 
 For templates and examples of `README` files, see the [templates](/templates) directory.
 Templates are broken down by the three (catagorized) tiers of projects: ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**.
@@ -250,6 +250,13 @@ See the following links for `README` templates for each tier:
 
    > [!NOTE] 
    > I personally use this tier for my personal and organization profile `READMEs`.
+
+> **Related Section Documents:** <br>
+> [Gold Tier README Template](templates/README_gold.md) <br>
+> [Silver Tier README Template](templates/README_silver.md) <br>
+> [Bronze Tier README Template](templates/README_bronze.md)
+
+---------------
 
 ## Closing
 

@@ -164,7 +164,10 @@ See the following links for `README` templates for each tier:
     ├── LICENSE # A file that contains the license for this project.
     └── CREDITS # A file that contains the credits for this project.
     ```
-    - You can use a tool like [tree.nathanfriend.io](https://tree.nathanfriend.io/) to generate a tree diagram for your project.
+    - You can use a the following tools to generate a tree diagram for your project:
+        - [tree.nathanfriend.io](https://tree.nathanfriend.io/)
+        - [woochanleee.github.io](https://woochanleee.github.io/project-tree-generator/)
+        - [VSCode Extension](https://marketplace.visualstudio.com/items?itemName=tobiaswadseth.file-tree-generator)
 
 ## Dependencies
 

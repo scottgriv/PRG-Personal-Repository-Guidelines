@@ -187,6 +187,13 @@ The following are optional, but you made need them depending on your project:
     - This is a great way to document your project and share it with others.
     - You can read more about Medium [here](https://medium.com/).
 
+## Demo & Screenshots
+
+- A demo is not required for any project, but is encouraged for Gold tier projects.
+- Name your screenshots and GIF's whatever you'd like, but be sure to place them in the `docs/images` folder.
+    - I usually name my demo `demo_1.png, demo_2.png, demo_1.gif, etc.` and place it in the `docs/images/demo` folder.
+    - I also usually place these on the top of my `README` file and hyperlink it to the product demo.
+
 ## Closing
 
 - Export all of your designs as SVGs and PNGs where applicable.

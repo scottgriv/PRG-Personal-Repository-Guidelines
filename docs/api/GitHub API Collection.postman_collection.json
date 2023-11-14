@@ -1,0 +1,987 @@
+{
+	"info": {
+		"_postman_id": "6fe30c2f-38d3-4fc0-b210-7e622b6b6507",
+		"name": "GitHub API Collection",
+		"description": "> A simple collection based on [GitHub API V3](https://docs.github.com/en/rest/reference) \n  \n\n## Features\n\n- Get Profile Information\n- Create repository on GitHub\n- Create Issues on any repository in GitHub\n- Delete your repository\n- Check health of GitHub API\n    \n\n## Getting Started\n\nGenerate a [Personal Access Token](https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api#authentication) with the following grants:\n\n- Repo:all\n- Delete Repo\n    \n\n<img src=\"https://docs.github.com/assets/images/personal_token.png\">\n\nThe Collection uses the following Collection Variables:\n\n- `username` : Fill in your GitHub Username\n- `url` : The base URL endpoint of GitHub v3 API\n- `repoName`: \\[OPTIONAL\\] the repo to delete, and create issues on. Is automatically set using Postman Tests.\n    \n\nCollection By: [Hemanth Krishna](https://github.com/DarthBenro008)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24571367"
+	},
+	"item": [
+		{
+			"name": "Check API Health (Get a random philosophical quote)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"GitHub API Health\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"})"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/zen",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"zen"
+					]
+				},
+				"description": "This API Endpoint checks the Health of GitHub API. It returns a random design philosophical quote"
+			},
+			"response": [
+				{
+					"name": "Check API Health (Get a random philosophical quote)",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.github.com/zen",
+							"protocol": "https",
+							"host": [
+								"api",
+								"github",
+								"com"
+							],
+							"path": [
+								"zen"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Server",
+							"value": "GitHub.com"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 18 Jul 2021 07:31:06 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=utf-8"
+						},
+						{
+							"key": "Access-Control-Expose-Headers",
+							"value": "ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubdomains; preload"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "deny"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "origin-when-cross-origin, strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'none'"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding, Accept, X-Requested-With"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "54"
+						},
+						{
+							"key": "X-RateLimit-Reset",
+							"value": "1626594015"
+						},
+						{
+							"key": "X-RateLimit-Resource",
+							"value": "core"
+						},
+						{
+							"key": "X-RateLimit-Used",
+							"value": "6"
+						},
+						{
+							"key": "Accept-Ranges",
+							"value": "bytes"
+						},
+						{
+							"key": "Content-Length",
+							"value": "51"
+						},
+						{
+							"key": "X-GitHub-Request-Id",
+							"value": "5E32:306F:A531B:D1E52:60F3D8BA"
+						}
+					],
+					"cookie": [],
+					"body": "Responsive is better than fast."
+				}
+			]
+		},
+		{
+			"name": "Get User Information",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/users/{{username}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"users",
+						"{{username}}"
+					]
+				},
+				"description": "This API Call will get the user information.\n\n- Username must be defined in collection variable"
+			},
+			"response": [
+				{
+					"name": "Get User Information",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/users/{{username}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"users",
+								"{{username}}"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "GitHub.com"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 18 Jul 2021 07:27:29 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "public, max-age=60, s-maxage=60"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Accept-Encoding, Accept, X-Requested-With"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"e148006e77e82ef8879813060f1048b3fda576c5b92345e712c9032ffaa2e2c2\""
+						},
+						{
+							"key": "Last-Modified",
+							"value": "Sat, 17 Jul 2021 12:59:05 GMT"
+						},
+						{
+							"key": "X-GitHub-Media-Type",
+							"value": "github.v3; format=json"
+						},
+						{
+							"key": "Access-Control-Expose-Headers",
+							"value": "ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubdomains; preload"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "deny"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "origin-when-cross-origin, strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'none'"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "55"
+						},
+						{
+							"key": "X-RateLimit-Reset",
+							"value": "1626594015"
+						},
+						{
+							"key": "X-RateLimit-Resource",
+							"value": "core"
+						},
+						{
+							"key": "X-RateLimit-Used",
+							"value": "5"
+						},
+						{
+							"key": "Accept-Ranges",
+							"value": "bytes"
+						},
+						{
+							"key": "Content-Length",
+							"value": "578"
+						},
+						{
+							"key": "X-GitHub-Request-Id",
+							"value": "5A20:5BC4:37489B:4000C1:60F3D7E1"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"login\": \"DarthBenro008\",\n    \"id\": 31009634,\n    \"node_id\": \"MDQ6VXNlcjMxMDA5NjM0\",\n    \"avatar_url\": \"https://avatars.githubusercontent.com/u/31009634?v=4\",\n    \"gravatar_id\": \"\",\n    \"url\": \"https://api.github.com/users/DarthBenro008\",\n    \"html_url\": \"https://github.com/DarthBenro008\",\n    \"followers_url\": \"https://api.github.com/users/DarthBenro008/followers\",\n    \"following_url\": \"https://api.github.com/users/DarthBenro008/following{/other_user}\",\n    \"gists_url\": \"https://api.github.com/users/DarthBenro008/gists{/gist_id}\",\n    \"starred_url\": \"https://api.github.com/users/DarthBenro008/starred{/owner}{/repo}\",\n    \"subscriptions_url\": \"https://api.github.com/users/DarthBenro008/subscriptions\",\n    \"organizations_url\": \"https://api.github.com/users/DarthBenro008/orgs\",\n    \"repos_url\": \"https://api.github.com/users/DarthBenro008/repos\",\n    \"events_url\": \"https://api.github.com/users/DarthBenro008/events{/privacy}\",\n    \"received_events_url\": \"https://api.github.com/users/DarthBenro008/received_events\",\n    \"type\": \"User\",\n    \"site_admin\": false,\n    \"name\": \"Hemanth Krishna\",\n    \"company\": null,\n    \"blog\": \"https://www.linkedin.com/in/darthbenro008/\",\n    \"location\": \"India\",\n    \"email\": null,\n    \"hireable\": null,\n    \"bio\": \"GSoC'21 @litmuschaos | LFX Mentee 2021 @cncf @keptn | Maintainer @gofiber | CS Undergrad\",\n    \"twitter_username\": \"hemanth_kri\",\n    \"public_repos\": 57,\n    \"public_gists\": 2,\n    \"followers\": 87,\n    \"following\": 27,\n    \"created_at\": \"2017-08-14T14:32:09Z\",\n    \"updated_at\": \"2021-07-17T12:59:05Z\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Create a repository",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"GitHub Repo Creation\", function(){\r",
+							"    pm.response.to.have.status(201); \r",
+							"    var data = pm.response.json();\r",
+							"    pm.collectionVariables.set(\"repoName\", data.name);\r",
+							"})\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Postman API 101 Repository\",\r\n    \"auto_init\": true,\r\n    \"private\": true,\r\n    \"gitignore_template\": \"nanoc\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/user/repos",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"user",
+						"repos"
+					]
+				},
+				"description": "Creates a repository on behalf of the user.\n\nMust note that one should have provided an access token with ample access such as:\n\n- Repo Creation\n- Repo Deletion\n- Admin Permission"
+			},
+			"response": [
+				{
+					"name": "422",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Postman API 101 Reposiory\",\r\n    \"auto_init\": true,\r\n    \"private\": true,\r\n    \"gitignore_template\": \"nodejs\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/user/repos",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"user",
+								"repos"
+							]
+						}
+					},
+					"status": "Unprocessable Entity",
+					"code": 422,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "GitHub.com"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 18 Jul 2021 07:38:10 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "302"
+						},
+						{
+							"key": "X-OAuth-Scopes",
+							"value": "repo, user"
+						},
+						{
+							"key": "X-Accepted-OAuth-Scopes",
+							"value": "public_repo, repo"
+						},
+						{
+							"key": "X-GitHub-Media-Type",
+							"value": "github.v3; format=json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "5000"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "4998"
+						},
+						{
+							"key": "X-RateLimit-Reset",
+							"value": "1626597420"
+						},
+						{
+							"key": "X-RateLimit-Used",
+							"value": "2"
+						},
+						{
+							"key": "X-RateLimit-Resource",
+							"value": "core"
+						},
+						{
+							"key": "Access-Control-Expose-Headers",
+							"value": "ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubdomains; preload"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "deny"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "origin-when-cross-origin, strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'none'"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding, Accept, X-Requested-With"
+						},
+						{
+							"key": "X-GitHub-Request-Id",
+							"value": "047C:5745:7EB01:99843:60F3DA61"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Repository creation failed.\",\n    \"errors\": [\n        {\n            \"resource\": \"Repository\",\n            \"code\": \"custom\",\n            \"field\": \"gitignore_template\",\n            \"message\": \"gitignore_template is an unknown gitignore template.\"\n        }\n    ],\n    \"documentation_url\": \"https://docs.github.com/rest/reference/repos#create-a-repository-for-the-authenticated-user\"\n}"
+				},
+				{
+					"name": "Create a repository",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Postman API 101 Reposiory\",\r\n    \"auto_init\": true,\r\n    \"private\": true,\r\n    \"gitignore_template\": \"nanoc\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/user/repos",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"user",
+								"repos"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "GitHub.com"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 18 Jul 2021 07:38:58 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "5921"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "private, max-age=60, s-maxage=60"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Authorization, Cookie, X-GitHub-OTP"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding, Accept, X-Requested-With"
+						},
+						{
+							"key": "ETag",
+							"value": "\"3bd7d67cb7bfa45ebb3e5329d25300ae98b908e83d7bbaec13e33af8d55347e2\""
+						},
+						{
+							"key": "X-OAuth-Scopes",
+							"value": "repo, user"
+						},
+						{
+							"key": "X-Accepted-OAuth-Scopes",
+							"value": "public_repo, repo"
+						},
+						{
+							"key": "Location",
+							"value": "https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory"
+						},
+						{
+							"key": "X-GitHub-Media-Type",
+							"value": "github.v3; format=json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "5000"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "4997"
+						},
+						{
+							"key": "X-RateLimit-Reset",
+							"value": "1626597420"
+						},
+						{
+							"key": "X-RateLimit-Used",
+							"value": "3"
+						},
+						{
+							"key": "X-RateLimit-Resource",
+							"value": "core"
+						},
+						{
+							"key": "Access-Control-Expose-Headers",
+							"value": "ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubdomains; preload"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "deny"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "origin-when-cross-origin, strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'none'"
+						},
+						{
+							"key": "X-GitHub-Request-Id",
+							"value": "047C:5745:7EF46:99D1D:60F3DA91"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 387118795,\n    \"node_id\": \"MDEwOlJlcG9zaXRvcnkzODcxMTg3OTU=\",\n    \"name\": \"Postman-API-101-Reposiory\",\n    \"full_name\": \"DarthBenro008/Postman-API-101-Reposiory\",\n    \"private\": true,\n    \"owner\": {\n        \"login\": \"DarthBenro008\",\n        \"id\": 31009634,\n        \"node_id\": \"MDQ6VXNlcjMxMDA5NjM0\",\n        \"avatar_url\": \"https://avatars.githubusercontent.com/u/31009634?v=4\",\n        \"gravatar_id\": \"\",\n        \"url\": \"https://api.github.com/users/DarthBenro008\",\n        \"html_url\": \"https://github.com/DarthBenro008\",\n        \"followers_url\": \"https://api.github.com/users/DarthBenro008/followers\",\n        \"following_url\": \"https://api.github.com/users/DarthBenro008/following{/other_user}\",\n        \"gists_url\": \"https://api.github.com/users/DarthBenro008/gists{/gist_id}\",\n        \"starred_url\": \"https://api.github.com/users/DarthBenro008/starred{/owner}{/repo}\",\n        \"subscriptions_url\": \"https://api.github.com/users/DarthBenro008/subscriptions\",\n        \"organizations_url\": \"https://api.github.com/users/DarthBenro008/orgs\",\n        \"repos_url\": \"https://api.github.com/users/DarthBenro008/repos\",\n        \"events_url\": \"https://api.github.com/users/DarthBenro008/events{/privacy}\",\n        \"received_events_url\": \"https://api.github.com/users/DarthBenro008/received_events\",\n        \"type\": \"User\",\n        \"site_admin\": false\n    },\n    \"html_url\": \"https://github.com/DarthBenro008/Postman-API-101-Reposiory\",\n    \"description\": null,\n    \"fork\": false,\n    \"url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory\",\n    \"forks_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/forks\",\n    \"keys_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/keys{/key_id}\",\n    \"collaborators_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/collaborators{/collaborator}\",\n    \"teams_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/teams\",\n    \"hooks_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/hooks\",\n    \"issue_events_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/issues/events{/number}\",\n    \"events_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/events\",\n    \"assignees_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/assignees{/user}\",\n    \"branches_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/branches{/branch}\",\n    \"tags_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/tags\",\n    \"blobs_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/git/blobs{/sha}\",\n    \"git_tags_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/git/tags{/sha}\",\n    \"git_refs_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/git/refs{/sha}\",\n    \"trees_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/git/trees{/sha}\",\n    \"statuses_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/statuses/{sha}\",\n    \"languages_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/languages\",\n    \"stargazers_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/stargazers\",\n    \"contributors_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/contributors\",\n    \"subscribers_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/subscribers\",\n    \"subscription_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/subscription\",\n    \"commits_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/commits{/sha}\",\n    \"git_commits_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/git/commits{/sha}\",\n    \"comments_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/comments{/number}\",\n    \"issue_comment_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/issues/comments{/number}\",\n    \"contents_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/contents/{+path}\",\n    \"compare_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/compare/{base}...{head}\",\n    \"merges_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/merges\",\n    \"archive_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/{archive_format}{/ref}\",\n    \"downloads_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/downloads\",\n    \"issues_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/issues{/number}\",\n    \"pulls_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/pulls{/number}\",\n    \"milestones_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/milestones{/number}\",\n    \"notifications_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/notifications{?since,all,participating}\",\n    \"labels_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/labels{/name}\",\n    \"releases_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/releases{/id}\",\n    \"deployments_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Reposiory/deployments\",\n    \"created_at\": \"2021-07-18T07:38:57Z\",\n    \"updated_at\": \"2021-07-18T07:38:57Z\",\n    \"pushed_at\": \"2021-07-18T07:38:58Z\",\n    \"git_url\": \"git://github.com/DarthBenro008/Postman-API-101-Reposiory.git\",\n    \"ssh_url\": \"git@github.com:DarthBenro008/Postman-API-101-Reposiory.git\",\n    \"clone_url\": \"https://github.com/DarthBenro008/Postman-API-101-Reposiory.git\",\n    \"svn_url\": \"https://github.com/DarthBenro008/Postman-API-101-Reposiory\",\n    \"homepage\": null,\n    \"size\": 0,\n    \"stargazers_count\": 0,\n    \"watchers_count\": 0,\n    \"language\": null,\n    \"has_issues\": true,\n    \"has_projects\": true,\n    \"has_downloads\": true,\n    \"has_wiki\": true,\n    \"has_pages\": false,\n    \"forks_count\": 0,\n    \"mirror_url\": null,\n    \"archived\": false,\n    \"disabled\": false,\n    \"open_issues_count\": 0,\n    \"license\": null,\n    \"forks\": 0,\n    \"open_issues\": 0,\n    \"watchers\": 0,\n    \"default_branch\": \"main\",\n    \"permissions\": {\n        \"admin\": true,\n        \"push\": true,\n        \"pull\": true\n    },\n    \"allow_squash_merge\": true,\n    \"allow_merge_commit\": true,\n    \"allow_rebase_merge\": true,\n    \"delete_branch_on_merge\": false,\n    \"network_count\": 0,\n    \"subscribers_count\": 1\n}"
+				}
+			]
+		},
+		{
+			"name": "Create an Issue in a repository",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"New logo\",\r\n    \"body\": \"We should have one\",\r\n    \"labels\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/repos/:user/:repoName/issues",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"repos",
+						":user",
+						":repoName",
+						"issues"
+					],
+					"variable": [
+						{
+							"key": "user",
+							"value": "{{username}}"
+						},
+						{
+							"key": "repoName",
+							"value": "{{repoName}}"
+						}
+					]
+				},
+				"description": "Creates an Issue on behalf of the user on any repository.\n\nRepository username and name can be modified in CollectionVariables or can be given an input in path variables"
+			},
+			"response": [
+				{
+					"name": "Create an Issue in a repository",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"New logo\",\r\n    \"body\": \"We should have one\",\r\n    \"labels\": []\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/repos/:user/:repoName/issues",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"repos",
+								":user",
+								":repoName",
+								"issues"
+							],
+							"variable": [
+								{
+									"key": "user",
+									"value": "{{username}}"
+								},
+								{
+									"key": "repoName",
+									"value": "{{repoName}}"
+								}
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "GitHub.com"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 18 Jul 2021 07:49:37 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1954"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "private, max-age=60, s-maxage=60"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Authorization, Cookie, X-GitHub-OTP"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding, Accept, X-Requested-With"
+						},
+						{
+							"key": "ETag",
+							"value": "\"477cbf3e393efe46cc524fe9cc79a1aefddd53ff12dc08c08481521e88650492\""
+						},
+						{
+							"key": "X-OAuth-Scopes",
+							"value": "delete_repo, repo, user"
+						},
+						{
+							"key": "X-Accepted-OAuth-Scopes",
+							"value": ""
+						},
+						{
+							"key": "Location",
+							"value": "https://api.github.com/repos/DarthBenro008/Postman-API-101-Repository/issues/1"
+						},
+						{
+							"key": "X-GitHub-Media-Type",
+							"value": "github.v3; format=json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "5000"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "4988"
+						},
+						{
+							"key": "X-RateLimit-Reset",
+							"value": "1626597420"
+						},
+						{
+							"key": "X-RateLimit-Used",
+							"value": "12"
+						},
+						{
+							"key": "X-RateLimit-Resource",
+							"value": "core"
+						},
+						{
+							"key": "Access-Control-Expose-Headers",
+							"value": "ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubdomains; preload"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "deny"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "origin-when-cross-origin, strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'none'"
+						},
+						{
+							"key": "X-GitHub-Request-Id",
+							"value": "040B:147E:71A16D:81C57F:60F3DD10"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Repository/issues/1\",\n    \"repository_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Repository\",\n    \"labels_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Repository/issues/1/labels{/name}\",\n    \"comments_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Repository/issues/1/comments\",\n    \"events_url\": \"https://api.github.com/repos/DarthBenro008/Postman-API-101-Repository/issues/1/events\",\n    \"html_url\": \"https://github.com/DarthBenro008/Postman-API-101-Repository/issues/1\",\n    \"id\": 946975776,\n    \"node_id\": \"MDU6SXNzdWU5NDY5NzU3NzY=\",\n    \"number\": 1,\n    \"title\": \"New logo\",\n    \"user\": {\n        \"login\": \"DarthBenro008\",\n        \"id\": 31009634,\n        \"node_id\": \"MDQ6VXNlcjMxMDA5NjM0\",\n        \"avatar_url\": \"https://avatars.githubusercontent.com/u/31009634?v=4\",\n        \"gravatar_id\": \"\",\n        \"url\": \"https://api.github.com/users/DarthBenro008\",\n        \"html_url\": \"https://github.com/DarthBenro008\",\n        \"followers_url\": \"https://api.github.com/users/DarthBenro008/followers\",\n        \"following_url\": \"https://api.github.com/users/DarthBenro008/following{/other_user}\",\n        \"gists_url\": \"https://api.github.com/users/DarthBenro008/gists{/gist_id}\",\n        \"starred_url\": \"https://api.github.com/users/DarthBenro008/starred{/owner}{/repo}\",\n        \"subscriptions_url\": \"https://api.github.com/users/DarthBenro008/subscriptions\",\n        \"organizations_url\": \"https://api.github.com/users/DarthBenro008/orgs\",\n        \"repos_url\": \"https://api.github.com/users/DarthBenro008/repos\",\n        \"events_url\": \"https://api.github.com/users/DarthBenro008/events{/privacy}\",\n        \"received_events_url\": \"https://api.github.com/users/DarthBenro008/received_events\",\n        \"type\": \"User\",\n        \"site_admin\": false\n    },\n    \"labels\": [],\n    \"state\": \"open\",\n    \"locked\": false,\n    \"assignee\": null,\n    \"assignees\": [],\n    \"milestone\": null,\n    \"comments\": 0,\n    \"created_at\": \"2021-07-18T07:49:37Z\",\n    \"updated_at\": \"2021-07-18T07:49:37Z\",\n    \"closed_at\": null,\n    \"author_association\": \"OWNER\",\n    \"active_lock_reason\": null,\n    \"body\": \"We should have one\",\n    \"closed_by\": null,\n    \"performed_via_github_app\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete a repository",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"GitHub Repo deletion\", function(){\r",
+							"    pm.response.to.have.status(204); \r",
+							"})"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/repos/:owner/:repo",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"repos",
+						":owner",
+						":repo"
+					],
+					"variable": [
+						{
+							"key": "owner",
+							"value": "{{username}}"
+						},
+						{
+							"key": "repo",
+							"value": "{{repoName}}"
+						}
+					]
+				},
+				"description": "Deletes and repository from GitHub.\n\nThis needs admin permission granted token!"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Repos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/user/repos?per_page=100",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"user",
+						"repos"
+					],
+					"query": [
+						{
+							"key": "per_page",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Org Repos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/users/{{orgname}}/repos?per_page=100",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"users",
+						"{{orgname}}",
+						"repos"
+					],
+					"query": [
+						{
+							"key": "per_page",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Org Repos 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/orgs/{{orgname}}/repos?page={page}&per_page=100",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"orgs",
+						"{{orgname}}",
+						"repos"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "{page}"
+						},
+						{
+							"key": "per_page",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Orgs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/user/orgs",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"user",
+						"orgs"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "Authorization",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "username",
+			"value": ""
+		},
+		{
+			"key": "url",
+			"value": "https://api.github.com"
+		},
+		{
+			"key": "repoName",
+			"value": "Postman-API-101-Reposiory"
+		},
+		{
+			"key": "orgname",
+			"value": "",
+			"type": "string"
+		}
+	]
+}

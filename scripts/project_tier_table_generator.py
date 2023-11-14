@@ -30,13 +30,15 @@ if GITHUB_TOKEN is None:
     print("GitHub token is not set. Set the GITHUB_TOKEN environment variable.")
     sys.exit(1)
 
-# File Paths:
+# File Paths, URLs, and Timezone:
 MD_FILE_PATH = f'{path_start}/categories/project_tier_table.md' # Path to the the main project tier table markdown file
 MD_FILE_PATH_PRIVATE = f'{path_start}/categories/project_tier_table_private.md' # Path to the private project tier table markdown file
 MD_BADGE_REF_PATH = f'{path_start}/categories/badge_references.md' # Path to the badge reference markdown file
 PLACEHOLDER_ICON = f'{path_start}/docs/images/prg-placeholder.png' # Placeholder for missing icons
 PROJECT_ICON_PATH = 'docs/images/PRG.png' # Path to the project icons from your root directory of your repository (don't adjust for local testing)
 TIER_TABLE_URL = f'https://prgoptimized.com' # URL to the project tier table using GitHub Pages (update this if you're using a custom domain)
+MY_TIME_ZONE = 'America/New_York' # Your timezone (used for the last updated timestamp) for local testing, otherwise it will use an environment variable for GitHub Actions.
+# For a list of timezones: https://gist.github.com/heyalexej/8bf688fd67d7199be4a1682b3eec7568
 
 # Note: 
 # Private repo icons cannot be reached by users that are not logged in to GitHub and have access to the private repo.
@@ -451,10 +453,10 @@ try:
         # Set the timezone to Eastern Time  
         if LOCAL_TESTING:
             # Set the timezone to Eastern Time
-            eastern = pytz.timezone('America/New_York')
+            timezone = pytz.timezone(MY_TIME_ZONE)
 
             # Get the current time in Eastern Time with timezone name
-            current_time = datetime.now(eastern).strftime("%Y-%m-%d %I:%M:%S %p %Z")
+            current_time = datetime.now(timezone).strftime("%Y-%m-%d %I:%M:%S %p %Z")
 
         else: 
             # Get timezone from environment variable or default to 'UTC' if not set

@@ -80,9 +80,9 @@ def create_repo_badges(username):
 
     repo_badge_template = f"""## Tier Badges
 
-Use this file as a template to gather and add badges to your project's `README` files.
-- Be sure to run the workflow to automatically update the badges below with your username.
-- Prior to running the workflow, update the `project_tier_table_generator.py` script's `TIER_TABLE_URL` parameter to point to your project's **PRG** website/domain.
+Use this file as a template to gather and add badges to your project `README` files.
+- Run the GitHub action workflow to automatically update the badge links to point towards your *PRG** collections website/domain.
+- To achieve this, prior to running the workflow, update the `project_tier_table_generator.py` script's `TIER_TABLE_URL` parameter.
 
 #### ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) Gold Tier Project Badge
 
@@ -122,12 +122,14 @@ Use this file as a template to gather and add badges to your project's `README` 
 
 ## Profile Badge
 
-Add the followinf badge to your Profile `README` to show that you use **PRG**, the hpyerlink will take your profile visitors to your catagorized project tier table. You may need to adjust the `src` attribute of the image tag to point to the correct path of the image and also include the "prg_optimized.png" file in your repository.
+Add the following badge to your profile `README` to showcase your **PRG** collection for your GitHub portfolio.
+- The hyperlink will take your profile visitors to your catagorized project tier table. 
+- This will complete the **PRG** experience for your profile visitors.
 
 ### ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) Profile Badge
 
 <a href="{TIER_TABLE_URL}" target="_blank">
-    <img src="../docs/images/prg_optimized.png" alt="Optimized" width="138" height="51" />
+    <img src="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_optimized.png" alt="Optimized" width="138" height="51" />
 </a>
 """
 

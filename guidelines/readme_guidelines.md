@@ -24,7 +24,7 @@ Here are some general guidelines to follow:
 ### Templates
 
 For templates and examples of `README files`, see the [templates](../templates) directory.
-Templates are broken down by the three tiers of projects: **Gold**, **Silver**, and **Bronze**.
+Templates are broken down by the three categorized tiers of projects: **Gold**, **Silver**, and **Bronze**.
 
 See the following links for `README` templates for each tier:
 - [Gold Tier README Template](../templates/README_gold.md)
@@ -270,7 +270,7 @@ See the following links for `README` templates for each tier:
 > **REQUIRED** section for **ALL** tiers.
 
 - Describe the license for your project here.
-- I found it helpful to break down what license I choose based on the `PRG Tier` of the project:
+- I found it helpful to break down what license I choose based on the **PRG** tier of the project:
     - **Gold** - GNU GPLv3
     - **Silver** - MIT
     - **Bronze** - The Unlicense

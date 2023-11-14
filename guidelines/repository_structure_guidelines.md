@@ -1,4 +1,4 @@
-# Project Structure Guidelines
+# Repository Structure Guidelines
 
 This section describes requirements for the project file structure of your repository.
 
@@ -10,7 +10,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 
 ## Images, Gifs, Videos, and Documents
 
-> [!WARNING] 
+> [!NOTE] 
 > **OPTIONAL** files for **ALL** tiers.
 
 - Include repo images and gifs in a `docs/images` folder.
@@ -20,7 +20,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 
 ## README File
 
-> [!WARNING] 
+> [!NOTE] 
 > **REQUIRED** file for **ALL** tiers.
 
 - A `README` file describes your project and provides information on how to use it.
@@ -34,7 +34,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 
 ## LICENSE File
 
-> [!WARNING] 
+> [!NOTE] 
 > **REQUIRED** file for **ALL** tiers.
 
 - This file contains the license for your project.
@@ -46,7 +46,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 
 ## .github/CREDITS File
 
-> [!WARNING] 
+> [!NOTE] 
 > **OPTIONAL** file for **ALL** tiers.
 
 - This file should contain a list of people who have contributed to your project.
@@ -54,16 +54,21 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 
 ## .github/CHANGELOG.md File
 
-> [!WARNING]
+> [!NOTE]
 > **OPTIONAL** file for **ALL** tiers.
 
 - This file contains a list of changes for each version of your project.
-- Follow [Semantic Versioning](https://semver.org/) guidelines mentioned above.
+- Follow [Semantic Versioning](https://semver.org/) guidelines.
+    - Given a version number **MAJOR.MINOR.PATCH** (e.g. 1.0.0), increment the:
+        - **MAJOR** version when you make incompatible API changes
+        - **MINOR** version when you add functionality in a backward compatible manner
+        - **PATCH** version when you make backward compatible bug fixes
+        - Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 - Use the [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) format for your changelog
 
 ## .github/CONTRIBUTING.md File
 
-> [!WARNING] 
+> [!NOTE] 
 > **OPTIONAL** file for **ALL** tiers.
 
 - This file contains information on how to contribute to your project.
@@ -77,7 +82,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 
 ## .github/CODE_OF_CONDUCT.md File
 
-> [!WARNING]
+> [!NOTE]
 > **OPTIONAL** file for **ALL** tiers.
 
 - This file contains a code of conduct for your project.
@@ -90,7 +95,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 
 ## .github/SECURITY.md File
 
-> [!WARNING]
+> [!NOTE]
 > **OPTIONAL** file for **ALL** tiers.
 
 - This file contains information on the security policy for your project.
@@ -101,7 +106,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 
 ## .github/SUPPORT.md File
 
-> [!WARNING]
+> [!NOTE]
 > **OPTIONAL** file for **ALL** tiers.
 
 - This file contains information on how to get support for your project.
@@ -113,7 +118,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 
 ## .github/CODEOWNERS File
 
-> [!WARNING]
+> [!NOTE]
 > **OPTIONAL** file for **ALL** tiers.
 
 - This file contains information on who owns the code for your project.
@@ -123,7 +128,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 
 ## FUNDING.yml File
 
-> [!WARNING]
+> [!NOTE]
 > **OPTIONAL** file for **ALL** tiers.
 
 - This file contains information on how to fund your project.
@@ -134,7 +139,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 
 ## CITATION.cff File
 
-> [!WARNING]
+> [!NOTE]
 > **OPTIONAL** file for **ALL** tiers.
 
 - This file contains information on how to cite your project.
@@ -143,9 +148,9 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 - [Citation File Format](https://citation-file-format.github.io/)
 - [About Citation Files](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files)
 
-# .github/ISSUE_TEMPLATE.md File or ./ISSUE_TEMPLATE Folder
+## .github/ISSUE_TEMPLATE.md File or ./ISSUE_TEMPLATE Folder
 
-> [!WARNING]
+> [!NOTE]
 > **OPTIONAL** file for **ALL** tiers.
 
 - This file contains information on how to create a pull request for your project.
@@ -158,9 +163,9 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 - [Awesome Template Lists](https://github.com/devspace/awesome-github-templates)
 - [Creating a default community health file for your organization](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
 
-# .github/PULL_REQUEST_TEMPLATE.md File ./PULL_REQUEST_TEMPLATE Directory
+## .github/PULL_REQUEST_TEMPLATE.md File ./PULL_REQUEST_TEMPLATE Directory
 
-> [!WARNING]
+> [!NOTE]
 > **OPTIONAL** file for **ALL** tiers.
 
 - This file contains information on how to create a pull request for your project.
@@ -174,7 +179,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 
 ## Other GitHub Special Files
 
-> [!WARNING] 
+> [!NOTE] 
 > **OPTIONAL** files for **ALL** tiers.
 
 Below are some other popular files used in GitHub repositories:
@@ -186,7 +191,7 @@ Below are some other popular files used in GitHub repositories:
 
 ## .gitignore File
 
-> [!WARNING] 
+> [!NOTE] 
 > **REQUIRED** file for **ALL** tiers.
 
 - This file should contain a list of files and folders that should be ignored by Git.
@@ -195,7 +200,7 @@ Below are some other popular files used in GitHub repositories:
 
 ## .gitattributes File
 
-> [!WARNING] 
+> [!NOTE] 
 > **OPTIONAL** file for **ALL** tiers.
 
 - One reason I use this file, is to adjust the linguist language statistics on GitHub.
@@ -205,7 +210,7 @@ Below are some other popular files used in GitHub repositories:
 
 ## .editorconfig File
 
-> [!WARNING]
+> [!NOTE]
 > **OPTIONAL** file for **ALL** tiers.
 
 - This file contains information on how to configure your editor.
@@ -215,7 +220,7 @@ Below are some other popular files used in GitHub repositories:
 
 ## .prettierrc File
 
-> [!WARNING]
+> [!NOTE]
 > **OPTIONAL** file for **ALL** tiers.
 
 - This file contains information on how to configure your code formatting.
@@ -225,7 +230,7 @@ Below are some other popular files used in GitHub repositories:
 
 ## .eslintrc File
 
-> [!WARNING]
+> [!NOTE]
 > **OPTIONAL** file for **ALL** tiers.
 
 - This file contains information on how to configure your code linting.
@@ -235,7 +240,7 @@ Below are some other popular files used in GitHub repositories:
 
 ## .stylelintrc File
 
-> [!WARNING]
+> [!NOTE]
 > **OPTIONAL** file for **ALL** tiers.
 
 - This file contains information on how to configure your style linting.
@@ -245,7 +250,7 @@ Below are some other popular files used in GitHub repositories:
 
 ## .huskyrc File
 
-> [!WARNING]
+> [!NOTE]
 > **OPTIONAL** file for **ALL** tiers.
 
 - This file contains information on how to configure your git hooks.
@@ -255,7 +260,7 @@ Below are some other popular files used in GitHub repositories:
 
 ## .github Folder
 
-> [!WARNING]
+> [!NOTE]
 > **OPTIONAL** folder for **ALL** tiers.
 
 - This folder contains information on how to configure your GitHub repository.
@@ -265,7 +270,7 @@ Below are some other popular files used in GitHub repositories:
 
 ## .github/workflows Folder
 
-> [!WARNING]
+> [!NOTE]
 > **OPTIONAL** folder for **ALL** tiers.
 
 - This folder contains information on how to configure your GitHub Actions.
@@ -275,7 +280,7 @@ Below are some other popular files used in GitHub repositories:
 
 ## .github/dependabot.yml File
 
-> [!WARNING]
+> [!NOTE]
 > **OPTIONAL** file for **ALL** tiers.
 
 - This file contains information on how to configure your GitHub Dependabot.
@@ -285,7 +290,7 @@ Below are some other popular files used in GitHub repositories:
 
 ## api Folder
 
-> [!WARNING]
+> [!NOTE]
 > **OPTIONAL** folder for **ALL** tiers.
 
 - This folder contains information on how to configure your API.
@@ -294,7 +299,7 @@ Below are some other popular files used in GitHub repositories:
 
 ## Misc. Folders
 
-> [!WARNING]
+> [!NOTE]
 > **OPTIONAL** folders for **ALL** tiers.
 
 - Add any other folders as needed.
@@ -305,6 +310,3 @@ Below are some other popular files used in GitHub repositories:
 
 Below is a great resource for GitHub special files and paths:
 - [GitHub Special Files and Paths](https://github.com/joelparkerhenderson/github-special-files-and-paths).
-
-
- 

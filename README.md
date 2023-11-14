@@ -152,6 +152,9 @@ Below is a list of the files and folders in this repository and what they are us
 
 ## 1. Categories
 
+> Related Section Files:
+> [Category Guidelines](./guidelines/category_guidelines.md)
+
 To solve the **"GitHub Portfolio Problem"** above and to destinguish the quality of the project, **PRG** categorizes repositories into four tiers: <br>
 <br>
 ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold** <br> 
@@ -159,7 +162,9 @@ To solve the **"GitHub Portfolio Problem"** above and to destinguish the quality
 ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**   
 ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) **Optimized** (uncategorized) <br> 
 
-It does this by utilizing GitHub Actions to automatically create a project tier table based on a simple markdown file ([PRG Connection File](PRG.md)) placed in the root of each of your repositories.
+### PRG Connection File
+
+**PRG** achieves this by utilizing GitHub Actions to automatically create a _project tier table_ based on a simple markdown file ([PRG Connection File](PRG.md)) placed in the root of each of your repositories.
 
 ### Tier Badges
 

@@ -152,8 +152,11 @@ Below is a list of the files and folders in this repository and what they are us
 
 ## 1. Categories
 
-> **Related Section Files:** <br>
-> [Category Guidelines](./guidelines/category_guidelines.md)
+> **Related Section Documents:** <br>
+> [Category Guidelines](./guidelines/category_guidelines.md) <br>
+> [Table Generator Guide](./categories/table_generator_guide.md) <br>
+> [Project Tier Table](./categories/project_tier_table.md) <br>
+> [Project Tier Table (Private)](./categories/project_tier_table_private.md)
 
 To solve the **"GitHub Portfolio Problem"** above and to destinguish the quality of the project, **PRG** categorizes repositories into four tiers: <br>
 <br>
@@ -199,6 +202,12 @@ Consult the [Table Generator Guide](./categories/table_generator_guide.md) for m
 
 ## 2. Guidelines
 
+> **Related Section Documents:** <br>
+> [README Guidelies](./guidelines/readme_guidelines.md) <br>
+> [Brand Guidelines](./guidelines/brand_guidelines.md) <br>
+> [Repository Structure Guidelines](./guidelines/repository_structure_guidelines.md) <br>
+> [Repository Settings Guidelines](./guidelines/repository_settings_guidelines.md)
+
 Below are the guidelines for repository `READMEs`, files, and overall structure. This applies to **ALL** tiers.
 
 ### README Guidelines
@@ -211,17 +220,22 @@ See [Brand Guidelines](./guidelines/brand_guidelines.md) for more details on how
 
 ### Repository Structure Guidelines
 
-See [Project Structures](./guidelines/repository_structure_guidelines.md) for more details on how to structure your overall repository/files.
+See [Repository Structure Guidelines](./guidelines/repository_structure_guidelines.md) for more details on how to structure your overall repository/files.
 
 ### Repository Settings Guidelines
 
-See [Repository Settings](./guidelines/repository_settings_guidelines.md) for more details on how to configure your repository settings.
+See [Repository Settings Guidelines](./guidelines/repository_settings_guidelines.md) for more details on how to configure your repository settings.
 
 ## 3. Templates
 
 The following templates are provided for you to use in your repositories. These templates are designed to be used with the **PRG** system.
 
 ### Tier README Templates
+
+> **Related Section Documents:** <br>
+> [Gold Tier README Template](templates/README_gold.md) <br>
+> [Silver Tier README Template](templates/README_silver.md) <br>
+> [Bronze Tier README Template](templates/README_bronze.md)
 
 For templates and examples of `README` files, see the [templates](/templates) directory.
 Templates are broken down by the three (catagorized) tiers of projects: ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**.

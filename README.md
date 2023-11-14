@@ -46,8 +46,8 @@ This `README` highlights the **three** main areas of **PRG**:
 3. [**Templates**](#3-templates): templates for your `READMEs` and associated files.
    <br>
    <br>
-   > [!IMPORTANT] 
-   > Each section above will have hyperlinks to the appropriate files and folders in this repository for more details.
+> [!IMPORTANT] 
+> Each section above will have hyperlinks to the appropriate files and folders in this repository for more details.
 
 ## Table of Contents
 

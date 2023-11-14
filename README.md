@@ -152,7 +152,7 @@ Below is a list of the files and folders in this repository and what they are us
 
 ## 1. Categories
 
-> Related Section Files:
+> **Related Section Files:** <br>
 > [Category Guidelines](./guidelines/category_guidelines.md)
 
 To solve the **"GitHub Portfolio Problem"** above and to destinguish the quality of the project, **PRG** categorizes repositories into four tiers: <br>

@@ -196,6 +196,7 @@ Consult the [Category Guidelines](./guidelines/category_guidelines.md) for more 
 Consult the [Table Generator Guide](./categories/table_generator_guide.md) for more details on how to setup the project tier table generator using GitHub Actions and GitHub Pages.
 
 > **Related Section Documents:** <br>
+> [PRG Connection File](PRG.md) <br>
 > [Category Guidelines](./guidelines/category_guidelines.md) <br>
 > [Table Generator Guide](./categories/table_generator_guide.md) <br>
 > [Project Tier Table](./categories/project_tier_table.md) <br>

@@ -32,12 +32,12 @@
 
 ---
 
-<h1 align="center">Project Title</h1>
+<h1 align="center"><img src="https://via.placeholder.com/15/FFD700/000000?text=+"> Gold Tier Project Title</img></h1>
 
 - The description should be a short paragraph describing what your project is and what it does.
 - This should be the first section after the badges.
     - i.e. "A Python, Django, Plotly, and Pandas web application that visualizes river data pulled using an API from the United States Geological Survey (USGS)."
-- Add **screenshots** of your project below the description and throughout the rest of the `README` as needed.
+- Add **screenshots** of your project below the description and throughout the rest of the README as needed.
     - This is optional, but highly recommended especially for **Gold** projects.
     - Animations in the form of GIFs are also a great way to showcase your project.
         - I use [GiFox](https://gifox.io/) to create GIFs of my projects, but you can use any GIF creation software you want.
@@ -107,7 +107,7 @@ The background story should be a short paragraph describing why you created the 
 
 ## License
 
-This project is released under the terms of the **GNU General Public License, version 3 (GPLv3)**. 
+This project is released under the terms of the **GNU General Public License, version 3 (GPLv3)** License. 
 - The GPLv3 is a "copyleft" license, ensuring that derivatives of the software remain open source and under the GPL.
 - For more details and to understand all requirements and conditions, see the [LICENSE](./license_examples/GNU/LICENSE) file in this repository.
 - A list of licenses can be found [here](https://choosealicense.com/licenses/).
@@ -118,8 +118,9 @@ This project is released under the terms of the **GNU General Public License, ve
 **Email:** scott.grivner@gmail.com <br>
 **Website:** [scottgrivner.dev](https://www.scottgrivner.dev) <br>
 **Reference:** [Main Branch](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines) <br>
+
 <div align="center">
-    <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
+    <a href="#" target="_blank">
         <img src="../docs/images/icon-placeholder-rounded.png" width="100" height="100"/>
     </a>
 </div>

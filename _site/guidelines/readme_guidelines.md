@@ -6,8 +6,11 @@ Here are some general guidelines to follow:
 
 ## README File
 
-> [!WARNING] 
-> A `README.md` file is **REQUIRED** for **ALL** tiers.
+> [!WARNING]
+> A `README` file is **REQUIRED** for **ALL** tiers.
+
+> [!NOTE]
+> Your Profile `README` does not need to adhere to the **PRG** guidelines defined in this document, but it is encouraged to include the [Profile Badge](../README.md#6236ff-profile-badge) to link to your **PRG** project collection.
 
 - A Profile `README` is always required. Read more about it [here](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
     - View [GitHub Profile README Generator](https://rahuldkjain.github.io/gh-profile-readme-generator/) for a quick and easy way to generate a profile `README` for your GitHub profile.
@@ -20,8 +23,8 @@ Here are some general guidelines to follow:
 
 ### Templates
 
-For templates and examples of `README` files, see the [templates](../templates) directory.
-Templates are broken down by the three tiers of projects: **Gold**, **Silver**, and **Bronze**.
+For templates and examples of `README files`, see the [templates](../templates) directory.
+Templates are broken down by the three categorized tiers of projects: **Gold**, **Silver**, and **Bronze**.
 
 See the following links for `README` templates for each tier:
 - [Gold Tier README Template](../templates/README_gold.md)
@@ -39,10 +42,10 @@ See the following links for `README` templates for each tier:
 - See [PRG Brand Guidelines](brand_guidelines.md) for more information on creating banners and other graphics for your project.
 - **Silver** projects don't require a banner, but feel free to add a logo of the technology you used to develop your project.
     - i.e. Svelte + Firebase Logos <br>
-    <img src="../docs/images/demo/svelte_logo.png" alt="Svelte" style="width: 5%; vertical-align: left;" />
-    <img src="../docs/images/demo/plus-dark.png#gh-dark-mode-only" alt="+" style="width: 5%;vertical-align: left;"/>
-    <img src="../docs/images/demo/plus-light.png#gh-light-mode-only" alt="+" style="width: 5%; vertical-align: left;" />
-    <img src="../docs/images/demo/firebase_logo.png" alt="Firebase" style="width: 5%; vertical-align: left;" />
+    <img src="./docs/images/demo/svelte_logo.png" alt="Svelte" style="width: 5%; vertical-align: left;" />
+    <img src="./docs/images/demo/plus-dark.png#gh-dark-mode-only" alt="+" style="width: 5%;vertical-align: left;"/>
+    <img src="./docs/images/demo/plus-light.png#gh-light-mode-only" alt="+" style="width: 5%; vertical-align: left;" />
+    <img src="./docs/images/demo/firebase_logo.png" alt="Firebase" style="width: 5%; vertical-align: left;" />
 
 > [!NOTE]  
 > Append `#gh-dark-mode-only` or `#gh-light-mode-only` to the end of the image URL to only show the image in dark or light mode respectively. Be sure to have both a dark and light version of the image when necessary. More on this (shameless plug) [here](https://github.com/scottgriv/markdown-demo#images).
@@ -63,11 +66,11 @@ See the following links for `README` templates for each tier:
     - i.e. [![Email Badge](https://img.shields.io/badge/gmail-contact_me-DC4233?style=for-the-badge&logo=gmail)](mailto:scott.grivner@gmail.com)
     - i.e. [![GitHub Badge](https://img.shields.io/badge/github-follow-9031AC?style=for-the-badge&logo=github&color=9031AC)](https://github.com/scottgriv)
     - i.e. [![BuyMeACoffee Badge](https://img.shields.io/badge/buy_me_a_coffee-support_me-FEDE1F?style=for-the-badge&logo=buymeacoffee&color=FEDE1F)](https://www.buymeacoffee.com/scottgriv)
-- Next, add a horizontal rule to separate the badges from the rest of the README.
+- Next, add a horizontal rule to separate the badges from the rest of the `README`.
     - i.e. `---`
 
 > [!NOTE] 
-> To demonstrate your project adheres to **PRG**, please include the appropriate badge at the top of your repository README. See the top of this README for an example.
+> To demonstrate your project adheres to **PRG**, please include the appropriate badge at the top of your repository `README`. See the top of this `README` for an example.
 
 ## Title
 
@@ -267,19 +270,19 @@ See the following links for `README` templates for each tier:
 > **REQUIRED** section for **ALL** tiers.
 
 - Describe the license for your project here.
-- I chose [GNU GPLv3]() for my **Gold** projects.
-    - Why? I spent a lot of time on my **Gold** projects and I want to protect my work as much as possible.
-    - I do not want people to use my code to profit off of it without my permission which is why I chose this more restrictive license.
-- I chose [MIT]() for my **Silver** projects.
-    - Why? I put more work into my **Silver** projects than my **Bronze** projects, so I want to protect my work a little more but still allow people to use my code in their own projects by giving me credit for it.
-- I chose [The Unlicense](../templates/license_examples/Un) for my **Bronze** projects.
-    - Why? Because I want to encourage people to use my code in their own projects, even if they don't give me credit for it.
-- Include a `LICENSE` file in your repository for more detailed information on the license for your project.
-- The above licenses are the licenses I chose for my projects, but you can choose whatever license you want for your projects.
-- I found it helpful to break down what license I choose based on the `PRG Tier` of the project:
+- I found it helpful to break down what license I choose based on the **PRG** tier of the project:
     - **Gold** - GNU GPLv3
     - **Silver** - MIT
     - **Bronze** - The Unlicense
+- I chose [GNU GPLv3](../templates/license_examples/GNU/LICENSE) for my **Gold** projects.
+    - Why? I spent a lot of time on my **Gold** projects and I want to protect my work as much as possible.
+    - I do not want people to use my code to profit off of it without my permission which is why I chose this more restrictive license.
+- I chose [MIT](../templates/license_examples/MIT/LICENSE) for my **Silver** projects.
+    - Why? I put more work into my **Silver** projects than my **Bronze** projects, so I want to protect my work a little more but still allow people to use my code in their own projects by giving me credit for it.
+- I chose [The Unlicense](../templates/license_examples/Unlicense/LICENSE) for my **Bronze** projects.
+    - Why? Because I want to encourage people to use my code in their own projects, even if they don't give me credit for it.
+- Include a `LICENSE` file in your repository for more detailed information on the license for your project.
+- The above licenses are the licenses I chose for my projects, but you can choose whatever license you want for your projects.
 - A list of licenses can be found [here](https://choosealicense.com/licenses/).
 
 ## Credits

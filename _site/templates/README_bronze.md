@@ -30,7 +30,7 @@
 
 ---
 
-<h1 align="center">Project Title</h1>
+<h1 align="center"><img src="https://via.placeholder.com/15/CD7F32/000000?text=+"> Bronze Tier Project Title</img></h1>
 
 - The description should be a short paragraph describing what your project is and what it does.
 - This should be the first section after the badges.
@@ -59,8 +59,8 @@
 
 ## License
 
-This project is released under the terms of the **MIT License**, which permits use, modification, and distribution of the code, subject to the conditions outlined in the license.
-- The [MIT License](https://choosealicense.com/licenses/mit/) provides certain freedoms while preserving rights of attribution to the original creators.
+This project is released under the terms of the **Unlicense** License, which allows you to use, modify, and distribute the code as you see fit. 
+- The Unlicense removes traditional copyright restrictions, giving you the freedom to use the code in any way you choose.
 - For more details, see the [LICENSE](./license_examples/Unlicense/LICENSE) file in this repository.
 - A list of licenses can be found [here](https://choosealicense.com/licenses/).
 

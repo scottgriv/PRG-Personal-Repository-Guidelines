@@ -310,6 +310,3 @@ Below are some other popular files used in GitHub repositories:
 
 Below is a great resource for GitHub special files and paths:
 - [GitHub Special Files and Paths](https://github.com/joelparkerhenderson/github-special-files-and-paths).
-
-
- 

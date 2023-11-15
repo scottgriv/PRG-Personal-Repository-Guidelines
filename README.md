@@ -46,7 +46,7 @@ This `README` highlights the **three** main areas of **PRG**:
 3. [**Templates**](#3-templates): templates for your `READMEs` and associated files.
    <br>
 > [!IMPORTANT] 
-> Each section above will have hyperlinks to the appropriate files and folders in this repository for more details.
+> Each section above will have related document resources for more details.
 
 ## Table of Contents
 
@@ -283,7 +283,7 @@ If you have any questions or suggestions, please feel free to reach out to me.
 ## Resources
 
 Complete guide list for **PRG**:
-- [Category Guidelines](./guidelines/category_guidelines.md) - Category guidelines for repository tiers and naming conventions.
+- [Category Guidelines](./guidelines/category_guidelines.md) - Guidelines for catagorizing your repository tiers and naming conventions.
 - [Brand Guidelines](./guidelines/brand_guidelines.md) - Guidelines for creating your own brand for your project.
 - [README Guidelies](./guidelines/readme_guidelines.md) - Guidelines for repository `READMEs`.
 - [Repository Structure Guidelines](./guidelines/repository_structure_guidelines.md) - Guidelines for repository structure and files.
@@ -291,8 +291,8 @@ Complete guide list for **PRG**:
 - [PRG Connection File](PRG.md) - PRG Connection File for your repositories.
 - [Table Generator Guide](./categories/table_generator_guide.md) - Guide for setting up the project tier table generator.
 - [Badge Reference Guide](./categories/badge_reference_guide.md) - Guide for displaying the tier badges.
-- [Project Tier Table](./categories/project_tier_table.md) - Project tier table for your repositories.
-- [Project Tier Table (Private)](./categories/project_tier_table_private.md) - Project tier table for your private repositories.
+- [Project Tier Table](./categories/project_tier_table.md) - Project tier table for your projects.
+- [Project Tier Table (Private)](./categories/project_tier_table_private.md) - Project tier table for non-GitHub or private projects.
 
 
 Below are some resources I found helpful when creating my repositories and **PRG** in general:

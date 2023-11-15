@@ -1,6 +1,13 @@
-# Repository Settings Guidelines
+<div align="center">
+    <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
+        <img src="../docs/images/icon_2-rounded.png" width="200" height="200"/>
+    </a>
+</div>
 
-I will be using my project [River-Charts](https://github.com/scottgriv/River-Charts) as an example for the following guideline:
+<h1 align="center">Repository Settings Guidelines</h1>
+
+This guideline will walk you through the settings you should use for your repository.
+- I will be using my project [River-Charts](https://github.com/scottgriv/River-Charts) as an example for the following guideline:
 - Click the gear icon next to "About" in the upper right corner of your repository to access the repository settings.
 
 ## Description

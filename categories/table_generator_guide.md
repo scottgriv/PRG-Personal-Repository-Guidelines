@@ -1,4 +1,10 @@
-# Table Generator Guide
+<div align="center">
+    <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
+        <img src="../docs/images/icon_2-rounded.png" width="200" height="200"/>
+    </a>
+</div>
+
+<h1 align="center">Table Generator Guide</h1>
 
 Included in this project is a GitHub Action CI/CD workflow and `python` script that will automatically generate a table of all your repositories and their **PRG** tiers to deploy to GitHub Pages in order to showcase your projects/portfolio.
 

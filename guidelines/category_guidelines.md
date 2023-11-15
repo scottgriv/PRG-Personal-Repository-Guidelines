@@ -1,7 +1,12 @@
+<div align="center">
+    <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
+        <img src="../docs/images/icon_2-rounded.png" width="200" height="200"/>
+    </a>
+</div>
 
-# Category Guidelines
+<h1 align="center">Category Guidelines</h1>
 
-Follow this guideline to find out more information on each tier and the naming conventions that should be followed for each tier.
+Follow this guideline to find out more information on each tier and the naming conventions that should be used for each tier.
 
 ## ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) Gold Tier Project
 

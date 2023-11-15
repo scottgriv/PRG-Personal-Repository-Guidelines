@@ -1,8 +1,12 @@
-# README Guidelies
+<div align="center">
+    <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
+        <img src="../docs/images/icon_2-rounded.png" width="200" height="200"/>
+    </a>
+</div>
+
+<h1 align="center">README Guidelines</h1>
 
 General guidelines for creating a `README` file for your project (specifically for **PRG** projects) but this can be applied to any project.
-
-Here are some general guidelines to follow:
 
 ## README File
 

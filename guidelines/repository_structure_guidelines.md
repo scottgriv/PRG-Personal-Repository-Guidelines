@@ -1,6 +1,12 @@
-# Repository Structure Guidelines
+<div align="center">
+    <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
+        <img src="../docs/images/icon_2-rounded.png" width="200" height="200"/>
+    </a>
+</div>
 
-This section describes requirements for the project file structure of your repository.
+<h1 align="center">Repository Structure Guidelines</h1>
+
+This guideline describes requirements for the project file structure of your repository.
 
 > [!IMPORTANT] 
 > Templates for the following files can be found in the root of this repository and the `.github/` folder.

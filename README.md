@@ -37,7 +37,7 @@
   <i>Organization repos are optionally included in your table as well.</i>
 </div>
 
----
+---------------
 
 This `README` highlights the **three** main areas of **PRG**:
 

@@ -1,9 +1,41 @@
-# Brand Guidelines
+<div align="center">
+    <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
+        <img src="../docs/images/icon_2-rounded.png" width="200" height="200"/>
+    </a>
+</div>
+
+<h1 align="center">Brand Guidelines</h1>
 
 Below are the brand guidelines for a **PRG** project. 
 - These guidelines are meant to be used as a reference for the project's branding.
 - **Gold** tier projects are encouraged to follow these guidelines as closely as possible.
 - You can apply these guidelines to your other tier projects if you'd like, but it's not required.
+
+## Table of Contents
+
+- [Software Design](#software-design)
+- [Color Pallete](#color-pallete)
+- [Typography](#typography)
+- [Dimension Reference Table](#dimension-reference-table)
+- [Icon](#icon)
+- [Banners](#banners)
+    - [Small Banner](#small-banner)
+    - [Large Banner](#large-banner)
+    - [Social Banner](#social-banner)
+    - [Header & Footer](#header--footer)
+        - [Header](#header)
+        - [Footer](#footer)
+        - [Rounded Corners](#rounded-corners)
+    - [PRG Profile Badge/Banner](#prg-profile-badgebanner)
+    - [Optional Banners](#optional-banners)
+        - [X Banner](#x-banner)
+        - [LinkedIn Banner](#linkedin-banner)
+- [Diagrams](#diagrams)
+- [Medium Articles & Other Social Media](#medium-articles--other-social-media)
+- [Demo & Screenshots](#demo--screenshots)
+- [Closing](#closing)
+- [Resources](#resources)
+
 
 ## Software Design
 

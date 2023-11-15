@@ -40,7 +40,7 @@ jobs:
     - name: Commit and push if changed
       run: |
         git add -A
-        git diff-index --quiet HEAD || git commit -m "Update Project Tier Table and Badge References"
+        git diff-index --quiet HEAD || git commit -m "Update Project Tier Table and Badge Reference Guide"
         git push
 
     - name: Copy README.md to index.md

@@ -148,7 +148,7 @@ The typography for a **PRG** project is as follows:
 - The size of the `prg.png` file should be `138x51` pixels.
 - You do not need to create this image, it is already included in the `docs/images` folder.
     - The image should be centered.
-    - The hyperlink should take you to your **PRG** collection website after building the Tier Table for the first time using the `scripts/project_tier_table_generator.py` script and can be found in the `categories/badge_references.md` file.
+    - The hyperlink should take you to your **PRG** collection website after building the Tier Table for the first time using the `scripts/project_tier_table_generator.py` script and can be found in the `categories/badge_reference_guide.md` file.
 
 <a href="https://prgoptimized.com" target="_blank">
     <img src="../docs/images/prg_optimized.png" alt="PRG Optimized Logo" width="138" height="51"/>

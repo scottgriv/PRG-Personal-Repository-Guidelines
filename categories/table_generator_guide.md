@@ -90,12 +90,12 @@ You can customize your build script however you want if you want to categorize y
 ### Project Tier Table (Output)
 
 - See the [Project Tier Table](../categories/project_tier_table.md) and [Private Project Tier Table](/categories/project_tier_table_private.md) for example outputs of what the table looks like (placeholder images won't be displayed in the output).
-- The script will also update the [Badge References](../categories/badge_references.md) file with the latest badges you can use to add to your repository `READMEs` that use **PRG**.
+- The script will also update the [Badge Reference Guide](../categories/badge_reference_guide.md) file with the latest badges you can use to add to your repository `READMEs` that use **PRG**.
 
 ### Project Tier Badges (Outout)
 
-See [Badge References](../categories/badge_references.md) for more details on how to create badges for your repository.
-- Run the workflow above to get an update `categories/badge_references.md` file pointing to your **PRG** system.
+See [Badge Reference Guide](../categories/badge_reference_guide.md) for more details on how to create badges for your repository.
+- Run the workflow above to get an update `categories/badge_reference_guide.md` file pointing to your **PRG** system.
 - Place the badges in your repository `README` to showcase your **PRG** tier collection.
 - Use my repos and **PRG** collection as an example of how to use the badges in your `README` files.
 

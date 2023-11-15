@@ -29,7 +29,7 @@
 
 <div align="center">
   <a href="https://prgoptimized.com" target="_blank">
-    <img src="./docs/images/demo/demo_1.png" alt="Demo_1" style="width: 35%; margin: 5px;">
+    <img src="./docs/images/demo/demo_1.gif" alt="Demo_1" style="width: 50%; margin: 5px;">
   </a>
   <br>
   <i>PRG creates a project tier table for your GitHub portfolio.</i>
@@ -45,9 +45,8 @@ This `README` highlights the **three** main areas of **PRG**:
 2. [**Guidelines**](#2-guidelines): defined guidelines for repository `README`, files, and overall structure. Brand guidelines for your ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold** tier projects are also defined.
 3. [**Templates**](#3-templates): templates for your `READMEs` and associated files.
    <br>
-   <br>
-   > [!IMPORTANT] 
-   > Each section above will have hyperlinks to the appropriate files and folders in this repository for more details.
+> [!IMPORTANT] 
+> Each section above will have hyperlinks to the appropriate files and folders in this repository for more details.
 
 ## Table of Contents
 
@@ -91,6 +90,23 @@ Another reason I created this document was to solve the **"GitHub Portfolio Prob
 
 **PRG** was designed to solve this problem.
 
+## Getting Started
+
+To get started, you'll need to do the following:
+1. Fork this repository.
+2. Adjust the **Required Configurations** section in the `scripts/project_tier_table_generator.py` script to fit your needs.
+  - Add your custom domain name or your github.io URL to the `TIER_TABLE_URL` variable.
+  > Consult the [Table Generator Guide](./categories/table_generator_guide.md) for more details.
+3. Add a [PRG Connection File](PRG.md) file to the root of each of your repositories.
+  > Consult the [PRG Connection File Guide](./categories/prg_connection_file_guide.md) for more details.
+4. Update your connection file with your appropriate repository tier and other information.
+  > Consult the [Category Guidelines](./guidelines/category_guidelines.md) section for more details.
+5. Add the appropriate tier badge to the top of your repository `README`.
+  > Consult the [Badge Reference Guide](./categories/badge_reference_guide.md)section for more details.
+
+
+ If you decide to fork it and make changes to it, please provide proper credit by linking back to the main branch of this repository! Thank you!
+
 ## What's Inside?
 
 Below is a list of the files and folders in this repository and what they are used for:
@@ -109,13 +125,15 @@ Below is a list of the files and folders in this repository and what they are us
   │     ├─ banner_social.png # Small banner
   │     └─ search.png # Search icon
   ├─ categories # Category folders
-  │  ├─ badge_references.md # Badge references
+  │  ├─ table_generator_guide.md # Table generator guide
+  │  ├─ badge_reference_guide.md # Badge reference guide
   │  ├─ project_tier_table.md # Project tier table
   │  └─ project_tier_table_private.md # Project tier table for private repos
   ├─ docs # Site documentation
   │  ├─ api # Postman API collection
   │  └─ images # Documentation images
   ├─ guidelines # Guidelines for repository READMEs, files, and structure
+  │  ├─ category_guidelines.md # Category guidelines
   │  ├─ brand_guidelines.md # Brand guidelines
   │  ├─ readme_guidelines.md # README guidelines
   │  ├─ repository_settings_guidelines.md # Repository settings guidelines
@@ -131,15 +149,12 @@ Below is a list of the files and folders in this repository and what they are us
   ├─ CITATION.cff # Citation file
   ├─ CNAME # Custom domain file
   ├─ LICENSE # License file
-  ├─ PRG.md # PRG document
+  ├─ PRG.md # PRG Connection File
   ├─ README.md # README file
   ├─ _config.yml # Jekyll configuration file
   └─ index.md # Site index file
   ```
-
-## Getting Started
-
-To get started, you can fork this repository and adjust the guidelines to fit your own needs, this was designed to be a template above all else. If you decide to fork it and make changes to it, please provide proper credit by linking back to the main branch of this repository! Thank you!
+---------------
 
 ## 1. Categories
 
@@ -150,7 +165,9 @@ To solve the **"GitHub Portfolio Problem"** above and to destinguish the quality
 ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**   
 ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) **Optimized** (uncategorized) <br> 
 
-It does this by utilizing GitHub Actions to automatically create a project tier table based on a simple markdown file ([PRG.md](PRG.md)) placed in the root of each of your repositories.
+### PRG Connection File
+
+**PRG** achieves this by utilizing GitHub Actions to automatically create a _project tier table_ based on a simple markdown file ([PRG Connection File](PRG.md)) placed in the root of each of your repositories.
 
 ### Tier Badges
 
@@ -183,6 +200,16 @@ Consult the [Category Guidelines](./guidelines/category_guidelines.md) for more 
 
 Consult the [Table Generator Guide](./categories/table_generator_guide.md) for more details on how to setup the project tier table generator using GitHub Actions and GitHub Pages.
 
+> **Related Section Documents:** <br>
+> [PRG Connection File](PRG.md) <br>
+> [Category Guidelines](./guidelines/category_guidelines.md) <br>
+> [Table Generator Guide](./categories/table_generator_guide.md) <br>
+> [Badge Reference Guide](./categories/badge_reference_guide.md) <br>
+> [Project Tier Table](./categories/project_tier_table.md) <br>
+> [Project Tier Table (Private)](./categories/project_tier_table_private.md)
+
+---------------
+
 ## 2. Guidelines
 
 Below are the guidelines for repository `READMEs`, files, and overall structure. This applies to **ALL** tiers.
@@ -197,11 +224,19 @@ See [Brand Guidelines](./guidelines/brand_guidelines.md) for more details on how
 
 ### Repository Structure Guidelines
 
-See [Project Structures](./guidelines/repository_structure_guidelines.md) for more details on how to structure your overall repository/files.
+See [Repository Structure Guidelines](./guidelines/repository_structure_guidelines.md) for more details on how to structure your overall repository/files.
 
 ### Repository Settings Guidelines
 
-See [Repository Settings](./guidelines/repository_settings_guidelines.md) for more details on how to configure your repository settings.
+See [Repository Settings Guidelines](./guidelines/repository_settings_guidelines.md) for more details on how to configure your repository settings.
+
+> **Related Section Documents:** <br>
+> [README Guidelies](./guidelines/readme_guidelines.md) <br>
+> [Brand Guidelines](./guidelines/brand_guidelines.md) <br>
+> [Repository Structure Guidelines](./guidelines/repository_structure_guidelines.md) <br>
+> [Repository Settings Guidelines](./guidelines/repository_settings_guidelines.md)
+
+---------------
 
 ## 3. Templates
 
@@ -209,7 +244,7 @@ The following templates are provided for you to use in your repositories. These 
 
 ### Tier README Templates
 
-For templates and examples of `README files`, see the [templates](/templates) directory.
+For templates and examples of `README` files, see the [templates](/templates) directory.
 Templates are broken down by the three (catagorized) tiers of projects: ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**.
 
 See the following links for `README` templates for each tier:
@@ -222,6 +257,13 @@ See the following links for `README` templates for each tier:
 
    > [!NOTE] 
    > I personally use this tier for my personal and organization profile `READMEs`.
+
+> **Related Section Documents:** <br>
+> [Gold Tier README Template](templates/README_gold.md) <br>
+> [Silver Tier README Template](templates/README_silver.md) <br>
+> [Bronze Tier README Template](templates/README_bronze.md)
+
+---------------
 
 ## Closing
 

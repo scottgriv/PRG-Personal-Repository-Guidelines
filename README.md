@@ -94,15 +94,27 @@ Another reason I created this document was to solve the **"GitHub Portfolio Prob
 
 To get started, you'll need to do the following:
 1. Fork this repository.
-2. Adjust the **Required Configurations** section in the `scripts/project_tier_table_generator.py` script to fit your needs.
+2. Adjust the **Required Configurations** section in the [Project Tier Table Generator](./scripts/project_tier_table_generator.py) script by 
   - Add your custom domain name or your github.io URL to the `TIER_TABLE_URL` variable.
-  - Consult the [Table Generator Guide](./categories/table_generator_guide.md) for more details.
+  > Consult the [Table Generator Guide](./categories/table_generator_guide.md) for more details.
 3. Add a [PRG Connection File](PRG.md) file to the root of each of your repositories.
+  > Consult the [PRG Connection File](PRG.md) section for more details.
+  - Update your connection file with your appropriate repository tier and other information.
+  > Consult the [Category Guidelines](./guidelines/category_guidelines.md) section for more details.
+5. Setup and run GitHub Actions to automatically build your project tier table.
+  > Consult the [Table Generator Guide](./categories/table_generator_guide.md) for more details.
+7. Setup and deploy GitHub Pages to host your project tier table.
+  > Consult the [Table Generator Guide](./categories/table_generator_guide.md) for more details.
+8. Add the appropriate tier badge to the top of your repository `README` to close the loop on your project level.
+  > Consult the [Badge Reference Guide](./categories/badge_reference_guide.md)section for more details.
+9. Add the **Profile PRG Collection Badge** to your `README` to close the loop on your collection level.
+  > Consult the [Badge Reference Guide](./categories/badge_reference_guide.md)section for more details.
+10. Optionally, you can update your **PRG** repositories based on the provided [Templates](#3-templates) to standardize your `README` and project structures.
+  > Consult the [Tier README Templates](#tier-readme-templates) section for more details.
 
-  - Consult the [Category Guidelines](#1-categories) section for more details.
-
-
- If you decide to fork it and make changes to it, please provide proper credit by linking back to the main branch of this repository! Thank you!
+> [!IMPORTANT]
+> If you decide to fork it and make changes to it, please provide proper credit by linking back to the main branch of this repository! 
+> Thank you and good luck with your GitHub portfolio!
 
 ## What's Inside?
 
@@ -122,13 +134,15 @@ Below is a list of the files and folders in this repository and what they are us
   │     ├─ banner_social.png # Small banner
   │     └─ search.png # Search icon
   ├─ categories # Category folders
-  │  ├─ badge_references.md # Badge references
+  │  ├─ table_generator_guide.md # Table generator guide
+  │  ├─ badge_reference_guide.md # Badge reference guide
   │  ├─ project_tier_table.md # Project tier table
   │  └─ project_tier_table_private.md # Project tier table for private repos
   ├─ docs # Site documentation
   │  ├─ api # Postman API collection
   │  └─ images # Documentation images
   ├─ guidelines # Guidelines for repository READMEs, files, and structure
+  │  ├─ category_guidelines.md # Category guidelines
   │  ├─ brand_guidelines.md # Brand guidelines
   │  ├─ readme_guidelines.md # README guidelines
   │  ├─ repository_settings_guidelines.md # Repository settings guidelines
@@ -199,6 +213,7 @@ Consult the [Table Generator Guide](./categories/table_generator_guide.md) for m
 > [PRG Connection File](PRG.md) <br>
 > [Category Guidelines](./guidelines/category_guidelines.md) <br>
 > [Table Generator Guide](./categories/table_generator_guide.md) <br>
+> [Badge Reference Guide](./categories/badge_reference_guide.md) <br>
 > [Project Tier Table](./categories/project_tier_table.md) <br>
 > [Project Tier Table (Private)](./categories/project_tier_table_private.md)
 
@@ -236,7 +251,7 @@ See [Repository Settings Guidelines](./guidelines/repository_settings_guidelines
 
 The following templates are provided for you to use in your repositories. These templates are designed to be used with the **PRG** system.
 
-### Tier README Templates
+## Tier README Templates
 
 For templates and examples of `README` files, see the [templates](/templates) directory.
 Templates are broken down by the three (catagorized) tiers of projects: ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**.
@@ -263,6 +278,8 @@ See the following links for `README` templates for each tier:
 
 Thank you for taking the time to read through this document and I hope you find it useful!
 If you have any questions or suggestions, please feel free to reach out to me.
+- Please reference the [SUPPORT](.github/SUPPORT.md) file in this repository for more details.
+
 
 ## Resources
 
@@ -275,24 +292,24 @@ Below are some resources I found helpful when creating my repositories and **PRG
 
 ## What's Next?
 
-- [ ] Conform all repositories to **PRG**.
+- [X] Release v1.0.0 of **PRG**.
+- [ ] Conform all of my repositories to **PRG**.
+- [ ] Write about the benefits of using **PRG** on Medium.
 
 I'm looking forward to seeing how this project evolves over time and how it can help others with their GitHub portfolio.
-
 - Please reference the [CHANGELOG](.github/CHANGELOG.md) file in this repository for more details.
 
 ## Project
 
 Please reference the [GitHub Project](https://github.com/users/scottgriv/projects/8) tab inside this Repo to get a good understanding of where I'm currently at with the overall project.
-
 - Issues and Enhancements will also be tracked there as well.
+- Please join the [PRG Discussions](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/discussions) to discuss this project!
 
 ## Contributing
 
 Feel free to submit a pull request if you find any issues or have any suggestions on how to improve this project. You can also open an issue with the tag "bug" or "enhancement".
 
 - How to contribute:
-
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/PRG-Personal-Repository-Guidelines`)
 3. Commit your Changes (`git commit -m 'Add new feature'`)

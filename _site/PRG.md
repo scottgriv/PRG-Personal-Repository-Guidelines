@@ -1,6 +1,6 @@
 # Personal Repisitory Guidelines (PRG) Connection File
 
-This repository is catagorized under the **PRG** system.
+This file is used to connect this repository to the **PRG** project catagorization system.
 
 ## Project Information
 

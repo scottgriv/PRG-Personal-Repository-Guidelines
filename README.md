@@ -284,8 +284,8 @@ If you have any questions or suggestions, please feel free to reach out to me.
 
 Complete guide list for **PRG**:
 - [Category Guidelines](./guidelines/category_guidelines.md) - Category guidelines for repository tiers and naming conventions.
-- [README Guidelies](./guidelines/readme_guidelines.md) - Guidelines for repository `READMEs`.
 - [Brand Guidelines](./guidelines/brand_guidelines.md) - Guidelines for creating your own brand for your project.
+- [README Guidelies](./guidelines/readme_guidelines.md) - Guidelines for repository `READMEs`.
 - [Repository Structure Guidelines](./guidelines/repository_structure_guidelines.md) - Guidelines for repository structure and files.
 - [Repository Settings Guidelines](./guidelines/repository_settings_guidelines.md) - Guidelines for repository settings.
 - [PRG Connection File](PRG.md) - PRG Connection File for your repositories.

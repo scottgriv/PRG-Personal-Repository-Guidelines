@@ -34,8 +34,8 @@
 ## Table of Contents
 
 - [Background Story](#background-story)
-- [What's Inside?](#whats-inside)
 - [Getting Started](#getting-started)
+- [What's Inside?](#whats-inside)
 - [Resources](#resources)
 - [License](#license)
 - [Credits](#credits)

@@ -280,8 +280,20 @@ Thank you for taking the time to read through this document and I hope you find 
 If you have any questions or suggestions, please feel free to reach out to me.
 - Please reference the [SUPPORT](.github/SUPPORT.md) file in this repository for more details.
 
-
 ## Resources
+
+Complete guide list for **PRG**:
+- [Category Guidelines](./guidelines/category_guidelines.md) - Category guidelines for repository tiers and naming conventions.
+- [README Guidelies](./guidelines/readme_guidelines.md) - Guidelines for repository `READMEs`.
+- [Brand Guidelines](./guidelines/brand_guidelines.md) - Guidelines for creating your own brand for your project.
+- [Repository Structure Guidelines](./guidelines/repository_structure_guidelines.md) - Guidelines for repository structure and files.
+- [Repository Settings Guidelines](./guidelines/repository_settings_guidelines.md) - Guidelines for repository settings.
+- [PRG Connection File](PRG.md) - PRG Connection File for your repositories.
+- [Table Generator Guide](./categories/table_generator_guide.md) - Guide for setting up the project tier table generator.
+- [Badge Reference Guide](./categories/badge_reference_guide.md) - Guide for displaying the tier badges.
+- [Project Tier Table](./categories/project_tier_table.md) - Project tier table for your repositories.
+- [Project Tier Table (Private)](./categories/project_tier_table_private.md) - Project tier table for your private repositories.
+
 
 Below are some resources I found helpful when creating my repositories and **PRG** in general:
 

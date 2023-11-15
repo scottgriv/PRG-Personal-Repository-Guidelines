@@ -85,7 +85,7 @@ Follow this guideline to find out more information on each tier and the naming c
 - Use this badge to output your project in your **PRG** tier collection table if you have a project that doesn't fit into any of the other tiers.
 - By default, if all repositories are brought in without a **PRG Connection File** file, they will be considered **Optimized**.
 
-## ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) Profile PRG Collection Badge
+## ![#680F7F](https://via.placeholder.com/15/680F7F/000000?text=+) Profile PRG Collection Badge
 
 <a href="https://prgoptimized.com" target="_blank">
     <img src="../docs/images/prg_optimized.png" alt="PRG Optimized Logo" width="138" height="51"/>

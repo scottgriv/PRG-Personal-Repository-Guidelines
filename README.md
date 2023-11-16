@@ -246,11 +246,11 @@ Consult the [Table Generator Guide](./categories/table_generator_guide.md) for m
 
 > **Related Section Documents:** <br>
 > [Category Guidelines](./guidelines/category_guidelines.md) <br>
-> [PRG Connection File](PRG.md) <br>
 > [Table Generator Guide](./categories/table_generator_guide.md) <br>
 > [Badge Reference Guide](./categories/badge_reference_guide.md) <br>
 > [Project Tier Table](./categories/project_tier_table.md) <br>
-> [Project Tier Table (Private)](./categories/project_tier_table_private.md)
+> [Project Tier Table (Private)](./categories/project_tier_table_private.md) <br>
+> [PRG Connection File](PRG.md)
 
 ---------------
 
@@ -355,12 +355,15 @@ Complete guide collection for **PRG**:
 - [README Guidelies](./guidelines/readme_guidelines.md) - Guidelines for repository `READMEs`.
 - [Repository Structure Guidelines](./guidelines/repository_structure_guidelines.md) - Guidelines for repository structure and files.
 - [Repository Settings Guidelines](./guidelines/repository_settings_guidelines.md) - Guidelines for repository settings.
-- [PRG Connection File](PRG.md) - PRG Connection File for your repositories.
 - [Table Generator Guide](./categories/table_generator_guide.md) - Guide for setting up the project tier table generator.
 - [Badge Reference Guide](./categories/badge_reference_guide.md) - Guide for displaying the tier badges.
 - [Project Tier Table](./categories/project_tier_table.md) - Project tier table for your projects.
 - [Project Tier Table (Private)](./categories/project_tier_table_private.md) - Project tier table for non-GitHub or private projects.
-
+- [Gold Tier README Template](templates/README_gold.md) - Gold README template for your repositories.
+- [Silver Tier README Template](templates/README_silver.md) - Silver README template for your repositories.
+- [Bronze Tier README Template](templates/README_bronze.md) - Bronze README template for your repositories.
+- [License Examples](templates/license_examples) - License examples for your repositories.
+- [PRG Connection File](PRG.md) - PRG Connection File for your repositories.
 
 Below are some resources I found helpful when creating my repositories and **PRG** in general:
 - [Jekyll](https://jekyllrb.com/)

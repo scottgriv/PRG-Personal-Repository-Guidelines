@@ -1,6 +1,6 @@
 ## Private Project Tier Table
 
-| Icon | Name | Created | Description | Category | Technology | Tier | Order |
+| Icon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Name | Created&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | Category | Technology | Tier&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Order |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
 | <a href="https://reciperesizer.com" target="_blank" class="icon-container"><img src="../docs/images/private_repos/recipe-resizer-icon-rounded.png" width="100" height="100" alt="Gold"></a> | <a href="https://reciperesizer.com" target="_blank">Recipe-Resizer</a> | 2023-01-22 | Night-Owl-Labs | A utility application that allows you to resize recipes, convert unit of measure, cooking tips, and save your favorite recipes. | Mobile Application | iOS, Swift, SwiftUI, Core Data | Gold | 1 | 
 | <a href="https://beeheard.com" target="_blank" class="icon-container"><img src="../docs/images/private_repos/bee-heard-icon-rounded.png" width="100" height="100" alt="Gold"></a> | <a href="https://beeheard.com" target="_blank">Bee-Heard</a> | 2023-01-01 | Night-Owl-Labs | To be announced. | N/A | N/A | Gold | 2 | 

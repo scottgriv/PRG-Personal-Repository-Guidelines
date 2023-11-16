@@ -94,7 +94,9 @@ Use this file as a template to gather and add badges to your project `README` fi
 - Run your GitHub action workflow to automatically update the badge links to point towards your *PRG** collections website/domain.
 - To achieve this, prior to running the workflow, update the `project_tier_table_generator.py` script `TIER_TABLE_URL` parameter.
 
-#### ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) Gold Tier Project Badge
+## Tier Badges
+
+### ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) Gold Tier Project Badge
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Gold']}" alt="Gold" />
@@ -112,22 +114,10 @@ Use this file as a template to gather and add badges to your project `README` fi
     <img src="{BADGES['Bronze']}" alt="Bronze" />
 </a>
 
-### ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) Optimized Tier Project Badge (Purple Book - _Default_)
+### ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) Optimized Tier Project Badge
 
 <a href="{TIER_TABLE_URL}" target="_blank">
-    <img src="{BADGES['Purple']}" alt="Optimized" />
-</a>
-
-### ![#6236FF](https://via.placeholder.com/15/000000/000000?text=+) Optimized Tier Project Badge (Black Book)
-
-<a href="{TIER_TABLE_URL}" target="_blank">
-    <img src="{BADGES['Black']}" alt="Optimized" />
-</a>
-
-### ![#6236FF](https://via.placeholder.com/15/FFFFFF/000000?text=+) Optimized Tier Project Badge (White Book)
-
-<a href="{TIER_TABLE_URL}" target="_blank">
-    <img src="{BADGES['White']}" alt="Optimized" />
+    <img src="{BADGES['Optimized']}" alt="Optimized" />
 </a>
 
 ## Profile PRG Collection Badge
@@ -141,6 +131,27 @@ Add the following badge to your profile `README` to showcase your **PRG** collec
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_optimized.png" alt="Optimized" width="138" height="51" />
 </a>
+
+## Alternative Profile PRG Collection Badges
+
+### ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) Optimized Tier Project Badge (Purple Book - _Default_)
+
+<a href="{TIER_TABLE_URL}" target="_blank">
+    <img src="{BADGES['Purple']}" alt="Optimized" />
+</a>
+
+### ![#000000](https://via.placeholder.com/15/000000/000000?text=+) Optimized Tier Project Badge (Black Book)
+
+<a href="{TIER_TABLE_URL}" target="_blank">
+    <img src="{BADGES['Black']}" alt="Optimized" />
+</a>
+
+### ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) Optimized Tier Project Badge (White Book)
+
+<a href="{TIER_TABLE_URL}" target="_blank">
+    <img src="{BADGES['White']}" alt="Optimized" />
+</a>
+
 <br>
 <br>
 

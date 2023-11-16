@@ -427,7 +427,7 @@ try:
         if MD_ONLY_TIER_TABLE:
             md_file.write('| Icon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Name | Created&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Owner | Description | Category | Technology | Tier&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |\n')
         else:
-            md_file.write('| Icon&nbsp;&nbsp; | Name | Created&nbsp;&nbsp;&nbsp;&nbsp; | Owner | Description | Category | Technology&nbsp; | Tier |\n')
+            md_file.write('| Icon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbps; | Name | Created&nbsp;&nbsp;&nbsp;&nbsp; | Owner | Description | Category | Technology&nbsp; | Tier |\n')
         md_file.write('| :---: | :---: | :---: | :---: | :--- | :--- | :--- | :---: |\n')
 
         for repo_data in sorted_repos:

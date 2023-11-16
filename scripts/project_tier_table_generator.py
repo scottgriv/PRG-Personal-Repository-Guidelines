@@ -126,7 +126,7 @@ Add the following badge to your profile `README` to showcase your **PRG** collec
 - The hyperlink will take your profile visitors to your catagorized project tier table. 
 - This will complete the **PRG** experience for your profile visitors.
 
-### ![#680F7F](https://via.placeholder.com/15/680F7F/000000?text=+) Profile PRG Collection Badge
+### ![#680F7F](https://via.placeholder.com/15/680F7F/000000?text=+) Profile PRG Collection Badge (_Default_)
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_optimized.png" alt="Optimized" width="138" height="51" />
@@ -134,7 +134,7 @@ Add the following badge to your profile `README` to showcase your **PRG** collec
 
 ## Alternative Profile PRG Collection Badges
 
-### ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) Optimized Tier Project Badge (Purple Book - _Default_)
+### ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) Optimized Tier Project Badge (Purple Book)
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Purple']}" alt="Optimized" />

@@ -284,22 +284,22 @@ Below are the guidelines for repository `READMEs`, files, and overall structure.
 
 ### README Guidelines
 
-See [README Guidelies](./guidelines/readme_guidelines.md) for more details on how to structure your repository `README`.
+Review the [README Guidelines](./guidelines/readme_guidelines.md) for more details on how to structure your repository `README`.
 
 ### Brand Guidelines
 
-See [Brand Guidelines](./guidelines/brand_guidelines.md) for more details on how to create your own brand for your project.
+Review the [Brand Guidelines](./guidelines/brand_guidelines.md) for more details on how to create your own brand for your project.
 
 ### Repository Structure Guidelines
 
-See [Repository Structure Guidelines](./guidelines/repository_structure_guidelines.md) for more details on how to structure your overall repository.
+Review the [Repository Structure Guidelines](./guidelines/repository_structure_guidelines.md) for more details on how to structure your overall repository.
 
 ### Repository Settings Guidelines
 
-See [Repository Settings Guidelines](./guidelines/repository_settings_guidelines.md) for more details on how to configure your repository settings.
+Review the [Repository Settings Guidelines](./guidelines/repository_settings_guidelines.md) for more details on how to configure your repository settings.
 
 **Related Component Documents:** <br>
-> [README Guidelies](./guidelines/readme_guidelines.md) <br>
+> [README Guidelines](./guidelines/readme_guidelines.md) <br>
 > [Brand Guidelines](./guidelines/brand_guidelines.md) <br>
 > [Repository Structure Guidelines](./guidelines/repository_structure_guidelines.md) <br>
 > [Repository Settings Guidelines](./guidelines/repository_settings_guidelines.md)
@@ -380,7 +380,7 @@ Feel free to submit a pull request if you find any issues or have any suggestion
 Complete document library for **PRG**:
 - [Category Guidelines](./guidelines/category_guidelines.md) - Guidelines for catagorizing your repository tiers and naming conventions.
 - [Brand Guidelines](./guidelines/brand_guidelines.md) - Guidelines for creating your own brand for your project.
-- [README Guidelies](./guidelines/readme_guidelines.md) - Guidelines for repository `READMEs`.
+- [README Guidelines](./guidelines/readme_guidelines.md) - Guidelines for repository `READMEs`.
 - [Repository Structure Guidelines](./guidelines/repository_structure_guidelines.md) - Guidelines for repository structure and files.
 - [Repository Settings Guidelines](./guidelines/repository_settings_guidelines.md) - Guidelines for repository settings.
 - [Table Generator Guide](./categories/table_generator_guide.md) - Guide for setting up the project tier table generator.

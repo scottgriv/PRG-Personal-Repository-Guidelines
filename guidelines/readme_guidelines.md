@@ -6,7 +6,37 @@
 
 <h1 align="center">README Guidelines</h1>
 
-General guidelines for creating a `README` file for your project (specifically for **PRG** projects) but this can be applied to any project.
+General instructions for crafting a `README` file are provided here, tailored for **PRG** projects but applicable to any type of project.
+
+---------------
+
+## Table of Contents
+- [README File](#readme-file)
+    - [Templates](#templates)
+- [Banner](#banner)
+- [Badges](#badges)
+- [Title](#title)
+- [Description](#description)
+- [Table of Contents](#table-of-contents)
+- [Features](#features)
+- [Background Story](#background-story)
+- [Definitions](#definitions)
+- [Limitations](#limitations)
+- [Dependencies](#dependencies)
+- [Getting Started](#getting-started)
+- [What's Inside?](#whats-inside)
+- [Configuration](#configuration)
+- [Deployment](#deployment)
+- [Closing](#closing)
+- [Disclaimer](#disclaimer)
+- [What's Next?](#whats-next)
+- [Project](#project)
+- [Contributing](#contributing)
+- [Resources](#resources)
+- [License](#license)
+- [Credits](#credits)
+    - [Footer](#footer)
+- [Resources](#resources-1)
 
 ## README File
 
@@ -14,7 +44,7 @@ General guidelines for creating a `README` file for your project (specifically f
 > A `README` file is **REQUIRED** for **ALL** tiers.
 
 > [!NOTE]
-> Your Profile `README` does not need to adhere to the **PRG** guidelines defined in this document, but it is encouraged to include the [Profile Badge](../README.md#6236ff-profile-badge) to link to your **PRG** project collection.
+> Your Profile `README` does not need to adhere to the **PRG** guidelines defined in this document, but it is encouraged to include the [PRG Profile Badge](./brand_guidelines#prg-profile-badge) to link to your **PRG Collection**.
 
 - A Profile `README` is always required. Read more about it [here](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
     - View [GitHub Profile README Generator](https://rahuldkjain.github.io/gh-profile-readme-generator/) for a quick and easy way to generate a profile `README` for your GitHub profile.
@@ -107,6 +137,16 @@ See the following links for `README` templates for each tier:
 - The table of contents should be a list of links to each section of your `README`.
 - This should be the second section after the description.
 
+## Features
+
+> [!WARNING] 
+> **REQUIRED** section for **Gold** tier only.
+> **Silver** and **Bronze** tier projects do not require this section, but feel free to add it if you want.
+
+- This section should contain a list of features for your project.
+- Explain what each feature does and how it works.
+- You can also add screenshots of each feature if you want.
+
 ## Background Story
 
 > [!WARNING] 
@@ -129,15 +169,38 @@ See the following links for `README` templates for each tier:
 
 - This section should contain a list of limitations for your project.
 
-## Features
+## Dependencies
 
 > [!WARNING] 
 > **OPTIONAL** section for **ALL** tiers.
 
-- This section should contain a list of features for your project.
-- Explain what each feature does and how it works.
-- You can also add screenshots of each feature if you want.
+- This section should contain a list of dependencies for your project.
+- There is no need to list every single dependency, just the major ones.
+- There's also no need to list the version or website for each dependency (this will be done in the *Resouces* area, more on that soon), just the name is fine.
+    - i.e. This project makes use of several libraries and frameworks: <br>
+            - **Python:** For the application logic. <br>
+            - **Django:** For web application functionality. <br>
+            - **Plotly:** For creating interactive visualizations. <br>
+            - **Pandas:** For data manipulation and analysis. <br>
+            - **Requests:** For making `API` calls. <br>
+            - **Python-Decouple:** For storing sensitive information in a `.env` file. <br>
+- You can use a tool like [Dependabot](https://dependabot.com/) to automatically generate a list of dependencies for your project.
 
+## Getting Started
+
+> [!WARNING] 
+> **REQUIRED** section for **ALL** tiers.
+
+- This section should contain a list of steps to get your project up and running.
+- Utilize code blocks to show the commands needed to run your project.
+- i.e.
+    1. Clone this repository.
+    2. Create a virtual environment: `python -m venv venv`.
+    3. Install the dependencies.
+    4. Run the application: 
+        ```bash
+        python manage.py runserver
+        ```
 ## What's Inside?
 
 > [!WARNING] 
@@ -173,38 +236,6 @@ See the following links for `README` templates for each tier:
         - [woochanleee.github.io](https://woochanleee.github.io/project-tree-generator/)
         - [VSCode Extension](https://marketplace.visualstudio.com/items?itemName=tobiaswadseth.file-tree-generator)
 
-## Dependencies
-
-> [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
-
-- This section should contain a list of dependencies for your project.
-- There is no need to list every single dependency, just the major ones.
-- There's also no need to list the version or website for each dependency (this will be done in the *Resouces* area, more on that soon), just the name is fine.
-    - i.e. This project makes use of several libraries and frameworks: <br>
-            - **Python:** For the application logic. <br>
-            - **Django:** For web application functionality. <br>
-            - **Plotly:** For creating interactive visualizations. <br>
-            - **Pandas:** For data manipulation and analysis. <br>
-            - **Requests:** For making `API` calls. <br>
-            - **Python-Decouple:** For storing sensitive information in a `.env` file. <br>
-- You can use a tool like [Dependabot](https://dependabot.com/) to automatically generate a list of dependencies for your project.
-
-## Getting Started
-
-> [!WARNING] 
-> **REQUIRED** section for **ALL** tiers.
-
-- This section should contain a list of steps to get your project up and running.
-- Utilize code blocks to show the commands needed to run your project.
-- i.e.
-    1. Clone this repository.
-    2. Create a virtual environment: `python -m venv venv`.
-    3. Install the dependencies.
-    4. Run the application: 
-        ```bash
-        python manage.py runserver
-        ```
 ## Configuration
 
 > [!WARNING] 
@@ -222,7 +253,8 @@ See the following links for `README` templates for each tier:
 ## Closing
 
 > [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
+> **REQUIRED** section for **Gold** tier only.
+> **Silver** and **Bronze** tier projects do not require this section, but feel free to add it if you want.
 
 - Add any closing notes or remarks here.
 
@@ -233,6 +265,29 @@ See the following links for `README` templates for each tier:
 
 - Include any disclaimers for your project here.
 - i.e. "This project is not affiliated with the United States Geological Survey (USGS)."
+
+## What's Next?
+
+> [!WARNING] 
+> **OPTIONAL** section for **ALL** tiers.
+
+- Include any future plans for your project here.
+
+## Project
+
+> [!WARNING] 
+> **REQUIRED** section for **Gold** tier only.
+
+- Include a link to your project plan here on GitHub if you do create one.
+
+## Contributing
+
+> [!WARNING] 
+> **REQUIRED** section for **Gold** tier only.
+
+- GitHub is about collaboration and contribution, so this is why its essential to include a section on how to contribute to your best projects.
+- Include any information on how to contribute to your project here.
+- Include a `CONTRIBUTING` file in your repository for more detailed information on how to contribute to your project.
 
 ## Resources
 
@@ -245,28 +300,6 @@ See the following links for `README` templates for each tier:
     - i.e. [Plotly](https://plotly.com/python/) - A Python graphing library that makes interactive, publication-quality graphs online.
     - i.e. [Django](https://www.djangoproject.com/) - A high-level Python Web framework that encourages rapid development and clean, pragmatic design.
     - i.e. [Pandas](https://pandas.pydata.org/) - A fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
-
-## What's Next?
-
-> [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
-
-- Include any future plans for your project here.
-
-## Project
-
-> [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
-
-- Include a link to your project plan here on GitHub if you do create one.
-
-## Contributing
-
-> [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
-
-- Include any information on how to contribute to your project here.
-- Include a `CONTRIBUTING` file in your repository for more detailed information on how to contribute to your project.
 
 ## License
 
@@ -310,3 +343,7 @@ See the following links for `README` templates for each tier:
 
 - The footer should contain a image of your application's icon.
 - See the [bottom of this project README](../README.md#credits) for an example.
+
+---------------
+
+## Resources

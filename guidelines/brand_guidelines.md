@@ -6,10 +6,12 @@
 
 <h1 align="center">Brand Guidelines</h1>
 
-Below are the brand guidelines for a **PRG** project. 
-- These guidelines are meant to be used as a reference for the project's branding.
-- **Gold** tier projects are encouraged to follow these guidelines as closely as possible.
-- You can apply these guidelines to your other tier projects if you'd like, but it's not required.
+Below is a summary of the brand guidelines for a **PRG** project:
+- Consider these guidelines as a reference for your project's branding strategy.
+- It is highly recommended for **Gold** tier projects to adhere closely to these guidelines.
+- While optional for other tiers, applying these guidelines to your projects can enhance their branding coherence.
+
+---------------
 
 ## Table of Contents
 
@@ -26,7 +28,7 @@ Below are the brand guidelines for a **PRG** project.
         - [Header](#header)
         - [Footer](#footer)
         - [Rounded Corners](#rounded-corners)
-    - [PRG Profile Badge/Banner](#prg-profile-badgebanner)
+    - [PRG Profile Badge](#prg-profile-badge)
     - [Optional Banners](#optional-banners)
         - [X Banner](#x-banner)
         - [LinkedIn Banner](#linkedin-banner)
@@ -36,7 +38,6 @@ Below are the brand guidelines for a **PRG** project.
 - [Closing](#closing)
 - [Resources](#resources)
 
-
 ## Software Design
 
 I develop all of my UI/UX designs using [Figma](https://www.figma.com/) and [Sketch](https://www.sketch.com/).
@@ -45,9 +46,9 @@ I develop all of my UI/UX designs using [Figma](https://www.figma.com/) and [Ske
 - The combination of using Figma for prototyping and wireframing and Sketch for designing and creating assets is a great workflow for me.
 - Overall, be sure to use a Vector design tool (Figma, Sketch, Adobe XD, etc.) to create your designs.
 
-Design in Vectors not Bitmaps!
-- This will allow you to export your designs as SVGs and PNGs where applicable.
-- To read more about Bitmap (pixels) vs Vector (math) images, see [this article](https://vector-conversions.com/vectorizing/raster_vs_vector.html).
+**Design in Vectors not Pixels!**
+- This will allow you to export your designs as SVGs and high quality PNGs where applicable.
+- To read more about Raster (Bitmap/Pixel) images vs. Vector (math) images, see [this article](https://vector-conversions.com/vectorizing/raster_vs_vector.html).
     - It's recommended to design your images using the dimensions below in this guide, but export your images double the size of the required dimensions.
         - For example, if the dimensions are `100x100`, export the image as `200x200`.
         - This will allow you to have a higher quality image when you resize it to the dimensions listed below.
@@ -134,7 +135,7 @@ The typography for a **PRG** project is as follows:
 ### Social Banner
 
 - This can be used for social sharing of your repository link from GitHub.
-- See Settings -> Social preview for more information under your project's settings.
+- See _Settings -> Social preview_ for more information under your project's settings.
 - The size of the `banner_social.png` file should be `1280x640` pixels.
 
 <img src="../docs/images/brand_templates/banner_social-template.png" alt="Social Banner" width="1280" height="640" />
@@ -174,13 +175,13 @@ The typography for a **PRG** project is as follows:
     - For the `banner_small.png` file, I move the toggle bar to the far left and then move it to the right 5 times (the opposite of `icon.png`).
     - You can do this rounding in your design tool as well, but I find this website to quick and easy to use.
 
-### PRG Profile Badge/Banner
+### PRG Profile Badge
 
 - Place this in your GitHub profile's `README` file (usually on the bottom).
 - The size of the `prg.png` file should be `138x51` pixels.
 - You do not need to create this image, it is already included in the `docs/images` folder.
     - The image should be centered.
-    - The hyperlink should take you to your **PRG** collection website after building the Tier Table for the first time using the `scripts/project_tier_table_generator.py` script and can be found in the `categories/badge_reference_guide.md` file.
+    - The hyperlink should take you to your **PRG Collection** website after building the Tier Table for the first time using the `scripts/project_tier_table_generator.py` script and can be found in the `categories/badge_reference_guide.md` file.
 
 <a href="https://prgoptimized.com" target="_blank">
     <img src="../docs/images/prg_optimized.png" alt="PRG Optimized Logo" width="138" height="51"/>

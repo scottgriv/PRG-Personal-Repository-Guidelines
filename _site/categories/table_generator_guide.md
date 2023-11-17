@@ -97,7 +97,7 @@ You can customize your build script however you want if you want to categorize y
 See [Badge Reference Guide](../categories/badge_reference_guide.md) for more details on how to create badges for your repository.
 - Run the workflow above to get an update `categories/badge_reference_guide.md` file pointing to your **PRG** system.
 - Place the badges in your repository `README` to showcase your **PRG** tier collection.
-- Use my repos and **PRG** collection as an example of how to use the badges in your `README` files.
+- Use my repos and **PRG Collection** as an example of how to use the badges in your `README` files.
 
 ## GitHub Pages Deployment
 

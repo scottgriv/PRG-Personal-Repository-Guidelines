@@ -39,19 +39,12 @@
 
 ---------------
 
-This `README` highlights the **three** core components of **PRG**:
-
-1. [**Categorize**](#1-categories) your repositories into four tiers: ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**, and ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) **Optimized**, then display them in a project tier table (built using GitHub Actions, hosted and deployed using GitHub Pages) to showcase your **GitHub Portfolio**.
-2. [**Guidelines**](#2-guidelines) defined for repository `README`, files, and overall structure. [Brand Guidelines](./guidelines/brand_guidelines.md) for your ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold** tier projects are also defined.
-3. [**Templates**](#3-templates) for your `READMEs` and associated files. Templates are provided for each tier to help you get started quickly and easily.
-   <br>
-> [!IMPORTANT] 
-> Each component above will have related subcomponents that will provide more details.
-
 ## Table of Contents
 
+- [Features](#features)
 - [Background Story](#background-story)
   - ["The GitHub Portfolio Problem"](#the-github-portfolio-problem)
+- [Definitions](#definitions)
 - [Getting Started](#getting-started)
 - [What's Inside?](#whats-inside)
 - [1. Categories](#1-categories)
@@ -81,6 +74,17 @@ This `README` highlights the **three** core components of **PRG**:
 - [License](#license)
 - [Credits](#credits)
 
+## Features
+
+This `README` highlights the **three** core components of **PRG**:
+
+1. [**Categorize**](#1-categories) your repositories into four tiers: ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**, and ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) **Optimized**, then display them in a project tier table (built using GitHub Actions, hosted and deployed using GitHub Pages) to showcase your **GitHub Portfolio**.
+2. [**Guidelines**](#2-guidelines) defined for repository `README`, files, and overall structure. [Brand Guidelines](./guidelines/brand_guidelines.md) for your ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold** tier projects are also defined.
+3. [**Templates**](#3-templates) for your `READMEs` and associated files. Templates are provided for each tier to help you get started quickly and easily.
+   <br>
+> [!IMPORTANT] 
+> Each component above will have related subcomponents that will provide more details.
+
 ## Background Story
 
 I needed a system to keep my repositories organized and standardized. Also, I wanted to showcase my **GitHub Portfolio**. My repository `README` and folder/file structures were different from each other, which was a pain to maintain or use as a template for a future projects, so I created this repository and document, the <u><b>Personal Repository Guidelines</b></u> or **PRG** for short, to help solve my problem.
@@ -100,6 +104,17 @@ Another reason I created this document was to solve the **"GitHub Portfolio Prob
 > GitHub is being used to showcase my portfolio, but I don't want to showcase every single repository I have created. I want to showcase my best work, but I also want to showcase my other work that I am proud of. How do I do that?
 
 **PRG** was designed to solve this problem.
+
+## Definitions
+
+Here are some definitions to help you understand the terminology used in this document:
+- **PRG Optimized** - A repository that is catagorized using the **PRG** system.
+- **PRG Collection** - A collection of repositories that are categorized using **PRG**.
+- **PRG Connection File** - A markdown file ([PRG Connection File](PRG.md)) placed in the root of each of your repositories that is used to categorize your repositories using **PRG**.
+- **Project Tier** - A tier that is assigned to a repository based on the information in the [PRG Connection File](PRG.md) file.
+- **Project Tier Table** - A table that is automatically generated using GitHub Actions and hosted using GitHub Pages that displays your categorized repositories.
+- **Project Tier Table Generator** - A python script and GitHub Action that is used to automatically generate a project tier table for your **PRG Collection**.
+- **Tier Badge** - A badge that is placed at the top of each repository `README` to indicate the tier of the repository.
 
 ## Getting Started
 

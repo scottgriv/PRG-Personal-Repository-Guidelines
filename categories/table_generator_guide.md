@@ -8,6 +8,23 @@
 
 Included in this project is a GitHub Action CI/CD workflow and `python` script that will automatically generate a table of all your repositories and their **PRG** tiers to deploy to GitHub Pages in order to showcase your projects/portfolio.
 
+---------------
+
+## Table of Contents
+- [PRG Connection File (Pre-requisites)](#prg-connection-file-pre-requisites)
+- [Python Build Script](#python-build-script)
+  - [Configuration](#configuration)
+  - [Time Zone & Schedule Configuration](#time-zone--schedule-configuration)
+  - [Customization](#customization)
+- [GitHub Actions Workflow](#github-actions-workflow)
+  - [Project Tier Table (Output)](#project-tier-table-output)
+  - [Project Tier Badges (Output)](#project-tier-badges-output)
+- [GitHub Pages Deployment](#github-pages-deployment)
+  - [Local Testing](#local-testing)
+  - [GitHub Actions API Secret](#github-actions-api-secret)
+- [Running the Workflow](#running-the-workflow)
+- [Resources](#resources)
+
 ## PRG Connection File (Pre-requisites)
 
 In order to get the **PRG** system to work, you must do the following:
@@ -102,8 +119,8 @@ You can customize your build script however you want if you want to categorize y
 
 See [Badge Reference Guide](../categories/badge_reference_guide.md) for more details on how to create badges for your repository.
 - Run the workflow above to get an update `categories/badge_reference_guide.md` file pointing to your **PRG** system.
-- Place the badges in your repository `README` to showcase your **PRG** tier collection.
-- Use my repos and **PRG** collection as an example of how to use the badges in your `README` files.
+- Place the badges in your repository `README` to showcase your **PRG Collection**.
+- Use my repos and **PRG Collection** as an example of how to use the badges in your `README` files.
 
 ## GitHub Pages Deployment
 
@@ -161,3 +178,7 @@ See [Badge Reference Guide](../categories/badge_reference_guide.md) for more det
 - Be sure to add **PRG Connection Files** to your repositories and add the `Tier` label to each repository or else the workflow will be blank.
   - Optionally, you can adjust the config files in the build script to ignore the **PRG Connection File** and pull in all of your repos without categorizing them.
   - If you opt to do this, repositories will have the ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) **Optimized** badge by default.
+
+## Resources
+
+

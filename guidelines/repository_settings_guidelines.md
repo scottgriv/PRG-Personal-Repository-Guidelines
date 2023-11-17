@@ -6,9 +6,22 @@
 
 <h1 align="center">Repository Settings Guidelines</h1>
 
-This guideline will walk you through the settings you should use for your repository.
-- I will be using my project [River-Charts](https://github.com/scottgriv/River-Charts) as an example for the following guideline:
-- Click the gear icon next to "About" in the upper right corner of your repository to access the repository settings.
+This guideline outlines the recommended settings for your repository, using my project [River-Charts](https://github.com/scottgriv/River-Charts) as a practical example:
+- To adjust your repository settings, click on the gear icon located next to the "About" section in the top right corner of your repository's main page.
+
+---------------
+
+## Table of Contents
+- [Project Name](#project-name)
+- [Description](#description)
+- [Website](#website)
+- [Topics](#topics)
+- [Misc. Settings](#misc-settings)
+- [Resources](#resources)
+
+## Project Name
+
+Consult the [Category Guidelines](./category_guidelines.md) to determine how to name your project.
 
 ## Description
 
@@ -51,3 +64,5 @@ Use a description that is short and to the point. This is the first thing people
     - **Gold** projects should always be pinned to your profile.
 - `README` files should always be included in your repository.
     - View [Repository Structure Guidelines](./repository_structure_guidelines.md) and [README Guidelines](./readme_guidelines.md) for more information on how to setup your project structure and `README` file.
+
+## Resources

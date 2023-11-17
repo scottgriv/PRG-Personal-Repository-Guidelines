@@ -329,6 +329,7 @@ See the following links for `README` templates for each tier:
 ## License Templates
 
 Use or add more licenses to the [templates/license_examples](templates/license_examples) directory.
+- Each license should be in its own folder.
 
 **Related Component Documents:** <br>
 > ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) [Gold Tier README Template](templates/README_gold.md) <br>

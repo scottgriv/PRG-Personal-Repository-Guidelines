@@ -343,7 +343,7 @@ Use or add more licenses to the [templates/license_examples](templates/license_e
 
 Thank you for taking the time to read through this document and I hope you find it useful!
 If you have any questions or suggestions, please feel free to reach out to me.
-- Please reference the [SUPPORT](.github/SUPPORT.md) file in this repository for more details.
+> Please reference the [SUPPORT](.github/SUPPORT.md) file in this repository for more details.
 
 ## What's Next?
 
@@ -352,13 +352,13 @@ If you have any questions or suggestions, please feel free to reach out to me.
 - [ ] Write about the benefits of using **PRG** on Medium.
 
 I'm looking forward to seeing how this project evolves over time and how it can help others with their GitHub portfolio.
-- Please reference the [CHANGELOG](.github/CHANGELOG.md) file in this repository for more details.
+> Please reference the [CHANGELOG](.github/CHANGELOG.md) file in this repository for more details.
 
 ## Project
 
 Please reference the [GitHub Project](https://github.com/users/scottgriv/projects/8) tab inside this repository to get a good understanding of where I'm currently at with the overall project.
 - Issues and Enhancements will also be tracked there as well.
-- Please join the [PRG Discussions](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/discussions) to discuss this project!
+> Please join the [PRG Discussions](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/discussions) to discuss this project!
 
 ## Contributing
 
@@ -371,7 +371,7 @@ Feel free to submit a pull request if you find any issues or have any suggestion
 4. Push to the Branch (`git push origin feature/PRG-Personal-Repository-Guidelines`)
 5. Open a Pull Request
 
-- Please reference the [CONTRIBUTING](.github/CONTRIBUTING.md) file in this repository for more details.
+> Please reference the [CONTRIBUTING](.github/CONTRIBUTING.md) file in this repository for more details.
 
 ## Resources
 
@@ -387,7 +387,7 @@ Complete document library for **PRG**:
 - [Badge Reference Guide](./categories/badge_reference_guide.md) - Guide for displaying the tier badges.
 - [Project Tier Table](./categories/project_tier_table.md) - Project tier table for your projects.
 - [Project Tier Table (Private)](./categories/project_tier_table_private.md) - Project tier table for non-GitHub or private projects.
-- ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) [Gold Tier README Template](templates/README_gold.md) - Gold `README` template for your repositories.
+- ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) [Gold Tier README Template](templates/README_gold.md) - Gold `README` template for your repositories.
 - ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) [Silver Tier README Template](templates/README_silver.md) - Silver `README` template for your repositories.
 - ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) [Bronze Tier README Template](templates/README_bronze.md) - Bronze `README` template for your repositories.
 - [License Examples](templates/license_examples) - License examples for your repositories.

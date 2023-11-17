@@ -268,7 +268,7 @@ Consult the [Category Guidelines](./guidelines/category_guidelines.md) for more 
 
 Consult the [Table Generator Guide](./categories/table_generator_guide.md) for more details on how to setup the project tier table generator using GitHub Actions and GitHub Pages.
 
-**Related Section Documents:** <br>
+**Related Component Documents:** <br>
 > [Category Guidelines](./guidelines/category_guidelines.md) <br>
 > [Table Generator Guide](./categories/table_generator_guide.md) <br>
 > [Badge Reference Guide](./categories/badge_reference_guide.md) <br>
@@ -298,7 +298,7 @@ See [Repository Structure Guidelines](./guidelines/repository_structure_guidelin
 
 See [Repository Settings Guidelines](./guidelines/repository_settings_guidelines.md) for more details on how to configure your repository settings.
 
-**Related Section Documents:** <br>
+**Related Component Documents:** <br>
 > [README Guidelies](./guidelines/readme_guidelines.md) <br>
 > [Brand Guidelines](./guidelines/brand_guidelines.md) <br>
 > [Repository Structure Guidelines](./guidelines/repository_structure_guidelines.md) <br>
@@ -330,7 +330,10 @@ See the following links for `README` templates for each tier:
 
 Use or add more licenses to the [templates/license_examples](templates/license_examples) directory.
 
-**Related Section Documents:** <br>
+**Related Component Documents:** <br>
+- ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) [Gold Tier README Template](templates/README_gold.md) <br>
+- ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) [Silver Tier README Template](templates/README_silver.md) <br>
+- ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) [Bronze Tier README Template](templates/README_bronze.md) <br>
 > [License Examples](templates/license_examples)
 
 ---------------

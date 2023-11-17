@@ -331,7 +331,7 @@ See the following links for `README` templates for each tier:
 Use or add more licenses to the [templates/license_examples](templates/license_examples) directory.
 
 **Related Component Documents:** <br>
-- ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) [Gold Tier README Template](templates/README_gold.md) <br>
+- ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) [Gold Tier README Template](templates/README_gold.md) <br>
 - ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) [Silver Tier README Template](templates/README_silver.md) <br>
 - ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) [Bronze Tier README Template](templates/README_bronze.md) <br>
 > [License Examples](templates/license_examples)

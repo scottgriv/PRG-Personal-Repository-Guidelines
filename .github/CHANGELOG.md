@@ -4,7 +4,7 @@
 
 ### Added or Changed
 - Added this changelog file :D
-- Initial Release of the PRG repository guidelines.
+- Initial Release of PRG
 
 ### Removed
 - N/A

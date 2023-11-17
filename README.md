@@ -25,31 +25,28 @@
 
 **PRG** is a system that transforms the way repositories are organized and presented in your GitHub portfolio. By harnessing the power of GitHub Actions, it automatically crafts a tier-based display, neatly categorizing your repositories for enhanced clarity and impact. Beyond mere organization, it sets forth comprehensive guidelines for `READMEs` and overall repository structure, ensuring each project is showcased with maximum professionalism and coherence.
 
-- Get your projects up and running quickly and easily so you can focus on what matters most - your code!
-- Categorize repositories and projects for your **GitHub Portfolio**.
-- Dynamically create a ranked project tier table for your repositories using GitHub Actions & GitHub Pages.
-- Define guidelines and templates for repository `READMEs` and files.
+- Categorize repositories and projects for your **GitHub Portfolio** using a _project tier table_ for your repositories with GitHub Actions & GitHub Pages.
+- Follow the defined guidelines to guide your repository structure and `README` content.
+- Utilize the predefined `README` templates for [Read Me Driven Development](https://tom.preston-werner.com/2010/08/23/readme-driven-development.html) to get your projects up and running quickly and easily so you can focus on what matters most - your code!
 
 <div align="center">
   <a href="https://prgoptimized.com" target="_blank">
     <img src="./docs/images/demo/demo_1.gif" alt="Demo_1" style="width: 50%; margin: 5px;">
   </a>
   <br>
-  <i>PRG creates a project tier table for your GitHub portfolio.</i>
-  <br>
-  <i>Organization repos are optionally included in your table as well.</i>
+  <i><b>PRG</b> creates a project tier table for your GitHub portfolio.</i>
 </div>
 
 ---------------
 
-This `README` highlights the **three** main areas of **PRG**:
+This `README` highlights the **three** core components of **PRG**:
 
-1. [**Categories**](#1-categories): categorize your repositories into four tiers: ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**, and ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) **Optimized**, then display them in a "project tier table" (built using GitHub Actions).
-2. [**Guidelines**](#2-guidelines): defined guidelines for repository `README`, files, and overall structure. Brand guidelines for your ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold** tier projects are also defined.
-3. [**Templates**](#3-templates): templates for your `READMEs` and associated files.
+1. [**Categorize**](#1-categories) your repositories into four tiers: ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**, and ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) **Optimized**, then display them in a project tier table (built using GitHub Actions, hosted and deployed using GitHub Pages) to showcase your **GitHub Portfolio**.
+2. [**Guidelines**](#2-guidelines) defined for repository `README`, files, and overall structure. [Brand Guidelines](./guidelines/brand_guidelines.md) for your ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold** tier projects are also defined.
+3. [**Templates**](#3-templates) for your `READMEs` and associated files. Templates are provided for each tier to help you get started quickly and easily.
    <br>
 > [!IMPORTANT] 
-> Each section above will have related document resources for more details regarding each area.
+> Each component above will have related subcomponents that will provide more details.
 
 ## Table of Contents
 
@@ -79,15 +76,22 @@ This `README` highlights the **three** main areas of **PRG**:
 - [Project](#project)
 - [Contributing](#contributing)
 - [Resources](#resources)
+  - [PRG Document Library](#prg-document-library)
+  - [External Resources](#external-resources)
 - [License](#license)
 - [Credits](#credits)
 
 ## Background Story
 
-I needed a system to showcase my GitHub portfolio and keep it organized and standardized. My repository `README` and folder/file structures were different from each other, which was a pain to maintain or use as a template for a future projects, so I created this repository and document, the <u><b>Personal Repository Guidelines</b></u> or **PRG** for short, to help solve my problem.
+I needed a system to keep my repositories organized and standardized. Also, I wanted to showcase my **GitHub Portfolio**. My repository `README` and folder/file structures were different from each other, which was a pain to maintain or use as a template for a future projects, so I created this repository and document, the <u><b>Personal Repository Guidelines</b></u> or **PRG** for short, to help solve my problem.
 
 - This document primarily applies to the version control system here on GitHub but it can be extended or applied to other version control systems as well.
 - This repository is treated no different than my other repositories, it also adheres to **PRG** (_itself in this case_).
+
+I developed the **Personal Repository Guidelines (PRG)** to address the challenges of maintaining and standardizing my repositories, as well as to enhance the presentation of my **GitHub Portfolio**. Previously, inconsistencies in `README` files and folder structures across different repositories made maintenance and templating for future projects cumbersome. **PRG** serves as both a solution and a documentation resource.
+
+- This document is primarily tailored for GitHub's version control system, but its principles can be adapted for use with other version control systems.
+- The **PRG** repository is subject to the same standards it sets, thereby exemplifying its own guidelines.
 
 ### "The GitHub Portfolio Problem"
 
@@ -101,8 +105,7 @@ Another reason I created this document was to solve the **"GitHub Portfolio Prob
 
 To get started, you'll need to do the following:
 1. Fork this repository.
-2. Adjust the **Required Configurations** section in the [Project Tier Table Generator](./scripts/project_tier_table_generator.py) script by 
-  - Add your custom domain name or your github.io URL to the `TIER_TABLE_URL` variable.
+2. Adjust the **Required Configurations** section in the [Project Tier Table Generator](./scripts/project_tier_table_generator.py) script by adding your custom domain name or your GitHub pages URL to the `TIER_TABLE_URL` variable.
   > Consult the [Table Generator Guide](./categories/table_generator_guide.md) for more details.
 3. Add a [PRG Connection File](PRG.md) file to the root of each of your repositories.
   > Consult the [PRG Connection File](PRG.md) section for more details.
@@ -119,13 +122,34 @@ To get started, you'll need to do the following:
 10. Optionally, you can update your **PRG** repositories based on the provided [Templates](#3-templates) to standardize your `README` and project structures.
   > Consult the [Tier README Templates](#tier-readme-templates) section for more details.
 
+
+To begin, follow these steps:
+1. Fork this repository.
+2. In the [Project Tier Table Generator](./scripts/project_tier_table_generator.py) script, modify the **Required Configurations** section. 
+   - Add your custom domain name or GitHub pages URL to the `TIER_TABLE_URL` variable.
+   > For more information, see the [Table Generator Guide](./categories/table_generator_guide.md).
+3. Place a [PRG Connection File](PRG.md) in the root of each repository you want to categorize using **PRG**.
+   > Detailed instructions are in the [PRG Connection File](PRG.md) section.
+   - Ensure your connection file is updated with the correct repository tier and other relevant information.
+   > See the [Category Guidelines](./guidelines/category_guidelines.md) for further details.
+5. Implement GitHub Actions to automate the creation of your project tier table.
+   > Additional guidance is available in the [Table Generator Guide](./categories/table_generator_guide.md).
+7. Set up and deploy GitHub Pages to display your project tier table for your **GitHub Portfolio**.
+   > Refer to the [Table Generator Guide](./categories/table_generator_guide.md) for setup instructions.
+8. Affix the appropriate tier badge at the top of your repository `README`.
+   > The [Badge Reference Guide](./categories/badge_reference_guide.md) provides necessary information.
+9. Incorporate the **Profile PRG Collection Badge** into your `README`.
+   > Consult the [Badge Reference Guide](./categories/badge_reference_guide.md) for details.
+10. Optionally, utilize the provided [Templates](#3-templates) to unify your `README` and project structures.
+   > For template usage, see the [Tier README Templates](#tier-readme-templates) section.
+
 > [!IMPORTANT]
 > If you decide to fork it and make changes to it, please provide proper credit by linking back to the main branch of this repository! 
 > Thank you and good luck with your GitHub portfolio!
 
 ## What's Inside?
 
-Below is a list of the files and folders in this repository and what they are used for:
+Below is a list of the main files and folders in this repository and their specific purposes:
   ```bash
   PRG-Personal-Repository-Guidelines # Root folder
   ├─ _layouts - # Jekyll layouts for the site
@@ -183,12 +207,12 @@ To solve the **"GitHub Portfolio Problem"** above and to destinguish the quality
 
 ### PRG Connection File
 
-**PRG** achieves this by utilizing GitHub Actions to automatically create a _project tier table_ based on a simple markdown file ([PRG Connection File](PRG.md)) placed in the root of each of your repositories.
+**PRG** achieves this by utilizing GitHub Actions to automatically create a project tier table based on a simple markdown file ([PRG Connection File](PRG.md)) placed in the root of each of your repositories.
 
 ### Tier Badges
 
-- The tier badge must be prominently displayed at the top of each repository to align with **PRG** standards.
-- This is what links your repository to the guidelines and helps categorize it.
+- The catagorized tier badge should ust be prominently displayed at the top of each repository to align with **PRG** standards.
+- This is what links your repository to your overall **PRG** collection.
 
 <a id="gold-tier-project-badge"></a>
 
@@ -244,7 +268,7 @@ Consult the [Category Guidelines](./guidelines/category_guidelines.md) for more 
 
 Consult the [Table Generator Guide](./categories/table_generator_guide.md) for more details on how to setup the project tier table generator using GitHub Actions and GitHub Pages.
 
-> **Related Section Documents:** <br>
+**Related Section Documents:** <br>
 > [Category Guidelines](./guidelines/category_guidelines.md) <br>
 > [Table Generator Guide](./categories/table_generator_guide.md) <br>
 > [Badge Reference Guide](./categories/badge_reference_guide.md) <br>
@@ -268,13 +292,13 @@ See [Brand Guidelines](./guidelines/brand_guidelines.md) for more details on how
 
 ### Repository Structure Guidelines
 
-See [Repository Structure Guidelines](./guidelines/repository_structure_guidelines.md) for more details on how to structure your overall repository/files.
+See [Repository Structure Guidelines](./guidelines/repository_structure_guidelines.md) for more details on how to structure your overall repository.
 
 ### Repository Settings Guidelines
 
 See [Repository Settings Guidelines](./guidelines/repository_settings_guidelines.md) for more details on how to configure your repository settings.
 
-> **Related Section Documents:** <br>
+**Related Section Documents:** <br>
 > [README Guidelies](./guidelines/readme_guidelines.md) <br>
 > [Brand Guidelines](./guidelines/brand_guidelines.md) <br>
 > [Repository Structure Guidelines](./guidelines/repository_structure_guidelines.md) <br>
@@ -293,23 +317,21 @@ Templates are broken down by the three (catagorized) tiers of projects: ![#FFD70
 
 See the following links for `README` templates for each tier:
 
-- [Gold Tier README Template](templates/README_gold.md)
-- [Silver Tier README Template](templates/README_silver.md)
-- [Bronze Tier README Template](templates/README_bronze.md)
+- ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) [Gold Tier README Template](templates/README_gold.md)
+- ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) [Silver Tier README Template](templates/README_silver.md)
+- ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) [Bronze Tier README Template](templates/README_bronze.md)
 
 ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) **Optimized** tier projects are uncategorized and do not have a template. Use the template that best fits your project. 
 
    > [!NOTE] 
-   > I personally use this tier for my personal and organization profile `READMEs`.
+   > For example, I use this tier for my personal and organization profile `READMEs` since they don't fit into any of the other tiers.
 
 ## License Templates
 
 Use or add more licenses to the [templates/license_examples](templates/license_examples) directory.
 
-> **Related Section Documents:** <br>
-> [Gold Tier README Template](templates/README_gold.md) <br>
-> [Silver Tier README Template](templates/README_silver.md) <br>
-> [Bronze Tier README Template](templates/README_bronze.md)
+**Related Section Documents:** <br>
+> [License Examples](templates/license_examples)
 
 ---------------
 
@@ -330,7 +352,7 @@ I'm looking forward to seeing how this project evolves over time and how it can 
 
 ## Project
 
-Please reference the [GitHub Project](https://github.com/users/scottgriv/projects/8) tab inside this Repo to get a good understanding of where I'm currently at with the overall project.
+Please reference the [GitHub Project](https://github.com/users/scottgriv/projects/8) tab inside this repository to get a good understanding of where I'm currently at with the overall project.
 - Issues and Enhancements will also be tracked there as well.
 - Please join the [PRG Discussions](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/discussions) to discuss this project!
 
@@ -349,7 +371,9 @@ Feel free to submit a pull request if you find any issues or have any suggestion
 
 ## Resources
 
-Complete guide collection for **PRG**:
+### PRG Document Library
+
+Complete document library for **PRG**:
 - [Category Guidelines](./guidelines/category_guidelines.md) - Guidelines for catagorizing your repository tiers and naming conventions.
 - [Brand Guidelines](./guidelines/brand_guidelines.md) - Guidelines for creating your own brand for your project.
 - [README Guidelies](./guidelines/readme_guidelines.md) - Guidelines for repository `READMEs`.
@@ -359,13 +383,15 @@ Complete guide collection for **PRG**:
 - [Badge Reference Guide](./categories/badge_reference_guide.md) - Guide for displaying the tier badges.
 - [Project Tier Table](./categories/project_tier_table.md) - Project tier table for your projects.
 - [Project Tier Table (Private)](./categories/project_tier_table_private.md) - Project tier table for non-GitHub or private projects.
-- [Gold Tier README Template](templates/README_gold.md) - Gold README template for your repositories.
-- [Silver Tier README Template](templates/README_silver.md) - Silver README template for your repositories.
-- [Bronze Tier README Template](templates/README_bronze.md) - Bronze README template for your repositories.
+- ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) [Gold Tier README Template](templates/README_gold.md) - Gold `README` template for your repositories.
+- ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) [Silver Tier README Template](templates/README_silver.md) - Silver `README` template for your repositories.
+- ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) [Bronze Tier README Template](templates/README_bronze.md) - Bronze `README` template for your repositories.
 - [License Examples](templates/license_examples) - License examples for your repositories.
-- [PRG Connection File](PRG.md) - PRG Connection File for your repositories.
+- [PRG Connection File](PRG.md) - **PRG Connection File** for your repositories.
 
-Below are some resources I found helpful when creating my repositories and **PRG** in general:
+### External Resources
+
+Below are some external resources I found helpful when creating my repositories and **PRG** in general:
 - [Jekyll](https://jekyllrb.com/)
 - [Jekyll Installation](https://jekyllrb.com/docs/installation/)
 - [GitHub Docs](https://docs.github.com/en)

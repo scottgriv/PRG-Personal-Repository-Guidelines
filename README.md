@@ -43,7 +43,9 @@
 
 - [Features](#features)
 - [Background Story](#background-story)
+  - [README Driven Development (RDD)](#readme-driven-development-rdd)
   - ["The GitHub Portfolio Problem"](#the-github-portfolio-problem)
+  - [Telling a Story with your README](#telling-a-story-with-your-readme)
 - [Definitions](#definitions)
 - [Getting Started](#getting-started)
 - [What's Inside?](#whats-inside)
@@ -103,17 +105,22 @@ I developed the **Personal Repository Guidelines (PRG)** to address the challeng
 
 > "Consider the process of writing the Readme for your project as the true act of creation. This is where all your brilliant ideas should be expressed. This document should stand on its own as a testament to your creativity and expressiveness. The Readme should be the single most important document in your codebase; writing it first is the proper thing to do." - Tom Preston-Werner
 
-
-### "The GitHub Portfolio Problem"
+### The GitHub Portfolio Problem
 
 Another reason I created this document was to solve the **"GitHub Portfolio Problem"** (as I like to call it):
 
 > GitHub is being used to showcase my portfolio, but I don't want to showcase every single repository I have created. I want to showcase my best work, but I also want to showcase my other work that I am proud of. How do I do that?
 
-**PRG** was designed to solve this problem.
-
-- I noticed this problem by reading multiple Quora Articles and GitHub Discussions around this topic.
+- I noticed this problem by reading Quora Articles ([here](https://www.quora.com/Is-it-appropriate-to-post-all-your-small-projects-on-your-Github) and [here](https://www.quora.com/Is-it-bad-to-have-super-easy-projects-on-my-GitHub)) and Reddit Discussions ([here](https://www.reddit.com/r/learnprogramming/comments/vzkkda/what_do_employers_and_recruiters_want_to_see_on/)) around this topic.
 - I also noticed that people make multiple accounts on GitHub, in some cases to showcase their best work on one account and their other, less important, work on another account. I didn't want to do that, and I hope this solution can cut down on the number of extra accounts people have to create to solve this problem.
+
+### Telling a Story with your README
+
+Your `README` is the first thing people see when they visit your repository, it should be clear and concise, but also tell a story about your project. Your `README` should be the single most important document in your codebase. It should be a living document that is updated as your project evolves. Don't make people guess what your project does. Tell them.
+
+> "The Readme should be the single most important document in your codebase; writing it first is the proper thing to do." - Tom Preston-Werner
+
+> "You only get one chance to make a first impression," the old saying goes. It's cliche, but nevertheless sound, practical advice. -Lauri Apple via [Opensource.com](https://opensource.com/open-organization/17/1/repo-tells-a-story)
 
 ## Definitions
 
@@ -429,6 +436,14 @@ Complete document library for **PRG**:
 ### External Resources
 
 Below are some external resources I found helpful when creating my repositories and **PRG** in general:
+- [README Driven Development](https://tom.preston-werner.com/2010/08/23/readme-driven-development.html) - The original article on README Driven Development by Tom Preston-Werner.
+- [The power of README Development](https://rathes.me/blog/en/readme-driven-development/) - Great article on README Driven Development.
+- [What your code repository says about you](https://opensource.com/open-organization/17/1/repo-tells-a-story) - Great article on how your repository can tell a story.
+- [Common README for node modules](https://github.com/hackergrrl/common-readme#readme) - A common README style for node modules.
+- [Building a Useful, User-Friendly Project](https://github.com/zalando/zalando-howto-open-source/blob/master/producttemplate.md) - Great project advice.
+- [Art of README](https://github.com/hackergrrl/art-of-readme) - A collection of advice for creating READMEs.
+
+
 - [Jekyll](https://jekyllrb.com/)
 - [Jekyll Installation](https://jekyllrb.com/docs/installation/)
 - [GitHub Docs](https://docs.github.com/en)

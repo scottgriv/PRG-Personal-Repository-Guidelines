@@ -105,6 +105,11 @@ The following are some overarching guidelines pertinent to both **PRG** and gene
         - Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 - Use the [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) format for your changelog
 
+**Resources:**
+> [Software Versioning](https://en.wikipedia.org/wiki/Software_versioning)
+> [What do the numbers in a version typically represent](https://stackoverflow.com/questions/65718/what-do-the-numbers-in-a-version-typically-represent-i-e-v1-9-0-1)
+> [How do version numbers work?](https://www.akeeba.com/how-do-version-numbers-work.html#:~:text=Reading%20version%20numbers&text=The%20leftmost%20number%20(1)%20is,%22%20or%20%22subminor%20version%22.)
+
 ## .github/CONTRIBUTING.md File
 
 > [!NOTE] 

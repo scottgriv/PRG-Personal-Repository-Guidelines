@@ -116,9 +116,7 @@ Another reason I created this document was to solve the **"GitHub Portfolio Prob
 
 ### Telling a Story with your README
 
-Your `README` is the first thing people see when they visit your repository, it should be clear and concise, but also tell a story about your project. Your `README` should be the single most important document in your codebase. It should be a living document that is updated as your project evolves. Don't make people guess what your project does. Tell them.
-
-> "The Readme should be the single most important document in your codebase; writing it first is the proper thing to do." - Tom Preston-Werner
+Your `README` is the first thing people see when they visit your repository, it should be clear and concise, but also tell a story about your project. It should be a living document that is updated as your project evolves. Don't make people guess what your project does. Tell them.
 
 > "You only get one chance to make a first impression," the old saying goes. It's cliche, but nevertheless sound, practical advice. -Lauri Apple via [Opensource.com](https://opensource.com/open-organization/17/1/repo-tells-a-story)
 
@@ -137,26 +135,6 @@ Here are some definitions to help you understand the terminology used in this do
 - **README Driven Development (RDD)** - A methodology that forces you to think about what you're trying to build before you begin writing code. The practice of RDD is to write the `README` before writing any code.
 
 ## Getting Started
-
-To get started, you'll need to do the following:
-1. Fork this repository.
-2. Adjust the **Required Configurations** section in the [Project Tier Table Generator](./scripts/project_tier_table_generator.py) script by adding your custom domain name or your GitHub pages URL to the `TIER_TABLE_URL` variable.
-  > Consult the [Table Generator Guide](./categories/table_generator_guide.md) for more details.
-3. Add a [PRG Connection File](PRG.md) file to the root of each of your repositories.
-  > Consult the [PRG Connection File](PRG.md) section for more details.
-  - Update your connection file with your appropriate repository tier and other information.
-  > Consult the [Category Guidelines](./guidelines/category_guidelines.md) section for more details.
-5. Setup and run GitHub Actions to automatically build your project tier table.
-  > Consult the [Table Generator Guide](./categories/table_generator_guide.md) for more details.
-7. Setup and deploy GitHub Pages to host your project tier table.
-  > Consult the [Table Generator Guide](./categories/table_generator_guide.md) for more details.
-8. Add the appropriate tier badge to the top of your repository `README` to close the loop on your project level.
-  > Consult the [Badge Reference Guide](./categories/badge_reference_guide.md)section for more details.
-9. Add the **Profile PRG Collection Badge** to your `README` to close the loop on your collection level.
-  > Consult the [Badge Reference Guide](./categories/badge_reference_guide.md)section for more details.
-10. Optionally, you can update your **PRG** repositories based on the provided [Templates](#3-templates) to standardize your `README` and project structures.
-  > Consult the [Tier README Templates](#tier-readme-templates) section for more details.
-
 
 To begin, follow these steps:
 1. Fork this repository.

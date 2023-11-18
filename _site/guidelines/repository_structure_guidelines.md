@@ -114,6 +114,7 @@ Here are some general guidelines to follow regarding **PRG** and GitHub in gener
 **Resources:**
 - [Adding a support file to your repository](https://help.github.com/en/articles/adding-support-resources-to-your-project)
 - [Creating a default community health file for your organization](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
+- [@wooorm's Support Example](https://github.com/remarkjs/.github/blob/main/support.md)
 
 
 ## .github/CODEOWNERS File

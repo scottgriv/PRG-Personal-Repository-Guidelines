@@ -394,24 +394,24 @@ Feel free to submit a pull request if you find any issues or have any suggestion
 
 Complete document library for **PRG**:
 
-**[Guideline](guidelines/) Related Documents:**
-- [Category Guidelines](./guidelines/category_guidelines.md) - Guidelines for catagorizing your repository tiers and naming conventions.
-- [Brand Guidelines](./guidelines/brand_guidelines.md) - Guidelines for creating your own brand for your project.
-- [README Guidelines](./guidelines/readme_guidelines.md) - Guidelines for repository `READMEs`.
-- [Repository Structure Guidelines](./guidelines/repository_structure_guidelines.md) - Guidelines for repository structure and files.
-- [Repository Settings Guidelines](./guidelines/repository_settings_guidelines.md) - Guidelines for repository settings. <br>
-**[Category](categories/) Related Documents:**
-- [Table Generator Guide](./categories/table_generator_guide.md) - Guide for setting up the project tier table generator.
-- [Badge Reference Guide](./categories/badge_reference_guide.md) - Guide for displaying the tier badges.
-- [Project Tier Table](./categories/project_tier_table.md) - Project tier table for your projects.
-- [Project Tier Table (Private)](./categories/project_tier_table_private.md) - Project tier table for non-GitHub or private projects. <br>
-**[Template](templates/) Related Documents:**
-- ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) [Gold Tier README Template](templates/README_gold.md) - Gold `README` template for your repositories.
-- ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) [Silver Tier README Template](templates/README_silver.md) - Silver `README` template for your repositories.
-- ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) [Bronze Tier README Template](templates/README_bronze.md) - Bronze `README` template for your repositories.
-**Misc. Documents:**
-- [License Examples](templates/license_examples) - License examples for your repositories (MIT, Apache, etc.).
-- [PRG Connection File](PRG.md) - **PRG Connection File** for your repositories.
+- **[Guideline](guidelines/) Related Documents:**
+  - [Category Guidelines](./guidelines/category_guidelines.md) - Guidelines for catagorizing your repository tiers and naming conventions.
+  - [Brand Guidelines](./guidelines/brand_guidelines.md) - Guidelines for creating your own brand for your project.
+  - [README Guidelines](./guidelines/readme_guidelines.md) - Guidelines for repository `READMEs`.
+  - [Repository Structure Guidelines](./guidelines/repository_structure_guidelines.md) - Guidelines for repository structure and files.
+  - [Repository Settings Guidelines](./guidelines/repository_settings_guidelines.md) - Guidelines for repository settings.
+- **[Category](categories/) Related Documents:**
+  - [Table Generator Guide](./categories/table_generator_guide.md) - Guide for setting up the project tier table generator.
+  - [Badge Reference Guide](./categories/badge_reference_guide.md) - Guide for displaying the tier badges.
+  - [Project Tier Table](./categories/project_tier_table.md) - Project tier table for your projects.
+  - [Project Tier Table (Private)](./categories/project_tier_table_private.md) - Project tier table for non-GitHub or private projects. 
+- **[Template](templates/) Related Documents:**
+  - ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) [Gold Tier README Template](templates/README_gold.md) - Gold `README` template for your repositories.
+  - ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) [Silver Tier README Template](templates/README_silver.md) - Silver `README` template for your repositories.
+  - ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) [Bronze Tier README Template](templates/README_bronze.md) - Bronze `README` template for your repositories.
+- **Misc. Documents:**
+  - [License Examples](templates/license_examples) - License examples for your repositories (MIT, Apache, etc.).
+  - [PRG Connection File](PRG.md) - **PRG Connection File** for your repositories.
 
 ### External Resources
 

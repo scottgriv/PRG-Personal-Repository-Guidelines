@@ -169,7 +169,7 @@ Add the following badge to your profile `README` to showcase your **PRG Collecti
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Purple_Collection']}" alt="Collection" />
 </a>
-
+<br>
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Purple']}" alt="Optimized" />
 </a>
@@ -181,7 +181,7 @@ Add the following badge to your profile `README` to showcase your **PRG Collecti
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Black_Collection']}" alt="Collection" />
 </a>
-
+<br>
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Black']}" alt="Optimized" />
 </a>
@@ -193,7 +193,7 @@ Add the following badge to your profile `README` to showcase your **PRG Collecti
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['White_Collection']}" alt="Collection" />
 </a>
-
+<br>
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['White']}" alt="Optimized" />
 </a>

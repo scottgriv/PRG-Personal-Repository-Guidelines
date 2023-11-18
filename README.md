@@ -112,6 +112,9 @@ Another reason I created this document was to solve the **"GitHub Portfolio Prob
 
 **PRG** was designed to solve this problem.
 
+- I noticed this problem by reading multiple Quora Articles and GitHub Discussions around this topic.
+- I also noticed that people make multiple accounts on GitHub, in some cases to showcase their best work on one account and their other, less important, work on another account. I didn't want to do that, and I hope this solution can cut down on the number of extra accounts people have to create to solve this problem.
+
 ## Definitions
 
 Here are some definitions to help you understand the terminology used in this document:

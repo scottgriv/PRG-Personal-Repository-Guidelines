@@ -27,7 +27,7 @@
 
 - Categorize repositories and projects for your **GitHub Portfolio** using a _project tier table_ for your repositories with GitHub Actions & GitHub Pages.
 - Follow the defined guidelines to guide your repository structure and `README` content.
-- Utilize the predefined `README` templates for [Read Me Driven Development](https://tom.preston-werner.com/2010/08/23/readme-driven-development.html) to get your projects up and running quickly and easily so you can focus on what matters most - your code!
+- Utilize the predefined `README` templates to get your projects up and running quickly and easily so you can focus on what matters most - your code!
 
 <div align="center">
   <a href="https://prgoptimized.com" target="_blank">
@@ -80,22 +80,29 @@ This `README` highlights the **three** core components of **PRG**:
 
 1. [**Categorize**](#1-categories) your repositories into four tiers: ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**, and ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) **Optimized**, then display them in a project tier table (built using GitHub Actions, hosted and deployed using GitHub Pages) to showcase your **GitHub Portfolio**.
 2. [**Guidelines**](#2-guidelines) defined for repository `README`, files, and overall structure. [Brand Guidelines](./guidelines/brand_guidelines.md) for your ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold** tier projects are also defined.
-3. [**Templates**](#3-templates) for your `READMEs` and associated files. Templates are provided for each tier to help you get started quickly and easily.
+3. [**Templates**](#3-templates) for your `READMEs` and associated files. Templates are provided for each tier to help you get started quickly and easily by utilizing [README Driven Development (RDD)](#readme-driven-development-rdd).
    <br>
 > [!IMPORTANT] 
 > Each component above will have related subcomponents that will provide more details.
 
 ## Background Story
 
-I needed a system to keep my repositories organized and standardized. Also, I wanted to showcase my **GitHub Portfolio**. My repository `README` and folder/file structures were different from each other, which was a pain to maintain or use as a template for a future projects, so I created this repository and document, the <u><b>Personal Repository Guidelines</b></u> or **PRG** for short, to help solve my problem.
-
-- This document primarily applies to the version control system here on GitHub but it can be extended or applied to other version control systems as well.
-- This repository is treated no different than my other repositories, it also adheres to **PRG** (_itself in this case_).
-
 I developed the **Personal Repository Guidelines (PRG)** to address the challenges of maintaining and standardizing my repositories, as well as to enhance the presentation of my **GitHub Portfolio**. Previously, inconsistencies in `README` files and folder structures across different repositories made maintenance and templating for future projects cumbersome. **PRG** serves as both a solution and a documentation resource.
 
 - This document is primarily tailored for GitHub's version control system, but its principles can be adapted for use with other version control systems.
 - The **PRG** repository is subject to the same standards it sets, thereby exemplifying its own guidelines.
+- The two main goals of **PRG** are to:
+  1. Provide a system to categorize repositories to solve the **[GitHub Portfolio Problem](#the-github-portfolio-problem)**.
+  2. Provide guidelines and templates for repository `README`, files, and overall structure by utilizing **[README Driven Development (RDD)](#readme-driven-development-rdd)**.
+
+### README Driven Development (RDD) 
+
+**PRG** is based on the concept of [**README Driven Development (RDD)**](https://tom.preston-werner.com/2010/08/23/readme-driven-development.html) by GitHub founder [Tom Preston-Werner](https://tom.preston-werner.com/).
+- **README Driven Development** is a methodology that forces you to think about what you're trying to build before you begin writing code.
+- The practice of RDD is to write the `README` before writing any code.
+
+> "Consider the process of writing the Readme for your project as the true act of creation. This is where all your brilliant ideas should be expressed. This document should stand on its own as a testament to your creativity and expressiveness. The Readme should be the single most important document in your codebase; writing it first is the proper thing to do." - Tom Preston-Werner
+
 
 ### "The GitHub Portfolio Problem"
 
@@ -115,6 +122,9 @@ Here are some definitions to help you understand the terminology used in this do
 - **Project Tier Table** - A table that is automatically generated using GitHub Actions and hosted using GitHub Pages that displays your categorized repositories.
 - **Project Tier Table Generator** - A python script and GitHub Action that is used to automatically generate a project tier table for your **PRG Collection**.
 - **Tier Badge** - A badge that is placed at the top of each repository `README` to indicate the tier of the repository.
+- **GitHub Portfolio** - Your entire collection of repositories on GitHub used for your portfolio.
+- **GitHub Portfolio Problem** - The problem of showcasing your GitHub portfolio, but not wanting to showcase every single repository you have created.
+- **README Driven Development (RDD)** - A methodology that forces you to think about what you're trying to build before you begin writing code. The practice of RDD is to write the `README` before writing any code.
 
 ## Getting Started
 

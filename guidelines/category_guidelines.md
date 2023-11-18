@@ -89,7 +89,6 @@ Consult this guideline for detailed information on the categorization of each ti
 - Use underscores `_` for word separation in the project name.
 - Separate each language or technology with dashes `-`.
 - The order of languages/technologies can vary; it's advisable to place the most prominent one first.
-- Refer to the [Badge Reference Guide](../categories/badge_reference_guide.md) for instructions on badge creation for your repositories.
 - For forked repositories:
     - If unchanged, they won't automatically be part of **PRG** or have a tier. Add a **PRG Connection File** to classify them.
     - Slight modifications can classify the fork as a ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze** tier project.
@@ -123,7 +122,7 @@ Consult this guideline for detailed information on the categorization of each ti
 
 > [!IMPORTANT]
 > Make sure you run the GitHub action workflow to replace the projects in the table with your own.
-> Running the workflow will output badges with your username as a hyperlink in the [Badge Reference Guide](../categories/badge_reference_guide.md) file.
+> Running the workflow will output badges with your collection URL as a hyperlink in the [Badge Reference Guide](../categories/badge_reference_guide.md) file. You can then use this file to gather the correct badge for your project's `README`.
 
 > [!WARN]
 > If you choose to not use GitHub pages, make sure you change the username in the badge to your own to link to your forked repositories Project Tier Table markdown file.

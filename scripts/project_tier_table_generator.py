@@ -146,6 +146,9 @@ Utilize this file as a template for collecting and incorporating badges into you
     <img src="{BADGES['Optimized']}" alt="Optimized" />
 </a>
 
+> [!NOTE]
+> Consult the [Category Guidelines](../guidelines/category_guidelines.md) for more information on the **PRG** project tier system and how to determine the appropriate tier badge for your project.
+
 ## Profile Badge
 
 Add the following badge to your profile `README` to showcase your **PRG Collection** for your **GitHub Portfolio**.

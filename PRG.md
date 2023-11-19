@@ -4,17 +4,17 @@ This file is used to connect this repository to the **PRG** project catagorizati
 
 ## Project Information
 
-Repository Tier: Gold <br>
-Technology: Markdown, API, GitHub Actions, Jekyll, Python, DataTables <br>
-Category: Catagorization, Guidelines, Templates, Standards, Documentation <br>
-Order: 6 <br>
+**Repository Tier:** Gold <br>
+**Technology:** Markdown, API, GitHub Actions, Jekyll, Python, DataTables <br>
+**Category:** Catagorization, Guidelines, Templates, Standards, Documentation <br>
+**Order:** 6 <br>
 
 ## Parameters
 
 - **Repository Tier (Required):** Gold, Silver, Bronze, or Optimized (required for PRG - if you don't add a tier it will be displayed as "Optimized" by default)
-- **Technologies (Optional):** List the technologies used to build your project here (optional)
-- **Category (Optional):** List categories for your project here (optional)
-- **Order (Optional):** By default, repos are ranked by Tier, then Create Date, but you can also add an integer (1, 2, 12, etc.) to sort in between Tier and Create Date (optional)
+- **Technologies (Optional):** List the technologies used to build your project here (e.g. Markdown, API, GitHub Actions, Jekyll, Python, DataTables, etc.)
+- **Category (Optional):** List categories for your project here (e.g. Web, Mobile, API, etc.)
+- **Order (Optional):** By default, repos are ranked by Tier, then Create Date, but you can also add an integer (e.g. 1, 2, 12, etc.) to sort in between Tier and Create Date
 
 ## How this works
 

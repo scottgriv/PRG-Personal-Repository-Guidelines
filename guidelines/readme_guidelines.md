@@ -106,6 +106,10 @@ See the following links for `README` templates for each tier:
 > [!NOTE] 
 > To demonstrate your project adheres to **PRG**, please include the appropriate badge at the top of your repository `README`. See the top of this `README` for an example.
 
+**Resources:**
+> [Shields.io](https://shields.io/) - A website for generating badges. <br>
+> [GitHub Workflow Status Badge](https://shields.io/badges/git-hub-workflow-status-with-event)
+
 ## Title
 
 > [!WARNING] 

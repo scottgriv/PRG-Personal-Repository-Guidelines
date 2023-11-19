@@ -35,6 +35,7 @@ Below is a summary of the brand guidelines for a **PRG** project:
 - [Diagrams](#diagrams)
 - [Medium Articles & Other Social Media](#medium-articles--other-social-media)
 - [Demo & Screenshots](#demo--screenshots)
+- [Images & Assets](#images--assets)
 - [Closing](#closing)
 - [Resources](#resources)
 
@@ -140,7 +141,7 @@ The typography for a **PRG** project is as follows:
 
 <img src="../docs/images/brand_templates/banner_social-template.png" alt="Social Banner" width="1280" height="640" />
 
-- According to GitHub:
+- [According to GitHub](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview):
     - Images should be at least 640×320px (1280×640px for best display).
     - See [Customizing your repository's social media preview](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview) for more information.
 
@@ -227,6 +228,19 @@ The following are optional, but you made need them depending on your project:
     - I usually name my demo `demo_1.png, demo_2.png, demo_1.gif, etc.` and place it in the `docs/images/demo` folder.
     - I also usually place these on the top of my `README` file and hyperlink it to the product demo.
 
+## Images & Assets
+
+- Include repo images and gifs in a `docs/images` folder.
+- Include repo videos in a `docs/videos` folder.
+- Add important documents to the `docs` folder.
+- Add more folders as needed.
+
+> [!TIP]  
+> Append `#gh-dark-mode-only` or `#gh-light-mode-only` to the end of the image URL to only show the image in dark or light mode respectively. Be sure to have both a dark and light version of the image when necessary. More on this (shameless plug) [here](https://github.com/scottgriv/markdown-demo#images).
+
+**Resources:**
+> [GitHub Logos and Usage](https://github.com/logos)
+
 ## Closing
 
 - Export all of your designs as SVGs and PNGs where applicable.
@@ -242,11 +256,13 @@ The following are optional, but you made need them depending on your project:
 
 ## Resources
 
-- [GitHub Docs](https://docs.github.com/en)
-- [GitHub Docs - About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
+- [Customizing your repository's social media preview](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview)
+
+
 
 - [GitHub Docs](https://docs.github.com/en)
 - [GitHub Docs - About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
+
 
 https://vector-conversions.com/vectorizing/raster_vs_vector.html
 

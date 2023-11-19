@@ -19,6 +19,7 @@ The following are some overarching guidelines pertinent to both **PRG** and gene
 ## Table of Contents
 - [Images, Gifs, Videos, and Documents](#images-gifs-videos-and-documents)
 - [README File](#readme-file)
+    - [GitHub Markdown Alerts](#github-markdown-alerts)
 - [LICENSE File](#license-file)
 - [.github/CREDITS File](#githubcredits-file)
 - [.github/CHANGELOG.md File](#githubchangelogmd-file)

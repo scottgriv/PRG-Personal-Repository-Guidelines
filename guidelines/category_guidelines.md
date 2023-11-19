@@ -121,7 +121,7 @@ Consult this guideline for detailed information on the categorization of each ti
   -This is the essence of fixing the **"GitHub Portfolio Problem"** I mentioned earlier to showcase your work in a single place. 
 
 > [!IMPORTANT]
-> Make sure you run the GitHub action workflow to replace the projects in the table with your own.
+> Make sure you run the GitHub Action workflow to replace the projects in the table with your own.
 > Running the workflow will output badges with your collection URL as a hyperlink in the [Badge Reference Guide](../categories/badge_reference_guide.md) file. You can then use this file to gather the correct badge for your project's `README`.
 
 > [!WARN]

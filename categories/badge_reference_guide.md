@@ -64,7 +64,7 @@ Utilize this file as a template for collecting and incorporating badges into you
 <br>
 <br>
 
-> [!NOTE]
+> [!TIP]
 > Consult the [Category Guidelines](../guidelines/category_guidelines.md) for more information on the **PRG** project tier system and how to determine the appropriate tier badge for your project.
 
 ## Profile Badge

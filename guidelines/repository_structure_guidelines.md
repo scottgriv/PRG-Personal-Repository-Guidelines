@@ -64,12 +64,41 @@ The following are some overarching guidelines pertinent to both **PRG** and gene
 
 - A `README` file describes your project and provides information on how to use it.
 - The `README` file should be written in [Markdown](https://guides.github.com/features/mastering-markdown/).
+    - GitHub has its own [flavor of Markdown](https://github.github.com/gfm/#backslash-escapes), which is what you should use.
+    - The `README` file should be named `README.md`.
+    - The `README` file should be located in the root of your repository.   
+
+### GitHub Markdown Alerts
+
+GitHub has a special syntax for alerts in Markdown files:
+
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
+
+Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discussions/16925).
 
 **Resources:**
 > [About READMEs](https://help.github.com/articles/about-readmes/)
 > [Awesome README List](https://github.com/matiassingers/awesome-readme)
 > [Profile README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)
 > [Organization README](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile)
+> [Basic Syntax | Markdown Guide](https://www.markdownguide.org/basic-syntax/)
+> [GitHub Flavor Markdown](https://github.github.com/gfm)
+> [StackEdit | In-Browser Markdown Editor](https://stackedit.io/)
+> [Comments in Markdown](https://stackoverflow.com/questions/4823468/comments-in-markdown)
+> [GitHub Markdown Alerts](https://github.com/orgs/community/discussions/16925)
 
 ## LICENSE File
 

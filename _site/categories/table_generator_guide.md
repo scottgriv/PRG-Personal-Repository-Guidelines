@@ -11,8 +11,8 @@ In order to get the **PRG** system to work, you must do the following:
   - Follow the instructions in the file to configure your repository.
   - The file name and path can be changed in the `project_tier_table_generator.py` script (default path is your project root directory).
 
-> [!WARNING]
-> Do not adjust the lines or the format of the file, only the content or else the table will not be generated properly.
+> [!CAUTION]
+> Lines 15-18 are mapped in the `scripts/project_tier_table.py` script to the PRG system. Do not move or change these lines without adjusting the script to account for this change.
 
    - The GitHub Action Workflow (explained below) uses this file to categorize your repositories.
    - You must have a _Repository Tier_ label for each repository for the categorization to work.

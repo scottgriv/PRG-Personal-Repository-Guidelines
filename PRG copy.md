@@ -1,6 +1,14 @@
-# Personal Repisitory Guidelines (PRG) Connection File
+<div align="center">
+    <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
+        <img src="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/raw/main/docs/images/PRG.png" width="200" height="200"/>
+    </a>
+</div>
+
+<h1 align="center">Personal Repisitory Guidelines (PRG) Connection File</h1>
 
 This file is used to connect this repository to the **PRG** project catagorization system.
+
+---------------
 
 ## Project Information
 
@@ -23,7 +31,7 @@ This file connects this repository to the **PRG** guideline and categorization s
 - To include private repos (if configured to ignore private repos in the script) or an external project outside of GitHub, add them to the `categories/project_tier_table_private.md` table manually following the structure of the table.
 
 > [!CAUTION]
-> Lines 15-18 are mapped in the `scripts/project_tier_table.py` script to the PRG system. Do not move or change these lines without adjusting the script to account for this change.
+> Lines 7-10 are mapped in the `scripts/project_tier_table.py` script to the PRG system. Do not move or change these lines without adjusting the script to account for this change.
 
 ## Visit the PRG Repository
 

@@ -72,7 +72,7 @@
 - [Contributing](#contributing)
 - [Resources](#resources)
   - [PRG Document Library](#prg-document-library)
-  - [External Resources](#external-resources)
+  - [General Resources](#general-resources)
 - [License](#license)
 - [Credits](#credits)
 
@@ -109,10 +109,21 @@ I developed the **Personal Repository Guidelines (PRG)** to address the challeng
 
 Another reason I created this document was to solve the **"GitHub Portfolio Problem"** (as I like to call it):
 
+Below is a summary of the problem:
 > GitHub is being used to showcase my portfolio, but I don't want to showcase every single repository I have created. I want to showcase my best work, but I also want to showcase my other work that I am proud of. How do I do that?
 
-- I noticed this problem by reading Quora Articles ([here](https://www.quora.com/Is-it-appropriate-to-post-all-your-small-projects-on-your-Github) and [here](https://www.quora.com/Is-it-bad-to-have-super-easy-projects-on-my-GitHub)) and Reddit Discussions ([here](https://www.reddit.com/r/learnprogramming/comments/vzkkda/what_do_employers_and_recruiters_want_to_see_on/)) around this topic.
-- I also noticed that people make multiple accounts on GitHub, in some cases to showcase their best work on one account and their other, less important, work on another account. I didn't want to do that, and I hope this solution can cut down on the number of extra accounts people have to create to solve this problem.
+- **Noticing the Problem #1:** I noticed this problem by reading Quora Articles ([here](https://www.quora.com/Is-it-appropriate-to-post-all-your-small-projects-on-your-Github) and [here](https://www.quora.com/Is-it-bad-to-have-super-easy-projects-on-my-GitHub)) and Reddit Discussions ([here](https://www.reddit.com/r/learnprogramming/comments/vzkkda/what_do_employers_and_recruiters_want_to_see_on/)) around this topic.
+- **Noticing the Problem #2:** I also noticed that people make multiple accounts on GitHub, in some cases to showcase their best work on one account and their other, less important, work on another account. I didn't want to do that, and I hope this solution can cut down on the number of extra accounts people have to create to solve this problem.
+- **Noticing the Problem #3:** Some users solved this problem by creating organizations on GitHub to showcase their work. I didn't want to do that either, and I hope this solution can cut down on the number of extra organizations people have to create to solve this problem.
+
+As one GitHub user points out in this great article on the prolem, [How I Organize my GitHub Repositories](https://andreicioara.com/how-i-organize-my-github-repositories-ce877db2e8b6):
+
+>"The issue is that all of these repositories are on the same level. There is no order, no differentiation between them. They just sort of exist on the user profile." -Andrei Cioara
+
+**PRG** was designed to solve this problem by categorizing your repositories into four tiers and then showcasing them in a project tier table for your **GitHub Portfolio**.
+
+> [!IMPORTANT] 
+> View the [Resources](#general-resources) section for more information around **GitHub Portfolios**.
 
 ### Telling a Story with your README
 
@@ -133,6 +144,7 @@ Here are some definitions to help you understand the terminology used in this do
 - **GitHub Portfolio** - Your entire collection of repositories on GitHub used for your portfolio.
 - **GitHub Portfolio Problem** - The problem of showcasing your GitHub portfolio, but not wanting to showcase every single repository you have created.
 - **README Driven Development (RDD)** - A methodology that forces you to think about what you're trying to build before you begin writing code. The practice of RDD is to write the `README` before writing any code.
+- **PyRG** - A python script that is used to generate a project tier table for your **PRG Collection**.
 
 ## Getting Started
 
@@ -411,21 +423,26 @@ Complete document library for **PRG**:
   - [License Examples](templates/license_examples) - License examples for your repositories (MIT, Apache, etc.).
   - [PRG Connection File](PRG.md) - **PRG Connection File** for your repositories.
 
-### External Resources
+### General Resources
 
 Below are some external resources I found helpful when creating my repositories and **PRG** in general:
+
+- [GitHub Docs](https://docs.github.com/en) - GitHub documentation.
+- [Einstellung effect](https://en.wikipedia.org/wiki/Einstellung_effect) - Don't let your past experiences limit your creativity.
 - [README Driven Development](https://tom.preston-werner.com/2010/08/23/readme-driven-development.html) - The original article on README Driven Development by Tom Preston-Werner.
 - [The power of README Development](https://rathes.me/blog/en/readme-driven-development/) - Great article on README Driven Development.
 - [What your code repository says about you](https://opensource.com/open-organization/17/1/repo-tells-a-story) - Great article on how your repository can tell a story.
-- [Common README for node modules](https://github.com/hackergrrl/common-readme#readme) - A common README style for node modules.
-- [Building a Useful, User-Friendly Project](https://github.com/zalando/zalando-howto-open-source/blob/master/producttemplate.md) - Great project advice.
-- [Art of README](https://github.com/hackergrrl/art-of-readme) - A collection of advice for creating READMEs.
+- [How I Organize my GitHub Repositories](https://andreicioara.com/how-i-organize-my-github-repositories-ce877db2e8b6) - Great article on how some people have tried to solve the **"GitHub Portfolio Problem"**.
 
-
-- [Jekyll](https://jekyllrb.com/)
-- [Jekyll Installation](https://jekyllrb.com/docs/installation/)
-- [GitHub Docs](https://docs.github.com/en)
-- [GitHub Docs - About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
+**GitHub Portfolio Related Resources:**
+- [Using GitHub as your portfolio](https://steven-giesel.com/blogPost/2516bdf5-43f3-4940-a0c0-ee83dcaa5e55)
+- [How to present a GitHub project for your resume](https://thehftguy.com/2016/10/24/heres-how-to-make-a-good-github-project-for-your-resume/)
+- [Using GitHub to Land a Job](https://orange-quarter.com/using-github-to-land-a-job/)
+- [What do job-seeking developers need in their GitHub?](https://techbeacon.com/app-dev-testing/what-do-job-seeking-developers-need-their-github?amp)
+- [Hiring Indicators, OSS, and the Value of GitHub](https://jobtipsforgeeks.com/2013/11/19/githubhiring/)
+- [How To Create a GitHub Portfolio](https://hoffstech.com/2023/03/how-to-create-a-github-portfolio/)
+- [How to efficiently build a portfolio on Github?](https://www.reddit.com/r/learnprogramming/comments/7r3gd4/how_to_efficiently_build_a_portfolio_on_github/)
+- [How To Create A GitHub Portfolio](https://nira.com/how-to-create-a-github-portfolio/)
 
 ## License
 

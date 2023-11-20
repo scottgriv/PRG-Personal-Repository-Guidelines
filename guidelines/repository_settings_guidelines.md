@@ -66,3 +66,6 @@ Use a description that is short and to the point. This is the first thing people
     - View [Repository Structure Guidelines](./repository_structure_guidelines.md) and [README Guidelines](./readme_guidelines.md) for more information on how to setup your project structure and `README` file.
 
 ## Resources
+
+- [Managing repository settings](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings) - You can choose the way your repository functions by managing repository settings.
+

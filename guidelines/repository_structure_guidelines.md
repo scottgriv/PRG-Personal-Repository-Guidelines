@@ -6,20 +6,17 @@
 
 <h1 align="center">Repository Structure Guidelines</h1>
 
-This guideline details the necessary project file structure for your repository.
+This guideline details necessary files and overall structure for your repository.
 
 > [!IMPORTANT] 
-> Templates for key files are located in the root of this repository and within the `.github/` folder.
-> Utilize these templates to craft your GitHub special/specific files.
-
-The following are some overarching guidelines pertinent to both **PRG** and general GitHub practices:
+> This guidelines also details the GitHub specific files and folders that can be included in your repository.
+> Examples for key files are located in the root of this repository and within the `.github/` folder.
+> Utilize these files as templates to craft your GitHub special/specific files.
 
 ---------------
 
 ## Table of Contents
-- [Images, Gifs, Videos, and Documents](#images-gifs-videos-and-documents)
 - [README File](#readme-file)
-    - [GitHub Markdown Alerts](#github-markdown-alerts)
 - [LICENSE File](#license-file)
 - [.github/CREDITS File](#githubcredits-file)
 - [.github/CHANGELOG.md File](#githubchangelogmd-file)
@@ -45,18 +42,9 @@ The following are some overarching guidelines pertinent to both **PRG** and gene
 - [.github/dependabot.yml File](#githubdependabotyml-file)
 - [api Folder](#api-folder)
 - [Misc. Folders](#misc-folders)
+- [Images, Gifs, Videos, and Documents](#images-gifs-videos-and-documents)
 - [Resources](#resources)
 
-
-## Images, Gifs, Videos, and Documents
-
-> [!NOTE] 
-> **OPTIONAL** files for **ALL** tiers.
-
-- Include repo images and gifs in a `docs/images` folder.
-- Include repo videos in a `docs/videos` folder.
-- Add important documents to the `docs` folder.
-- Add more folders as needed.
 
 ## README File
 
@@ -64,42 +52,12 @@ The following are some overarching guidelines pertinent to both **PRG** and gene
 > **REQUIRED** file for **ALL** tiers.
 
 - A `README` file describes your project and provides information on how to use it.
-- The `README` file should be written in [Markdown](https://guides.github.com/features/mastering-markdown/).
-    - GitHub has its own [flavor of Markdown](https://github.github.com/gfm/#backslash-escapes), which is what you should use.
-    - The `README` file should be named `README.md`.
-    - The `README` file should be located in the root of your repository.   
-
-### GitHub Markdown Alerts
-
-GitHub has a special syntax for alerts in Markdown files:
-
-> [!NOTE]  
-> Highlights information that users should take into account, even when skimming.
+- The `README` file should be named `README.md`.
+- The `README` file should be located in the root of your repository.   
+- Use the [templates](../templates) in this repository as a starting point for your profile `README` (espcially if you're using **PRG**).
 
 > [!TIP]
-> Optional information to help a user be more successful.
-
-> [!IMPORTANT]  
-> Crucial information necessary for users to succeed.
-
-> [!WARNING]  
-> Critical content demanding immediate user attention due to potential risks.
-
-> [!CAUTION]
-> Negative potential consequences of an action.
-
-Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discussions/16925).
-
-**Resources:**
-> [About READMEs](https://help.github.com/articles/about-readmes/)
-> [Awesome README List](https://github.com/matiassingers/awesome-readme)
-> [Profile README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)
-> [Organization README](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile)
-> [Basic Syntax | Markdown Guide](https://www.markdownguide.org/basic-syntax/)
-> [GitHub Flavor Markdown](https://github.github.com/gfm)
-> [StackEdit | In-Browser Markdown Editor](https://stackedit.io/)
-> [Comments in Markdown](https://stackoverflow.com/questions/4823468/comments-in-markdown)
-> [GitHub Markdown Alerts](https://github.com/orgs/community/discussions/16925)
+> Consult the [README Guidelines](readme_guidelines.md) for more resources and information on how to write a `README` file.
 
 ## LICENSE File
 
@@ -121,6 +79,9 @@ Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discu
 - This file should contain a list of people who have contributed to your project.
 - Compare this file to `AUTHORS`, `CONTRIBUTORS`, and `ACKNOWLEDGMENTS` files below.
 
+**Resources:**
+- [CREDITS Example](https://github.com/10up/Open-Source-Best-Practices/blob/gh-pages/CREDITS.md)
+
 ## .github/CHANGELOG.md File
 
 > [!NOTE]
@@ -136,9 +97,11 @@ Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discu
 - Use the [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) format for your changelog
 
 **Resources:**
+> [Semantic Versioning](https://semver.org/)
 > [Software Versioning](https://en.wikipedia.org/wiki/Software_versioning)
 > [What do the numbers in a version typically represent](https://stackoverflow.com/questions/65718/what-do-the-numbers-in-a-version-typically-represent-i-e-v1-9-0-1)
 > [How do version numbers work?](https://www.akeeba.com/how-do-version-numbers-work.html#:~:text=Reading%20version%20numbers&text=The%20leftmost%20number%20(1)%20is,%22%20or%20%22subminor%20version%22.)
+> [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ## .github/CONTRIBUTING.md File
 
@@ -147,12 +110,15 @@ Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discu
 
 - This file contains information on how to contribute to your project.
 - See the [Contributing-Gen Template](https://generator.contributing.md/#) to generate a contributing file for your project.
-    - GitHub Repository: [Here](https://github.com/bttger/contributing-gen-web)
+    - Reference the GitHub Repository [here](https://github.com/bttger/contributing-gen) and the UI Frontend repository for it [here](https://github.com/bttger/contributing-gen-web).
 
 **Resources:**
 > [Setting Guidelines for Repository Contributors](https://help.github.com/articles/setting-guidelines-for-repository-contributors/)
 > [Awesome Contributing List](https://github.com/mntnr/awesome-contributing)
-> [Creating a default community health file for your organization](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
+> [Hall-Of-Fame README Widget](https://github.com/sourcerer-io/hall-of-fame#readme)
+> [Contributing-Gen Template](https://generator.contributing.md/#)
+> [How to Build a CONTRIBUTING.md - Best Practices](https://contributing.md/how-to-build-contributing-md/)
+> [Good-CONTRIBUTING.md-template.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426)
 
 ## .github/CODE_OF_CONDUCT.md File
 
@@ -161,11 +127,16 @@ Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discu
 
 - This file contains a code of conduct for your project.
 - See the [Contributing-Gen Template](https://generator.contributing.md/#) to generate a code of conduct for your project.
+    - Reference the GitHub Repository [here](https://github.com/bttger/contributing-gen) and the UI Frontend repository for it [here](https://github.com/bttger/contributing-gen-web).
+
 
 **Resources:**
 > [Adding a Code of Conduct to your project](https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/)
 > [Awesome Code of Conduct List](https://i-sight.com/resources/18-of-the-best-code-of-conduct-examples/)
-> [Creating a default community health file for your organization](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
+> [Debian Code of Conduct](https://www.debian.org/code_of_conduct)    
+> [Contributing-Gen Template](https://generator.contributing.md/#)  
+> [CODE_OF_CONDUCT Example](https://github.com/remarkjs/.github/blob/main/code-of-conduct.md)
+> [Contributor Covenant](https://www.contributor-covenant.org/version/1/4/code-of-conduct/)
 
 ## .github/SECURITY.md File
 
@@ -176,7 +147,6 @@ Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discu
 
 **Resources:**
 > [Adding a security policy to your repository](https://help.github.com/en/articles/adding-a-security-policy-to-your-repository)
-> [Creating a default community health file for your organization](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
 
 ## .github/SUPPORT.md File
 
@@ -187,8 +157,7 @@ Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discu
 
 **Resources:**
 > [Adding a support file to your repository](https://help.github.com/en/articles/adding-support-resources-to-your-project)
-> [Creating a default community health file for your organization](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
-> [@wooorm's Support Example](https://github.com/remarkjs/.github/blob/main/support.md)
+> [SUPPORT Example](https://github.com/remarkjs/.github/blob/main/support.md)
 
 ## .github/CODEOWNERS File
 
@@ -210,11 +179,12 @@ Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discu
     - i.e. `ISSUE_TEMPLATE/bug_report.md`, `ISSUE_TEMPLATE/feature_request.md`, `ISSUE_TEMPLATE/custom.md`
 
 **Resources:**
-> [Creating a issue template for your repository](https://help.github.com/articles/creating-an-issue-template-for-your-repository/)
+> [Creating a issue template for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
 > [About issue and pull request templates](https://docs.github.com/en/github/building-a-strong-community/about-issue-and-pull-request-templates)
 > [Multiple issue and pull request templates (Blog Post)](https://blog.github.com/2018-01-25-multiple-issue-and-pull-request-templates/)
 > [Awesome Template Lists](https://github.com/devspace/awesome-github-templates)
-> [Creating a default community health file for your organization](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
+> [Creating an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)
+> [Manually creating a single issue template for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/manually-creating-a-single-issue-template-for-your-repository)
 
 ## .github/PULL_REQUEST_TEMPLATE.md File
 
@@ -229,6 +199,7 @@ Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discu
 > [About issue and pull request templates](https://docs.github.com/en/github/building-a-strong-community/about-issue-and-pull-request-templates)
 > [Awesome Template Lists](https://github.com/devspace/awesome-github-templates)
 > [About automation for issues and pull requests with query parameters](https://docs.github.com/en/github/building-a-strong-community/about-automation-for-issues-and-pull-requests-with-query-parameters)
+> [Manually creating a single issue template for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/manually-creating-a-single-issue-template-for-your-repository)
 
 ## FUNDING.yml File
 
@@ -239,7 +210,6 @@ Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discu
 
 **Resources:**
 > [Displaying a sponsor button in your repository](https://help.github.com/en/articles/displaying-a-sponsor-button-in-your-repository)
-> [Creating a default community health file for your organization](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
 
 ## CITATION.cff File
 
@@ -249,7 +219,7 @@ Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discu
 - This file contains information on how to cite your project.
 
 **Resources:**
-> [Citation File Format](https://citation-file-format.github.io/)
+> [What is a CITATION.cff file?](https://citation-file-format.github.io/)
 > [About Citation Files](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files)
 
 ## Other GitHub Special Files
@@ -263,6 +233,10 @@ Below are some other popular files used in GitHub repositories:
 - `ACKNOWLEDGMENTS` file in your repository for more detailed information on the acknowledgments for your project.
 - `ROADMAP` file in your repository for more detailed information on the roadmap for your project.
 - `GOVERNANCE` file in your repository for more detailed information on the governance for your project.
+
+**Resources:**
+> [GitHub Special Files and Paths](https://github.com/joelparkerhenderson/github-special-files-and-paths)
+> [Common special files found in the root directory of a repository](https://github.com/kmindi/special-files-in-repository-root/tree/master)
 
 ## .gitignore File
 
@@ -281,7 +255,7 @@ Below are some other popular files used in GitHub repositories:
 - One reason I use this file, is to adjust the linguist language statistics on GitHub.
 
 **Resources:**
-> [Linguist](https://github.com/github-linguist/linguist/tree/master) 
+> [Linguist](https://github.com/github-linguist/linguist/tree/master) - 
 
 ## .editorconfig File
 
@@ -381,9 +355,28 @@ Below are some other popular files used in GitHub repositories:
 - A lot of projects, especially web frameworks, have a `src/` folder and other related folders.
 
 > [!IMPORTANT]
-> It's important to follow your frameworks conventions and programming style guides.
+> It's important to follow your frameworks conventions and [programming style guides](https://github.com/standard/standard).
+
+## Images, Gifs, Videos, and Documents
+
+> [!NOTE] 
+> **OPTIONAL** files for **ALL** tiers.
+
+- Include repo images and gifs in a `docs/images` folder.
+- Include repo videos in a `docs/videos` folder.
+- Add important documents to the `docs` folder.
+- Add more folders as needed.
 
 ## Resources
 
-Below is a great resource for GitHub special files and paths:
-- [GitHub Special Files and Paths](https://github.com/joelparkerhenderson/github-special-files-and-paths).
+- [GitHub Repository Structure Best Practices](https://medium.com/code-factory-berlin/github-repository-structure-best-practices-248e6effc405) - A list of GitHub repository structure best practices.
+- [Best practices for repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/best-practices-for-repositories) - Learn how to use repositories most effectively.
+- [Best Practices for GitHub Repositories](https://www.codecademy.com/learn/fscp-22-git-and-github-part-ii/modules/wdcp-22-best-practices-for-github-repositories/cheatsheet) - A list of best practices for GitHub repositories.
+- [Linguist](https://github.com/github-linguist/linguist/tree/master) - This library is used on GitHub.com to detect blob languages, ignore binary or vendored files, suppress generated files in diffs, and generate language breakdown graphs.
+- [Creating discussion category forms](https://docs.github.com/en/discussions/managing-discussions-for-your-community/creating-discussion-category-forms) - You can customize the templates that are available for community members to use when they open new discussions in your repository.
+- [Viewing traffic to a repository](https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-traffic-to-a-repository) - Anyone with push access to a repository can view its traffic, including full clones (not fetches), visitors from the past 14 days, referring sites, and popular content in the traffic graph.
+- [JavaScript Standard Style](https://github.com/standard/standard)) - JavaScript Style Guide, with linter & automatic code fixer.
+- [Common README for node modules](https://github.com/hackergrrl/common-readme#readme) - A common README style for node modules.
+- [Project Guidelines](https://github.com/elsewhencode/project-guidelines) - A set of best practices for JavaScript projects.
+- [What are all available Git special files that can be committed to a repository?](https://stackoverflow.com/questions/12605576/what-are-all-available-git-special-files-that-can-be-committed-to-a-repository) - Stack Overflow question on GitHub special files.
+- [Creating a default community health file](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) - You can create default community health files, such as CONTRIBUTING and CODE_OF_CONDUCT. Default files will be used for any repository owned by the account that does not contain its own file of that type.

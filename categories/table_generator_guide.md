@@ -6,7 +6,7 @@
 
 <h1 align="center">Table Generator Guide</h1>
 
-Included in this project is a GitHub Action CI/CD workflow and `python` script that will automatically generate a table of all your repositories and their **PRG** tiers to deploy to GitHub Pages in order to showcase your projects/portfolio.
+**PyRG** is a Python implementation of the **PRG** system. It is a simple `Python` script that allows you to easily create a project tier table for your GitHub portfolio. Also included is a GitHub Action CI/CD workflow that will automatically generate a table of all your repositories and their **PRG** tiers to deploy to GitHub Pages in order to showcase your projects/portfolio.
 
 ---------------
 
@@ -35,7 +35,7 @@ In order to get the **PRG** system to work, you must do the following:
   - The file name and path can be changed in the `project_tier_table_generator.py` script (default path is your project root directory).
 
 > [!CAUTION]
-> Lines 15-18 are mapped in the `scripts/project_tier_table.py` script to the PRG system. Do not move or change these lines without adjusting the script to account for this change.
+> Lines 15-18 are mapped in the `scripts/project_tier_table_generator.py` script to the PRG system. Do not move or change these lines without adjusting the script to account for this change.
 
    - The GitHub Action Workflow (explained below) uses this file to categorize your repositories.
    - You must have a _Repository Tier_ label for each repository for the categorization to work.
@@ -181,4 +181,11 @@ See [Badge Reference Guide](../categories/badge_reference_guide.md) for more det
 
 ## Resources
 
+- [Jekyll](https://jekyllrb.com/) - Static Site Generator for GitHub Pages
+- [Jekyll Installation](https://jekyllrb.com/docs/installation/) - Jekyll Installation Guide
+- [Managing a custom domain for your GitHub Pages site](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#about-custom-domain-configuration) - GitHub Pages Custom Domain Configuration
+- [Troubleshooting custom domains and GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages) - GitHub Pages Custom Domain Troubleshooting
+- [GitHub Pages: Generate SSL certificate for www subdomain](https://github.com/isaacs/github/issues/1675) - GitHub Pages SSL Certificate Generation Discussion
+- [Securing your GitHub Pages site with HTTPS](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https) - GitHub Pages HTTPS Configuration
+- [Quickstart for GitHub REST API](https://docs.github.com/en/rest/quickstart?apiVersion=2022-11-28) - Learn how to get started with the GitHub REST API.
 

@@ -238,9 +238,6 @@ The following are optional, but you made need them depending on your project:
 > [!TIP]  
 > Append `#gh-dark-mode-only` or `#gh-light-mode-only` to the end of the image URL to only show the image in dark or light mode respectively. Be sure to have both a dark and light version of the image when necessary. More on this (shameless plug) [here](https://github.com/scottgriv/markdown-demo#images).
 
-**Resources:**
-> [GitHub Logos and Usage](https://github.com/logos)
-
 ## Closing
 
 - Export all of your designs as SVGs and PNGs where applicable.
@@ -256,19 +253,13 @@ The following are optional, but you made need them depending on your project:
 
 ## Resources
 
-- [Customizing your repository's social media preview](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview)
-
-
-
-- [GitHub Docs](https://docs.github.com/en)
-- [GitHub Docs - About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
-
-
-https://vector-conversions.com/vectorizing/raster_vs_vector.html
-
-https://www.linkedin.com/help/linkedin/answer/a563309/image-specifications-for-your-linkedin-pages-and-career-pages
-
-
-https://snappa.com/blog/twitter-header-size
-
-[Customizing your repository's social media preview](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview)
+- [X Header Size](https://snappa.com/blog/twitter-header-size) - X Header Size
+- [LinkedIn Banner Size](https://www.linkedin.com/help/linkedin/answer/a563309/image-specifications-for-your-linkedin-pages-and-career-pages) - LinkedIn Banner Size
+- [PlantUML](https://plantuml.com/) - PlantUML, a free open-source tool that allows you to create UML diagrams using a simple text-based language.
+- [Medium](https://medium.com/) - Medium, a great way to document your project and share it with others.
+- [Figma](https://www.figma.com/) - Figma, a free web-based design tool that allows you to create designs and prototypes.
+- [Sketch](https://www.sketch.com/) - Sketch, a paid macOS design tool that allows you to create designs and prototypes.
+- [GitHub Logos and Usage](https://github.com/logos) - GitHub Logos and Usage
+- [Customizing your repository's social media preview](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview) - Customizing your repository's social media preview on GitHub
+- [Round Corners](https://round-corner.imageonline.co/) - Round Corners online tool
+- [Raster vs. Vector](https://vector-conversions.com/vectorizing/raster_vs_vector.html) - A great article on Raster vs. Vector images

@@ -1,35 +1,100 @@
-# README Guidelies
+<div align="center">
+    <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
+        <img src="../docs/images/icon_2-rounded.png" width="200" height="200"/>
+    </a>
+</div>
 
-General guidelines for creating a `README` file for your project (specifically for **PRG** projects) but this can be applied to any project.
+<h1 align="center">README Guidelines</h1>
 
-Here are some general guidelines to follow:
+General instructions for crafting a `README` file are provided here, tailored for **PRG** projects but applicable to any type of project.
+
+---------------
+
+## Table of Contents
+- [README File](#readme-file)
+    - [Templates](#templates)
+    - [Markdown](#markdown)
+    - [GitHub Markdown Alerts](#github-markdown-alerts)
+- [Disclaimer](#disclaimer)
+- [Banner](#banner)
+- [Badges](#badges)
+- [Title](#title)
+- [Description](#description)
+- [Table of Contents](#table-of-contents)
+- [Features](#features)
+- [Background Story](#background-story)
+- [Definitions](#definitions)
+- [Limitations](#limitations)
+- [Dependencies](#dependencies)
+- [Getting Started](#getting-started)
+- [What's Inside?](#whats-inside)
+- [Configuration](#configuration)
+- [Deployment](#deployment)
+- [Closing](#closing)
+- [Disclaimer](#disclaimer)
+- [What's Next?](#whats-next)
+- [Project](#project)
+- [Contributing](#contributing)
+- [Resources](#resources)
+- [License](#license)
+- [Credits](#credits)
+    - [Footer](#footer)
+- [Resources](#resources-1)
 
 ## README File
 
 > [!WARNING]
 > A `README` file is **REQUIRED** for **ALL** tiers.
 
-> [!NOTE]
-> Your Profile `README` does not need to adhere to the **PRG** guidelines defined in this document, but it is encouraged to include the [Profile Badge](../README.md#6236ff-profile-badge) to link to your **PRG** project collection.
-
-- A Profile `README` is always required. Read more about it [here](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
-    - View [GitHub Profile README Generator](https://rahuldkjain.github.io/gh-profile-readme-generator/) for a quick and easy way to generate a profile `README` for your GitHub profile.
-    - Use the templates in the next section as a starting point for your profile `README` (espcially if you're using **PRG**).
-
-*Below is a descrption of each section of the `README` and what it should contain.*
-
-> [!NOTE]  
-> I only mentioned the important parts of a `README` file, there are many other things you can add to your `README` file that I didn't mention here. Feel free to add whatever you want to your `README` file including new sections, images, GIFs, etc.
+- Use the templates in the next section as a starting point for your profile `README` (especially if you're using **PRG**).
 
 ### Templates
 
-For templates and examples of `README files`, see the [templates](../templates) directory.
+For templates and examples of `READMEs`, see the [templates](../templates) directory.
 Templates are broken down by the three categorized tiers of projects: **Gold**, **Silver**, and **Bronze**.
 
 See the following links for `README` templates for each tier:
 - [Gold Tier README Template](../templates/README_gold.md)
 - [Silver Tier README Template](../templates/README_silver.md)
 - [Bronze Tier README Template](../templates/README_bronze.md)
+
+### Markdown
+
+- The `README` file should be written in [Markdown](https://guides.github.com/features/mastering-markdown/).
+- GitHub has its own [flavor of Markdown](https://github.github.com/gfm/#backslash-escapes), which is what you should use.
+
+### GitHub Markdown Alerts
+
+GitHub has a special syntax for alerts in Markdown files:
+
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
+
+Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discussions/16925).
+
+## Disclaimer
+
+> [!IMPORTANT]  
+> I only mentioned the important parts of a `README` file, there are many other things you can add to your `README` file that I didn't mention here. Feel free to add whatever you want to your `README` file including new sections, images, GIFs, etc.
+> Below is a description of each section of a **PRG** `README` and what it should contain.
+> Depending on the tier of your project, some sections are **REQUIRED** while others are **OPTIONAL**.
+
+> [!NOTE]
+> Your Profile `README` does not need to adhere to the **PRG** guidelines defined in this document, but it is encouraged to include the [PRG Profile Badge](./brand_guidelines#prg-profile-badge) to link to your **PRG Collection**.
+
+---------------
 
 ## Banner
 
@@ -72,6 +137,10 @@ See the following links for `README` templates for each tier:
 > [!NOTE] 
 > To demonstrate your project adheres to **PRG**, please include the appropriate badge at the top of your repository `README`. See the top of this `README` for an example.
 
+**Resources:**
+> [Shields.io](https://shields.io/) - A website for generating badges. <br>
+> [GitHub Workflow Status Badge](https://shields.io/badges/git-hub-workflow-status-with-event)
+
 ## Title
 
 > [!WARNING] 
@@ -103,6 +172,16 @@ See the following links for `README` templates for each tier:
 - The table of contents should be a list of links to each section of your `README`.
 - This should be the second section after the description.
 
+## Features
+
+> [!WARNING] 
+> **REQUIRED** section for **Gold** tier only.
+> **Silver** and **Bronze** tier projects do not require this section, but feel free to add it if you want.
+
+- This section should contain a list of features for your project.
+- Explain what each feature does and how it works.
+- You can also add screenshots of each feature if you want.
+
 ## Background Story
 
 > [!WARNING] 
@@ -125,15 +204,41 @@ See the following links for `README` templates for each tier:
 
 - This section should contain a list of limitations for your project.
 
-## Features
+## Dependencies
 
 > [!WARNING] 
 > **OPTIONAL** section for **ALL** tiers.
 
-- This section should contain a list of features for your project.
-- Explain what each feature does and how it works.
-- You can also add screenshots of each feature if you want.
+- This section should contain a list of dependencies for your project.
+- There is no need to list every single dependency, just the major ones.
+- There's also no need to list the version or website for each dependency (this will be done in the *Resouces* area, more on that soon), just the name is fine.
+    - i.e. This project makes use of several libraries and frameworks: <br>
+            - **Python:** For the application logic. <br>
+            - **Django:** For web application functionality. <br>
+            - **Plotly:** For creating interactive visualizations. <br>
+            - **Pandas:** For data manipulation and analysis. <br>
+            - **Requests:** For making `API` calls. <br>
+            - **Python-Decouple:** For storing sensitive information in a `.env` file. <br>
+- You can use a tool like [Dependabot](https://dependabot.com/) to automatically generate a list of dependencies for your project.
 
+**Resources:**
+> [Dependabot](https://dependabot.com/) 
+
+## Getting Started
+
+> [!WARNING] 
+> **REQUIRED** section for **ALL** tiers.
+
+- This section should contain a list of steps to get your project up and running.
+- Utilize code blocks to show the commands needed to run your project.
+- i.e.
+    1. Clone this repository.
+    2. Create a virtual environment: `python -m venv venv`.
+    3. Install the dependencies.
+    4. Run the application: 
+        ```bash
+        python manage.py runserver
+        ```
 ## What's Inside?
 
 > [!WARNING] 
@@ -164,43 +269,15 @@ See the following links for `README` templates for each tier:
     ├── LICENSE # A file that contains the license for this project.
     └── CREDITS # A file that contains the credits for this project.
     ```
-    - You can use a the following tools to generate a tree diagram for your project:
-        - [tree.nathanfriend.io](https://tree.nathanfriend.io/)
-        - [woochanleee.github.io](https://woochanleee.github.io/project-tree-generator/)
-        - [VSCode Extension](https://marketplace.visualstudio.com/items?itemName=tobiaswadseth.file-tree-generator)
 
-## Dependencies
+- You can use a the following resources below to generate a tree diagram for your project.
 
-> [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
+**Resources:**
+> [An online tree-like utility for generating ASCII folder structure diagrams](https://tree.nathanfriend.io/)
+> [Project Tree Generator](https://woochanleee.github.io/project-tree-generator/)
+> [ASCII Tree Generator](https://ascii-tree-generator.com/)
+> [VSCode Extension](https://marketplace.visualstudio.com/items?itemName=tobiaswadseth.file-tree-generator)
 
-- This section should contain a list of dependencies for your project.
-- There is no need to list every single dependency, just the major ones.
-- There's also no need to list the version or website for each dependency (this will be done in the *Resouces* area, more on that soon), just the name is fine.
-    - i.e. This project makes use of several libraries and frameworks: <br>
-            - **Python:** For the application logic. <br>
-            - **Django:** For web application functionality. <br>
-            - **Plotly:** For creating interactive visualizations. <br>
-            - **Pandas:** For data manipulation and analysis. <br>
-            - **Requests:** For making `API` calls. <br>
-            - **Python-Decouple:** For storing sensitive information in a `.env` file. <br>
-- You can use a tool like [Dependabot](https://dependabot.com/) to automatically generate a list of dependencies for your project.
-
-## Getting Started
-
-> [!WARNING] 
-> **REQUIRED** section for **ALL** tiers.
-
-- This section should contain a list of steps to get your project up and running.
-- Utilize code blocks to show the commands needed to run your project.
-- i.e.
-    1. Clone this repository.
-    2. Create a virtual environment: `python -m venv venv`.
-    3. Install the dependencies.
-    4. Run the application: 
-        ```bash
-        python manage.py runserver
-        ```
 ## Configuration
 
 > [!WARNING] 
@@ -218,7 +295,8 @@ See the following links for `README` templates for each tier:
 ## Closing
 
 > [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
+> **REQUIRED** section for **Gold** tier only.
+> **Silver** and **Bronze** tier projects do not require this section, but feel free to add it if you want.
 
 - Add any closing notes or remarks here.
 
@@ -229,6 +307,29 @@ See the following links for `README` templates for each tier:
 
 - Include any disclaimers for your project here.
 - i.e. "This project is not affiliated with the United States Geological Survey (USGS)."
+
+## What's Next?
+
+> [!WARNING] 
+> **OPTIONAL** section for **ALL** tiers.
+
+- Include any future plans for your project here.
+
+## Project
+
+> [!WARNING] 
+> **REQUIRED** section for **Gold** tier only.
+
+- Include a link to your project plan here on GitHub if you do create one.
+
+## Contributing
+
+> [!WARNING] 
+> **REQUIRED** section for **Gold** tier only.
+
+- GitHub is about collaboration and contribution, so this is why its essential to include a section on how to contribute to your best projects.
+- Include any information on how to contribute to your project here.
+- Include a `CONTRIBUTING` file in your repository for more detailed information on how to contribute to your project.
 
 ## Resources
 
@@ -241,28 +342,6 @@ See the following links for `README` templates for each tier:
     - i.e. [Plotly](https://plotly.com/python/) - A Python graphing library that makes interactive, publication-quality graphs online.
     - i.e. [Django](https://www.djangoproject.com/) - A high-level Python Web framework that encourages rapid development and clean, pragmatic design.
     - i.e. [Pandas](https://pandas.pydata.org/) - A fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
-
-## What's Next?
-
-> [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
-
-- Include any future plans for your project here.
-
-## Project
-
-> [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
-
-- Include a link to your project plan here on GitHub if you do create one.
-
-## Contributing
-
-> [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
-
-- Include any information on how to contribute to your project here.
-- Include a `CONTRIBUTING` file in your repository for more detailed information on how to contribute to your project.
 
 ## License
 
@@ -306,3 +385,51 @@ See the following links for `README` templates for each tier:
 
 - The footer should contain a image of your application's icon.
 - See the [bottom of this project README](../README.md#credits) for an example.
+
+---------------
+
+## Resources
+
+**General Resources:**
+- [About READMEs](https://help.github.com/articles/about-readmes/) - GitHub Docs on READMEs.
+- [Creating a template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository#creating-a-template-repository) - GitHub Docs on creating a template repository.
+- [Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) - GitHub Docs on creating a repository from a template.
+- [Managing project templates in your organization](https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/managing-project-templates-in-your-organization) - GitHub Docs on managing project templates in your organization.
+- [Managing your profile README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) - GitHub Docs on managing your profile README.
+- [Organization README](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile)
+- [Getting started with writing and formatting on GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github) - GitHub documentation on writing and formatting.
+- [Quickstart for writing on GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github) - Learn advanced formatting features by creating a README for your GitHub profile.
+- [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) - Create sophisticated formatting for your prose and code on GitHub with simple syntax.
+- [Building a Useful, User-Friendly Project](https://github.com/zalando/zalando-howto-open-source/blob/master/producttemplate.md) - Great project advice.
+
+**General README Information:**
+- [Art of README](https://github.com/hackergrrl/art-of-readme) - A collection of advice for creating READMEs.
+- [Make a README](https://www.makeareadme.com/) - A guide to writing READMEs.
+- [Awesome README](https://github.com/matiassingers/awesome-readme) - A curated list of awesome READMEs.
+- [Awesome GitHub Profile README](https://github.com/abhisheknaiidu/awesome-github-profile-readme) - A curated list of awesome GitHub Profile READMEs.
+- [README Inspiration](https://github.com/LappleApple/feedmereadmes/blob/master/Inspiration.md) - A list of articles and resources to inspire your README.
+- [README Best Practices](https://github.com/jehna/readme-best-practices) - A list of best practices for README files.
+
+**README Generators:**
+- [GitHub Profile README Generator](https://rahuldkjain.github.io/gh-profile-readme-generator/) - A tool that generates GitHub profile READMEs.
+- [Online README Editor](https://readme.so/) - A WYSIWYG editor for creating READMEs.
+- [user-statistician](https://github.com/cicirello/user-statistician) - Generate a GitHub stats SVG for your GitHub Profile README in GitHub Actions
+
+**Open Source README Templates:**
+- [An awesome README template to jumpstart your projects!](https://github.com/othneildrew/Best-README-Template)
+- [A Beginners Guide to writing a README](https://gist.github.com/akashnimare/7b065c12d9750578de8e705fb4771d2f)
+- [A template to make good README.md](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+- [A simple README.md template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
+- [README.md template for your open-source project](https://github.com/dbader/readme-template)
+- [Suggested README file structure for software projects](https://github.com/mhucka/readmine)
+- [A standard style for README files](https://github.com/RichardLitt/standard-readme)
+- [A README template to encourage open-source contributions](https://github.com/davidbgk/open-source-template/)
+- [Open Source guidance from Zalando, Europe's largest online fashion platform](https://github.com/zalando/zalando-howto-open-source/tree/master)
+
+**Markdown:**
+- [Basic Syntax | Markdown Guide](https://www.markdownguide.org/basic-syntax/)
+- [GitHub Flavor Markdown](https://github.github.com/gfm)
+- [StackEdit | In-Browser Markdown Editor](https://stackedit.io/)
+- [Comments in Markdown](https://stackoverflow.com/questions/4823468/comments-in-markdown)
+- [GitHub Markdown Alerts](https://github.com/orgs/community/discussions/16925)
+- [Spelling Checker for Visual Studio Code](https://gist.github.com/d2s/927d539268ee219c7ad04da6f5bc813b)

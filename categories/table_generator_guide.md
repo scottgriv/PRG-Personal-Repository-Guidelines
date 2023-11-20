@@ -43,6 +43,7 @@ In order to get the **PRG** system to work, you must do the following:
      - The `Tier` label is the only required label for the **PRG** system to work (if configured to look for a **PRG Connection File** file in the root folder).
      - Optionally, if you don't want to categorize your project, but still want to display it in your table, you can use the ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) **Optimized** badge.
      - There are optional labels you can add to your repository as well: `Technology`, `Category`, and `Order`.
+     - Place an empty values for `String` labels and `0` for `Integer` labels if you don't want to use them.
 2. Each repository should have a `docs/` folder in the root of the project.
    - Inside the `docs/` folder, there should be a subfolder called `images/`.
    - Inside the `images/` folder, there should be a file called `PRG.png`.

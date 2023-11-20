@@ -1,7 +1,27 @@
+<div align="center">
+    <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
+        <img src="../docs/images/icon_2-rounded.png" width="200" height="200"/>
+    </a>
+</div>
 
-# Category Guidelines
+<h1 align="center">Category Guidelines</h1>
 
-Follow this guideline to find out more information on each tier and the naming conventions that should be followed for each tier.
+Consult this guideline for detailed information on the categorization of each tier and the recommended naming conventions for repositories.
+
+---------------
+
+## Table of Contents
+
+- [Gold Tier Project](#gold-tier-project)
+  - [Gold Repo Additional Requirements](#gold-repo-additional-requirements)
+- [Silver Tier Project](#silver-tier-project)
+- [Bronze Tier Project](#bronze-tier-project)
+  - [Silver & Bronze Additional Requirements](#silver--bronze-additional-requirements)
+- [Optimized Tier Project](#optimized-tier-project)
+- [Profile PRG Collection](#profile-prg-collection)
+- [Resources](#resources)
+
+<a id="gold-tier-project"></a>
 
 ## ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) Gold Tier Project
 
@@ -10,21 +30,23 @@ Follow this guideline to find out more information on each tier and the naming c
 </a>
 <br>
 
-- 10+ hours of work to complete the project.
-- The best open-sourced projects you have completed in your repository collection.
-- Can be used in a business/real-world environment.
-- Considered actual **products** and more than a demo or example "Hello World" repo.
-- They should have their own graphic designs and brands/app icons.
-- The naming scheme that will be followed for this project tier is:
-  - `Application-Brand-Name`
-  - i.e. [River-Charts](https://github.com/scottgriv/River-Charts)
+- Requires over 8 hours of work for project completion.
+- Represents the finest open-source projects in your repository collection.
+- Suitable for deployment in a production setting.
+- Recognized as a genuine product, surpassing basic demos or "Hello World" examples.
+- Features unique graphic designs, including brand-specific app icons.
+- Adopts the following naming convention for this project tier:
+  - **Format:** `Application-Brand-Name`
+  - **Example:** [River-Charts](https://github.com/scottgriv/River-Charts)
 
 ### Gold Repo Additional Requirements
 
 - Use **upper** case letters for the first letter of each word in the project name.
 - Use dashes `-` to separate words or apply spaces in the project name.
 - The name should be "catchy" and easy to remember, but also descriptive of what the project is (which is why coming up with a brand for your project is important).
-- Consult the [Brand Guidelines](../guidelines/brand_guidelines.md) for more details on how to create a brand for your repository.
+  - Consult the [Brand Guidelines](../guidelines/brand_guidelines.md) for more details on how to create a brand for your repository.
+
+<a id="silver-tier-project"></a>
 
 ## ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) Silver Tier Project
 
@@ -33,12 +55,15 @@ Follow this guideline to find out more information on each tier and the naming c
 </a>
 <br>
 
-- 2-10 hours of work to complete the project.
-- Fully functional projects, but are not quite as developed to make it an actual product.
-- The naming scheme that will be followed for this project tier is:
-  - `technology/framework/language-project_name`
-  - i.e. [java-backsplash_tile_square_footage_calculator](https://github.com/scottgriv/java-backsplash_tile_square_footage_calculator)
-    - i.e. [angular-github_user_info](https://github.com/scottgriv/angular-github_user_info)
+- Completion time for the project ranges between 2 to 8 hours.
+- These are fully functional projects, yet not as extensively developed to qualify as complete products.
+- Can be suitable for deployment in a production setting, but not always.
+- Optionally, these projects may include unique graphic designs and brand-specific app icons.
+- Adopts the following naming convention for this project tier:
+  - **Format:** `technology/framework/language-project_name`
+  - **Example:** [angular-github_user_info](https://github.com/scottgriv/angular-github_user_info)
+
+<a id="bronze-tier-project"></a>
 
 ## ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) Bronze Tier Project
 
@@ -47,50 +72,60 @@ Follow this guideline to find out more information on each tier and the naming c
 </a>
 <br>
 
-- 0-2 hours of work to complete the project.
-- Repositories you made to learn or understand a specific technology better (language, framework, technology, principle, etc.).
-- The naming scheme that will be followed for this project tier is the same as _Silver_ above, which is:
-  - `technology/framework/language-project_name`
-    - i.e. [csharp-nunit_test_demo](https://github.com/scottgriv/csharp-nunit_test_demo)
-    - i.e. [rust-json_note_manager](https://github.com/scottgriv/rust-json_note_manager)
-    - i.e. [python-convert_html_table_to_csv](https://github.com/scottgriv/python-convert_html_table_to_csv)
+- Projects that require 0-2 hours to complete.
+- Repositories created for learning or gaining a better understanding of a specific technology, language, framework, principle, etc.
+- Adopts the following naming convention for this project tier:
+  - **Format:** `technology/framework/language-project_name`
+  - **Example:** [csharp-nunit_test_demo](https://github.com/scottgriv/csharp-nunit_test_demo)
+  - **Example:** [rust-json_note_manager](https://github.com/scottgriv/rust-json_note_manager)
+  - **Example:** [python-convert_html_table_to_csv](https://github.com/scottgriv/python-convert_html_table_to_csv)
 
 ### Silver & Bronze Additional Requirements
 
-- If you have multiple languages or technologies you want to highlight, you can use the following naming scheme: language-language-language-project_name`
-  - i.e. [json-xml-yaml-portfolio_template](https://github.com/scottgriv/json-xml-yaml-portfolio_template)
-- Use **lower** case letters for the first letter of each word in the project name.
-- Use underscores `_` to separate words in the project name.
-- Use dashesa `-` to separate each language/technology.
-- The languages/technologies don't necessarily have to be in any particular order, but I would recommend putting the most important one first.
-- View the [Badge Reference Guide](../categories/badge_reference_guide.md) file for more details on how to create badges for your repository.
-- By default, (and this goes without saying) forked repositories will not have the **PRG Connection File**, so make sure you add it to your forked repository:
-    - If you forked the repository without making any changes, by default the repo will not have a tier or be included in **PRG**.
-    - If you make slight changes to the repository, you can consider it a ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze** tier.
-    - If you make significant changes to the repository, you can consider it a ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver** tier.
-  - Because you did not originate the work, a forked repo can only be considered a ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze** or ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver** tier, never ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**.
+- For highlighting multiple languages or technologies in your project, adopt this naming pattern:
+  - **Format:**: `language-language-language-project_name`.
+  - **Example:** [json-xml-yaml-portfolio_template](https://github.com/scottgriv/json-xml-yaml-portfolio_template)
+- Start each word in the project name with **lowercase** letters.
+- Use underscores `_` for word separation in the project name.
+- Separate each language or technology with dashes `-`.
+- The order of languages/technologies can vary; it's advisable to place the most prominent one first.
+- For forked repositories:
+    - If unchanged, they won't automatically be part of **PRG** or have a tier. Add a **PRG Connection File** to classify them.
+    - Slight modifications can classify the fork as a ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze** tier project.
+    - Significant alterations can elevate the fork to a ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver** tier.
+  - Note that a forked repository, not being original work, can only attain a maximum of ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver** tier status, never ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+)  **Gold**.
 
-## ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) Optimized Project
+<a id="optimized-tier-project"></a>
+
+## ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) Optimized Tier Project
 
 <a href="https://prgoptimized.com" target="_blank">
     <img src="https://img.shields.io/badge/PRG-Optimized-6236FF?style=for-the-badge&logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjYuMDAwMDAwcHQiIGhlaWdodD0iMzQuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCAyNi4wMDAwMDAgMzQuMDAwMDAwIgogcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+Cgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwzNC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiNGRkZGRkYiIHN0cm9rZT0ibm9uZSI+CjxwYXRoIGQ9Ik0xMiAzMjggYy04IC04IC0xMiAtNTEgLTEyIC0xMzUgMCAtMTA5IDIgLTEyNSAxOSAtMTQwIDQyIC0zOCA0OAotNDIgNTkgLTMxIDcgNyAxNyA2IDMxIC0xIDEzIC03IDIxIC04IDIxIC0yIDAgNiAyOCAxMSA2MyAxMyBsNjIgMyAwIDE1MCAwCjE1MCAtMTE1IDMgYy04MSAyIC0xMTkgLTEgLTEyOCAtMTB6IG0xMDIgLTc0IGMtNiAtMzMgLTUgLTM2IDE3IC0zMiAxOCAyIDIzCjggMjEgMjUgLTMgMjQgMTUgNDAgMzAgMjUgMTQgLTE0IC0xNyAtNTkgLTQ4IC02NiAtMjAgLTUgLTIzIC0xMSAtMTggLTMyIDYKLTIxIDMgLTI1IC0xMSAtMjIgLTE2IDIgLTE4IDEzIC0xOCA2NiAxIDc3IDAgNzIgMTggNzIgMTMgMCAxNSAtNyA5IC0zNnoKbTExNiAtMTY5IGMwIC0yMyAtMyAtMjUgLTQ5IC0yNSAtNDAgMCAtNTAgMyAtNTQgMjAgLTMgMTQgLTE0IDIwIC0zMiAyMCAtMTgKMCAtMjkgLTYgLTMyIC0yMCAtNyAtMjUgLTIzIC0yNiAtMjMgLTIgMCAyOSA4IDMyIDEwMiAzMiA4NyAwIDg4IDAgODggLTI1eiIvPgo8L2c+Cjwvc3ZnPgo=" alt="PRG Badge" />
 </a>
 
-- This is a "uncategorized" tier project included in your **PRG Collection**.
-- Use this badge to output your project in your **PRG Collection** tier collection table if you have a project that doesn't fit into any of the other tiers.
-- By default, if all repositories are brought in without a **PRG Connection File** file, they will be considered **Optimized**.
+- This is considered a "uncategorized" tier project included in your **PRG Collection**.
+  - Use this badge to output your project in your **PRG Collection** tier table if you have a project that doesn't fit into any of the other tiers.
+  - By default, if all repositories are brought in without a **PRG Connection File** file, they will be considered **Optimized**.
 
-## ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) Profile Badge
+  <a id="profile-prg-collection"></a>
+
+## ![#680F7F](https://via.placeholder.com/15/680F7F/000000?text=+) Profile PRG Collection
 
 <a href="https://prgoptimized.com" target="_blank">
-    <img src="docs/images/prg_optimized.png" alt="PRG Optimized Logo" width="138" height="51"/>
+    <img src="../docs/images/prg_optimized.png" alt="PRG Optimized Logo" width="138" height="51"/>
 </a>
 
-- I won't say this is _required_ for **PRG**, because I don't want to tell you what to do with your personal profile `README`, but I strongly encourage adding the following badge to your main "About Me" profile `README` to showcase your **PRG Collection** (this is the essence of fixing the **"GitHub Portfolio Problem"** I mentioned earlier):
-- This will link to your `project_tier_table.md` file in your forked repository to showcase all of your repositories under **PRG**.
-- The tier badges on your repositories will also link to this file.
+- I won't say this is _required_ for **PRG**, because I don't want to tell you what to do with your personal profile `README`, but I strongly encourage adding the following badge to your GitHub Profile `README` to showcase your overall **PRG Collection**.
+  - This will link to your **PRG collection** - GitHub Pages website to showcase all of your repositories under **PRG**.
+  - The tier badges on your individual repositories will also link to this site.
+  -This is the essence of fixing the **"GitHub Portfolio Problem"** I mentioned earlier to showcase your work in a single place. 
 
 > [!IMPORTANT]
-> Make sure you run the GitHub action workflow to replace the projects in the table with your own.
-> Running the workflow will output badges with your username as a hyperlink in the [Badge Reference Guide](../categories/badge_reference_guide.md) file.
-> If you choose to not run the Action, make sure you change the username in the badge to your own to link to your forked repositories Project Tier Table if you choose to not use the Action.
+> Make sure you run the GitHub Action workflow to replace the projects in the table with your own.
+> Running the workflow will output badges with your collection URL as a hyperlink in the [Badge Reference Guide](../categories/badge_reference_guide.md) file. You can then use this file to gather the correct badge for your project's `README`.
+
+> [!WARN]
+> If you choose to not use GitHub pages, make sure you change the username in the badge to your own to link to your forked repositories Project Tier Table markdown file.
+
+## Resources
+- [Try a Semantic Approach to Naming GitHub Repositories](https://moduscreate.com/blog/github-semantic-naming/) - A great article on naming conventions for GitHub repositories. This article made me consider the naming conventions for **PRG**.

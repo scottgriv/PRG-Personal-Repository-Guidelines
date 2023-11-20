@@ -1,9 +1,43 @@
-# Brand Guidelines
+<div align="center">
+    <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
+        <img src="../docs/images/icon_2-rounded.png" width="200" height="200"/>
+    </a>
+</div>
 
-Below are the brand guidelines for a **PRG** project. 
-- These guidelines are meant to be used as a reference for the project's branding.
-- **Gold** tier projects are encouraged to follow these guidelines as closely as possible.
-- You can apply these guidelines to your other tier projects if you'd like, but it's not required.
+<h1 align="center">Brand Guidelines</h1>
+
+Below is a summary of the brand guidelines for a **PRG** project:
+- Consider these guidelines as a reference for your project's branding strategy.
+- It is highly recommended for **Gold** tier projects to adhere closely to these guidelines.
+- While optional for other tiers, applying these guidelines to your projects can enhance their branding coherence.
+
+---------------
+
+## Table of Contents
+
+- [Software Design](#software-design)
+- [Color Palette](#color-palette)
+- [Typography](#typography)
+- [Dimension Reference Table](#dimension-reference-table)
+- [Icon](#icon)
+- [Banners](#banners)
+    - [Small Banner](#small-banner)
+    - [Large Banner](#large-banner)
+    - [Social Banner](#social-banner)
+    - [Header & Footer](#header--footer)
+        - [Header](#header)
+        - [Footer](#footer)
+        - [Rounded Corners](#rounded-corners)
+    - [PRG Profile Badge](#prg-profile-badge)
+    - [Optional Banners](#optional-banners)
+        - [X Banner](#x-banner)
+        - [LinkedIn Banner](#linkedin-banner)
+- [Diagrams](#diagrams)
+- [Medium Articles & Other Social Media](#medium-articles--other-social-media)
+- [Demo & Screenshots](#demo--screenshots)
+- [Images & Assets](#images--assets)
+- [Closing](#closing)
+- [Resources](#resources)
 
 ## Software Design
 
@@ -13,9 +47,9 @@ I develop all of my UI/UX designs using [Figma](https://www.figma.com/) and [Ske
 - The combination of using Figma for prototyping and wireframing and Sketch for designing and creating assets is a great workflow for me.
 - Overall, be sure to use a Vector design tool (Figma, Sketch, Adobe XD, etc.) to create your designs.
 
-Design in Vectors not Bitmaps!
-- This will allow you to export your designs as SVGs and PNGs where applicable.
-- To read more about Bitmap (pixels) vs Vector (math) images, see [this article](https://vector-conversions.com/vectorizing/raster_vs_vector.html).
+**Design in Vectors not Pixels!**
+- This will allow you to export your designs as SVGs and high quality PNGs where applicable.
+- To read more about Raster (Bitmap/Pixel) images vs. Vector (math) images, see [this article](https://vector-conversions.com/vectorizing/raster_vs_vector.html).
     - It's recommended to design your images using the dimensions below in this guide, but export your images double the size of the required dimensions.
         - For example, if the dimensions are `100x100`, export the image as `200x200`.
         - This will allow you to have a higher quality image when you resize it to the dimensions listed below.
@@ -24,9 +58,9 @@ Design in Vectors not Bitmaps!
 > [!IMPORTANT] 
 > Be sure to document your colors, fonts, and designs in your project's `README` file and `docs` folder or a private design repository where your designs will be stored.
 
-## Color Pallete
+## Color Palette
 
-The color pallete for a **PRG** project is as follows:
+The color palette for a **PRG** project is as follows:
 
 | Color         | Hex                                                                |
 | ------------- | ------------------------------------------------------------------ |
@@ -68,7 +102,7 @@ The typography for a **PRG** project is as follows:
 ## Icon
 
 - This is "Application Icon" of your project.
-    - The logo should adhere to your brand and color pallete.
+    - The logo should adhere to your brand and color palette.
     - Create a logo that is unique to your project.
 - This can be placed on the bottom of your `README` file and used as your footer.
     - See [Footer](./readme_guidelines.md#footer) for more information.
@@ -80,7 +114,7 @@ The typography for a **PRG** project is as follows:
 
 
 > [!IMPORTANT] 
-> This is the file that will be used for the logo in your project's `projet_tier_table.md` file.
+> This is the file that will be used for the logo in your project's `project_tier_table.md` file.
 > See [Project Tier List](../README.md#project-tier-table) for more information.
 
 ## Banners
@@ -102,12 +136,12 @@ The typography for a **PRG** project is as follows:
 ### Social Banner
 
 - This can be used for social sharing of your repository link from GitHub.
-- See Settings -> Social preview for more information under your project's settings.
+- See _Settings -> Social preview_ for more information under your project's settings.
 - The size of the `banner_social.png` file should be `1280x640` pixels.
 
 <img src="../docs/images/brand_templates/banner_social-template.png" alt="Social Banner" width="1280" height="640" />
 
-- According to GitHub:
+- [According to GitHub](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview):
     - Images should be at least 640×320px (1280×640px for best display).
     - See [Customizing your repository's social media preview](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview) for more information.
 
@@ -142,7 +176,7 @@ The typography for a **PRG** project is as follows:
     - For the `banner_small.png` file, I move the toggle bar to the far left and then move it to the right 5 times (the opposite of `icon.png`).
     - You can do this rounding in your design tool as well, but I find this website to quick and easy to use.
 
-### PRG Profile Badge/Banner
+### PRG Profile Badge
 
 - Place this in your GitHub profile's `README` file (usually on the bottom).
 - The size of the `prg.png` file should be `138x51` pixels.
@@ -194,10 +228,20 @@ The following are optional, but you made need them depending on your project:
     - I usually name my demo `demo_1.png, demo_2.png, demo_1.gif, etc.` and place it in the `docs/images/demo` folder.
     - I also usually place these on the top of my `README` file and hyperlink it to the product demo.
 
+## Images & Assets
+
+- Include repo images and GIFs in a `docs/images` folder.
+- Include repo videos in a `docs/videos` folder.
+- Add important documents to the `docs` folder.
+- Add more folders as needed.
+
+> [!TIP]  
+> Append `#gh-dark-mode-only` or `#gh-light-mode-only` to the end of the image URL to only show the image in dark or light mode respectively. Be sure to have both a dark and light version of the image when necessary. More on this (shameless plug) [here](https://github.com/scottgriv/markdown-demo#images).
+
 ## Closing
 
 - Export all of your designs as SVGs and PNGs where applicable.
-- If you're using Sketch, I would suggest making a page called `Designs` and naming each artboard with the following naming convention (or frames using Figma):
+- If you're using Sketch, I would suggest making a page called `Designs` and naming each Art Board with the following naming convention (or frames using Figma):
     - `icon`
     - `banner_small`
     - `banner_large`
@@ -209,17 +253,13 @@ The following are optional, but you made need them depending on your project:
 
 ## Resources
 
-- [GitHub Docs](https://docs.github.com/en)
-- [GitHub Docs - About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
-
-- [GitHub Docs](https://docs.github.com/en)
-- [GitHub Docs - About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
-
-https://vector-conversions.com/vectorizing/raster_vs_vector.html
-
-https://www.linkedin.com/help/linkedin/answer/a563309/image-specifications-for-your-linkedin-pages-and-career-pages
-
-
-https://snappa.com/blog/twitter-header-size
-
-[Customizing your repository's social media preview](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview)
+- [X Header Size](https://snappa.com/blog/twitter-header-size) - X Header Size
+- [LinkedIn Banner Size](https://www.linkedin.com/help/linkedin/answer/a563309/image-specifications-for-your-linkedin-pages-and-career-pages) - LinkedIn Banner Size
+- [PlantUML](https://plantuml.com/) - PlantUML, a free open-source tool that allows you to create UML diagrams using a simple text-based language.
+- [Medium](https://medium.com/) - Medium, a great way to document your project and share it with others.
+- [Figma](https://www.figma.com/) - Figma, a free web-based design tool that allows you to create designs and prototypes.
+- [Sketch](https://www.sketch.com/) - Sketch, a paid macOS design tool that allows you to create designs and prototypes.
+- [GitHub Logos and Usage](https://github.com/logos) - GitHub Logos and Usage
+- [Customizing your repository's social media preview](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview) - Customizing your repository's social media preview on GitHub
+- [Round Corners](https://round-corner.imageonline.co/) - Round Corners online tool
+- [Raster vs. Vector](https://vector-conversions.com/vectorizing/raster_vs_vector.html) - A great article on Raster vs. Vector images

@@ -56,7 +56,7 @@ Use a description that is short and to the point. This is the first thing people
 - Topics should highlight the main technologies, frameworks, and languages used in the project.
     - i.e. visualization, python, api, charts, data, django, plotly, pandas, data-visualization, dataset, webapp, data-analysis, usgs, usgs-api
 
-## Misc. Settinges
+## Misc. Settings
 
 - Releases, Packages, Deployments should only be checked under "Include in the home page" if you're using those features.
 - I strongly recommend using Releases for **Gold** projects.

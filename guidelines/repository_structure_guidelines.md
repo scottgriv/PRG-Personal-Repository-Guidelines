@@ -54,7 +54,7 @@ This guideline details necessary files and overall structure for your repository
 - A `README` file describes your project and provides information on how to use it.
 - The `README` file should be named `README.md`.
 - The `README` file should be located in the root of your repository.   
-- Use the [templates](../templates) in this repository as a starting point for your profile `README` (espcially if you're using **PRG**).
+- Use the [templates](../templates) in this repository as a starting point for your profile `README` (especially if you're using **PRG**).
 
 > [!TIP]
 > Consult the [README Guidelines](readme_guidelines.md) for more resources and information on how to write a `README` file.
@@ -344,7 +344,7 @@ Below are some other popular files used in GitHub repositories:
 
 - This folder contains information on how to configure your API.
 - Include any API documentation in this folder.
-- Iclude any postman collections in this folder.
+- Include any postman collections in this folder.
 
 ## Misc. Folders
 
@@ -357,12 +357,12 @@ Below are some other popular files used in GitHub repositories:
 > [!IMPORTANT]
 > It's important to follow your frameworks conventions and [programming style guides](https://github.com/standard/standard).
 
-## Images, Gifs, Videos, and Documents
+## Images, GIFs, Videos, and Documents
 
 > [!NOTE] 
 > **OPTIONAL** files for **ALL** tiers.
 
-- Include repo images and gifs in a `docs/images` folder.
+- Include repo images and GIFs in a `docs/images` folder.
 - Include repo videos in a `docs/videos` folder.
 - Add important documents to the `docs` folder.
 - Add more folders as needed.

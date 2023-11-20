@@ -4,9 +4,9 @@
     </a>
 </div>
 
-<h1 align="center">Personal Repisitory Guidelines (PRG) Connection File</h1>
+<h1 align="center">Personal Repository Guidelines (PRG) Connection File</h1>
 
-This file is used to connect this repository to the **PRG** project catagorization system.
+This file is used to connect this repository to the **PRG** project categorization system.
 
 ---------------
 
@@ -14,7 +14,7 @@ This file is used to connect this repository to the **PRG** project catagorizati
 
 **Repository Tier:** Gold <br>
 **Technology:** Markdown, API, GitHub Actions, Jekyll, Python, DataTables <br>
-**Category:** Catagorization, Guidelines, Templates, Standards, Documentation <br>
+**Category:** Categorization, Guidelines, Templates, Standards, Documentation <br>
 **Order:** 6 <br>
 
 ## Parameters

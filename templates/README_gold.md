@@ -89,8 +89,7 @@ This section should contain a list of files and folders in your project and what
     ├── LICENSE # A file that contains the license for this project.
     └── CREDITS # A file that contains the credits for this project.
     ```
-    - You can use a tool like [tree.nathanfriend.io](https://tree.nathanfriend.io/) to generate a tree diagram for your project.
-
+    
 ## Closing
 
 This section should contain a short paragraph thanking the reader for taking the time to read your README.

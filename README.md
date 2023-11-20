@@ -116,7 +116,7 @@ Below is a summary of the problem:
 - **Noticing the Problem #2:** I also noticed that people make multiple accounts on GitHub, in some cases to showcase their best work on one account and their other, less important, work on another account. I didn't want to do that, and I hope this solution can cut down on the number of extra accounts people have to create to solve this problem.
 - **Noticing the Problem #3:** Some users solved this problem by creating organizations on GitHub to showcase their work. I didn't want to do that either, and I hope this solution can cut down on the number of extra organizations people have to create to solve this problem.
 
-As one GitHub user points out in this great article on the prolem, [How I Organize my GitHub Repositories](https://andreicioara.com/how-i-organize-my-github-repositories-ce877db2e8b6):
+As one GitHub user points out in this great article on the problem, [How I Organize my GitHub Repositories](https://andreicioara.com/how-i-organize-my-github-repositories-ce877db2e8b6):
 
 >"The issue is that all of these repositories are on the same level. There is no order, no differentiation between them. They just sort of exist on the user profile." -Andrei Cioara
 
@@ -134,7 +134,7 @@ Your `README` is the first thing people see when they visit your repository, it 
 ## Definitions
 
 Here are some definitions to help you understand the terminology used in this document:
-- **PRG Optimized** - A repository that is catagorized using the **PRG** system.
+- **PRG Optimized** - A repository that is categorized using the **PRG** system.
 - **PRG Collection** - A collection of repositories that are categorized using **PRG**.
 - **PRG Connection File** - A markdown file ([PRG Connection File](PRG.md)) placed in the root of each of your repositories that is used to categorize your repositories using **PRG**.
 - **Project Tier** - A tier that is assigned to a repository based on the information in the [PRG Connection File](PRG.md) file.
@@ -223,7 +223,7 @@ Below is a list of the main files and folders in this repository and their speci
 
 ## 1. Categories
 
-To solve the **"GitHub Portfolio Problem"** above and to destinguish the quality of the project, **PRG** categorizes repositories into four tiers: <br>
+To solve the **"GitHub Portfolio Problem"** above and to distinguished the quality of the project, **PRG** categorizes repositories into four tiers: <br>
 <br>
 ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold** <br> 
 ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver** <br> 
@@ -236,7 +236,7 @@ To solve the **"GitHub Portfolio Problem"** above and to destinguish the quality
 
 ### Tier Badges
 
-- The catagorized tier badge should ust be prominently displayed at the top of each repository to align with **PRG** standards.
+- The categorized tier badge should ust be prominently displayed at the top of each repository to align with **PRG** standards.
 - This is what links your repository to your overall **PRG** collection.
 
 <a id="gold-tier-project-badge"></a>
@@ -338,7 +338,7 @@ The following templates are provided for you to use in your repositories. These 
 ## Tier README Templates
 
 For templates and examples of `README` files, see the [templates](/templates) directory.
-Templates are broken down by the three (catagorized) tiers of projects: ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**.
+Templates are broken down by the three (categorized) tiers of projects: ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**.
 
 See the following links for `README` templates for each tier:
 
@@ -405,7 +405,7 @@ Feel free to submit a pull request if you find any issues or have any suggestion
 Complete document library for **PRG**:
 
 - **[Guideline](guidelines/) Related Documents:**
-  - [Category Guidelines](./guidelines/category_guidelines.md) - Guidelines for catagorizing your repository tiers and naming conventions.
+  - [Category Guidelines](./guidelines/category_guidelines.md) - Guidelines for categorizing your repository tiers and naming conventions.
   - [Brand Guidelines](./guidelines/brand_guidelines.md) - Guidelines for creating your own brand for your project.
   - [README Guidelines](./guidelines/readme_guidelines.md) - Guidelines for repository `READMEs`.
   - [Repository Structure Guidelines](./guidelines/repository_structure_guidelines.md) - Guidelines for repository structure and files.

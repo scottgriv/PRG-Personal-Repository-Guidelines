@@ -46,8 +46,7 @@ General instructions for crafting a `README` file are provided here, tailored fo
 > [!WARNING]
 > A `README` file is **REQUIRED** for **ALL** tiers.
 
-- Use the templates in the next section as a starting point for your profile `README` (espcially if you're using **PRG**).
-- 
+- Use the templates in the next section as a starting point for your profile `README` (especially if you're using **PRG**).
 
 ### Templates
 
@@ -89,7 +88,7 @@ Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discu
 
 > [!IMPORTANT]  
 > I only mentioned the important parts of a `README` file, there are many other things you can add to your `README` file that I didn't mention here. Feel free to add whatever you want to your `README` file including new sections, images, GIFs, etc.
-> Below is a descrption of each section of a **PRG** `README` and what it should contain.
+> Below is a description of each section of a **PRG** `README` and what it should contain.
 > Depending on the tier of your project, some sections are **REQUIRED** while others are **OPTIONAL**.
 
 > [!NOTE]
@@ -433,3 +432,4 @@ Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discu
 - [StackEdit | In-Browser Markdown Editor](https://stackedit.io/)
 - [Comments in Markdown](https://stackoverflow.com/questions/4823468/comments-in-markdown)
 - [GitHub Markdown Alerts](https://github.com/orgs/community/discussions/16925)
+- [Spelling Checker for Visual Studio Code](https://gist.github.com/d2s/927d539268ee219c7ad04da6f5bc813b)

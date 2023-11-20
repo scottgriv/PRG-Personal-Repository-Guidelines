@@ -16,7 +16,7 @@ Below is a summary of the brand guidelines for a **PRG** project:
 ## Table of Contents
 
 - [Software Design](#software-design)
-- [Color Pallete](#color-pallete)
+- [Color Palette](#color-palette)
 - [Typography](#typography)
 - [Dimension Reference Table](#dimension-reference-table)
 - [Icon](#icon)
@@ -58,9 +58,9 @@ I develop all of my UI/UX designs using [Figma](https://www.figma.com/) and [Ske
 > [!IMPORTANT] 
 > Be sure to document your colors, fonts, and designs in your project's `README` file and `docs` folder or a private design repository where your designs will be stored.
 
-## Color Pallete
+## Color Palette
 
-The color pallete for a **PRG** project is as follows:
+The color palette for a **PRG** project is as follows:
 
 | Color         | Hex                                                                |
 | ------------- | ------------------------------------------------------------------ |
@@ -102,7 +102,7 @@ The typography for a **PRG** project is as follows:
 ## Icon
 
 - This is "Application Icon" of your project.
-    - The logo should adhere to your brand and color pallete.
+    - The logo should adhere to your brand and color palette.
     - Create a logo that is unique to your project.
 - This can be placed on the bottom of your `README` file and used as your footer.
     - See [Footer](./readme_guidelines.md#footer) for more information.
@@ -114,7 +114,7 @@ The typography for a **PRG** project is as follows:
 
 
 > [!IMPORTANT] 
-> This is the file that will be used for the logo in your project's `projet_tier_table.md` file.
+> This is the file that will be used for the logo in your project's `project_tier_table.md` file.
 > See [Project Tier List](../README.md#project-tier-table) for more information.
 
 ## Banners
@@ -230,7 +230,7 @@ The following are optional, but you made need them depending on your project:
 
 ## Images & Assets
 
-- Include repo images and gifs in a `docs/images` folder.
+- Include repo images and GIFs in a `docs/images` folder.
 - Include repo videos in a `docs/videos` folder.
 - Add important documents to the `docs` folder.
 - Add more folders as needed.
@@ -241,7 +241,7 @@ The following are optional, but you made need them depending on your project:
 ## Closing
 
 - Export all of your designs as SVGs and PNGs where applicable.
-- If you're using Sketch, I would suggest making a page called `Designs` and naming each artboard with the following naming convention (or frames using Figma):
+- If you're using Sketch, I would suggest making a page called `Designs` and naming each Art Board with the following naming convention (or frames using Figma):
     - `icon`
     - `banner_small`
     - `banner_large`

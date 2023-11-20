@@ -17,7 +17,7 @@
   - [Time Zone & Schedule Configuration](#time-zone--schedule-configuration)
   - [Customization](#customization)
 - [GitHub Actions Workflow](#github-actions-workflow)
-  - [Project Tier Table (Output)](#project-tier-table-output)
+  - [Project Tier Table (Output) and Private Project Tier Table (Input)](#project-tier-table-output-and-private-project-tier-table-input)
   - [Project Tier Badges (Output)](#project-tier-badges-output)
 - [GitHub Pages Deployment](#github-pages-deployment)
   - [Local Testing](#local-testing)
@@ -41,7 +41,7 @@ In order to get the **PRG** system to work, you must do the following:
    - You must have a _Repository Tier_ label for each repository for the categorization to work.
      - Change the repository's `Tier` label to match the tier of the repository (![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**, or ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) **Optimized**).
      - The `Tier` label is the only required label for the **PRG** system to work (if configured to look for a **PRG Connection File** file in the root folder).
-     - Optionally, if you don't want to catagorize your project, but still want to display it in your table, you can use the ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) **Optimized** badge.
+     - Optionally, if you don't want to categorize your project, but still want to display it in your table, you can use the ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) **Optimized** badge.
      - There are optional labels you can add to your repository as well: `Technology`, `Category`, and `Order`.
 2. Each repository should have a `docs/` folder in the root of the project.
    - Inside the `docs/` folder, there should be a subfolder called `images/`.
@@ -62,7 +62,7 @@ In order to get the **PRG** system to work, you must do the following:
 - The `python` script is located in the `scripts` folder called `project_tier_table_generator.py`.
   - There are a number of configurations that are optional and required to run the script. 
   - Overall, you will see that the script is well documented, highly customizable, and easy to follow.
-  - Optionally, you can manually add projects that are not on GitHub or are private (and/or excluded in the config flagd) by adding them to the `catgories/project_tier_table_private.md` file.
+  - Optionally, you can manually add projects that are not on GitHub or are private (and/or excluded in the config flags) by adding them to the `categories/project_tier_table_private.md` file.
     - Add images used in this private table in the `docs/images/private_repos` folder.
     - Projects in this file will be consolidated into the main table when the workflow runs.
 
@@ -110,12 +110,12 @@ You can customize your build script however you want if you want to categorize y
   - The name of the workflow is `weekly-project-tier-table-generator`.
   - The workflow will call `scripts/project_tier_table_generator.py` which will build the table and output it to `categories/project_tier_table.md`.
  
-### Project Tier Table (Output)
+### Project Tier Table (Output) and Private Project Tier Table (Input)
 
-- See the [Project Tier Table](../categories/project_tier_table.md) and [Private Project Tier Table](/categories/project_tier_table_private.md) for example outputs of what the table looks like (placeholder images won't be displayed in the output).
+- See the [Project Tier Table](../categories/project_tier_table.md) and [Private Project Tier Table](/categories/project_tier_table_private.md) for example inputs and outputs of what the table looks like (placeholder images won't be displayed in the output due to the GitHub Action workflow running on a public repository).
 - The script will also update the [Badge Reference Guide](../categories/badge_reference_guide.md) file with the latest badges you can use to add to your repository `READMEs` that use **PRG**.
 
-### Project Tier Badges (Outout)
+### Project Tier Badges (Output)
 
 See [Badge Reference Guide](../categories/badge_reference_guide.md) for more details on how to create badges for your repository.
 - Run the workflow above to get an update `categories/badge_reference_guide.md` file pointing to your **PRG** system.

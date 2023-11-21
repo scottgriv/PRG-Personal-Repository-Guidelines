@@ -1,10 +1,10 @@
 # Changelog
 
-## v1.0.0
+## v1.0-beta1
 
 ### Added or Changed
 - Added this changelog file :D
-- Initial Release of PRG
+- Beta release of PRG
 
 ### Removed
 - N/A

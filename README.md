@@ -117,17 +117,6 @@ Complete document library and resource reference list for **PRG**:
         <p>Guidelines for repository READMEs</p>
       </div>
     </td>
-    <td align="center">
-      <div style="margin: 10px; text-align: center;">
-        <a href="./guidelines/repository_structure_guidelines.md">
-          <img src="./docs/images/icon-rounded.png" alt="Repository Structure Guidelines"
-               style="max-width: 85px; height: auto; width: 85px;">
-          <br>
-          <b>Repository Structure Guidelines</b>
-        </a>
-        <p>Guidelines for repository structure and files.</p>
-      </div>
-    </td>
   </tr>
   <!-- Row 2 -->
   <tr>

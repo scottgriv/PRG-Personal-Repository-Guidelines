@@ -195,7 +195,7 @@ Complete document library and resource reference list for **PRG**:
   <tr>
     <td align="center">
       <div style="margin: 10px; text-align: center;">
-        <a href="./templates/template_guide.md">
+        <a href="https://github.com/scottgriv/PRG-Gold-Tier-Template">
           <img src="./docs/images/template_icons/icon-gold-rounded.png" alt="Gold Tier Template"
                style="max-width: 85px; height: auto; width: 85px;">
           <br>
@@ -206,7 +206,7 @@ Complete document library and resource reference list for **PRG**:
     </td>
     <td align="center">
       <div style="margin: 10px; text-align: center;">
-        <a href="./templates/template_guide.md">
+        <a href="https://github.com/scottgriv/PRG-Silver-Tier-Template">
           <img src="./docs/images/template_icons/icon-silver-rounded.png" alt="Silver Tier Template"
                style="max-width: 85px; height: auto; width: 85px;">
           <br>
@@ -217,7 +217,7 @@ Complete document library and resource reference list for **PRG**:
     </td>
     <td align="center">
       <div style="margin: 10px; text-align: center;">
-        <a href="./templates/template_guide.md">
+        <a href="https://github.com/scottgriv/PRG-Bronze-Tier-Template">
           <img src="./docs/images/template_icons/icon-bronze-rounded.png" alt="Bronze Tier Template"
                style="max-width: 85px; height: auto; width: 85px;">
           <br>

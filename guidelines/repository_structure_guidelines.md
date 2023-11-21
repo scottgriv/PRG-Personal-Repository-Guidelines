@@ -1,6 +1,6 @@
 <div align="center">
     <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
-        <img src="../docs/images/icon_2-rounded.png" width="200" height="200"/>
+        <img src="../docs/images/icon-rounded.png" width="200" height="200"/>
     </a>
 </div>
 

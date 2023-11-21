@@ -160,7 +160,7 @@ Complete document library and resource reference list for **PRG**:
     <td align="center">
       <div style="margin: 10px; text-align: center;">
         <a href="./categories/table_generator_guide.md">
-          <img src="./docs/images/icon-pyrg-rounded.png" alt="Table Generator Guide"
+          <img src="./docs/images/icon_2-pyrg-rounded.png" alt="Table Generator Guide"
                style="max-width: 85px; height: auto; width: 85px;">
           <br>
           <b>Table Generator Guide</b>

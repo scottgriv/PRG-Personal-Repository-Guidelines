@@ -80,26 +80,7 @@
 
 Complete document library and resource reference list for **PRG**:
 
-- **[Guideline](guidelines/) Related Documents:**
-  - [Category Guidelines](./guidelines/category_guidelines.md) - Guidelines for categorizing your repository tiers and naming conventions.
-  - [Brand Guidelines](./guidelines/brand_guidelines.md) - Guidelines for creating your own brand for your project.
-  - [README Guidelines](./guidelines/readme_guidelines.md) - Guidelines for repository `READMEs`.
-  - [Repository Structure Guidelines](./guidelines/repository_structure_guidelines.md) - Guidelines for repository structure and files.
-  - [Repository Settings Guidelines](./guidelines/repository_settings_guidelines.md) - Guidelines for repository settings.
-- **[Category](categories/) Related Documents:**
-  - [Table Generator Guide](./categories/table_generator_guide.md) - Guide for setting up the project tier table generator.
-  - [Badge Reference Guide](./categories/badge_reference_guide.md) - Guide for displaying the tier badges.
-  - [Project Tier Table](./categories/project_tier_table.md) - Project tier table for your projects.
-  - [Project Tier Table (Private)](./categories/project_tier_table_private.md) - Project tier table for non-GitHub or private projects. 
-- **[Template](templates/) Related Documents:**
-  - [Template Guide](./templates/template_guide.md) - Guide for using the provided templates.
-  - ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) [PRG-Gold-Tier-Template](https://github.com/scottgriv/PRG-Gold-Tier-Template) - Gold project template for your repositories.
-  - ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) [PRG-Silver-Tier-Template](https://github.com/scottgriv/PRG-Silver-Tier-Template) - Silver project template for your repositories.
-  - ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) [PRG-Bronze-Tier-Template](https://github.com/scottgriv/PRG-Bronze-Tier-Template) - Bronze project template for your repositories.
-  - [License Examples](templates/license_examples) - License examples for your repositories (MIT, Apache, etc.).
-  - **Misc. Documents:**
-  - [PRG Connection File](PRG.md) - **PRG Connection File** for your repositories.
-
+<h3 align="center">PRG Document Library</h3>
 <table>
   <!-- Row 1 -->
   <tr>
@@ -221,9 +202,11 @@ Complete document library and resource reference list for **PRG**:
     </td>
     <td align="center">
       <div style="margin: 10px; text-align: center;">
+            <div style="margin: 10px; text-align: center;">
         <a href="./templates/template_guide.md">
           <img src="./docs/images/template_icons/icon-silver-rounded.png" alt="Silver Tier Template"
                style="max-width: 85px; height: auto; width: 85px;">
+               </div>
           <br>
           <b>Silver Tier Template</b>
         </a>

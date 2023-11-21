@@ -79,7 +79,7 @@ Add the following badge to your profile `README` to showcase your **PRG Collecti
 ### ![#680F7F](https://via.placeholder.com/13/680F7F/000000?text=+) PRG Collection Badge (Optimized) (_Default_)
 
 <a href="https://prgoptimized.com" target="_blank">
-    <img src="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_optimized.png" alt="Optimized" width="138" height="51" />
+    <img src="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_optimized.png" alt="Collection" width="138" height="51" />
 </a>
 
 <a id="prg-collection-badge-collection"></a>
@@ -87,7 +87,7 @@ Add the following badge to your profile `README` to showcase your **PRG Collecti
 ### ![#680F7F](https://via.placeholder.com/13/680F7F/000000?text=+) PRG Collection Badge (Collection) 
 
 <a href="https://prgoptimized.com" target="_blank">
-    <img src="../docs/images/prg_collection.png" alt="PRG Collection Logo" width="138" height="51"/>
+    <img src="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_collection.png" alt="Collection" width="138" height="51" />
 </a>
 
 ## Alternative Profile Badges

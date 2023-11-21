@@ -1,18 +1,21 @@
 <div align="center">
     <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
-        <img src="../docs/images/icon_2-rounded.png" width="200" height="200"/>
+        <img src="../docs/images/icon-pyrg-rounded.png" width="200" height="200"/>
     </a>
 </div>
 
 <h1 align="center">Table Generator Guide</h1>
 
-**PyRG** is a Python implementation of the **PRG** system. It is a simple `Python` script that allows you to easily create a project tier table for your GitHub portfolio. Also included is a GitHub Action CI/CD workflow that will automatically generate a table of all your repositories and their **PRG** tiers to deploy to GitHub Pages in order to showcase your projects/portfolio.
+**PyRG** is a `Python` implementation of the **PRG** system. It is a simple `Python` script that allows you to easily create a project tier table for your **GitHub Portfolio**. Also included is a GitHub Action CI/CD workflow that will automatically generate a table of all your repositories and their **PRG** tiers to deploy to GitHub Pages in order to showcase your projects/portfolio.
 
 ---------------
 
 ## Table of Contents
-- [PRG Connection File (Pre-requisites)](#prg-connection-file-pre-requisites)
-- [Python Build Script](#python-build-script)
+- [Initial Setup](#initial-setup)
+  - [PRG Connection File](#prg-connection-file)
+  - [PRG Project Logo](#prg-project-logo)
+  - [Finish Setup](#finish-setup)
+- [Python Build Script (PyRG)](#python-build-script-pyrg)
   - [Configuration](#configuration)
   - [Time Zone & Schedule Configuration](#time-zone--schedule-configuration)
   - [Customization](#customization)
@@ -25,9 +28,11 @@
 - [Running the Workflow](#running-the-workflow)
 - [Resources](#resources)
 
-## PRG Connection File (Pre-requisites)
+## Initial Setup
 
-In order to get the **PRG** system to work, you must do the following:
+In order to get the **PRG** system to work, you must perform the following pre-requisites:
+
+### PRG Connection File
 
 1. In each repository, inside the root project folder, there should be a markdown file called `PRG.md`.
   - See the **PRG Connection File** used in this repo, [here](../PRG.md), for an example and more information on how to use it.
@@ -39,26 +44,35 @@ In order to get the **PRG** system to work, you must do the following:
 
    - The GitHub Action Workflow (explained below) uses this file to categorize your repositories.
    - You must have a _Repository Tier_ label for each repository for the categorization to work.
-     - Change the repository's `Tier` label to match the tier of the repository (![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**, or ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) **Optimized**).
+     - Change the repository's `Tier` label to match the tier of the repository (![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze**, or ![#6236FF](https://via.placeholder.com/10/6236FF/000000?text=+) **Optimized**).
      - The `Tier` label is the only required label for the **PRG** system to work (if configured to look for a **PRG Connection File** file in the root folder).
-     - Optionally, if you don't want to categorize your project, but still want to display it in your table, you can use the ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) **Optimized** badge.
+     - Optionally, if you don't want to categorize your project, but still want to display it in your table, you can use the ![#6236FF](https://via.placeholder.com/10/6236FF/000000?text=+) **Optimized** badge.
      - There are optional labels you can add to your repository as well: `Technology`, `Category`, and `Order`.
      - Place an empty values for `String` labels and `0` for `Integer` labels if you don't want to use them.
-2. Each repository should have a `docs/` folder in the root of the project.
+
+### PRG Project Logo
+
+2. Optionally, you can display a logo for your repository in the table. To do so, follow these steps:
+   - In the project root folder, there should be a folder called `docs/`.
    - Inside the `docs/` folder, there should be a subfolder called `images/`.
-   - Inside the `images/` folder, there should be a file called `PRG.png`.
+   - Inside the `docs/images/` folder, there should be a file called `PRG.png`.
    - This is the icon that will be used for the project tier table.
      - See the PRG file used in this repo, [here](../docs/images/PRG.png), for an example.
      - By default, if no icon is found, a [placeholder image](../docs/images/icon-placeholder-rounded.png) will be used (defined in the build script).
-     - If a homepage/website is not defined in the `PRG.md` file, clicking on the icon will link to the repository.
+     <br>
+     <img src="../docs/images/icon-placeholder-rounded.png" width="50" height="50"/>
+     - If a homepage/website is not defined in the repository settings, clicking on the icon will link to the repository.
      - Clicking on the name of the repository will always link to the repository.
+
+### Finish Setup
+
 3. Follow the Configuration steps below to configure the workflow and GitHub pages for deployment.
 
 > [!TIP]
 > You can reference your built project tier table in your repository `README` or wherever you see fit.
 > This can be helpful showcasing your projects using the **PRG** system.
 
-## Python Build Script
+## Python Build Script (PyRG)
 
 - The `python` script is located in the `scripts` folder called `project_tier_table_generator.py`.
   - There are a number of configurations that are optional and required to run the script. 

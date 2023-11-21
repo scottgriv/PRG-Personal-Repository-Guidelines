@@ -52,11 +52,11 @@
 - [1. Categories](#1-categories)
   - [PRG Connection File](#prg-connection-file)
   - [Tier Badges](#tier-badges)
-  - [![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) Gold Tier Project Badge](#gold-tier-project-badge)
-  - [![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) Silver Tier Project Badge](#silver-tier-project-badge)
-  - [![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) Bronze Tier Project Badge](#bronze-tier-project-badge)
-  - [![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) Optimized Tier Project Badge](#optimized-tier-project-badge)
-  - [![#6236FF](https://via.placeholder.com/15/680F7F/000000?text=+) Profile PRG Collection Badge](#collection-tier-project-badge)
+  - [![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) Gold Tier Project Badge](#gold-tier-project-badge)
+  - [![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) Silver Tier Project Badge](#silver-tier-project-badge)
+  - [![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) Bronze Tier Project Badge](#bronze-tier-project-badge)
+  - [![#6236FF](https://via.placeholder.com/10/6236FF/000000?text=+) Optimized Tier Project Badge](#optimized-tier-project-badge)
+  - [![#6236FF](https://via.placeholder.com/10/680F7F/000000?text=+) Profile PRG Collection Badge](#collection-tier-project-badge)
 - [2. Guidelines](#2-guidelines)
   - [Category Guidelines](#category-guidelines)
   - [Brand Guidelines](#brand-guidelines)
@@ -64,7 +64,7 @@
   - [Repository Settings Guidelines](#repository-settings-guidelines)
   - [Repository Structure Guidelines](#repository-structure-guidelines)
 - [3. Templates](#3-templates)
-  - [Tier README Templates](#tier-readme-templates)
+  - [Project Templates](#project-templates)
   - [License Templates](#license-templates)
 - [Closing](#closing)
 - [What's Next?](#whats-next)
@@ -80,8 +80,8 @@
 
 This `README` highlights the **three** core components of **PRG**:
 
-1. [**Categorize**](#1-categories) your repositories into four tiers: ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**, and ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) **Optimized**, then display them in a project tier table (built using GitHub Actions, hosted and deployed using GitHub Pages) to showcase your **GitHub Portfolio**.
-2. [**Guidelines**](#2-guidelines) defined for repository `README`, files, and overall structure. [Brand Guidelines](./guidelines/brand_guidelines.md) for your ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold** tier projects are also defined.
+1. [**Categorize**](#1-categories) your repositories into four tiers: ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze**, and ![#6236FF](https://via.placeholder.com/10/6236FF/000000?text=+) **Optimized**, then display them in a project tier table (built using GitHub Actions, hosted and deployed using GitHub Pages) to showcase your **GitHub Portfolio**.
+2. [**Guidelines**](#2-guidelines) defined for repository `README`, files, and overall structure. [Brand Guidelines](./guidelines/brand_guidelines.md) for your ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold** tier projects are also defined.
 3. [**Templates**](#3-templates) for your `READMEs` and associated files. Templates are provided for each tier to help you get started quickly and easily by utilizing [README Driven Development (RDD)](#readme-driven-development-rdd).
    <br>
 > [!IMPORTANT] 
@@ -95,7 +95,7 @@ I developed the **Personal Repository Guidelines (PRG)** to address the challeng
 - The **PRG** repository is subject to the same standards it sets, thereby exemplifying its own guidelines.
 - The two main goals of **PRG** are to:
   1. Provide a system to categorize repositories to solve the **[GitHub Portfolio Problem](#the-github-portfolio-problem)**.
-  2. Provide guidelines and templates for repository `README`, files, and overall structure by utilizing **[README Driven Development (RDD)](#readme-driven-development-rdd)**.
+  2. Provide guidelines for repository `READMEs`, files, and overall structure by utilizing **[README Driven Development (RDD)](#readme-driven-development-rdd)**.
 
 ### README Driven Development (RDD) 
 
@@ -152,25 +152,31 @@ To begin, follow these steps:
 1. Fork this repository.
 2. In the [Project Tier Table Generator](./scripts/project_tier_table_generator.py) script, modify the **Required Configurations** section. 
    - Add your custom domain name or GitHub pages URL to the `TIER_TABLE_URL` variable.
-   > For more information, see the [Table Generator Guide](./categories/table_generator_guide.md).
+   > For more information, see the [Table Generator Guide - PRG Connection File](./categories/table_generator_guide.md#prg-connection-file).
 3. Place a [PRG Connection File](PRG.md) in the root of each repository you want to categorize using **PRG**.
-   > Detailed instructions are in the [PRG Connection File](PRG.md) section.
    - Ensure your connection file is updated with the correct repository tier and other relevant information.
-   > See the [Category Guidelines](./guidelines/category_guidelines.md) for further details.
-5. Implement GitHub Actions to automate the creation of your project tier table.
-   > Additional guidance is available in the [Table Generator Guide](./categories/table_generator_guide.md).
+   > Detailed instructions are in the [PRG Connection File](PRG.md) section.
+   > Information on how to determine your repository tier/category is in the [Category Guidelines](./guidelines/category_guidelines.md).
+4. Place a optional logo for your repository in the `docs/images` folder named `PRG.png`.
+   > See the [Table Generator Guide - PRG Project Logo](./categories/table_generator_guide.md#prg-project-logo) for more details about the logo.
+   > Consult the [Brand Guidelines](./guidelines/brand_guidelines.md) for more details about designing your logo.
+5. Affix the appropriate tier badge at the top of your repository `READMEx`.
+   > Reference the [Badge Reference Guide - Tier Badges](./categories/badge_reference_guide.md#tier-badges) to gather the appropriate badge for your repository.
+   > The tier you chose to use in the **PRG Connection File** should match the tier badge you use in your `README`.
+6. Implement GitHub Actions to automate the creation of your project tier table.
+   > Additional guidance is available in the [Table Generator Guide - GitHub Actions Workflow](./categories/table_generator_guide.md#github-actions-workflow).
 7. Set up and deploy GitHub Pages to display your project tier table for your **GitHub Portfolio**.
-   > Refer to the [Table Generator Guide](./categories/table_generator_guide.md) for setup instructions.
-8. Affix the appropriate tier badge at the top of your repository `README`.
-   > The [Badge Reference Guide](./categories/badge_reference_guide.md) provides necessary information.
-9. Incorporate the **Profile PRG Collection Badge** into your `README`.
-   > Consult the [Badge Reference Guide](./categories/badge_reference_guide.md) for details.
-10. Optionally, utilize the provided [Templates](#3-templates) to unify your `README` and project structures.
-   > For template usage, see the [Tier README Templates](#tier-readme-templates) section.
+   > Refer to the [Table Generator Guide - GitHub Pages Deployment](./categories/table_generator_guide.md#github-pages-deployment) for setup instructions.
+8. Incorporate the **Profile PRG Collection Badge** into your `README`.
+   > Reference the [Badge Reference Guide - Profile Badge](./categories/badge_reference_guide.md#profile-badge) to gather the appropriate badge for your repository.
+9. For new project repositories, utilize the provided templates to unify your `README` and project structures.
+   - Templates are provided for each tier to help you get started quickly and easily.
+   > For template usage, see the [Template Guide](./templates/template_guide.md).
+10. Feel free to [contribute](#contributing), [join the discussions](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/discussions), star, and share this repository to help others solve the **GitHub Portfolio Problem**.
 
 > [!IMPORTANT]
-> If you decide to fork it and make changes to it, please provide proper credit by linking back to the main branch of this repository! 
-> Thank you and good luck with your GitHub portfolio!
+> If you choose to fork or clone this repository and make modifications, please ensure to give appropriate credit. This can be done by including a link back to the main branch of this repository in your documentation or project in a clear and proper manner.
+> Thank you and good luck with your **GitHub Portfolio**!
 
 ## What's Inside?
 
@@ -208,9 +214,7 @@ Below is a list of the main files and folders in this repository and their speci
   │  └─ requirements.txt # Python requirements
   ├─ templates # README templates
   │  ├─ license_examples # License examples
-  │  ├─ README_bronze.md # Bronze README template
-  │  ├─ README_gold.md # Gold README template
-  │  └─ README_silver.md # Silver README template
+  │  └─ template_guide.md # Template guide
   ├─ CITATION.cff # Citation file
   ├─ CNAME # Custom domain file
   ├─ LICENSE # License file
@@ -225,10 +229,10 @@ Below is a list of the main files and folders in this repository and their speci
 
 To solve the **"GitHub Portfolio Problem"** above and to distinguished the quality of the project, **PRG** categorizes repositories into four tiers: <br>
 <br>
-![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold** <br> 
-![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver** <br> 
-![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**   
-![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) **Optimized** (uncategorized) <br> 
+![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold** <br> 
+![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver** <br> 
+![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze**   
+![#6236FF](https://via.placeholder.com/10/6236FF/000000?text=+) **Optimized** (uncategorized) <br> 
 
 ### PRG Connection File
 
@@ -241,7 +245,7 @@ To solve the **"GitHub Portfolio Problem"** above and to distinguished the quali
 
 <a id="gold-tier-project-badge"></a>
 
-### ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) Gold Tier Project Badge
+### ![#FFD700](https://via.placeholder.com/13/FFD700/000000?text=+) Gold Tier Project Badge
 
 <a href="https://prgoptimized.com" target="_blank">
     <img src="https://img.shields.io/badge/PRG-Gold Project-FFD700?style=for-the-badge&logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjYuMDAwMDAwcHQiIGhlaWdodD0iMzQuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCAyNi4wMDAwMDAgMzQuMDAwMDAwIgogcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+Cgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwzNC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiNGRkQ3MDAiIHN0cm9rZT0ibm9uZSI+CjxwYXRoIGQ9Ik0xMiAzMjggYy04IC04IC0xMiAtNTEgLTEyIC0xMzUgMCAtMTA5IDIgLTEyNSAxOSAtMTQwIDQyIC0zOCA0OAotNDIgNTkgLTMxIDcgNyAxNyA2IDMxIC0xIDEzIC03IDIxIC04IDIxIC0yIDAgNiAyOCAxMSA2MyAxMyBsNjIgMyAwIDE1MCAwCjE1MCAtMTE1IDMgYy04MSAyIC0xMTkgLTEgLTEyOCAtMTB6IG0xMDIgLTc0IGMtNiAtMzMgLTUgLTM2IDE3IC0zMiAxOCAyIDIzCjggMjEgMjUgLTMgMjQgMTUgNDAgMzAgMjUgMTQgLTE0IC0xNyAtNTkgLTQ4IC02NiAtMjAgLTUgLTIzIC0xMSAtMTggLTMyIDYKLTIxIDMgLTI1IC0xMSAtMjIgLTE2IDIgLTE4IDEzIC0xOCA2NiAxIDc3IDAgNzIgMTggNzIgMTMgMCAxNSAtNyA5IC0zNnoKbTExNiAtMTY5IGMwIC0yMyAtMyAtMjUgLTQ5IC0yNSAtNDAgMCAtNTAgMyAtNTQgMjAgLTMgMTQgLTE0IDIwIC0zMiAyMCAtMTgKMCAtMjkgLTYgLTMyIC0yMCAtNyAtMjUgLTIzIC0yNiAtMjMgLTIgMCAyOSA4IDMyIDEwMiAzMiA4NyAwIDg4IDAgODggLTI1eiIvPgo8L2c+Cjwvc3ZnPgo=" alt="Gold PRG Badge" />
@@ -259,7 +263,7 @@ To solve the **"GitHub Portfolio Problem"** above and to distinguished the quali
 
 <a id="bronze-tier-project-badge"></a>
 
-### ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) Bronze Tier Project Badge
+### ![#CD7F32](https://via.placeholder.com/13/CD7F32/000000?text=+) Bronze Tier Project Badge
 
 <a href="https://prgoptimized.com" target="_blank">
     <img src="https://img.shields.io/badge/PRG-Bronze Project-CD7F32?style=for-the-badge&logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjYuMDAwMDAwcHQiIGhlaWdodD0iMzQuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCAyNi4wMDAwMDAgMzQuMDAwMDAwIgogcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+Cgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwzNC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiNDRDdGMzIiIHN0cm9rZT0ibm9uZSI+CjxwYXRoIGQ9Ik0xMiAzMjggYy04IC04IC0xMiAtNTEgLTEyIC0xMzUgMCAtMTA5IDIgLTEyNSAxOSAtMTQwIDQyIC0zOCA0OAotNDIgNTkgLTMxIDcgNyAxNyA2IDMxIC0xIDEzIC03IDIxIC04IDIxIC0yIDAgNiAyOCAxMSA2MyAxMyBsNjIgMyAwIDE1MCAwCjE1MCAtMTE1IDMgYy04MSAyIC0xMTkgLTEgLTEyOCAtMTB6IG0xMDIgLTc0IGMtNiAtMzMgLTUgLTM2IDE3IC0zMiAxOCAyIDIzCjggMjEgMjUgLTMgMjQgMTUgNDAgMzAgMjUgMTQgLTE0IC0xNyAtNTkgLTQ4IC02NiAtMjAgLTUgLTIzIC0xMSAtMTggLTMyIDYKLTIxIDMgLTI1IC0xMSAtMjIgLTE2IDIgLTE4IDEzIC0xOCA2NiAxIDc3IDAgNzIgMTggNzIgMTMgMCAxNSAtNyA5IC0zNnoKbTExNiAtMTY5IGMwIC0yMyAtMyAtMjUgLTQ5IC0yNSAtNDAgMCAtNTAgMyAtNTQgMjAgLTMgMTQgLTE0IDIwIC0zMiAyMCAtMTgKMCAtMjkgLTYgLTMyIC0yMCAtNyAtMjUgLTIzIC0yNiAtMjMgLTIgMCAyOSA4IDMyIDEwMiAzMiA4NyAwIDg4IDAgODggLTI1eiIvPgo8L2c+Cjwvc3ZnPgo=" alt="Bronze PRG Badge" />
@@ -268,7 +272,7 @@ To solve the **"GitHub Portfolio Problem"** above and to distinguished the quali
 
 <a id="optimized-tier-project-badge"></a>
 
-### ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) Optimized Tier Project Badge
+### ![#6236FF](https://via.placeholder.com/13/6236FF/000000?text=+) Optimized Tier Project Badge
 
 <a href="https://prgoptimized.com" target="_blank">
     <img src="https://img.shields.io/badge/PRG-Optimized-6236FF?style=for-the-badge&logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjYuMDAwMDAwcHQiIGhlaWdodD0iMzQuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCAyNi4wMDAwMDAgMzQuMDAwMDAwIgogcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+Cgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwzNC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiNGRkZGRkYiIHN0cm9rZT0ibm9uZSI+CjxwYXRoIGQ9Ik0xMiAzMjggYy04IC04IC0xMiAtNTEgLTEyIC0xMzUgMCAtMTA5IDIgLTEyNSAxOSAtMTQwIDQyIC0zOCA0OAotNDIgNTkgLTMxIDcgNyAxNyA2IDMxIC0xIDEzIC03IDIxIC04IDIxIC0yIDAgNiAyOCAxMSA2MyAxMyBsNjIgMyAwIDE1MCAwCjE1MCAtMTE1IDMgYy04MSAyIC0xMTkgLTEgLTEyOCAtMTB6IG0xMDIgLTc0IGMtNiAtMzMgLTUgLTM2IDE3IC0zMiAxOCAyIDIzCjggMjEgMjUgLTMgMjQgMTUgNDAgMzAgMjUgMTQgLTE0IC0xNyAtNTkgLTQ4IC02NiAtMjAgLTUgLTIzIC0xMSAtMTggLTMyIDYKLTIxIDMgLTI1IC0xMSAtMjIgLTE2IDIgLTE4IDEzIC0xOCA2NiAxIDc3IDAgNzIgMTggNzIgMTMgMCAxNSAtNyA5IC0zNnoKbTExNiAtMTY5IGMwIC0yMyAtMyAtMjUgLTQ5IC0yNSAtNDAgMCAtNTAgMyAtNTQgMjAgLTMgMTQgLTE0IDIwIC0zMiAyMCAtMTgKMCAtMjkgLTYgLTMyIC0yMCAtNyAtMjUgLTIzIC0yNiAtMjMgLTIgMCAyOSA4IDMyIDEwMiAzMiA4NyAwIDg4IDAgODggLTI1eiIvPgo8L2c+Cjwvc3ZnPgo=" alt="PRG Badge" />
@@ -277,7 +281,7 @@ To solve the **"GitHub Portfolio Problem"** above and to distinguished the quali
 
 <a id="collection-tier-project-badge"></a>
 
-### ![#680F7F](https://via.placeholder.com/15/680F7F/000000?text=+) Profile PRG Collection Badge
+### ![#680F7F](https://via.placeholder.com/13/680F7F/000000?text=+) Profile PRG Collection Badge
 
 <a href="https://prgoptimized.com" target="_blank">
     <img src="./docs/images/prg_optimized.png" alt="PRG Optimized Logo" width="138" height="51"/>
@@ -290,6 +294,17 @@ Consult the [Category Guidelines](./guidelines/category_guidelines.md) for more 
 - It will also explain repository naming conventions and how to display the tier badges.
 
 ### Building the Project Tier Table
+
+<div align="center">
+    <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
+        <img src="./docs/images/icon-pyrg-rounded.png" width="100" height="100"/>
+    </a>
+    <br>
+    <i><b>PyRG</b>: <b>PRG</b> teams up with <b>Python</b> to create your portfolio table.</i>
+</div>
+<br>
+
+**PyRG** is a `Python` implementation of the **PRG** system. It is a simple `Python` script that allows you to easily create a project tier table for your **GitHub Portfolio**. Also included is a GitHub Action CI/CD workflow that will automatically generate a table of all your repositories and their **PRG** tiers to deploy to GitHub Pages in order to showcase your projects/portfolio.
 
 Consult the [Table Generator Guide](./categories/table_generator_guide.md) for more details on how to setup the project tier table generator using GitHub Actions and GitHub Pages.
 
@@ -335,18 +350,19 @@ Review the [Repository Settings Guidelines](./guidelines/repository_settings_gui
 
 The following templates are provided for you to use in your repositories. These templates are designed to be used with the **PRG** system.
 
-## Tier README Templates
+## Project Templates
 
-For templates and examples of `README` files, see the [templates](/templates) directory.
-Templates are broken down by the three (categorized) tiers of projects: ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze**.
+Consult the [Template Guide](./templates/template_guide.md) for more details on how to use the provided templates.
+  - Templates are broken down by the three (categorized) tiers of projects: ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze**.
+  - See the following related template repositories for each tier:
 
-See the following links for `README` templates for each tier:
+  | Icon | Tier | Template Repository |
+  | :---: | :---: | :---: |
+  | <a href="https://github.com/scottgriv/PRG-Gold-Tier-Template" target="_blank"><img src="./docs/images/template_icons/icon-gold-rounded.png" alt="Gold Template Logo" width="50" height="50"/></a> | ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold** | [PRG-Gold-Tier-Template](https://github.com/scottgriv/PRG-Gold-Tier-Template) |
+  | <a href="https://github.com/scottgriv/PRG-Silver-Tier-Template" target="_blank"><img src="./docs/images/template_icons/icon-silver-rounded.png" alt="Silver Template Logo" width="50" height="50"/></a> | ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver** | [PRG-Silver-Tier-Template](https://github.com/scottgriv/PRG-Silver-Tier-Template) |
+  | <a href="https://github.com/scottgriv/PRG-Bronze-Tier-Template" target="_blank"><img src="./docs/images/template_icons/icon-bronze-rounded.png" alt="Bronze Template Logo" width="50" height="50"/></a> | ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze** | [PRG-Bronze-Tier-Template](https://github.com/scottgriv/PRG-Bronze-Tier-Template) |
 
-- ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) [Gold Tier README Template](templates/README_gold.md)
-- ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) [Silver Tier README Template](templates/README_silver.md)
-- ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) [Bronze Tier README Template](templates/README_bronze.md)
-
-![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) **Optimized** tier projects are uncategorized and do not have a template. Use the template that best fits your project. 
+  - ![#6236FF](https://via.placeholder.com/10/6236FF/000000?text=+) **Optimized** tier projects are uncategorized and do not have a template. Use the template that best fits your project. 
 
    > [!NOTE] 
    > For example, I use this tier for my personal and organization profile `READMEs` since they don't fit into any of the other tiers.
@@ -357,9 +373,7 @@ Use or add more licenses to the [templates/license_examples](templates/license_e
 - Each license should be in its own folder.
 
 **Related Component Documents:** <br>
-> ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) [Gold Tier README Template](templates/README_gold.md) <br>
-> ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) [Silver Tier README Template](templates/README_silver.md) <br>
-> ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) [Bronze Tier README Template](templates/README_bronze.md) <br>
+> [Template Guide](./templates/template_guide.md) <br>
 > [License Examples](templates/license_examples)
 
 ---------------
@@ -416,11 +430,12 @@ Complete document library for **PRG**:
   - [Project Tier Table](./categories/project_tier_table.md) - Project tier table for your projects.
   - [Project Tier Table (Private)](./categories/project_tier_table_private.md) - Project tier table for non-GitHub or private projects. 
 - **[Template](templates/) Related Documents:**
-  - ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) [Gold Tier README Template](templates/README_gold.md) - Gold `README` template for your repositories.
-  - ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) [Silver Tier README Template](templates/README_silver.md) - Silver `README` template for your repositories.
-  - ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) [Bronze Tier README Template](templates/README_bronze.md) - Bronze `README` template for your repositories.
-- **Misc. Documents:**
+  - [Template Guide](./templates/template_guide.md) - Guide for using the provided templates.
+  - ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) [PRG-Gold-Tier-Template](https://github.com/scottgriv/PRG-Gold-Tier-Template) - Gold project template for your repositories.
+  - ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) [PRG-Silver-Tier-Template](https://github.com/scottgriv/PRG-Silver-Tier-Template) - Silver project template for your repositories.
+  - ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) [PRG-Bronze-Tier-Template](https://github.com/scottgriv/PRG-Bronze-Tier-Template) - Bronze project template for your repositories.
   - [License Examples](templates/license_examples) - License examples for your repositories (MIT, Apache, etc.).
+  - **Misc. Documents:**
   - [PRG Connection File](PRG.md) - **PRG Connection File** for your repositories.
 
 ### General Resources

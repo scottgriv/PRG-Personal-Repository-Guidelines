@@ -29,7 +29,7 @@ Consult the [Category Guidelines](./category_guidelines.md) to determine how to 
 > **REQUIRED** file for **ALL** tiers.
 
 Use a description that is short and to the point. This is the first thing people will see when they visit your repository. Make it count!
-- i.e. "A Python, Django, Plotly, and Pandas web application that visualizes river data pulled using an API from the United States Geological Survey (USGS)."
+- e.g. "A Python, Django, Plotly, and Pandas web application that visualizes river data pulled using an API from the United States Geological Survey (USGS)."
 
 ## Website
 
@@ -40,7 +40,7 @@ Use a description that is short and to the point. This is the first thing people
 > Link the website to the `banner_small.png` file if it is for a **Silver** or **Bronze** tier project.
 
 - [PythonAnywhere](https://www.pythonanywhere.com/) is a great free option for hosting Python web applications.
-    - i.e. http://scottgriv.pythonanywhere.com/
+    - e.g. http://scottgriv.pythonanywhere.com/
 - [GitHub Pages](https://pages.github.com/) is a great free option for hosting static websites for your project.
     - [Jekyll](https://jekyllrb.com/) is a great static site generator that is built into GitHub Pages.
 - [Netlify](https://www.netlify.com/) is a great free option for hosting static websites for your project.
@@ -54,7 +54,7 @@ Use a description that is short and to the point. This is the first thing people
 
 - Fill out as many topics as you can, but don't overdo it - these are used for search results in GitHub so it will help people find your project.
 - Topics should highlight the main technologies, frameworks, and languages used in the project.
-    - i.e. visualization, python, api, charts, data, django, plotly, pandas, data-visualization, dataset, webapp, data-analysis, usgs, usgs-api
+    - e.g. visualization, python, api, charts, data, django, plotly, pandas, data-visualization, dataset, webapp, data-analysis, usgs, usgs-api
 
 ## Misc. Settings
 

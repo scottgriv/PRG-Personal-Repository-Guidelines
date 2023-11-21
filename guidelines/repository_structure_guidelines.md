@@ -54,7 +54,7 @@ This guideline details necessary files and overall structure for your repository
 - A `README` file describes your project and provides information on how to use it.
 - The `README` file should be named `README.md`.
 - The `README` file should be located in the root of your repository.   
-- Use the [templates](../templates) in this repository as a starting point for your profile `README` (especially if you're using **PRG**).
+- Use the templates in the [Template Guide](../templates/template_guide.md) as a starting point for your profile `README` (especially if you're using **PRG**).
 
 > [!TIP]
 > Consult the [README Guidelines](readme_guidelines.md) for more resources and information on how to write a `README` file.
@@ -176,7 +176,7 @@ This guideline details necessary files and overall structure for your repository
 
 - This file contains information on how to create a pull request for your project.
 - This can also be a folder/directory called `ISSUE_TEMPLATE` with multiple templates for different types of pull requests.
-    - i.e. `ISSUE_TEMPLATE/bug_report.md`, `ISSUE_TEMPLATE/feature_request.md`, `ISSUE_TEMPLATE/custom.md`
+    - e.g. `ISSUE_TEMPLATE/bug_report.md`, `ISSUE_TEMPLATE/feature_request.md`, `ISSUE_TEMPLATE/custom.md`
 
 **Resources:**
 > [Creating a issue template for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
@@ -245,7 +245,7 @@ Below are some other popular files used in GitHub repositories:
 
 - This file should contain a list of files and folders that should be ignored by Git.
 - Its recommended to ignore your vscode workspace files, virtual environment files, and any sensitive information files.
-    - i.e. `.vscode/`, `venv/`, `.env`
+    - e.g. `.vscode/`, `venv/`, `.env`
 
 ## .gitattributes File
 
@@ -366,6 +366,10 @@ Below are some other popular files used in GitHub repositories:
 - Include repo videos in a `docs/videos` folder.
 - Add important documents to the `docs` folder.
 - Add more folders as needed.
+
+**Resources:**
+> [GiFox](https://gifox.io/) - Paid GIF recording tool for macOS.
+> [Snagit](https://www.techsmith.com/screen-capture.html) - Paid screen capture tool for macOS and Windows.
 
 ## Resources
 

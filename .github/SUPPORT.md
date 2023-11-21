@@ -1,6 +1,6 @@
 # Support
 
-This article explains where to get help with **PRG**.
+This article explains where to get help with this project.
 Please read through the following guidelines.
 
 > 👉 **Note**: before participating in our community, please read our
@@ -56,7 +56,7 @@ See [`contributing.md`][contributing] on how to contribute.
 
 [xy]: https://meta.stackexchange.com/questions/66377/what-is-the-xy-problem/66378#66378
 
-[chat]: s](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/discussions
+[chat]: https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/discussions
 
 [cs]: https://codesandbox.io
 

@@ -53,10 +53,7 @@ General instructions for crafting a `README` file are provided here, tailored fo
 For templates and examples of `READMEs`, see the [templates](../templates) directory.
 Templates are broken down by the three categorized tiers of projects: **Gold**, **Silver**, and **Bronze**.
 
-See the following links for `README` templates for each tier:
-- [Gold Tier README Template](../templates/README_gold.md)
-- [Silver Tier README Template](../templates/README_silver.md)
-- [Bronze Tier README Template](../templates/README_bronze.md)
+- See the [Template Guide](../templates/template_guide.md) for templates used for each tier.
 
 ### Markdown
 
@@ -106,7 +103,7 @@ Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discu
 - I use [Sketch](https://www.sketch.com/) to create my banners and designs, but you can use any design software you want.
 - See [PRG Brand Guidelines](brand_guidelines.md) for more information on creating banners and other graphics for your project.
 - **Silver** projects don't require a banner, but feel free to add a logo of the technology you used to develop your project.
-    - i.e. Svelte + Firebase Logos <br>
+    - e.g. Svelte + Firebase Logos <br>
     <img src="./docs/images/demo/svelte_logo.png" alt="Svelte" style="width: 5%; vertical-align: left;" />
     <img src="./docs/images/demo/plus-dark.png#gh-dark-mode-only" alt="+" style="width: 5%;vertical-align: left;"/>
     <img src="./docs/images/demo/plus-light.png#gh-light-mode-only" alt="+" style="width: 5%; vertical-align: left;" />
@@ -123,16 +120,16 @@ Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discu
 - Badges are a great way to showcase the technologies, frameworks, and languages used in your project. 
 - Badges are generated using [Shields.io](https://shields.io/).
 - You should include all major technologies, frameworks, and languages used in your project (one badge per technology). This badge should contain the technology name and version you used to develop your project.
-    - i.e. [![Python Badge](https://img.shields.io/badge/Python-3.8.5-244C6F?style=for-the-badge&logo=python)](https://www.python.org/downloads/release/python-385/)
-    - i.e. [![Node.js Badge](https://img.shields.io/badge/Node.js-16.13.2-036E02?style=for-the-badge&logo=node.js)](https://nodejs.org/en/)
+    - e.g. [![Python Badge](https://img.shields.io/badge/Python-3.8.5-244C6F?style=for-the-badge&logo=python)](https://www.python.org/downloads/release/python-385/)
+    - e.g. [![Node.js Badge](https://img.shields.io/badge/Node.js-16.13.2-036E02?style=for-the-badge&logo=node.js)](https://nodejs.org/en/)
 - The badge color should match the color of the technology's logo. Use a browser extension like [ColorZilla](https://www.colorzilla.com/) to get the exact color code of a logo from a website.
 - The badge should hyperlink to the technology's website or version release page (whatever you think is more appropriate).
 - Optionally you can add badges for your email, website, and GitHub profile so people can contact you or follow you. You can also add a link to your [BuyMeACoffee](https://www.buymeacoffee.com/) page if you have one to support your work.
-    - i.e. [![Email Badge](https://img.shields.io/badge/gmail-contact_me-DC4233?style=for-the-badge&logo=gmail)](mailto:scott.grivner@gmail.com)
-    - i.e. [![GitHub Badge](https://img.shields.io/badge/github-follow-9031AC?style=for-the-badge&logo=github&color=9031AC)](https://github.com/scottgriv)
-    - i.e. [![BuyMeACoffee Badge](https://img.shields.io/badge/buy_me_a_coffee-support_me-FEDE1F?style=for-the-badge&logo=buymeacoffee&color=FEDE1F)](https://www.buymeacoffee.com/scottgriv)
+    - e.g. [![Email Badge](https://img.shields.io/badge/gmail-contact_me-DC4233?style=for-the-badge&logo=gmail)](mailto:scott.grivner@gmail.com)
+    - e.g. [![GitHub Badge](https://img.shields.io/badge/github-follow-9031AC?style=for-the-badge&logo=github&color=9031AC)](https://github.com/scottgriv)
+    - e.g. [![BuyMeACoffee Badge](https://img.shields.io/badge/buy_me_a_coffee-support_me-FEDE1F?style=for-the-badge&logo=buymeacoffee&color=FEDE1F)](https://www.buymeacoffee.com/scottgriv)
 - Next, add a horizontal rule to separate the badges from the rest of the `README`.
-    - i.e. `---`
+    - e.g. `---`
 
 > [!NOTE] 
 > To demonstrate your project adheres to **PRG**, please include the appropriate badge at the top of your repository `README`. See the top of this `README` for an example.
@@ -155,7 +152,7 @@ Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discu
 
 - The description should be a short paragraph describing what your project is and what it does.
 - This should be the first section after the badges.
-    - i.e. "A Python, Django, Plotly, and Pandas web application that visualizes river data pulled using an API from the United States Geological Survey (USGS)."
+    - e.g. "A Python, Django, Plotly, and Pandas web application that visualizes river data pulled using an API from the United States Geological Survey (USGS)."
 - Add **screenshots** of your project below the description and throughout the rest of the `README` as needed.
     - This is optional, but highly recommended especially for **Gold** projects.
     - Animations in the form of GIFs are also a great way to showcase your project.
@@ -212,7 +209,7 @@ Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discu
 - This section should contain a list of dependencies for your project.
 - There is no need to list every single dependency, just the major ones.
 - There's also no need to list the version or website for each dependency (this will be done in the *Resouces* area, more on that soon), just the name is fine.
-    - i.e. This project makes use of several libraries and frameworks: <br>
+    - e.g. This project makes use of several libraries and frameworks: <br>
             - **Python:** For the application logic. <br>
             - **Django:** For web application functionality. <br>
             - **Plotly:** For creating interactive visualizations. <br>
@@ -231,7 +228,7 @@ Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discu
 
 - This section should contain a list of steps to get your project up and running.
 - Utilize code blocks to show the commands needed to run your project.
-- i.e.
+- e.g.
     1. Clone this repository.
     2. Create a virtual environment: `python -m venv venv`.
     3. Install the dependencies.
@@ -248,7 +245,7 @@ Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discu
 - This section should contain a list of files and folders in your project and what each one does.
 - Generally, you should only list the main files and folders in your project, not every single file.
 - Use a **tree diagram** to show the relationship between files and folders:
-    -i.e. 
+    - e.g.
     ```bash
     ├── README.md # This file.
     ├── config.py # A file that contains sensitive information (excluded from this repository).
@@ -306,7 +303,7 @@ Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discu
 > **OPTIONAL** section for **ALL** tiers.
 
 - Include any disclaimers for your project here.
-- i.e. "This project is not affiliated with the United States Geological Survey (USGS)."
+- e.g. "This project is not affiliated with the United States Geological Survey (USGS)."
 
 ## What's Next?
 
@@ -339,9 +336,9 @@ Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discu
 
 - This section should contain a list of resources used to create your project.
 - Include the name of the resource, a link to the resource, and a short description of what the resource is.
-    - i.e. [Plotly](https://plotly.com/python/) - A Python graphing library that makes interactive, publication-quality graphs online.
-    - i.e. [Django](https://www.djangoproject.com/) - A high-level Python Web framework that encourages rapid development and clean, pragmatic design.
-    - i.e. [Pandas](https://pandas.pydata.org/) - A fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
+    - e.g. [Plotly](https://plotly.com/python/) - A Python graphing library that makes interactive, publication-quality graphs online.
+    - e.g. [Django](https://www.djangoproject.com/) - A high-level Python Web framework that encourages rapid development and clean, pragmatic design.
+    - e.g. [Pandas](https://pandas.pydata.org/) - A fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
 
 ## License
 

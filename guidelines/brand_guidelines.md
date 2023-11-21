@@ -131,7 +131,7 @@ The typography for a **PRG** project is as follows:
 - This can be placed on the top of your project `README` file, or wherever you'd like to place it.
 - The size of the `banner_large.png` file should be `1280x260` pixels.
 
-<img src="../docs/images/brand_templates/banner_large-template.png" alt="Large Banner" width="1280" height="260" />
+<img src="../docs/images/brand_templates/banner_large-template.png" alt="Large Banner" width="960" height="195" />
 
 ### Social Banner
 
@@ -139,13 +139,14 @@ The typography for a **PRG** project is as follows:
 - See _Settings -> Social preview_ for more information under your project's settings.
 - The size of the `banner_social.png` file should be `1280x640` pixels.
 
-<img src="../docs/images/brand_templates/banner_social-template.png" alt="Social Banner" width="1280" height="640" />
+<img src="../docs/images/brand_templates/banner_social-template.png" alt="Social Banner" width="960" height="480" />
 
 - [According to GitHub](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview):
     - Images should be at least 640×320px (1280×640px for best display).
     - See [Customizing your repository's social media preview](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview) for more information.
 
-<img src="../docs/images/brand_templates/repository-open-graph-template.png" alt="Social Banner" width="1280" height="640" />
+<img src="../docs/images/brand_templates/repository-open-graph-template.png" alt="Social Banner" width="960" height="480" />
+
 
 ### Header & Footer
 
@@ -157,7 +158,7 @@ The typography for a **PRG** project is as follows:
 - I personally use a rounded corner variation of this icon for my footer. See [Rounded Corners](#rounded-corners) for more information.
 - The footer should also be a centered clickable link to your project's repositories main branch.
     - This is _optional_ for Bronze/Silver projects, but _required_ for Gold projects.
-    - Reference the [templates](../templates/) for more information.
+    - Reference the [Template Guide](../templates/template_guide.md) for more information.
 
 #### Header
 
@@ -180,7 +181,7 @@ The typography for a **PRG** project is as follows:
 
 - Place this in your GitHub profile's `README` file (usually on the bottom).
 - The size of the `prg.png` file should be `138x51` pixels.
-- You do not need to create this image, it is already included in the `docs/images` folder.
+- You do not need to create this image, it is already included in the `docs/images` folder (`docs/images/prg_optimized.png` or `docs/images/prg_collection.png`).
     - The image should be centered.
     - The hyperlink should take you to your **PRG Collection** website after building the Tier Table for the first time using the `scripts/project_tier_table_generator.py` script and can be found in the `categories/badge_reference_guide.md` file.
 
@@ -231,6 +232,7 @@ The following are optional, but you made need them depending on your project:
 ## Images & Assets
 
 - Include repo images and GIFs in a `docs/images` folder.
+    - I create all of my GIFs using paid tools like [GiFox](https://gifox.io/) and [Snagit](https://www.techsmith.com/screen-capture.html).
 - Include repo videos in a `docs/videos` folder.
 - Add important documents to the `docs` folder.
 - Add more folders as needed.
@@ -263,3 +265,5 @@ The following are optional, but you made need them depending on your project:
 - [Customizing your repository's social media preview](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview) - Customizing your repository's social media preview on GitHub
 - [Round Corners](https://round-corner.imageonline.co/) - Round Corners online tool
 - [Raster vs. Vector](https://vector-conversions.com/vectorizing/raster_vs_vector.html) - A great article on Raster vs. Vector images
+- [GiFox](https://gifox.io/) - Paid GIF recording tool for macOS.
+- [Snagit](https://www.techsmith.com/screen-capture.html) - Paid screen capture tool for macOS and Windows.

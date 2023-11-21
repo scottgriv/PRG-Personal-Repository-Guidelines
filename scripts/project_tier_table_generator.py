@@ -105,7 +105,7 @@ Utilize this file as a template for collecting and incorporating badges into you
     - [Silver Tier Project Badge](#silver-tier-project-badge)
     - [Bronze Tier Project Badge](#bronze-tier-project-badge)
     - [Optimized Tier Project Badge](#optimized-tier-project-badge)
-- [Profile Badge](#profile-badge)
+- [Profile Badges](#profile-badges)
     - [PRG Collection Badge (Optimized) (Default)](#prg-collection-badge)
     - [PRG Collection Badge (Collection)](#prg-collection-badge-collection)
 - [Alternative Profile Badges](#alternative-profile-badges)
@@ -153,7 +153,7 @@ Utilize this file as a template for collecting and incorporating badges into you
 > [!TIP]
 > Consult the [Category Guidelines](../guidelines/category_guidelines.md) for more information on the **PRG** project tier system and how to determine the appropriate tier badge for your project.
 
-## Profile Badge
+## Profile Badges
 
 Add the following badge to your profile `README` to showcase your **PRG Collection** for your **GitHub Portfolio**.
 - The hyperlink will take your profile visitors to your categorized project tier table. 

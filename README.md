@@ -255,7 +255,7 @@ Complete document library and resource reference list for **PRG**:
       <div style="margin: 10px; text-align: center;">
         <a href="./templates/license_examples/">
           <img src="./docs/images/icon-placeholder-rounded.png" alt="License Example Directory"
-               style="max-width: 85px; height: auto; width: 100%;">
+               style="max-width: 85px; height: auto; width: 85px;">
           <br>
           <b>License Example Directory</b>
         </a>

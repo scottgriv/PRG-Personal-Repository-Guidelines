@@ -107,7 +107,7 @@ Complete document library and resource reference list for **PRG**:
       <div style="margin: 10px; text-align: center;">
         <a href="./guidelines/category_guidelines.md">
           <img src="./docs/images/icon-rounded.png" alt="Category Guidelines"
-               style="max-width: 85px; height: auto; width: 100%;">
+               style="max-width: 85px; height: auto; width: 85px;">
           <br>
           <b>Category Guidelines</b>
         </a>
@@ -118,7 +118,7 @@ Complete document library and resource reference list for **PRG**:
       <div style="margin: 10px; text-align: center;">
         <a href="./guidelines/brand_guidelines.md">
           <img src="./docs/images/icon-rounded.png" alt="Brand Guidelines"
-               style="max-width: 85px; height: auto; width: 100%;">
+               style="max-width: 85px; height: auto; width: 85px;">
           <br>
           <b>Brand Guidelines</b>
         </a>
@@ -129,7 +129,7 @@ Complete document library and resource reference list for **PRG**:
       <div style="margin: 10px; text-align: center;">
         <a href="./guidelines/readme_guidelines.md">
           <img src="./docs/images/icon-rounded.png" alt="README Guidelines"
-               style="max-width: 85px; height: auto; width: 100%;">
+               style="max-width: 85px; height: auto; width: 85px;">
           <br>
           <b>README Guidelines</b>
         </a>
@@ -140,7 +140,7 @@ Complete document library and resource reference list for **PRG**:
       <div style="margin: 10px; text-align: center;">
         <a href="./guidelines/repository_structure_guidelines.md">
           <img src="./docs/images/icon-rounded.png" alt="Repository Structure Guidelines"
-               style="max-width: 85px; height: auto; width: 100%;">
+               style="max-width: 85px; height: auto; width: 85px;">
           <br>
           <b>Repository Structure Guidelines</b>
         </a>
@@ -154,7 +154,7 @@ Complete document library and resource reference list for **PRG**:
       <div style="margin: 10px; text-align: center;">
         <a href="./guidelines/repository_settings_guidelines.md">
           <img src="./docs/images/icon-rounded.png" alt="Repository Settings Guidelines"
-               style="max-width: 85px; height: auto; width: 100%;">
+               style="max-width: 85px; height: auto; width: 85px;">
           <br>
           <b>Repository Settings Guidelines</b>
         </a>
@@ -165,7 +165,7 @@ Complete document library and resource reference list for **PRG**:
       <div style="margin: 10px; text-align: center;">
         <a href="./categories/badge_reference_guide.md">
           <img src="./docs/images/icon_2-rounded.png" alt="Badge Reference Guide"
-               style="max-width: 85px; height: auto; width: 100%;">
+               style="max-width: 85px; height: auto; width: 85px;">
           <br>
           <b>Badge Reference Guide</b>
         </a>
@@ -176,7 +176,7 @@ Complete document library and resource reference list for **PRG**:
       <div style="margin: 10px; text-align: center;">
         <a href="./categories/project_tier_table.md">
           <img src="./docs/images/icon_2-rounded.png" alt="Project Tier Table"
-               style="max-width: 85px; height: auto; width: 100%;">
+               style="max-width: 85px; height: auto; width: 85px;">
           <br>
           <b>Project Tier Table</b>
         </a>
@@ -187,7 +187,7 @@ Complete document library and resource reference list for **PRG**:
       <div style="margin: 10px; text-align: center;">
         <a href="./categories/project_tier_table_private.md">
           <img src="./docs/images/icon_2-rounded.png" alt="Project Tier Table (Private)"
-               style="max-width: 85px; height: auto; width: 100%;">
+               style="max-width: 85px; height: auto; width: 85px;">
           <br>
           <b>Project Tier Table (Private)</b>
         </a>
@@ -201,7 +201,7 @@ Complete document library and resource reference list for **PRG**:
       <div style="margin: 10px; text-align: center;">
         <a href="./templates/template_guide.md">
           <img src="./docs/images/icon_2-rounded.png" alt="Template Guide"
-               style="max-width: 85px; height: auto; width: 100%;">
+               style="max-width: 85px; height: auto; width: 85px;">
           <br>
           <b>Template Guide</b>
         </a>
@@ -212,7 +212,7 @@ Complete document library and resource reference list for **PRG**:
       <div style="margin: 10px; text-align: center;">
         <a href="./templates/template_guide.md">
           <img src="./docs/images/template_icons/icon-gold-rounded.png" alt="Gold Tier Template"
-               style="max-width: 85px; height: auto; width: 100%;">
+               style="max-width: 85px; height: auto; width: 85px;">
           <br>
           <b>Gold Tier Template</b>
         </a>
@@ -223,7 +223,7 @@ Complete document library and resource reference list for **PRG**:
       <div style="margin: 10px; text-align: center;">
         <a href="./templates/template_guide.md">
           <img src="./docs/images/template_icons/icon-silver-rounded.png" alt="Silver Tier Template"
-               style="max-width: 85px; height: auto; width: 100%;">
+               style="max-width: 85px; height: auto; width: 85px;">
           <br>
           <b>Silver Tier Template</b>
         </a>
@@ -234,7 +234,7 @@ Complete document library and resource reference list for **PRG**:
       <div style="margin: 10px; text-align: center;">
         <a href="./templates/template_guide.md">
           <img src="./docs/images/template_icons/icon-bronze-rounded.png" alt="Bronze Tier Template"
-               style="max-width: 85px; height: auto; width: 100%;">
+               style="max-width: 85px; height: auto; width: 85px;">
           <br>
           <b>Bronze Tier Template</b>
         </a>
@@ -248,7 +248,7 @@ Complete document library and resource reference list for **PRG**:
       <div style="margin: 10px; text-align: center;">
         <a href="PRG.md">
           <img src="./docs/images/icon-rounded.png" alt="PRG Connection File"
-               style="max-width: 85px; height: auto; width: 100%;">
+               style="max-width: 85px; height: auto; width: 85px;">
           <br>
           <b>PRG Connection File</b>
         </a>
@@ -259,7 +259,7 @@ Complete document library and resource reference list for **PRG**:
       <div style="margin: 10px; text-align: center;">
         <a href="./categories/table_generator_guide.md">
           <img src="./docs/images/icon-pyrg-rounded.png" alt="Table Generator Guide"
-               style="max-width: 85px; height: auto; width: 100%;">
+               style="max-width: 85px; height: auto; width: 85px;">
           <br>
           <b>Table Generator Guide</b>
         </a>

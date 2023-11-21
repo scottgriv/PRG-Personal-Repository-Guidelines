@@ -202,11 +202,9 @@ Complete document library and resource reference list for **PRG**:
     </td>
     <td align="center">
       <div style="margin: 10px; text-align: center;">
-            <div style="margin: 10px; text-align: center;">
         <a href="./templates/template_guide.md">
           <img src="./docs/images/template_icons/icon-silver-rounded.png" alt="Silver Tier Template"
                style="max-width: 85px; height: auto; width: 85px;">
-               </div>
           <br>
           <b>Silver Tier Template</b>
         </a>

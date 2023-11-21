@@ -107,10 +107,11 @@ Utilize this file as a template for collecting and incorporating badges into you
     - [Optimized Tier Project Badge](#optimized-tier-project-badge)
 - [Profile Badge](#profile-badge)
     - [PRG Collection Badge (Optimized) (Default)](#prg-collection-badge)
+    - [PRG Collection Badge (Collection)](#prg-collection-badge-collection)
 - [Alternative Profile Badges](#alternative-profile-badges)
-    - [Alt PRG Collection Badge (Purple Book)](#prg-collection-badge-purple)
-    - [Alt PRG Collection Badge (Black Book)](#prg-collection-badge-black)
-    - [Alt PRG Collection Badge (White Book)](#prg-collection-badge-white)
+    - [PRG Collection Badge (Purple Book)](#prg-collection-badge-purple)
+    - [PRG Collection Badge (Black Book)](#prg-collection-badge-black)
+    - [PRG Collection Badge (White Book)](#prg-collection-badge-white)
 
 ## Tier Badges
 
@@ -163,14 +164,22 @@ Add the following badge to your profile `README` to showcase your **PRG Collecti
 ### ![#680F7F](https://via.placeholder.com/13/680F7F/000000?text=+) PRG Collection Badge (Optimized) (_Default_)
 
 <a href="{TIER_TABLE_URL}" target="_blank">
-    <img src="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_optimized.png" alt="Optimized" width="138" height="51" />
+    <img src="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_optimized.png" alt="Collection" width="138" height="51" />
+</a>
+
+<a id="prg-collection-badge-collection"></a>
+
+### ![#680F7F](https://via.placeholder.com/13/680F7F/000000?text=+) PRG Collection Badge (Collection) 
+
+<a href="https://prgoptimized.com" target="_blank">
+    <img src="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_collection.png" alt="Collection" width="138" height="51" />
 </a>
 
 ## Alternative Profile Badges
 
 <a id="prg-collection-badge-purple"></a>
 
-### ![#6236FF](https://via.placeholder.com/13/6236FF/000000?text=+) Alt PRG Collection Badge (Purple Book)
+### ![#6236FF](https://via.placeholder.com/13/6236FF/000000?text=+) PRG Collection Badge (Purple Book)
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Purple_Collection']}" alt="Collection" />
@@ -183,7 +192,7 @@ Add the following badge to your profile `README` to showcase your **PRG Collecti
 
 <a id="prg-collection-badge-black"></a>
 
-### ![#000000](https://via.placeholder.com/13/000000/000000?text=+) Alt PRG Collection Badge (Black Book)
+### ![#000000](https://via.placeholder.com/13/000000/000000?text=+) PRG Collection Badge (Black Book)
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Black_Collection']}" alt="Collection" />
@@ -196,7 +205,7 @@ Add the following badge to your profile `README` to showcase your **PRG Collecti
 
 <a id="prg-collection-badge-white"></a>
 
-### ![#FFFFFF](https://via.placeholder.com/13/FFFFFF/000000?text=+) Alt PRG Collection Badge (White Book)
+### ![#FFFFFF](https://via.placeholder.com/13/FFFFFF/000000?text=+) PRG Collection Badge (White Book)
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['White_Collection']}" alt="Collection" />

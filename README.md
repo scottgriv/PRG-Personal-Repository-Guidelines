@@ -41,6 +41,7 @@
 
 ## Table of Contents
 
+- [PRG Document Library](#prg-document-library)
 - [Features](#features)
 - [Background Story](#background-story)
   - [README Driven Development (RDD)](#readme-driven-development-rdd)
@@ -71,10 +72,202 @@
 - [Project](#project)
 - [Contributing](#contributing)
 - [Resources](#resources)
-  - [PRG Document Library](#prg-document-library)
-  - [General Resources](#general-resources)
 - [License](#license)
 - [Credits](#credits)
+
+
+## PRG Document Library
+
+Complete document library and resource reference list for **PRG**:
+
+- **[Guideline](guidelines/) Related Documents:**
+  - [Category Guidelines](./guidelines/category_guidelines.md) - Guidelines for categorizing your repository tiers and naming conventions.
+  - [Brand Guidelines](./guidelines/brand_guidelines.md) - Guidelines for creating your own brand for your project.
+  - [README Guidelines](./guidelines/readme_guidelines.md) - Guidelines for repository `READMEs`.
+  - [Repository Structure Guidelines](./guidelines/repository_structure_guidelines.md) - Guidelines for repository structure and files.
+  - [Repository Settings Guidelines](./guidelines/repository_settings_guidelines.md) - Guidelines for repository settings.
+- **[Category](categories/) Related Documents:**
+  - [Table Generator Guide](./categories/table_generator_guide.md) - Guide for setting up the project tier table generator.
+  - [Badge Reference Guide](./categories/badge_reference_guide.md) - Guide for displaying the tier badges.
+  - [Project Tier Table](./categories/project_tier_table.md) - Project tier table for your projects.
+  - [Project Tier Table (Private)](./categories/project_tier_table_private.md) - Project tier table for non-GitHub or private projects. 
+- **[Template](templates/) Related Documents:**
+  - [Template Guide](./templates/template_guide.md) - Guide for using the provided templates.
+  - ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) [PRG-Gold-Tier-Template](https://github.com/scottgriv/PRG-Gold-Tier-Template) - Gold project template for your repositories.
+  - ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) [PRG-Silver-Tier-Template](https://github.com/scottgriv/PRG-Silver-Tier-Template) - Silver project template for your repositories.
+  - ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) [PRG-Bronze-Tier-Template](https://github.com/scottgriv/PRG-Bronze-Tier-Template) - Bronze project template for your repositories.
+  - [License Examples](templates/license_examples) - License examples for your repositories (MIT, Apache, etc.).
+  - **Misc. Documents:**
+  - [PRG Connection File](PRG.md) - **PRG Connection File** for your repositories.
+
+<table>
+  <!-- Row 1 -->
+  <tr>
+    <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="./guidelines/category_guidelines.md">
+          <img src="./docs/images/icon-rounded.png" alt="Category Guidelines"
+               style="max-width: 85px; height: auto; width: 100%;">
+          <br>
+          <b>Category Guidelines</b>
+        </a>
+        <p>Guidelines for categorizing your repository tiers and naming conventions.</p>
+      </div>
+    </td>
+    <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="./guidelines/brand_guidelines.md">
+          <img src="./docs/images/icon-rounded.png" alt="Brand Guidelines"
+               style="max-width: 85px; height: auto; width: 100%;">
+          <br>
+          <b>Brand Guidelines</b>
+        </a>
+        <p>Guidelines for creating your own brand for your project.</p>
+      </div>
+    </td>
+    <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="./guidelines/readme_guidelines.md">
+          <img src="./docs/images/icon-rounded.png" alt="README Guidelines"
+               style="max-width: 85px; height: auto; width: 100%;">
+          <br>
+          <b>README Guidelines</b>
+        </a>
+        <p>Guidelines for repository READMEs</p>
+      </div>
+    </td>
+    <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="./guidelines/repository_structure_guidelines.md">
+          <img src="./docs/images/icon-rounded.png" alt="Repository Structure Guidelines"
+               style="max-width: 85px; height: auto; width: 100%;">
+          <br>
+          <b>Repository Structure Guidelines</b>
+        </a>
+        <p>Guidelines for repository structure and files.</p>
+      </div>
+    </td>
+  </tr>
+  <!-- Row 2 -->
+  <tr>
+    <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="./guidelines/repository_settings_guidelines.md">
+          <img src="./docs/images/icon-rounded.png" alt="Repository Settings Guidelines"
+               style="max-width: 85px; height: auto; width: 100%;">
+          <br>
+          <b>Repository Settings Guidelines</b>
+        </a>
+        <p>Guidelines for repository settings.</p>
+      </div>
+    </td>
+    <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="./categories/badge_reference_guide.md">
+          <img src="./docs/images/icon_2-rounded.png" alt="Badge Reference Guide"
+               style="max-width: 85px; height: auto; width: 100%;">
+          <br>
+          <b>Badge Reference Guide</b>
+        </a>
+        <p>Guide for displaying the tier badges.</p>
+      </div>
+    </td>
+    <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="./categories/project_tier_table.md">
+          <img src="./docs/images/icon_2-rounded.png" alt="Project Tier Table"
+               style="max-width: 85px; height: auto; width: 100%;">
+          <br>
+          <b>Project Tier Table</b>
+        </a>
+        <p>Project tier table for your projects.</p>
+      </div>
+    </td>
+    <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="./categories/project_tier_table_private.md">
+          <img src="./docs/images/icon_2-rounded.png" alt="Project Tier Table (Private)"
+               style="max-width: 85px; height: auto; width: 100%;">
+          <br>
+          <b>Project Tier Table (Private)</b>
+        </a>
+        <p>Project tier table for non-GitHub or private projects.</p>
+      </div>
+    </td>
+  </tr>
+  <!-- Row 3 -->
+  <tr>
+    <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="./templates/template_guide.md">
+          <img src="./docs/images/icon_2-rounded.png" alt="Template Guide"
+               style="max-width: 85px; height: auto; width: 100%;">
+          <br>
+          <b>Template Guide</b>
+        </a>
+        <p>Guide for using the provided templates.</p>
+      </div>
+    </td>
+    <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="./templates/template_guide.md">
+          <img src="./docs/images/template_icons/icon-gold-rounded.png" alt="Gold Tier Template"
+               style="max-width: 85px; height: auto; width: 100%;">
+          <br>
+          <b>Gold Tier Template</b>
+        </a>
+        <p>Gold project template for your repositories.</p>
+      </div>
+    </td>
+    <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="./templates/template_guide.md">
+          <img src="./docs/images/template_icons/icon-silver-rounded.png" alt="Silver Tier Template"
+               style="max-width: 85px; height: auto; width: 100%;">
+          <br>
+          <b>Silver Tier Template</b>
+        </a>
+        <p>Silver project template for your repositories.</p>
+      </div>
+    </td>
+    <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="./templates/template_guide.md">
+          <img src="./docs/images/template_icons/icon-bronze-rounded.png" alt="Bronze Tier Template"
+               style="max-width: 85px; height: auto; width: 100%;">
+          <br>
+          <b>Bronze Tier Template</b>
+        </a>
+        <p>Bronze project template for your repositories.</p>
+      </div>
+    </td>
+  </tr>
+  <!-- Row 4 -->
+  <tr>
+      <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="PRG.md">
+          <img src="./docs/images/icon-rounded.png" alt="PRG Connection File"
+               style="max-width: 85px; height: auto; width: 100%;">
+          <br>
+          <b>PRG Connection File</b>
+        </a>
+        <p>Connection File for your repositories.</p>
+      </div>
+    </td>
+    <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="./categories/table_generator_guide.md">
+          <img src="./docs/images/icon-pyrg-rounded.png" alt="Table Generator Guide"
+               style="max-width: 85px; height: auto; width: 100%;">
+          <br>
+          <b>Table Generator Guide</b>
+        </a>
+        <p>Guide for setting up the project tier table generator.</p>
+      </div>
+    </td>
+  </tr> 
+</table>
 
 ## Features
 
@@ -172,7 +365,7 @@ To begin, follow these steps:
 9. For new project repositories, utilize the provided templates to unify your `README` and project structures.
    - Templates are provided for each tier to help you get started quickly and easily.
    > For template usage, see the [Template Guide](./templates/template_guide.md).
-10. Feel free to [contribute](#contributing), [join the discussions](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/discussions), star, and share this repository to help others solve the **GitHub Portfolio Problem**.
+10. Feel free to [contribute](#contributing), [join the discussion](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/discussions), star, or share this repository to help others solve the **GitHub Portfolio Problem**.
 
 > [!IMPORTANT]
 > If you choose to fork or clone this repository and make modifications, please ensure to give appropriate credit. This can be done by including a link back to the main branch of this repository in your documentation or project in a clear and proper manner.
@@ -414,34 +607,9 @@ Feel free to submit a pull request if you find any issues or have any suggestion
 
 ## Resources
 
-### PRG Document Library
-
-Complete document library for **PRG**:
-
-- **[Guideline](guidelines/) Related Documents:**
-  - [Category Guidelines](./guidelines/category_guidelines.md) - Guidelines for categorizing your repository tiers and naming conventions.
-  - [Brand Guidelines](./guidelines/brand_guidelines.md) - Guidelines for creating your own brand for your project.
-  - [README Guidelines](./guidelines/readme_guidelines.md) - Guidelines for repository `READMEs`.
-  - [Repository Structure Guidelines](./guidelines/repository_structure_guidelines.md) - Guidelines for repository structure and files.
-  - [Repository Settings Guidelines](./guidelines/repository_settings_guidelines.md) - Guidelines for repository settings.
-- **[Category](categories/) Related Documents:**
-  - [Table Generator Guide](./categories/table_generator_guide.md) - Guide for setting up the project tier table generator.
-  - [Badge Reference Guide](./categories/badge_reference_guide.md) - Guide for displaying the tier badges.
-  - [Project Tier Table](./categories/project_tier_table.md) - Project tier table for your projects.
-  - [Project Tier Table (Private)](./categories/project_tier_table_private.md) - Project tier table for non-GitHub or private projects. 
-- **[Template](templates/) Related Documents:**
-  - [Template Guide](./templates/template_guide.md) - Guide for using the provided templates.
-  - ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) [PRG-Gold-Tier-Template](https://github.com/scottgriv/PRG-Gold-Tier-Template) - Gold project template for your repositories.
-  - ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) [PRG-Silver-Tier-Template](https://github.com/scottgriv/PRG-Silver-Tier-Template) - Silver project template for your repositories.
-  - ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) [PRG-Bronze-Tier-Template](https://github.com/scottgriv/PRG-Bronze-Tier-Template) - Bronze project template for your repositories.
-  - [License Examples](templates/license_examples) - License examples for your repositories (MIT, Apache, etc.).
-  - **Misc. Documents:**
-  - [PRG Connection File](PRG.md) - **PRG Connection File** for your repositories.
-
-### General Resources
-
 Below are some external resources I found helpful when creating my repositories and **PRG** in general:
 
+**General Resources:**
 - [GitHub Docs](https://docs.github.com/en) - GitHub documentation.
 - [Einstellung effect](https://en.wikipedia.org/wiki/Einstellung_effect) - Don't let your past experiences limit your creativity.
 - [README Driven Development](https://tom.preston-werner.com/2010/08/23/readme-driven-development.html) - The original article on README Driven Development by Tom Preston-Werner.

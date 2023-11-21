@@ -85,17 +85,17 @@ The typography for a **PRG** project is as follows:
 > Following the notation: Width×Height (in pixels)
 > ```
 
-| Design            | File Name                   | Dimensions (WxH) |
-| ----------------- | --------------------------- | ---------------- |
-| Icon              | icon.png (and prg.png)      | `414x414`        |
-| Small Banner      | banner_small.png            | `400x128`        |
-| Large Banner      | banner_large.png            | `1280x260`       |
-| Social Banner     | banner_social.png           | `1280x640`       |
-| Header            | icon.png (or header.png)    | `200x200`        |
-| Footer            | icon.png (or footer.png)    | `100x100`        |
-| X Banner          | banner_x.png                | `1500x500`       |
-| LinkedIn Banner   | banner_linkedin.png         | `1128x191`       |
-| PRG Profile Badge | prg_optimized.png           | `138x51`         |
+| Design            | File Name                    | Dimensions (WxH) |
+| ----------------- | ---------------------------- | ---------------- |
+| Icon              | icon.png (and prg.png)       | `414x414`        |
+| Small Banner      | banner_small.png             | `400x128`        |
+| Large Banner      | banner_large.png             | `1280x260`       |
+| Social Banner     | banner_social.png            | `1280x640`       |
+| Header            | icon.png (or header.png)     | `200x200`        |
+| Footer            | icon.png (or footer.png)     | `100x100`        |
+| X Banner          | banner_x.png                 | `1500x500`       |
+| LinkedIn Banner   | banner_linkedin.png          | `1128x191`       |
+| PRG Profile Badge | prg_optimized/collection.png | `138x51`         |
 
 - Below breaks down the above table and provides more information on each design.
 
@@ -187,6 +187,8 @@ The typography for a **PRG** project is as follows:
 
 <a href="https://prgoptimized.com" target="_blank">
     <img src="../docs/images/prg_optimized.png" alt="PRG Optimized Logo" width="138" height="51"/>
+</a><a href="https://prgoptimized.com" target="_blank">
+    <img src="../docs/images/prg_collection.png" alt="PRG Collection Logo" width="138" height="51"/>
 </a>
 
 ### Optional Banners

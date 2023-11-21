@@ -1,6 +1,6 @@
 <div align="center">
     <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
-        <img src="../docs/images/icon_2-rounded.png" width="200" height="200"/>
+        <img src="../docs/images/icon-rounded.png" width="200" height="200"/>
     </a>
 </div>
 
@@ -94,10 +94,20 @@ This guideline details necessary files and overall structure for your repository
         - **MINOR** version when you add functionality in a backward compatible manner
         - **PATCH** version when you make backward compatible bug fixes
         - Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
+    - For pre-release and build metadata, use the labels **alpha**, **beta**, **rc**, and **build** using the format **MAJOR.MINOR.PATCH-label.build**.
+    - Examples:
+        - 1.0.0-alpha.1
+        - 1.0.0-beta.2
+        - 1.0.0-rc.1
+            - **rc** stands for release candidate, which is a beta version with potential to be a final product, which is ready to release unless significant bugs emerge.
+            - **alpha** and **beta** are used for pre-release versions
+            - **build** is used to identify a build
+            - This scheme is not strictly enforced, but it is recommended by the Semantic Versioning (SemVer) specification, highlighted in their 2.0.0 release [here](https://semver.org/spec/v2.0.0.html#spec-item-9).
 - Use the [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) format for your changelog
 
 **Resources:**
 > [Semantic Versioning](https://semver.org/)
+> [Semantic Versioning HOWTO](https://github.com/dbrock/semver-howto)
 > [Software Versioning](https://en.wikipedia.org/wiki/Software_versioning)
 > [What do the numbers in a version typically represent](https://stackoverflow.com/questions/65718/what-do-the-numbers-in-a-version-typically-represent-i-e-v1-9-0-1)
 > [How do version numbers work?](https://www.akeeba.com/how-do-version-numbers-work.html#:~:text=Reading%20version%20numbers&text=The%20leftmost%20number%20(1)%20is,%22%20or%20%22subminor%20version%22.)

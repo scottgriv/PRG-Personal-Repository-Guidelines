@@ -1,6 +1,6 @@
 <div align="center">
     <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
-        <img src="../docs/images/icon-pyrg-rounded.png" width="200" height="200"/>
+        <img src="../docs/images/icon_2-pyrg-rounded.png" width="200" height="200"/>
     </a>
 </div>
 
@@ -58,9 +58,7 @@ In order to get the **PRG** system to work, you must perform the following pre-r
    - Inside the `docs/images/` folder, there should be a file called `PRG.png`.
    - This is the icon that will be used for the project tier table.
      - See the PRG file used in this repo, [here](../docs/images/PRG.png), for an example.
-     - By default, if no icon is found, a [placeholder image](../docs/images/icon-placeholder-rounded.png) will be used (defined in the build script).
-     <br>
-     <img src="../docs/images/icon-placeholder-rounded.png" width="50" height="50"/>
+     - By default, if no icon is found, a [placeholder image](../docs/images/icon-placeholder-rounded.png) <img src="../docs/images/icon-placeholder-rounded.png" width="50" height="50"/> will be used (defined in the build script).
      - If a homepage/website is not defined in the repository settings, clicking on the icon will link to the repository.
      - Clicking on the name of the repository will always link to the repository.
 

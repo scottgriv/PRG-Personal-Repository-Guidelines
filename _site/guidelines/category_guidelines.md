@@ -1,6 +1,6 @@
 <div align="center">
     <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
-        <img src="../docs/images/icon_2-rounded.png" width="200" height="200"/>
+        <img src="../docs/images/icon-rounded.png" width="200" height="200"/>
     </a>
 </div>
 
@@ -113,6 +113,8 @@ Consult this guideline for detailed information on the categorization of each ti
 
 <a href="https://prgoptimized.com" target="_blank">
     <img src="../docs/images/prg_optimized.png" alt="PRG Optimized Logo" width="138" height="51"/>
+</a><a href="https://prgoptimized.com" target="_blank">
+    <img src="../docs/images/prg_collection.png" alt="PRG Collection Logo" width="138" height="51"/>
 </a>
 
 - I won't say this is _required_ for **PRG**, because I don't want to tell you what to do with your personal profile `README`, but I strongly encourage adding the following badge to your GitHub Profile `README` to showcase your overall **PRG Collection**.

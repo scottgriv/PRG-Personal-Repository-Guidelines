@@ -243,10 +243,10 @@ Complete document library and resource reference list for **PRG**:
     <td align="center">
       <div style="margin: 10px; text-align: center;">
         <a href="./categories/project_tier_table_private.md">
-          <img src="./docs/images/icon-placeholder-rounded.png" alt="Project Tier Table (Private)"
+          <img src="./docs/images/icon-placeholder-rounded.png" alt="Private Project Tier Table"
                style="max-width: 85px; height: auto; width: 85px;">
           <br>
-          <b>Project Tier Table (Private)</b>
+          <b>Private Project Tier Table</b>
         </a>
         <p>Project tier table for non-GitHub or private projects.</p>
       </div>
@@ -508,7 +508,7 @@ Consult the [Table Generator Guide](./categories/table_generator_guide.md) for m
 > [Table Generator Guide](./categories/table_generator_guide.md) <br>
 > [Badge Reference Guide](./categories/badge_reference_guide.md) <br>
 > [Project Tier Table](./categories/project_tier_table.md) <br>
-> [Project Tier Table (Private)](./categories/project_tier_table_private.md) <br>
+> [Private Project Tier Table](./categories/project_tier_table_private.md) <br>
 > [PRG Connection File](PRG.md)
 
 ---------------

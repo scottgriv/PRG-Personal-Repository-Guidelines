@@ -585,10 +585,10 @@ Use or add more licenses to the [License Example Directory](templates/license_ex
 
 **Related Component Documents:** <br>
 > [Template Guide](./templates/template_guide.md) <br>
-> [License Example Directory](templates/license_examples) <br>
 > [Gold Tier Template](https://github.com/scottgriv/PRG-Gold-Tier-Template) <br>
 > [Silver Tier Template](https://github.com/scottgriv/PRG-Silver-Tier-Template) <br>
 > [Bronze Tier Template](https://github.com/scottgriv/PRG-Bronze-Tier-Template) <br>
+> [License Example Directory](templates/license_examples) <br>
 
 ---------------
 

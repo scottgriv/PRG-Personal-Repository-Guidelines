@@ -80,6 +80,7 @@
 
 Complete document library and resource reference list for **PRG**:
 
+
 <h3 align="center">PRG Document Library</h3>
 <table>
   <!-- Row 1 -->
@@ -144,13 +145,13 @@ Complete document library and resource reference list for **PRG**:
     </td>
     <td align="center">
       <div style="margin: 10px; text-align: center;">
-        <a href="./categories/badge_reference_guide.md">
-          <img src="./docs/images/icon_2-rounded.png" alt="Badge Reference Guide"
+        <a href="PRG.md">
+          <img src="./docs/images/icon-rounded.png" alt="PRG Connection File"
                style="max-width: 85px; height: auto; width: 85px;">
           <br>
-          <b>Badge Reference Guide</b>
+          <b>PRG Connection File</b>
         </a>
-        <p>Guide for displaying the tier badges.</p>
+        <p>Connection File for your repositories.</p>
       </div>
     </td>
   </tr>
@@ -158,24 +159,24 @@ Complete document library and resource reference list for **PRG**:
   <tr>
     <td align="center">
       <div style="margin: 10px; text-align: center;">
-        <a href="./categories/project_tier_table.md">
-          <img src="./docs/images/icon_2-rounded.png" alt="Project Tier Table"
+        <a href="./categories/table_generator_guide.md">
+          <img src="./docs/images/icon-pyrg-rounded.png" alt="Table Generator Guide"
                style="max-width: 85px; height: auto; width: 85px;">
           <br>
-          <b>Project Tier Table</b>
+          <b>Table Generator Guide</b>
         </a>
-        <p>Project tier table for your projects.</p>
+        <p>Guide for setting up the project tier table generator.</p>
       </div>
     </td>
-    <td align="center">
+      <td align="center">
       <div style="margin: 10px; text-align: center;">
-        <a href="./categories/project_tier_table_private.md">
-          <img src="./docs/images/icon_2-rounded.png" alt="Project Tier Table (Private)"
+        <a href="./categories/badge_reference_guide.md">
+          <img src="./docs/images/icon_2-rounded.png" alt="Badge Reference Guide"
                style="max-width: 85px; height: auto; width: 85px;">
           <br>
-          <b>Project Tier Table (Private)</b>
+          <b>Badge Reference Guide</b>
         </a>
-        <p>Project tier table for non-GitHub or private projects.</p>
+        <p>Guide for displaying the tier badges.</p>
       </div>
     </td>
     <td align="center">
@@ -226,32 +227,49 @@ Complete document library and resource reference list for **PRG**:
       </div>
     </td>
       </tr>
-  <!-- Row 4 -->
+  <!-- Row 5 -->
   <tr>
       <td align="center">
       <div style="margin: 10px; text-align: center;">
-        <a href="PRG.md">
-          <img src="./docs/images/icon-rounded.png" alt="PRG Connection File"
+        <a href="./categories/project_tier_table.md">
+          <img src="./docs/images/icon-placeholder-rounded.png" alt="Project Tier Table"
                style="max-width: 85px; height: auto; width: 85px;">
           <br>
-          <b>PRG Connection File</b>
+          <b>Project Tier Table</b>
         </a>
-        <p>Connection File for your repositories.</p>
+        <p>Project tier table for your projects.</p>
       </div>
     </td>
     <td align="center">
       <div style="margin: 10px; text-align: center;">
-        <a href="./categories/table_generator_guide.md">
-          <img src="./docs/images/icon-pyrg-rounded.png" alt="Table Generator Guide"
+        <a href="./categories/project_tier_table_private.md">
+          <img src="./docs/images/icon-placeholder-rounded.png" alt="Project Tier Table (Private)"
                style="max-width: 85px; height: auto; width: 85px;">
           <br>
-          <b>Table Generator Guide</b>
+          <b>Project Tier Table (Private)</b>
         </a>
-        <p>Guide for setting up the project tier table generator.</p>
+        <p>Project tier table for non-GitHub or private projects.</p>
+      </div>
+    </td>
+    <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="./templates/license_examples/">
+          <img src="./docs/images/icon-placeholder-rounded.png" alt="License Example Directory"
+               style="max-width: 85px; height: auto; width: 100%;">
+          <br>
+          <b>License Example Directory</b>
+        </a>
+        <p>Directory for license examples for your repositories (MIT, Apache, etc.).</p>
       </div>
     </td>
   </tr> 
 </table>
+
+
+
+
+
+
 
 ## Features
 

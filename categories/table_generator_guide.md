@@ -59,9 +59,9 @@ In order to get the **PRG** system to work, you must perform the following pre-r
    - This is the icon that will be used for the project tier table.
      - See the PRG file used in this repo, [here](../docs/images/PRG.png), for an example.
      - By default, if no icon is found, a [placeholder image](../docs/images/icon-placeholder-rounded.png) will be used (defined in the build script).
-      <div align="center">
-        <img src="../docs/images/icon-placeholder-rounded.png" width="50" height="50"/>
-      </div>
+
+     <img src="../docs/images/icon-placeholder-rounded.png" width="50" height="50"/>
+
      - If a homepage/website is not defined in the repository settings, clicking on the icon will link to the repository.
      - Clicking on the name of the repository will always link to the repository.
 

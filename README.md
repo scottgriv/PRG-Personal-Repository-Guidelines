@@ -122,6 +122,17 @@ Complete document library and resource reference list for **PRG**:
   <tr>
     <td align="center">
       <div style="margin: 10px; text-align: center;">
+        <a href="./guidelines/repository_structure_guidelines.md">
+          <img src="./docs/images/icon-rounded.png" alt="Repository Structure Guidelines"
+               style="max-width: 85px; height: auto; width: 85px;">
+          <br>
+          <b>Repository Structure Guidelines</b>
+        </a>
+        <p>Guidelines for repository structure and files.</p>
+      </div>
+    </td>
+    <td align="center">
+      <div style="margin: 10px; text-align: center;">
         <a href="./guidelines/repository_settings_guidelines.md">
           <img src="./docs/images/icon-rounded.png" alt="Repository Settings Guidelines"
                style="max-width: 85px; height: auto; width: 85px;">
@@ -142,6 +153,9 @@ Complete document library and resource reference list for **PRG**:
         <p>Guide for displaying the tier badges.</p>
       </div>
     </td>
+  </tr>
+  <!-- Row 3 -->
+  <tr>
     <td align="center">
       <div style="margin: 10px; text-align: center;">
         <a href="./categories/project_tier_table.md">
@@ -164,9 +178,6 @@ Complete document library and resource reference list for **PRG**:
         <p>Project tier table for non-GitHub or private projects.</p>
       </div>
     </td>
-  </tr>
-  <!-- Row 3 -->
-  <tr>
     <td align="center">
       <div style="margin: 10px; text-align: center;">
         <a href="./templates/template_guide.md">
@@ -178,6 +189,9 @@ Complete document library and resource reference list for **PRG**:
         <p>Guide for using the provided templates.</p>
       </div>
     </td>
+  </tr>
+  <!-- Row 4 -->
+  <tr>
     <td align="center">
       <div style="margin: 10px; text-align: center;">
         <a href="./templates/template_guide.md">
@@ -211,7 +225,7 @@ Complete document library and resource reference list for **PRG**:
         <p>Bronze project template for your repositories.</p>
       </div>
     </td>
-  </tr>
+      </tr>
   <!-- Row 4 -->
   <tr>
       <td align="center">

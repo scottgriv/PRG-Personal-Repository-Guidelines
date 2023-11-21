@@ -483,6 +483,12 @@ To solve the **"GitHub Portfolio Problem"** above and to distinguished the quali
 </a>
 <br>
 <br>
+<a href="https://prgoptimized.com" target="_blank">
+    <img src="./docs/images/prg_collection.png" alt="PRG Collection Logo" width="138" height="51"/>
+</a>
+
+<br>
+<br>
 
 Consult the [Category Guidelines](./guidelines/category_guidelines.md) for more details on how to categorize your repositories.
 - This guide will break down what each tier means and how to categorize your repositories.

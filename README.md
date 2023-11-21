@@ -67,6 +67,9 @@
   - [Repository Structure Guidelines](#repository-structure-guidelines)
 - [3. Templates](#3-templates)
   - [Project Templates](#project-templates)
+    - [![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) Gold Tier Template](https://github.com/scottgriv/PRG-Gold-Tier-Template)
+    - [![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) Silver Tier Template](https://github.com/scottgriv/PRG-Silver-Tier-Template)
+    - [![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) Bronze Tier Template](https://github.com/scottgriv/PRG-Bronze-Tier-Template)
   - [License Templates](#license-templates)
 - [Closing](#closing)
 - [What's Next?](#whats-next)
@@ -477,7 +480,7 @@ To solve the **"GitHub Portfolio Problem"** above and to distinguished the quali
 
 ### Profile Badges
 
-<a id="collection-tier-project-badge"></a>
+<a id="prg-collection-badge"></a>
 
 #### ![#680F7F](https://via.placeholder.com/13/680F7F/000000?text=+) PRG Collection Badge
 
@@ -576,7 +579,7 @@ Consult the [Template Guide](./templates/template_guide.md) for more details on 
 
 ## License Templates
 
-Use or add more licenses to the [templates/license_examples](templates/license_examples) directory.
+Use or add more licenses to the [License Example Directory](templates/license_examples) located here: `templates/license_examples`.
 - Each license should be in its own folder.
 
 **Related Component Documents:** <br>

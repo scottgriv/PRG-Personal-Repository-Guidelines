@@ -25,7 +25,8 @@
 
 **PRG** is a system that transforms the way repositories are organized and presented in your GitHub Portfolio. By harnessing the power of GitHub Actions, it automatically crafts a tier-based display, neatly categorizing your repositories for enhanced clarity and impact. Beyond mere organization, it sets forth comprehensive guidelines for `READMEs` and overall repository structure, ensuring each project is showcased with maximum professionalism and coherence.
 
-- Categorized your repositories and projects into ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze** tiers for your GitHub Portfolio. Utilize a project tier table, created with GitHub Actions and displayed through GitHub Pages, to organize and showcase your repositories.
+- Categorized your repositories and projects into ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze** tiers for your GitHub Portfolio. 
+  - Display your repositories in a searchable and sortable `HTML` table, created with GitHub Actions and displayed through GitHub Pages, to organize and showcase your projects to the world.
 - Follow the defined guidelines to guide your repository structure and `README` content.
 - Utilize the predefined `README` templates to get your projects up and running quickly and easily so you can focus on what matters most - your code!
 

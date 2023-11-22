@@ -15,7 +15,8 @@ General instructions for crafting a `README` file are provided here, tailored fo
     - [Templates](#templates)
     - [Markdown](#markdown)
     - [GitHub Markdown Alerts](#github-markdown-alerts)
-- [Disclaimer](#disclaimer)
+    - [Disclaimer](#start-disclaimer)
+    - [Divider](#divider)
 - [Banner](#banner)
 - [Badges](#badges)
 - [Title](#title)
@@ -31,7 +32,7 @@ General instructions for crafting a `README` file are provided here, tailored fo
 - [Configuration](#configuration)
 - [Deployment](#deployment)
 - [Closing](#closing)
-- [Disclaimer](#disclaimer)
+- [Disclaimer](#end-disclaimer)
 - [What's Next?](#whats-next)
 - [Project](#project)
 - [Contributing](#contributing)
@@ -81,7 +82,9 @@ GitHub has a special syntax for alerts in Markdown files:
 
 Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discussions/16925).
 
-## Disclaimer
+<a id="start-disclaimer"></a>
+
+### Disclaimer
 
 > [!IMPORTANT]  
 > I only mentioned the important parts of a `README` file, there are many other things you can add to your `README` file that I didn't mention here. Feel free to add whatever you want to your `README` file including new sections, images, GIFs, etc.
@@ -90,6 +93,13 @@ Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discu
 
 > [!NOTE]
 > Your Profile `README` does not need to adhere to the **PRG** guidelines defined in this document, but it is encouraged to include the [PRG Profile Badge](./brand_guidelines#prg-profile-badge) to link to your **PRG Collection**.
+
+### Divider
+
+A horizontal divider is a great way to separate the top of your `README` from the rest of the content.
+Use a divider to separate your `README` into two sections: the _header_ (after the badges and another after the _table of contents_) and the footer section (after the _credits_ but before the _footer_ image).
+
+- e.g. `---`
 
 ---------------
 
@@ -296,6 +306,8 @@ Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discu
 > **Silver** and **Bronze** tier projects do not require this section, but feel free to add it if you want.
 
 - Add any closing notes or remarks here.
+
+<a id="end-disclaimer"></a>
 
 ## Disclaimer
 

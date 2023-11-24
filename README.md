@@ -349,6 +349,7 @@ Your `README` is the first thing people see when they visit your repository, it 
 ## Definitions
 
 Here are some definitions to help you understand the terminology used in this document:
+
 - <ins><b>PRG</b></ins>: An acronym for **Personal Repository Guidelines**.
 - <ins><b>PRG Optimized</b></ins>: A repository that is categorized using the **PRG** system.
 - <ins><b>PRG Collection</b></ins>: The entire collection of repositories that are categorized using **PRG**.
@@ -404,7 +405,7 @@ To begin, follow these steps:
 Below is a list of the main files and folders in this repository and their specific purposes:
   ```bash
   PRG-Personal-Repository-Guidelines # Root folder
-  ├─ _layouts - # Jekyll layouts for the site
+  ├─ _layouts # Jekyll layouts for the site
   │  └─ default.html # Default layout for the site
   ├─ _site # Jekyll site build folder
   ├─ assets # Site assets
@@ -444,6 +445,7 @@ Below is a list of the main files and folders in this repository and their speci
   ├─ _config.yml # Jekyll configuration file
   └─ index.md # Site index file
   ```
+
 ---------------
 
 ## 1. Categories

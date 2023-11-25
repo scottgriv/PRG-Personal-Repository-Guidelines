@@ -389,10 +389,10 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
 
 - Include a credit block for each person who contributed to your project.
 - If you worked on the project by yourself, you can just include your name and other details such as:
-    - Author: - your name.
-    - Email: - A link to your email.
-    - Website: - A link to your website.
-    - Reference: - A link to the main branch of your repository.
+    - Author: - Your name + a link to your GitHub profile.
+    - Email: - Your email + a link to your email.
+    - Website: - Your website + a link to your website.
+    - Reference: - Main Branch + a link to the main branch of your repository.
 - Include a `CREDITS` file in your repository for more detailed information on the credits for your project.
 
 ## Footer

@@ -437,13 +437,16 @@ Below is a list of the main files and folders in this repository and their speci
   ├─ templates # README templates
   │  ├─ license_examples # License examples
   │  └─ template_guide.md # Template guide
+  ├─ _config.yml # Jekyll configuration file
+  ├─ index.md # Site index file
   ├─ CITATION.cff # Citation file
   ├─ CNAME # Custom domain file
-  ├─ LICENSE # License file
+  ├─ .gitignore # Git ignore file
+  ├─ .gitattributes # Git attributes file
+  ├─ .github # GitHub folder                                                             
   ├─ PRG.md # PRG Connection File
-  ├─ README.md # README file
-  ├─ _config.yml # Jekyll configuration file
-  └─ index.md # Site index file
+  ├─ LICENSE # License file   
+  └─ README # This file   
   ```
 
 ---------------

@@ -11,11 +11,12 @@ General instructions for crafting a `README` file are provided here, tailored fo
 ---------------
 
 ## Table of Contents
+
 - [README File](#readme-file)
     - [Templates](#templates)
     - [Markdown](#markdown)
     - [GitHub Markdown Alerts](#github-markdown-alerts)
-    - [Disclaimer](#start-disclaimer)
+    - [Disclaimer](#disclaimer)
     - [Divider](#divider)
 - [Banner](#banner)
 - [Badges](#badges)
@@ -25,14 +26,17 @@ General instructions for crafting a `README` file are provided here, tailored fo
 - [Features](#features)
 - [Background Story](#background-story)
 - [Definitions](#definitions)
-- [Limitations](#limitations)
-- [Dependencies](#dependencies)
 - [Getting Started](#getting-started)
+    - [Dependencies](#dependencies)
+    - [Configuration](#configuration)
+    - [Installation](#installation)
+    - [Deployment](#deployment)
 - [What's Inside?](#whats-inside)
 - [Configuration](#configuration)
 - [Deployment](#deployment)
 - [Closing](#closing)
-- [Disclaimer](#end-disclaimer)
+- [Limitations](#limitations)
+- [Disclaimer](#disclaimer-1)
 - [What's Next?](#whats-next)
 - [Project](#project)
 - [Contributing](#contributing)
@@ -81,8 +85,6 @@ GitHub has a special syntax for alerts in Markdown files:
 > Negative potential consequences of an action.
 
 Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discussions/16925).
-
-<a id="start-disclaimer"></a>
 
 ### Disclaimer
 
@@ -204,14 +206,15 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
 
 - This section should contain a list of definitions for any terms or acronyms used in your project.
 
-## Limitations
+## Getting Started
 
 > [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
+> **REQUIRED** section for **ALL** tiers.
 
-- This section should contain a list of limitations for your project.
+- You can break this section down into further subsections if you want (such as below: Dependencies, Configuration, Running Locally, Deployment, etc.).
+- Otherwise, you can just include a list of steps to get your project up and running under Getting Started.
 
-## Dependencies
+### Dependencies
 
 > [!WARNING] 
 > **OPTIONAL** section for **ALL** tiers.
@@ -231,10 +234,17 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
 **Resources:**
 > [Dependabot](https://dependabot.com/) 
 
-## Getting Started
+### Configuration
 
 > [!WARNING] 
-> **REQUIRED** section for **ALL** tiers.
+> **OPTIONAL** section for **ALL** tiers.
+
+- Include any configuration information for your project here.
+
+### Installation
+
+> [!WARNING] 
+> **OPTIONAL** section for **ALL** tiers.
 
 - This section should contain a list of steps to get your project up and running.
 - Utilize code blocks to show the commands needed to run your project.
@@ -246,6 +256,14 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
         ```bash
         python manage.py runserver
         ```
+        
+### Deployment
+
+> [!WARNING] 
+> **OPTIONAL** section for **ALL** tiers.
+
+- Include any deployment information for your project here.
+
 ## What's Inside?
 
 > [!WARNING] 
@@ -285,20 +303,6 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
 > [ASCII Tree Generator](https://ascii-tree-generator.com/)
 > [VSCode Extension](https://marketplace.visualstudio.com/items?itemName=tobiaswadseth.file-tree-generator)
 
-## Configuration
-
-> [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
-
-- Include any configuration information for your project here.
-
-## Deployment
-
-> [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
-
-- Include any deployment information for your project here.
-
 ## Closing
 
 > [!WARNING] 
@@ -307,7 +311,12 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
 
 - Add any closing notes or remarks here.
 
-<a id="end-disclaimer"></a>
+## Limitations
+
+> [!WARNING] 
+> **OPTIONAL** section for **ALL** tiers.
+
+- This section should contain a list of limitations for your project.
 
 ## Disclaimer
 
@@ -320,7 +329,7 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
 ## What's Next?
 
 > [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
+> **REQUIRED** section for **Gold** tier only.
 
 - Include any future plans for your project here.
 

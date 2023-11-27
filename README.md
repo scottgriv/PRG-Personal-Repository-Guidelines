@@ -13,6 +13,7 @@
     <a href="mailto:scott.grivner@gmail.com"><img src="https://img.shields.io/badge/gmail-contact_me-DC4233?style=for-the-badge&logo=gmail" alt="Email Badge" /></a>
     <a href="https://www.buymeacoffee.com/scottgriv"><img src="https://img.shields.io/badge/buy_me_a_coffee-support_me-FEDE1F?style=for-the-badge&logo=buymeacoffee&color=FEDE1F" alt="BuyMeACoffee Badge" /></a>
     <br>
+    <a href="https://docs.github.com/en/rest?apiVersion=2022-11-28 "><img src="https://img.shields.io/badge/GitHub_API-v2022--11--28-000000?style=for-the-badge&logo=github" alt="GitHub API Badge" /></a>
     <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/actions/workflows/main.yml" target="_blank"><img alt="GitHub Workflow Status (with event)" src="https://img.shields.io/github/actions/workflow/status/scottgriv/PRG-Personal-Repository-Guidelines/main.yml?style=for-the-badge&logo=github&label=GitHub%20Actions"></a>
     <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/actions/workflows/pages/pages-build-deployment" target="_blank"><img alt="GitHub Workflow Status (with event)" src="https://img.shields.io/github/actions/workflow/status/scottgriv/PRG-Personal-Repository-Guidelines/pages%2Fpages-build-deployment?style=for-the-badge&logo=github&label=GitHub%20Pages"></a>
     <br>

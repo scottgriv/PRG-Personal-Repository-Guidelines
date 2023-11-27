@@ -9,9 +9,9 @@
     <a href="https://datatables.net/" target="_blank"><img src="https://img.shields.io/badge/DataTables-1.13.6-538AD0?style=for-the-badge&logo=jquery" alt="Data Tables Badge" /></a>
     <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3.11.0-244C6F?style=for-the-badge&logo=python" alt="Python Badge" /></a>
     <br>
-    <a href="https://github.com/scottgriv" target="_blank"><img src="https://img.shields.io/badge/github-follow-9031AC?style=for-the-badge&logo=github&color=9031AC" alt="GitHub Badge" /></a>
-    <a href="mailto:scott.grivner@gmail.com"><img src="https://img.shields.io/badge/gmail-contact me-DC4233?style=for-the-badge&logo=gmail" alt="Email Badge" /></a>
-    <a href="https://www.buymeacoffee.com/scottgriv"><img src="https://img.shields.io/badge/buy me a coffee-support me-FEDE1F?style=for-the-badge&logo=buymeacoffee&color=FEDE1F" alt="BuyMeACoffee Badge" /></a>
+    <a href="https://github.com/scottgriv"><img src="https://img.shields.io/badge/github-follow_me-9031AC?style=for-the-badge&logo=github&color=9031AC" alt="GitHub Badge" /></a>
+    <a href="mailto:scott.grivner@gmail.com"><img src="https://img.shields.io/badge/gmail-contact_me-DC4233?style=for-the-badge&logo=gmail" alt="Email Badge" /></a>
+    <a href="https://www.buymeacoffee.com/scottgriv"><img src="https://img.shields.io/badge/buy_me_a_coffee-support_me-FEDE1F?style=for-the-badge&logo=buymeacoffee&color=FEDE1F" alt="BuyMeACoffee Badge" /></a>
     <br>
     <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/actions/workflows/main.yml" target="_blank"><img alt="GitHub Workflow Status (with event)" src="https://img.shields.io/github/actions/workflow/status/scottgriv/PRG-Personal-Repository-Guidelines/main.yml?style=for-the-badge&logo=github&label=GitHub%20Actions"></a>
     <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/actions/workflows/pages/pages-build-deployment" target="_blank"><img alt="GitHub Workflow Status (with event)" src="https://img.shields.io/github/actions/workflow/status/scottgriv/PRG-Personal-Repository-Guidelines/pages%2Fpages-build-deployment?style=for-the-badge&logo=github&label=GitHub%20Pages"></a>

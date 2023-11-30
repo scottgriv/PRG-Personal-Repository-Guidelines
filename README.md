@@ -360,7 +360,7 @@ As one GitHub user points out in this great article on the problem, [How I Organ
 
 >"The issue is that all of these repositories are on the same level. There is no order, no differentiation between them. They just sort of exist on the user profile." -Andrei Cioara
 
-**PRG** was designed to solve this problem by categorizing your repositories into four tiers and then showcasing them in a project tier table for your **GitHub Portfolio**.
+**PRG** was designed to solve this problem by categorizing your repositories into five tiers and then showcasing them in a project tier table for your **GitHub Portfolio**.
 
 > [!IMPORTANT] 
 > View the [Resources](#general-resources) section for more information around **GitHub Portfolios**.
@@ -632,7 +632,7 @@ The following templates are provided for you to use in your repositories. These 
 ## Project Templates
 
 Consult the [Template Guide](./templates/template_guide.md) for more details on how to use the provided templates.
-  - Templates are broken down by the three (categorized) tiers of projects: ![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) **Platinum**, ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze**.
+  - Templates are broken down by the four (categorized) tiers of projects: ![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) **Platinum**, ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze**.
   - See the following related template repositories for each tier:
  
   | Icon | Tier | Template Repository |

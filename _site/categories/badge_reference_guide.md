@@ -16,6 +16,7 @@ Utilize this file as a template for collecting and incorporating badges into you
 
 ## Table of Contents
 - [Tier Badges](#tier-badges)
+    - [Platinum Tier Project Badge](#platinum-tier-project-badge)
     - [Gold Tier Project Badge](#gold-tier-project-badge)
     - [Silver Tier Project Badge](#silver-tier-project-badge)
     - [Bronze Tier Project Badge](#bronze-tier-project-badge)
@@ -29,6 +30,14 @@ Utilize this file as a template for collecting and incorporating badges into you
     - [PRG Collection Badge (White Book)](#prg-collection-badge-white)
 
 ## Tier Badges
+
+<a id="platinum-tier-project-badge"></a>
+
+### ![#E5E4E2](https://via.placeholder.com/13/E5E4E2/000000?text=+) Platinum Tier Project Badge
+
+<a href="https://prgoptimized.com" target="_blank">
+    <img src="https://img.shields.io/badge/PRG-Platinum Project-E5E4E2?style=for-the-badge&logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjYuMDAwMDAwcHQiIGhlaWdodD0iMzQuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCAyNi4wMDAwMDAgMzQuMDAwMDAwIgogcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+Cgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwzNC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiNFNUU0RTIiIHN0cm9rZT0ibm9uZSI+CjxwYXRoIGQ9Ik0xMiAzMjggYy04IC04IC0xMiAtNTEgLTEyIC0xMzUgMCAtMTA5IDIgLTEyNSAxOSAtMTQwIDQyIC0zOCA0OAotNDIgNTkgLTMxIDcgNyAxNyA2IDMxIC0xIDEzIC03IDIxIC04IDIxIC0yIDAgNiAyOCAxMSA2MyAxMyBsNjIgMyAwIDE1MCAwCjE1MCAtMTE1IDMgYy04MSAyIC0xMTkgLTEgLTEyOCAtMTB6IG0xMDIgLTc0IGMtNiAtMzMgLTUgLTM2IDE3IC0zMiAxOCAyIDIzCjggMjEgMjUgLTMgMjQgMTUgNDAgMzAgMjUgMTQgLTE0IC0xNyAtNTkgLTQ4IC02NiAtMjAgLTUgLTIzIC0xMSAtMTggLTMyIDYKLTIxIDMgLTI1IC0xMSAtMjIgLTE2IDIgLTE4IDEzIC0xOCA2NiAxIDc3IDAgNzIgMTggNzIgMTMgMCAxNSAtNyA5IC0zNnoKbTExNiAtMTY5IGMwIC0yMyAtMyAtMjUgLTQ5IC0yNSAtNDAgMCAtNTAgMyAtNTQgMjAgLTMgMTQgLTE0IDIwIC0zMiAyMCAtMTgKMCAtMjkgLTYgLTMyIC0yMCAtNyAtMjUgLTIzIC0yNiAtMjMgLTIgMCAyOSA4IDMyIDEwMiAzMiA4NyAwIDg4IDAgODggLTI1eiIvPgo8L2c+Cjwvc3ZnPgo=" alt="Platinum" />
+</a>
 
 <a id="gold-tier-project-badge"></a>
 
@@ -79,7 +88,7 @@ Add the following badge to your profile `README` to showcase your **PRG Collecti
 ### ![#680F7F](https://via.placeholder.com/13/680F7F/000000?text=+) PRG Collection Badge (Optimized) (_Default_)
 
 <a href="https://prgoptimized.com" target="_blank">
-    <img src="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_optimized.png" alt="Optimized" width="138" height="51" />
+    <img src="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_optimized.png" alt="Collection" width="138" height="51" />
 </a>
 
 <a id="prg-collection-badge-collection"></a>
@@ -87,7 +96,7 @@ Add the following badge to your profile `README` to showcase your **PRG Collecti
 ### ![#680F7F](https://via.placeholder.com/13/680F7F/000000?text=+) PRG Collection Badge (Collection) 
 
 <a href="https://prgoptimized.com" target="_blank">
-    <img src="../docs/images/prg_collection.png" alt="PRG Collection Logo" width="138" height="51"/>
+    <img src="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_collection.png" alt="Collection" width="138" height="51" />
 </a>
 
 ## Alternative Profile Badges

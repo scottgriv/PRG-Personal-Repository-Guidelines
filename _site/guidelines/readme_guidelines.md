@@ -11,11 +11,12 @@ General instructions for crafting a `README` file are provided here, tailored fo
 ---------------
 
 ## Table of Contents
+
 - [README File](#readme-file)
     - [Templates](#templates)
     - [Markdown](#markdown)
     - [GitHub Markdown Alerts](#github-markdown-alerts)
-    - [Disclaimer](#start-disclaimer)
+    - [Disclaimer](#disclaimer)
     - [Divider](#divider)
 - [Banner](#banner)
 - [Badges](#badges)
@@ -25,14 +26,17 @@ General instructions for crafting a `README` file are provided here, tailored fo
 - [Features](#features)
 - [Background Story](#background-story)
 - [Definitions](#definitions)
-- [Limitations](#limitations)
-- [Dependencies](#dependencies)
 - [Getting Started](#getting-started)
+    - [Dependencies](#dependencies)
+    - [Configuration](#configuration)
+    - [Installation](#installation)
+    - [Deployment](#deployment)
 - [What's Inside?](#whats-inside)
 - [Configuration](#configuration)
 - [Deployment](#deployment)
 - [Closing](#closing)
-- [Disclaimer](#end-disclaimer)
+- [Limitations](#limitations)
+- [Disclaimer](#disclaimer-1)
 - [What's Next?](#whats-next)
 - [Project](#project)
 - [Contributing](#contributing)
@@ -52,7 +56,7 @@ General instructions for crafting a `README` file are provided here, tailored fo
 ### Templates
 
 For templates and examples of `READMEs`, see the [templates](../templates) directory.
-Templates are broken down by the three categorized tiers of projects: **Gold**, **Silver**, and **Bronze**.
+Templates are broken down by the four categorized tiers of projects: **Platinum**, **Gold**, **Silver**, and **Bronze**.
 
 - See the [Template Guide](../templates/template_guide.md) for templates used for each tier.
 
@@ -82,8 +86,6 @@ GitHub has a special syntax for alerts in Markdown files:
 
 Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discussions/16925).
 
-<a id="start-disclaimer"></a>
-
 ### Disclaimer
 
 > [!IMPORTANT]  
@@ -106,7 +108,7 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
 ## Banner
 
 > [!WARNING] 
-> **REQUIRED** section for **Gold** tier only.
+> **REQUIRED** section for **Platinum** and **Gold** tiers only.
 > **Silver** and **Bronze** tier projects do not require this section, but feel free to add it if you want (or a logo of the technology you used to develop your project).
 
 - The banner should be a custom design created to represent your project.
@@ -164,7 +166,7 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
 - This should be the first section after the badges.
     - e.g. "A Python, Django, Plotly, and Pandas web application that visualizes river data pulled using an API from the United States Geological Survey (USGS)."
 - Add **screenshots** of your project below the description and throughout the rest of the `README` as needed.
-    - This is optional, but highly recommended especially for **Gold** projects.
+    - This is optional, but highly recommended especially for **Platinum** and **Gold** projects.
     - Animations in the form of GIFs are also a great way to showcase your project.
         - I use [GiFox](https://gifox.io/) to create GIFs of my projects, but you can use any GIF creation software you want.
         - [Snagit](https://www.techsmith.com/screen-capture.html) is another great tool for creating GIFs and screenshots.
@@ -173,7 +175,7 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
 ## Table of Contents
 
 > [!WARNING] 
-> **REQUIRED** section for **Gold** and **Silver** tiers.
+> **REQUIRED** section for **Platinum**, **Gold**, and **Silver** tiers.
 > **Bronze** tier projects do not require this section, but feel free to add it if you want.
 
 - The table of contents should be a list of links to each section of your `README`.
@@ -182,7 +184,7 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
 ## Features
 
 > [!WARNING] 
-> **REQUIRED** section for **Gold** tier only.
+> **REQUIRED** section for **Platinum** and **Gold** tiers only.
 > **Silver** and **Bronze** tier projects do not require this section, but feel free to add it if you want.
 
 - This section should contain a list of features for your project.
@@ -192,7 +194,7 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
 ## Background Story
 
 > [!WARNING] 
-> **REQUIRED** section for **Gold** tier only.
+> **REQUIRED** section for **Platinum** and **Gold** tiers only.
 > **Silver** and **Bronze** tier projects do not require this section, but feel free to add it if you want.
 
 - The background story should be a short paragraph describing why you created the project and what inspired you to create it.
@@ -204,14 +206,15 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
 
 - This section should contain a list of definitions for any terms or acronyms used in your project.
 
-## Limitations
+## Getting Started
 
 > [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
+> **REQUIRED** section for **ALL** tiers.
 
-- This section should contain a list of limitations for your project.
+- You can break this section down into further subsections if you want (such as below: Dependencies, Configuration, Running Locally, Deployment, etc.).
+- Otherwise, you can just include a list of steps to get your project up and running under Getting Started.
 
-## Dependencies
+### Dependencies
 
 > [!WARNING] 
 > **OPTIONAL** section for **ALL** tiers.
@@ -231,10 +234,17 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
 **Resources:**
 > [Dependabot](https://dependabot.com/) 
 
-## Getting Started
+### Configuration
 
 > [!WARNING] 
-> **REQUIRED** section for **ALL** tiers.
+> **OPTIONAL** section for **ALL** tiers.
+
+- Include any configuration information for your project here.
+
+### Installation
+
+> [!WARNING] 
+> **OPTIONAL** section for **ALL** tiers.
 
 - This section should contain a list of steps to get your project up and running.
 - Utilize code blocks to show the commands needed to run your project.
@@ -246,10 +256,18 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
         ```bash
         python manage.py runserver
         ```
+        
+### Deployment
+
+> [!WARNING] 
+> **OPTIONAL** section for **ALL** tiers.
+
+- Include any deployment information for your project here.
+
 ## What's Inside?
 
 > [!WARNING] 
-> **REQUIRED** section for **Gold** tier only.
+> **REQUIRED** section for **Platinum** and **Gold** tiers only.
 > **Silver** and **Bronze** tier projects do not require this section, but feel free to add it if you want.
 
 - This section should contain a list of files and folders in your project and what each one does.
@@ -285,29 +303,20 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
 > [ASCII Tree Generator](https://ascii-tree-generator.com/)
 > [VSCode Extension](https://marketplace.visualstudio.com/items?itemName=tobiaswadseth.file-tree-generator)
 
-## Configuration
-
-> [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
-
-- Include any configuration information for your project here.
-
-## Deployment
-
-> [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
-
-- Include any deployment information for your project here.
-
 ## Closing
 
 > [!WARNING] 
-> **REQUIRED** section for **Gold** tier only.
+> **REQUIRED** section for **Platinum** and **Gold** tiers only.
 > **Silver** and **Bronze** tier projects do not require this section, but feel free to add it if you want.
 
 - Add any closing notes or remarks here.
 
-<a id="end-disclaimer"></a>
+## Limitations
+
+> [!WARNING] 
+> **OPTIONAL** section for **ALL** tiers.
+
+- This section should contain a list of limitations for your project.
 
 ## Disclaimer
 
@@ -320,21 +329,21 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
 ## What's Next?
 
 > [!WARNING] 
-> **OPTIONAL** section for **ALL** tiers.
+> **REQUIRED** section for **Platinum** and **Gold** tiers only.
 
 - Include any future plans for your project here.
 
 ## Project
 
 > [!WARNING] 
-> **REQUIRED** section for **Gold** tier only.
+> **REQUIRED** section for **Platinum** and **Gold** tiers only.
 
 - Include a link to your project plan here on GitHub if you do create one.
 
 ## Contributing
 
 > [!WARNING] 
-> **REQUIRED** section for **Gold** tier only.
+> **REQUIRED** section for **Platinum** and **Gold** tiers only.
 
 - GitHub is about collaboration and contribution, so this is why its essential to include a section on how to contribute to your best projects.
 - Include any information on how to contribute to your project here.
@@ -343,7 +352,7 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
 ## Resources
 
 > [!WARNING] 
-> **REQUIRED** section for **Gold** and **Silver** tiers.
+> **REQUIRED** section for **Platinum**, **Gold**, and **Silver** tiers.
 > **Bronze** tier projects do not require this section, but feel free to add it if you want.
 
 - This section should contain a list of resources used to create your project.
@@ -359,11 +368,12 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
 
 - Describe the license for your project here.
 - I found it helpful to break down what license I choose based on the **PRG** tier of the project:
+    - **Platinum** - GNU GPLv3 or No License (if you want to keep your code private)
     - **Gold** - GNU GPLv3
     - **Silver** - MIT
     - **Bronze** - The Unlicense
-- I chose [GNU GPLv3](../templates/license_examples/GNU/LICENSE) for my **Gold** projects.
-    - Why? I spent a lot of time on my **Gold** projects and I want to protect my work as much as possible.
+- I chose [GNU GPLv3](../templates/license_examples/GNU/LICENSE) for my **Platinum** and **Gold** projects.
+    - Why? I spent a lot of time on my **Platinum** and **Gold** projects and I want to protect my work as much as possible.
     - I do not want people to use my code to profit off of it without my permission which is why I chose this more restrictive license.
 - I chose [MIT](../templates/license_examples/MIT/LICENSE) for my **Silver** projects.
     - Why? I put more work into my **Silver** projects than my **Bronze** projects, so I want to protect my work a little more but still allow people to use my code in their own projects by giving me credit for it.
@@ -380,16 +390,16 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
 
 - Include a credit block for each person who contributed to your project.
 - If you worked on the project by yourself, you can just include your name and other details such as:
-    - Author: - your name.
-    - Email: - A link to your email.
-    - Website: - A link to your website.
-    - Reference: - A link to the main branch of your repository.
+    - Author: - Your name + a link to your GitHub profile.
+    - Email: - Your email + a link to your email.
+    - Website: - Your website + a link to your website.
+    - Reference: - Main Branch + a link to the main branch of your repository.
 - Include a `CREDITS` file in your repository for more detailed information on the credits for your project.
 
 ## Footer
 
 > [!WARNING] 
-> **REQUIRED** section for **Gold** tier only.
+> **REQUIRED** section for **Platinum** and **Gold** tiers only.
 > If you have a personal brand logo, you can add it here for **Silver** and **Bronze** tier projects.
 
 - The footer should contain a image of your application's icon.

@@ -130,16 +130,18 @@
         jQuery.extend(jQuery.fn.dataTableExt.oSort, {
           "tier-pre": function (a) {
             switch (a.trim()) {
-              case "Gold":
+              case "Platinum":
                 return 1;
-              case "Silver":
+              case "Gold":
                 return 2;
-              case "Bronze":
+              case "Silver":
                 return 3;
-              case "Optimized":
+              case "Bronze":
                 return 4;
-              default:
+              case "Optimized":
                 return 5;
+              default:
+                return 6;
             }
           },
           "tier-asc": function (a, b) {

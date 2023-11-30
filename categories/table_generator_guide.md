@@ -44,7 +44,7 @@ In order to get the **PRG** system to work, you must perform the following pre-r
 
    - The GitHub Action Workflow (explained below) uses this file to categorize your repositories.
    - You must have a _Repository Tier_ label for each repository for the categorization to work.
-     - Change the repository's `Tier` label to match the tier of the repository (![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze**, or ![#6236FF](https://via.placeholder.com/10/6236FF/000000?text=+) **Optimized**).
+     - Change the repository's `Tier` label to match the tier of the repository (![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) **Platinum**, ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze**, or ![#6236FF](https://via.placeholder.com/10/6236FF/000000?text=+) **Optimized**).
      - The `Tier` label is the only required label for the **PRG** system to work (if configured to look for a **PRG Connection File** file in the root folder).
      - Optionally, if you don't want to categorize your project, but still want to display it in your table, you can use the ![#6236FF](https://via.placeholder.com/10/6236FF/000000?text=+) **Optimized** badge.
      - There are optional labels you can add to your repository as well: `Technology`, `Category`, and `Order`.

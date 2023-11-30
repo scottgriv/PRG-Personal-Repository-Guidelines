@@ -16,6 +16,7 @@ Utilize this file as a template for collecting and incorporating badges into you
 
 ## Table of Contents
 - [Tier Badges](#tier-badges)
+    - [Platinum Tier Project Badge](#platinum-tier-project-badge)
     - [Gold Tier Project Badge](#gold-tier-project-badge)
     - [Silver Tier Project Badge](#silver-tier-project-badge)
     - [Bronze Tier Project Badge](#bronze-tier-project-badge)

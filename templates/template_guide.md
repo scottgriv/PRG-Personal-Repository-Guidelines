@@ -7,17 +7,31 @@
 <h1 align="center">Template Guide</h1>
 
 This document serves as a comprehensive guide for accessing and utilizing the tier-specific templates within **PRG**. 
-- Each categorized tier – ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze** – has its own customized repository and `README` templates that cater to different levels of project complexity and requirements.
+- Each categorized tier – ![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) **Platinum**, ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze** – has its own customized repository and `README` templates that cater to different levels of project complexity and requirements.
 - Consult the [Category Guidelines](../guidelines/category_guidelines.md) for more information on the different project categories and their respective tiers.
 
 ---------------
 
 ## Table of Contents
+- [Platinum Tier Template](#platinum-tier-template)
 - [Gold Tier Template](#gold-tier-template)
 - [Silver Tier Template](#silver-tier-template)
 - [Bronze Tier Template](#bronze-tier-template)
 - [Using the Templates](#using-the-templates)
 - [Resources](#resources)
+
+<a id="platinum-tier-template"></a>
+
+## ![#E5E4E2](https://via.placeholder.com/15/E5E4E2/000000?text=+) Platinum Tier Template
+
+<a href="https://github.com/scottgriv/PRG-Platinum-Tier-Template" target="_blank">
+    <img src="../docs/images/template_icons/banner_social-platinum.png" width="320" height="160"/>
+</a>
+<br>
+
+[![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) PRG Platinum Tier Public Template Repository](https://github.com/scottgriv/PRG-Platinum-Tier-Template)
+
+ Designed for the most ambitious and sophisticated projects, this template transcends the ordinary, offering a comprehensive framework for thorough documentation, advanced feature integration, and high-level project presentation.
 
 <a id="gold-tier-template"></a>
 

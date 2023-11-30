@@ -36,7 +36,7 @@ Use a description that is short and to the point. This is the first thing people
 > [!WARNING]
 > **OPTIONAL** file for **ALL** tiers.
 > Strongly encouraged if you're able to host a static website to demonstrate your project.
-> Link the website to the `banner_large.png` file if it is for a **Gold** tier project.
+> Link the website to the `banner_large.png` file if it is for a **Platinum** or **Gold** tier project.
 > Link the website to the `banner_small.png` file if it is for a **Silver** or **Bronze** tier project.
 
 - [PythonAnywhere](https://www.pythonanywhere.com/) is a great free option for hosting Python web applications.
@@ -59,9 +59,9 @@ Use a description that is short and to the point. This is the first thing people
 ## Misc. Settings
 
 - Releases, Packages, Deployments should only be checked under "Include in the home page" if you're using those features.
-- I strongly recommend using Releases for **Gold** projects.
+- I strongly recommend using Releases for **Platinum** and **Gold** projects.
 - Make sure you Pin your project to your profile if you want it to show up on your profile page. 
-    - **Gold** projects should always be pinned to your profile.
+    - **Platinum** and **Gold** projects should always be pinned to your profile.
 - `README` files should always be included in your repository.
     - View [Repository Structure Guidelines](./repository_structure_guidelines.md) and [README Guidelines](./readme_guidelines.md) for more information on how to setup your project structure and `README` file.
 

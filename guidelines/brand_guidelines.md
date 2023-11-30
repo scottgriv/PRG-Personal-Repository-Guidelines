@@ -8,7 +8,7 @@
 
 Below is a summary of the brand guidelines for a **PRG** project:
 - Consider these guidelines as a reference for your project's branding strategy.
-- It is highly recommended for **Gold** tier projects to adhere closely to these guidelines.
+- It is highly recommended for **Platinum** and **Gold** tier projects to adhere closely to these guidelines.
 - While optional for other tiers, applying these guidelines to your projects can enhance their branding coherence.
 
 ---------------
@@ -69,6 +69,7 @@ The color palette for a **PRG** project is as follows:
 | Gray          | ![#7A7A7A](https://via.placeholder.com/10/7A7A7A?text=+) `#7A7A7A` |
 | Purple 1      | ![#6236FF](https://via.placeholder.com/10/6236FF?text=+) `#6236FF` |
 | Purple 2      | ![#680F7F](https://via.placeholder.com/10/680F7F?text=+) `#680F7F` |
+| Platinum      | ![#E5E4E2](https://via.placeholder.com/10/E5E4E2?text=+) `#E5E4E2` |
 | Gold          | ![#FFD700](https://via.placeholder.com/10/FFD700?text=+) `#FFD700` |
 | Silver        | ![#C0C0C0](https://via.placeholder.com/10/C0C0C0?text=+) `#C0C0C0` |
 | Bronze        | ![#CD7F32](https://via.placeholder.com/10/CD7F32?text=+) `#CD7F32` |
@@ -106,7 +107,7 @@ The typography for a **PRG** project is as follows:
     - Create a logo that is unique to your project.
 - This can be placed on the bottom of your `README` file and used as your footer.
     - See [Footer](./readme_guidelines.md#footer) for more information.
-- For Bronze/Silver projects, this image can also go on the top of your `README` and used as your header.
+- For Silver/Bronze projects, this image can also go on the top of your `README` and used as your header.
     - Adjust the size as you see fit.
 - The size of the `icon.png` file should be `414x414` pixels.
 
@@ -157,7 +158,7 @@ The typography for a **PRG** project is as follows:
 - The size of the `footer.png` file used for the footer should be `200x200` pixels.
 - I personally use a rounded corner variation of this icon for my footer. See [Rounded Corners](#rounded-corners) for more information.
 - The footer should also be a centered clickable link to your project's repositories main branch.
-    - This is _optional_ for Bronze/Silver projects, but _required_ for Gold projects.
+    - This is _optional_ for Silver/Bronze projects, but _required_ for Platinum/Gold projects.
     - Reference the [Template Guide](../templates/template_guide.md) for more information.
 
 #### Header
@@ -210,14 +211,14 @@ The following are optional, but you made need them depending on your project:
 ## Diagrams
 
 - Diagrams are a great way to visualize your project's architecture and design.
-- Diagrams are not required for any project, but are encouraged for Gold tier projects.
+- Diagrams are not required for any project, but are encouraged for Platinum/Gold tier projects.
 - I personally like to use UML diagrams for my project, specifically PlantUML.
     - PlantUML is a free open-source tool that allows you to create UML diagrams using a simple text-based language.
     - You can read more about PlantUML [here](https://plantuml.com/).
 
 ## Medium Articles & Other Social Media
 
-- Again, articles or blog posts are not required for any project, but are encouraged for Gold tier projects.
+- Again, articles or blog posts are not required for any project, but are encouraged for Platinum/Gold tier projects.
 - I personally like to post my project on X and LinkedIn (under projects).
     - This is where the social banners come in handy.
 - I also like to write a brief article on Medium about my project.
@@ -226,7 +227,7 @@ The following are optional, but you made need them depending on your project:
 
 ## Demo & Screenshots
 
-- A demo is not required for any project, but is encouraged for Gold tier projects.
+- A demo is not required for any project, but is encouraged for Platinum/Gold tier projects.
 - Name your screenshots and GIF's whatever you'd like, but be sure to place them in the `docs/images` folder.
     - I usually name my demo `demo_1.png, demo_2.png, demo_1.gif, etc.` and place it in the `docs/images/demo` folder.
     - I also usually place these on the top of my `README` file and hyperlink it to the product demo.

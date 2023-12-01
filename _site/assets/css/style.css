@@ -112,10 +112,26 @@ tbody tr:hover a {
   transform: scale(1.08); /* Enlarge the icon on hover */
 }
 
+.title-welcome-mobile {
+  visibility: hidden;
+}
+
+.title-welcome-desktop {
+  visibility: visible;
+}
+
 /* Mobile Responsive Styles */
 @media screen and (max-width: 600px) {
   table {
     width: 1500px;
+  }
+
+  .title-welcome-mobile {
+    visibility: visible;
+  }
+
+  .title-welcome-desktop {
+    visibility: hidden;
   }
 
   .dataTables_filter {

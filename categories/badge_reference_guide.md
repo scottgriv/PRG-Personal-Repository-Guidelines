@@ -24,6 +24,7 @@ Utilize this file as a template for collecting and incorporating badges into you
 - [Profile Badges](#profile-badges)
     - [PRG Collection Badge (Optimized) (Default)](#prg-collection-badge)
     - [PRG Collection Badge (Collection)](#prg-collection-badge-collection)
+    - [PRG Collection Badge (Portfolio)](#prg-collection-badge-collection)
 - [Alternative Profile Badges](#alternative-profile-badges)
     - [PRG Collection Badge (Purple Book)](#prg-collection-badge-purple)
     - [PRG Collection Badge (Black Book)](#prg-collection-badge-black)
@@ -97,6 +98,14 @@ Add the following badge to your profile `README` to showcase your **PRG Collecti
 
 <a href="https://prgoptimized.com" target="_blank">
     <img src="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_collection.png" alt="Collection" width="138" height="51" />
+</a>
+
+<a id="prg-collection-badge-portfolio"></a>
+
+### ![#680F7F](https://via.placeholder.com/13/680F7F/000000?text=+) PRG Collection Badge (Portfolio) 
+
+<a href="https://prgoptimized.com" target="_blank">
+    <img src="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_portfolio.png" alt="Collection" width="138" height="51" />
 </a>
 
 ## Alternative Profile Badges

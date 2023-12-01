@@ -11,14 +11,15 @@
 ---------------
 
 ## Table of Contents
-- [Initial Setup](#initial-setup)
+- [Connecting Projects to the PRG System](#connecting-projects-to-the-prg-system)
   - [PRG Connection File](#prg-connection-file)
   - [PRG Project Logo](#prg-project-logo)
   - [Finish Setup](#finish-setup)
 - [Python Build Script (PyRG)](#python-build-script-pyrg)
-  - [Configuration](#configuration)
+  - [Table Configuration](#table-configuration)
   - [Time Zone & Schedule Configuration](#time-zone--schedule-configuration)
-  - [Customization](#customization)
+  - [Private or Closed Source Projects](#private-or-closed-source-projects)
+  - [Script Customization](#script-customization)
 - [GitHub Actions Workflow](#github-actions-workflow)
   - [Project Tier Table (Output) and Private Project Tier Table (Input)](#project-tier-table-output-and-private-project-tier-table-input)
   - [Project Tier Badges (Output)](#project-tier-badges-output)
@@ -28,7 +29,7 @@
 - [Running the Workflow](#running-the-workflow)
 - [Resources](#resources)
 
-## Initial Setup
+## Connecting Projects to the PRG System
 
 In order to get the **PRG** system to work, you must perform the following pre-requisites:
 
@@ -73,19 +74,16 @@ In order to get the **PRG** system to work, you must perform the following pre-r
 ## Python Build Script (PyRG)
 
 - The `python` script is located in the `scripts` folder called `project_tier_table_generator.py`.
-  - There are a number of configurations that are optional and required to run the script. 
   - Overall, you will see that the script is well documented, highly customizable, and easy to follow.
-  - Optionally, you can manually add projects that are not on GitHub or are private (and/or excluded in the config flags) by adding them to the `categories/project_tier_table_private.md` file.
-    - Add images used in this private table in the `docs/images/private_repos` folder.
-    - Projects in this file will be consolidated into the main table when the workflow runs.
 
 > [!WARNING]
 > Make sure you add all the required fields to the private tier table in order for the table to be generated properly or this can cause the output to be incorrect.
 
-### Configuration
+### Table Configuration
 
 - The build script that generates the project tier table is located in the `scripts` folder called [project_tier_table_generator.py](../scripts/project_tier_table_generator.py).
-  - There are a number of configuration flags on the top of the script that you can set to customize the output of the table to your liking.
+- There are a number of configuration flags on the top of the script that you can set to customize the output of the table to your liking.
+  - For example, you can exclude repositories from the project tier table completely by setting the `INCLUDE_PRG_FILE_PROJECTS` flag to `True` and not including a **PRG Connection File** in the root of the project.
 - The config file for Jekyll/GitHub Pages is located in the `_config.yml` file in the root of the project.
   - There are a number of titles and descriptions you can set to customize the output of the table to your liking.
 
@@ -98,7 +96,14 @@ The time zone will be updated on the bottom of the table to reflect the time zon
 - The script will run on a weekly basis (Sunday's at 12:00 AM - defined using a cron expression in the workflow file).
 - The script can also be run manually by clicking on the `Run workflow` button in the `Actions` tab in your repository.
 
-### Customization
+### Private or Closed Source Projects
+
+- If you have private or closed source projects, you can still use the **PRG** system.
+- You can manually add projects that are not on GitHub or are private (and/or excluded in the config flags) by adding them to the `categories/project_tier_table_private.md` file.
+  - Add images used in this private table in the `docs/images/private_repos` folder.
+  - Projects in this file will be consolidated into the main table when the workflow runs.
+  
+### Script Customization
 
 You can customize your build script however you want if you want to categorize your project tier table further.
 - You have three options for customizations:

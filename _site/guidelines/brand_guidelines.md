@@ -182,7 +182,7 @@ The typography for a **PRG** project is as follows:
 
 - Place this in your GitHub profile's `README` file (usually on the bottom).
 - The size of the `prg.png` file should be `138x51` pixels.
-- You do not need to create this image, it is already included in the `docs/images` folder (`docs/images/prg_optimized.png`, `docs/images/prg_collection.png`).
+- You do not need to create this image, it is already included in the `docs/images` folder (`docs/images/prg_optimized.png`, `docs/images/prg_collection.png`, or `docs/images/prg_portfolio.png`).
     - The image should be centered.
     - The hyperlink should take you to your **PRG Collection** website after building the Tier Table for the first time using the `scripts/project_tier_table_generator.py` script and can be found in the `categories/badge_reference_guide.md` file.
 
@@ -190,6 +190,8 @@ The typography for a **PRG** project is as follows:
     <img src="../docs/images/prg_optimized.png" alt="PRG Optimized Logo" width="138" height="51"/>
 </a><a href="https://prgoptimized.com" target="_blank">
     <img src="../docs/images/prg_collection.png" alt="PRG Collection Logo" width="138" height="51"/>
+</a><a href="https://prgoptimized.com" target="_blank">
+    <img src="../docs/images/prg_portfolio.png" alt="PRG Portfolio Logo" width="138" height="51"/>
 </a>
 
 ### Optional Banners

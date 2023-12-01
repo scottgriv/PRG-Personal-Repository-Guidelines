@@ -50,6 +50,7 @@
   - ["The GitHub Portfolio Problem"](#the-github-portfolio-problem)
   - [Telling a Story with your README](#telling-a-story-with-your-readme)
 - [Definitions](#definitions)
+- [Q&A](#qa)
 - [Getting Started](#getting-started)
 - [What's Inside?](#whats-inside)
 - [1. Categories](#1-categories)
@@ -376,10 +377,10 @@ Your `README` is the first thing people see when they visit your repository, it 
 Here are some definitions to help you understand the terminology used in this document:
 
 - <ins><b>PRG</b></ins>: An acronym for **Personal Repository Guidelines**.
-- <ins><b>PRG Optimized</b></ins>: A repository that is categorized using the **PRG** system.
-- <ins><b>PRG Collection</b></ins>: The entire collection of repositories that are categorized using **PRG**.
+- <ins><b>PRG Optimized</b></ins>: A repository/project that is categorized using the **PRG** system.
+- <ins><b>PRG Collection (aka PRG Portfolio)</b></ins>: The entire collection of repositories that are categorized using **PRG**.
 - <ins><b>PRG Connection File</b></ins>: [A special markdown file](PRG.md) placed in the root of each of your repositories that is used to categorize your repositories using **PRG**.
-- <ins><b>Project Tier</b></ins>: A tier that is assigned to a repository based on the information in the **PRG Connection File** file.
+- <ins><b>Project Tier</b></ins>: A tier/rank that is assigned to a repository based on the information in the **PRG Connection File** file.
 - <ins><b>Project Tier Table</b></ins>: A table that is automatically generated using GitHub Actions and hosted using GitHub Pages that displays your **PRG Collection**.
 - <ins><b>Project Tier Table Generator (PyRG)</b></ins>: A Python script and GitHub Action that is used to automatically generate a **Project Tier Table** for your **PRG Collection**.
 - <ins><b>Tier Badge</b></ins>: A badge that is placed at the top of each repository `README` to indicate the tier of the repository.
@@ -392,6 +393,22 @@ Here are some definitions to help you understand the terminology used in this do
 - <ins><b>Guide</b></ins>: A guide document that provides instructions for using a feature component.
 - <ins><b>GitHub Actions</b></ins>: A feature of GitHub that allows you to automate tasks within your repositories.
 - <ins><b>GitHub Pages</b></ins>: A feature of GitHub that allows you to host and deploy your repositories.
+
+## Q&A
+
+Below are some common questions and answers about **PRG**:
+
+- <ins><b>Q</b></ins>: How do I determine the tier/category of my repository?
+- <ins><b>A</b></ins>: See the [Category Guidelines](./guidelines/category_guidelines.md) for more information.
+- <ins><b>Q</b></ins>: What if I don't want to categorize my repository?
+- <ins><b>A</b></ins>: You can leave your repository uncategorized (by not including a **PRG Connection File**), and it will be brought into the tier table as **Optimized**.
+- <ins><b>A</b></ins>: If you want to exclude it from the tier table completely, you can configure the flags in the tier table generator script for this purpose. See the [Table Generator Guide - Configuration](./categories/table_generator_guide.md#table-configuration) for more information.
+- <ins><b>Q</b></ins>: You keep saying "Optimized", what does that mean?
+- <ins><b>A</b></ins>: **Optimized** simply means: a repository that is categorized using **PRG**. 
+- <ins><b>Q</b></ins>: What kind of repositories can I categorize using **PRG**?
+- <ins><b>A</b></ins>: You don't need an open source project to use **PRG**, it can be closed source.
+- <ins><b>A</b></ins>: In fact, you can categorize any repository/product/project you want, including private repositories or products you have published (or plan to publish) elsewhere; **PRG** is not limited to GitHub, although it is primarily tailored for GitHub's version control system.
+- <ins><b>A</b></ins>: See the 
 
 ## Getting Started
 
@@ -554,6 +571,11 @@ To solve the **"GitHub Portfolio Problem"** above and to distinguished the quali
 <br>
 <a href="https://prgoptimized.com" target="_blank">
     <img src="./docs/images/prg_collection.png" alt="PRG Collection Logo" width="138" height="51"/>
+</a>
+<br>
+<br>
+<a href="https://prgoptimized.com" target="_blank">
+    <img src="./docs/images/prg_portfolio.png" alt="PRG Portfolio Logo" width="138" height="51"/>
 </a>
 
 <br>

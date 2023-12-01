@@ -462,7 +462,7 @@ try:
             avatar_url = user_data["avatar_url"]
 
             # Write title and description
-            md_file.write('<p align="center"><em><strong>PRG</strong> is used by the following personal and organizational accounts in this portfolio:</em></p>\n\n')
+            md_file.write('<p align="center"><em><strong>PRG</strong> is utilized by the following personal and organizational accounts in this portfolio:</em></p>\n\n')
 
             # Start a div with display:flex to align items horizontally
             md_file.write('<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 20px;">\n')

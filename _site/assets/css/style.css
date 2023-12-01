@@ -113,11 +113,11 @@ tbody tr:hover a {
 }
 
 .title-welcome-mobile {
-  visibility: hidden;
+  display: none; /* Initially hide the mobile title */
 }
 
 .title-welcome-desktop {
-  visibility: visible;
+  display: block; /* Initially show the desktop title */
 }
 
 /* Mobile Responsive Styles */
@@ -127,11 +127,11 @@ tbody tr:hover a {
   }
 
   .title-welcome-mobile {
-    visibility: visible;
+    display: block; /* Show the mobile title on small screens */
   }
 
   .title-welcome-desktop {
-    visibility: hidden;
+    display: none; /* Hide the desktop title on small screens */
   }
 
   .dataTables_filter {

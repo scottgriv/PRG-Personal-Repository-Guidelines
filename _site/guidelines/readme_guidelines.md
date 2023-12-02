@@ -365,6 +365,8 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
 
 > [!WARNING] 
 > **REQUIRED** section for **ALL** tiers.
+> An exception to this is if you want to keep your code private, in which case you can omit this section.
+> Another exception would be if you forked a project, and the project did not include a license, in which case you can omit this section (it most likely falls under the [No License](https://choosealicense.com/no-permission/) license). If you find software that doesn’t have a license, that generally means you have no permission from the creators of the software to use, modify, or share the software. Although a code host such as GitHub may allow you to view and fork the code, this does not imply that you are permitted to use, modify, or share the software for any purpose.
 
 - Describe the license for your project here.
 - I found it helpful to break down what license I choose based on the **PRG** tier of the project:

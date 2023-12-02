@@ -314,7 +314,7 @@ Below is a list of all the documents and resources available for **PRG**.
 | --- | --- |
 | ![#6236FF](https://via.placeholder.com/10/6236FF/000000?text=+) | Guideline |
 | ![#680F7F](https://via.placeholder.com/10/680F7F/000000?text=+) | Guide |
-| ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) | Template |
+| ![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) | Template |
 | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF/000000?text=+) | File/Directory | 
 
 ## Features

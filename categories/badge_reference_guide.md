@@ -9,7 +9,7 @@
 <h1 align="center">Badge Reference Guide</h1>
 
 Utilize this file as a template for collecting and incorporating badges into your project `README` files.
-- Execute the GitHub action workflow to automatically modify badge links, directing them to your **PRG Collection's** website/domain.
+- Execute the GitHub action workflow to automatically modify badge links, directing them to your **PRG Portfolios's** website/domain.
 - Before initiating the workflow, ensure you update the `TIER_TABLE_URL` parameter in the `project_tier_table_generator.py` script.
 
 ---------------
@@ -105,7 +105,7 @@ Add the following badge to your profile `README` to showcase your **PRG Collecti
 ### ![#680F7F](https://via.placeholder.com/13/680F7F/000000?text=+) PRG Collection Badge (Portfolio) 
 
 <a href="https://prgoptimized.com" target="_blank">
-    <img src="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_portfolio.png" alt="Collection" width="138" height="51" />
+    <img src="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_portfolio.png" alt="Collection" width="138" height="51" />
 </a>
 
 ## Alternative Profile Badges

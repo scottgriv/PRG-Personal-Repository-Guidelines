@@ -614,9 +614,15 @@ Consult the [Table Generator Guide](./categories/table_generator_guide.md) for m
 
 Below are the guidelines for repository `READMEs`, files, and overall structure. This applies to **ALL** tiers.
 
-   > [!NOTE] 
-   > Some Guidelines are used for other **PRG** components but are located in the `guidelines` folder for convenience. 
-   > e.g. [Category Guidelines](./guidelines/category_guidelines.md) is for the Category component but is located in the `guidelines` folder.
+  > [!NOTE] 
+  > PRG contains a lot of guidelines and guides to help you get started.
+  > You do not need to conform all of your repositories to these guidelines in order to use PRG or adhere to it.
+  > If you just want to use PRG for the portfolio table, feel free to do so.
+  > The guidelines are there to help you create a better overall repository and portfolio.
+
+  > [!CAUTION] 
+  > Some Guidelines are used for other **PRG** components but are located in the `guidelines` folder for convenience. 
+  > e.g. [Category Guidelines](./guidelines/category_guidelines.md) is for the Category component but is located in the `guidelines` folder.
 
 ### Category Guidelines
 

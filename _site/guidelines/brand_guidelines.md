@@ -24,9 +24,9 @@ Below is a summary of the brand guidelines for a **PRG** project:
     - [Small Banner](#small-banner)
     - [Large Banner](#large-banner)
     - [Social Banner](#social-banner)
-    - [Header & Footer](#header--footer)
-        - [Header](#header)
-        - [Footer](#footer)
+    - [Header & Footer Icons](#header--footer-icons)
+        - [Header Icon](#header-header)
+        - [Footer Icon](#footer-icon)
         - [Rounded Corners](#rounded-corners)
     - [PRG Profile Badge](#prg-profile-badge)
     - [Optional Banners](#optional-banners)
@@ -148,24 +148,30 @@ The typography for a **PRG** project is as follows:
 
 <img src="../docs/images/brand_templates/repository-open-graph-template.png" alt="Social Banner" width="960" height="480" />
 
+### Header & Footer Icons
 
-### Header & Footer
-
-- The footer is the same as the icon/logo but with rounded corners.
+- **Gold/Platinum** projects should use the `large_banner.png` file for its header icon and `icon.png` or `icon-rounded.png` files for its footer icon.
+- **Silver/Bronze** projects should use the `icon.png`/`icon-rounded.png` or `header.png`/`footer.png` files for their header and footer.
+    - The footer can be the same as the icon/logo in the header.
+    - Rounded corners to imitate app icons should be used for the footer and/or header.
     - You can use a different icon if needed, this is optional to save work/time.
-- Place the footer at the bottom of your `README` file.
-- The size of the `header.png` file used for the footer should be `100x100` pixels.
-- The size of the `footer.png` file used for the footer should be `200x200` pixels.
-- I personally use a rounded corner variation of this icon for my footer. See [Rounded Corners](#rounded-corners) for more information.
+- Place the footer at the bottom of your `README` file below a divider.
+    - The size of the `header.png` file used for the footer should be `200x200` pixels.
+    - The size of the `footer.png` file used for the footer should be `100x100` pixels.
+    - I personally use a rounded corner variation of this icon for my header and footer on Silver/Bronze projects. See [Rounded Corners](#rounded-corners) for more information.
 - The footer should also be a centered clickable link to your project's repositories main branch.
-    - This is _optional_ for Silver/Bronze projects, but _required_ for Platinum/Gold projects.
+    - This is _required_ for **ALL** project tiers.
+    - Reference the [Template Guide](../templates/template_guide.md) for more information.
+- The header icon should always be clickable and take you to your project's website/product/demo.
+    - If you do not have a website/product/demo, you should link it to your projects repository main branch.
+    - This is _required_ for **ALL** project tiers.
     - Reference the [Template Guide](../templates/template_guide.md) for more information.
 
-#### Header
+#### Header Icon
 
 <img src="../docs/images/icon-placeholder-rounded.png" alt="Logo" width="200" height="200" />
 
-#### Footer
+#### Footer Icon
 
 <img src="../docs/images/icon-placeholder-rounded.png" alt="Footer" width="100" height="100" />
 

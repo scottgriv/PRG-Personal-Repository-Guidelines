@@ -17,9 +17,10 @@ General instructions for crafting a `README` file are provided here, tailored fo
     - [Markdown](#markdown)
     - [GitHub Markdown Alerts](#github-markdown-alerts)
     - [Disclaimer](#disclaimer)
+- [Header](#header)
+    - [Header Icon](#header-icon)
+    - [Badges](#badges)
     - [Divider](#divider)
-- [Banner](#banner)
-- [Badges](#badges)
 - [Title](#title)
 - [Description](#description)
 - [Table of Contents](#table-of-contents)
@@ -42,8 +43,9 @@ General instructions for crafting a `README` file are provided here, tailored fo
 - [Contributing](#contributing)
 - [Resources](#resources)
 - [License](#license)
-- [Credits](#credits)
-    - [Footer](#footer)
+- [Footer](#footer)
+    - [Credits](#credits)
+    - [Footer Icon](#footer-icon)
 - [Resources](#resources-1)
 
 ## README File
@@ -96,38 +98,44 @@ Read more about [GitHub Markdown Alerts](https://github.com/orgs/community/discu
 > [!NOTE]
 > Your Profile `README` does not need to adhere to the **PRG** guidelines defined in this document, but it is encouraged to include the [PRG Profile Badge](./brand_guidelines#prg-profile-badge) to link to your **PRG Collection**.
 
-### Divider
-
-A horizontal divider is a great way to separate the top of your `README` from the rest of the content.
-Use a divider to separate your `README` into two sections: the _header_ (after the badges and another after the _table of contents_) and the footer section (after the _credits_ but before the _footer_ image).
-
-- e.g. `---`
 
 ---------------
 
-## Banner
+Below is a description of each section of a **PRG** `README` and what it should contain:
+
+## Header
 
 > [!WARNING] 
-> **REQUIRED** section for **Platinum** and **Gold** tiers only.
-> **Silver** and **Bronze** tier projects do not require this section, but feel free to add it if you want (or a logo of the technology you used to develop your project).
+> **REQUIRED** section for **ALL** tiers.
 
-- The banner should be a custom design created to represent your project.
-- I use [Sketch](https://www.sketch.com/) to create my banners and designs, but you can use any design software you want.
-- See [PRG Brand Guidelines](brand_guidelines.md) for more information on creating banners and other graphics for your project.
-- **Silver** projects don't require a banner, but feel free to add a logo of the technology you used to develop your project.
+- The header consists of two parts: the Header Icon and the Badges.
+- This should be the **first** section of your `README`.
+
+### Header Icon
+
+- The header icon is a either a logo/icon or a custom banner.
+- A banner should always be used for **Platinum/Gold** projects, while a logo/icon should be used for **Silver/Bronze** projects.
+- A banner is a custom design created to represent your project.
+    - I use [Sketch](https://www.sketch.com/) to create my banners and designs, but you can use any design software you want.
+    - See [Brand Guidelines](brand_guidelines.md) for more information on creating banners and other graphics for your project.
+- For **Silver/Bronze** projects, you can use a logo of the technology you used to develop your project instead of a banner. 
+
+    > [!TIP]  
+    > There are plenty of free logos out there for most technologies, just make sure you give credit to the creator of the logo if it's required (follow the license for the image).
+
     - e.g. Svelte + Firebase Logos <br>
     <img src="./docs/images/demo/svelte_logo.png" alt="Svelte" style="width: 5%; vertical-align: left;" />
     <img src="./docs/images/demo/plus-dark.png#gh-dark-mode-only" alt="+" style="width: 5%;vertical-align: left;"/>
     <img src="./docs/images/demo/plus-light.png#gh-light-mode-only" alt="+" style="width: 5%; vertical-align: left;" />
     <img src="./docs/images/demo/firebase_logo.png" alt="Firebase" style="width: 5%; vertical-align: left;" />
 
-> [!TIP]  
-> Append `#gh-dark-mode-only` or `#gh-light-mode-only` to the end of the image URL to only show the image in dark or light mode respectively. Be sure to have both a dark and light version of the image when necessary. More on this (shameless plug) [here](https://github.com/scottgriv/markdown-demo#images).
+    > [!TIP]  
+    > Append `#gh-dark-mode-only` or `#gh-light-mode-only` to the end of the image URL to only show the image in dark or light mode respectively. Be sure to have both a dark and light version of the image when necessary. More on this (shameless plug) [here](https://github.com/scottgriv/markdown-demo#images).
 
-## Badges
+- The header icon or banner should always be clickable and take you to your project's website/product/demo.
+    - If you do not have a website/product/demo, you should link it to your projects repository main branch.
 
-> [!WARNING] 
-> **REQUIRED** section for **ALL** tiers.
+### Badges
 
 - Badges are a great way to showcase the technologies, frameworks, and languages used in your project. 
 - Badges are generated using [Shields.io](https://shields.io/).
@@ -140,8 +148,7 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
     - e.g. [![Email Badge](https://img.shields.io/badge/gmail-contact_me-DC4233?style=for-the-badge&logo=gmail)](mailto:scott.grivner@gmail.com)
     - e.g. [![GitHub Badge](https://img.shields.io/badge/github-follow-9031AC?style=for-the-badge&logo=github&color=9031AC)](https://github.com/scottgriv)
     - e.g. [![BuyMeACoffee Badge](https://img.shields.io/badge/buy_me_a_coffee-support_me-FEDE1F?style=for-the-badge&logo=buymeacoffee&color=FEDE1F)](https://www.buymeacoffee.com/scottgriv)
-- Next, add a horizontal rule to separate the badges from the rest of the `README`.
-    - e.g. `---`
+
 
 > [!NOTE] 
 > To demonstrate your project adheres to **PRG**, please include the appropriate badge at the top of your repository `README`. See the top of this `README` for an example.
@@ -150,10 +157,18 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
 > [Shields.io](https://shields.io/) - A website for generating badges. <br>
 > [GitHub Workflow Status Badge](https://shields.io/badges/git-hub-workflow-status-with-event)
 
+### Divider
+
+A horizontal divider is a great way to separate the top of your `README` from the rest of the content.
+Use a divider to separate your `README` into two sections: the _header_ (after the badges and another before the _table of contents_) and the footer section (after the _credits_ but before the _footer_ image).
+
+- e.g. `---------------`
+
 ## Title
 
 > [!WARNING] 
 > **REQUIRED** section for **ALL** tiers.
+> The header of "Title" should not be included in your `README`, just the title of your actual project.
 
 - The title should be the name of your project (without underscores or dashes).
 
@@ -161,8 +176,9 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
 
 > [!WARNING] 
 > **REQUIRED** section for **ALL** tiers.
+> You do not need to include a header called "Description" for this section, just the description under the title.
 
-- The description should be a short paragraph describing what your project is and what it does.
+- The description should be a short paragraph describing what your project is and what it does after the title.
 - This should be the first section after the badges.
     - e.g. "A Python, Django, Plotly, and Pandas web application that visualizes river data pulled using an API from the United States Geological Survey (USGS)."
 - Add **screenshots** of your project below the description and throughout the rest of the `README` as needed.
@@ -383,10 +399,15 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
 - The above licenses are the licenses I chose for my projects, but you can choose whatever license you want for your projects.
 - A list of licenses can be found [here](https://choosealicense.com/licenses/).
 
-## Credits
+## Footer
 
 > [!WARNING] 
 > **REQUIRED** section for **ALL** tiers.
+
+- The footer consists of two parts: the Credits and the Footer Icon.
+- This should be the **last** section of your `README`.
+
+### Credits
 
 - Include a credit block for each person who contributed to your project.
 - If you worked on the project by yourself, you can just include your name and other details such as:
@@ -396,13 +417,12 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
     - Reference: - Main Branch + a link to the main branch of your repository.
 - Include a `CREDITS` file in your repository for more detailed information on the credits for your project.
 
-## Footer
+### Footer Icon
 
-> [!WARNING] 
-> **REQUIRED** section for **Platinum** and **Gold** tiers only.
-> If you have a personal brand logo, you can add it here for **Silver** and **Bronze** tier projects.
-
-- The footer should contain a image of your application's icon.
+- The footer icon  should contain a image of your application's icon (never a banner) for all tier projects.
+- The footer icon should also be a centered clickable link to your project's repositories main branch (never a website).
+- Above the footer icon, you should include a [divider](#divider) to separate the footer icon from the rest of the `README`. 
+    - e.g. `---------------`
 - See the [bottom of this project README](../README.md#credits) for an example.
 
 ---------------

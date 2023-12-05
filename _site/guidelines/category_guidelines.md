@@ -114,9 +114,6 @@ Consult this guideline for detailed information on the categorization of each ti
     - Significant alterations can elevate the fork to a ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver** tier.
   - Note that a forked repository, not being original work, can only attain a maximum of ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver** tier status, never ![#E5E4E2](https://via.placeholder.com/15/E5E4E2/000000?text=+) **Platinum** or ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+)  **Gold**.
 
-> ![WARNING]
-> Make sure you always include proper attribution to the original author of the forked repository.
-
 <a id="optimized-tier-project"></a>
 
 ## ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) Optimized Tier Project

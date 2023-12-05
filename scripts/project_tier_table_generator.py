@@ -379,6 +379,7 @@ try:
         data['size'] = repo['size']
         data['homepage'] = repo['homepage']
         data['owner'] = owner
+        data['private'] = repo['private']
 
         # Fetching the content of PRG.md to determine the tier
             # Adjust the URL to point to the correct path of the PRG.md file (if it is not in the root directory)
@@ -554,7 +555,7 @@ try:
                 if repo_data['homepage']:
                     icon = f'<a href="{repo_data["homepage"]}" class="icon-container" target="_blank"><img src="{icon_url}" width="100" height="100" alt="Icon"></a>'
                 else:
-                    if repo['private']:
+                    if repo_data['private']:
                         icon = f'<a href="{PRG_REPO_URL}" class="icon-container" target="_blank"><img src="{icon_url}" width="100" height="100" alt="Icon"></a>'
                     else:
                         icon = f'<a href="{repo_data["url"]}" class="icon-container" target="_blank"><img src="{icon_url}" width="100" height="100" alt="Icon"></a>'
@@ -566,7 +567,7 @@ try:
                 
                 # Get the repo name with a link to the repo
                 # If the repo is private, use the homepage if it exists, otherwise, the PRG repo default URL
-                if repo['private']:
+                if repo_data['private']:
                     if repo_data['homepage']:
                         name = f'<a href="{repo_data["homepage"]}" target="_blank">{repo_data["name"]}</a>'
                     else:

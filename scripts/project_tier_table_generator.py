@@ -535,10 +535,15 @@ try:
                 icon_url = f'https://github.com/{owner}/{repo_data["name"]}/raw/main/{PROJECT_ICON_PATH}'
                 icon_response = requests.get(icon_url)
                 if icon_response.status_code != 200 or repo_data['size'] == 0:
-                    print(f"No icon found for {repo_data['name']} or the repository is empty, using a placeholder.")
-                    if MD_ONLY_TIER_TABLE:
-                        path_start = '..'
-                    icon_url = PLACEHOLDER_ICON
+
+                    icon_url = f'https://github.com/{owner}/{repo_data["name"]}/raw/master/{PROJECT_ICON_PATH}'
+                    icon_response = requests.get(icon_url)
+                    if icon_response.status_code != 200 or repo_data['size'] == 0:
+
+                        print(f"No icon found for {repo_data['name']} or the repository is empty, using a placeholder.")
+                        if MD_ONLY_TIER_TABLE:
+                            path_start = '..'
+                        icon_url = PLACEHOLDER_ICON
                 else:
                     print(f"Icon found for {repo_data['name']}!")
 

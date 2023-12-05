@@ -8,6 +8,16 @@
 
 Consult this guideline for detailed information on the categorization of each tier and the recommended naming conventions for repositories.
 
+<div align="center">
+  <a href="https://prgoptimized.com" target="_blank">
+    <img src="../docs/images/demo/tier_graphic.png" alt="Tier Graphic" style="width: 75%; margin: 5px;">
+  </a>
+  <br>
+  <i><b>PRG</b> uses project tiers to categorize your repositories for your <b>PRG Portfolio</b>.</i>
+  <br>
+  <i>Below, each tier is broken down into its own section for more details.</i>
+</div>
+
 ---------------
 
 ## Table of Contents
@@ -19,6 +29,7 @@ Consult this guideline for detailed information on the categorization of each ti
 - [Bronze Tier Project](#bronze-tier-project)
   - [Silver & Bronze Additional Requirements](#silver--bronze-additional-requirements)
 - [Optimized Tier Project](#optimized-tier-project)
+- [Non-PRG Project (None)](#non-prg-project)
 - [Profile PRG Collection](#profile-prg-collection)
 - [Resources](#resources)
 
@@ -123,10 +134,18 @@ Consult this guideline for detailed information on the categorization of each ti
 </a>
 
 - This is considered a "uncategorized" tier project included in your **PRG Collection**.
-  - Use this badge to output your project in your **PRG Collection** tier table if you have a project that doesn't fit into any of the other tiers.
+  - Use this badge to output your project in your **PRG Collection** tier table if you have a project that doesn't fit into any of the other tiers but you still want to include it in your **PRG Collection**.
   - By default, if all repositories are brought in without a **PRG Connection File** file, they will be considered **Optimized**.
 
-  <a id="profile-prg-collection"></a>
+<a id="non-prg-project"></a>
+
+## ![#7A7A7A](https://via.placeholder.com/15/7A7A7A/000000?text=+) Non-PRG Project (None)
+
+- This is not a category, but rather a lack of one - your average GitHub repository.
+- This is a project that does not follow the **Personal Repository Guidelines (PRG)**.
+- It is considered unoptimized and will not be included in your **PRG Collection** unless you add a **PRG Connection File** (unless the flags are configured to bring it in, and if that is the case, it will come over as **Optimized**).
+
+<a id="profile-prg-collection"></a>
 
 ## ![#680F7F](https://via.placeholder.com/15/680F7F/000000?text=+) Profile PRG Collection
 

@@ -361,7 +361,7 @@ As one GitHub user points out in this great article on the problem, [How I Organ
 
 >"The issue is that all of these repositories are on the same level. There is no order, no differentiation between them. They just sort of exist on the user profile." -Andrei Cioara
 
-**PRG** was designed to solve this problem by categorizing your repositories into five tiers and then showcasing them in a project tier table for your **GitHub Portfolio**.
+**PRG** was designed to solve this problem by categorizing your repositories into five tiers and then showcasing them in a project tier table for your **PRG Portfolio**.
 
 > [!IMPORTANT] 
 > View the [Resources](#general-resources) section for more information around **GitHub Portfolios**.
@@ -385,7 +385,7 @@ Here are some definitions to help you understand the terminology used in this do
 - <ins><b>Project Tier Table Generator (PyRG)</b></ins>: A Python script and GitHub Action that is used to automatically generate a **Project Tier Table** for your **PRG Collection**.
 - <ins><b>Tier Badge</b></ins>: A badge that is placed at the top of each repository `README` to indicate the tier of the repository.
 - <ins><b>Tier Template</b></ins>: A template for your repositories that is used to standardize your `README` and repository structure.
-- <ins><b>GitHub Portfolio</b></ins>: Your entire collection of repositories on GitHub that you want to showcase for your developer portfolio.
+- <ins><b>GitHub Portfolio</b></ins>: Your entire collection of repositories on GitHub that you want to showcase for your developer portfolio (PRG and non-PRG repositories).
 - <ins><b>GitHub Portfolio Problem</b></ins>: The problem of showcasing and categorizing specific repositories for your **GitHub Portfolio**.
 - <ins><b>README Driven Development (RDD)</b></ins>: A methodology that forces you to think about what you're trying to build before you begin writing code. The practice of RDD is to write the `README` before writing any code.
 - <ins><b>README</b></ins>: A markdown file that is placed in the root of each of your repositories that is used to describe your project.
@@ -429,7 +429,7 @@ To begin, follow these steps:
    > The tier you chose to use in the **PRG Connection File** should match the tier badge you use in your `README`.
 6. Implement GitHub Actions to automate the creation of your project tier table.
    > Additional guidance is available in the [Table Generator Guide - GitHub Actions Workflow](./categories/table_generator_guide.md#github-actions-workflow).
-7. Set up and deploy GitHub Pages to display your project tier table for your **GitHub Portfolio**.
+7. Set up and deploy GitHub Pages to display your project tier table for your **PRG Portfolio**.
    > Refer to the [Table Generator Guide - GitHub Pages Deployment](./categories/table_generator_guide.md#github-pages-deployment) for setup instructions.
 8. Incorporate the **PRG Collection Badge** into your GitHub profile `README`.
    > Reference the [Badge Reference Guide - Profile Badges](./categories/badge_reference_guide.md#profile-badges) to gather the appropriate badge for your repository.
@@ -501,7 +501,16 @@ To solve the **"GitHub Portfolio Problem"** above and to distinguished the quali
 ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold** <br> 
 ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver** <br> 
 ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze** <br>   
-![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) **Optimized** (uncategorized) <br> 
+![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) **Optimized** (included in PRG, but not within a specific tier) <br> 
+![#7A7A7A](https://via.placeholder.com/15/7A7A7A/000000?text=+) **None** (uncategorized, your average non-PRG repo on GitHub) <br> 
+
+<div align="center">
+  <a href="https://prgoptimized.com" target="_blank">
+    <img src="./docs/images/demo/tier_graphic.png" alt="Tier Graphic" style="width: 75%; margin: 5px;">
+  </a>
+  <br>
+  <i><b>PRG</b> uses project tiers to categorize your repositories for your <b>PRG Portfolio</b>.</i>
+</div>
 
 ### PRG Connection File
 
@@ -562,7 +571,7 @@ To solve the **"GitHub Portfolio Problem"** above and to distinguished the quali
 #### ![#680F7F](https://via.placeholder.com/13/680F7F/000000?text=+) PRG Collection Badge
 
 - The **PRG Collection Badge** should be prominently displayed in your GitHub profile `README` to indicate that you are using **PRG** to categorize your repositories.
-- This badge will link to your project tier table for your **GitHub Portfolio**, clearly displaying your categorized repositories and closing the loop on the **GitHub Portfolio Problem**.
+- This badge will link to your project tier table for your **PRG Portfolio**, clearly displaying your categorized repositories and closing the loop on the **GitHub Portfolio Problem**.
 
 <a href="https://prgoptimized.com" target="_blank">
     <img src="./docs/images/prg_optimized.png" alt="PRG Optimized Logo" width="138" height="51"/>
@@ -596,7 +605,7 @@ Consult the [Category Guidelines](./guidelines/category_guidelines.md) for more 
 </div>
 <br>
 
-**PyRG** is a `Python` implementation of the **PRG** system. It is a simple `Python` script that allows you to easily create a project tier table for your **GitHub Portfolio**. Also included is a GitHub Action CI/CD workflow that will automatically generate a table of all your repositories and their **PRG** tiers to deploy to GitHub Pages in order to showcase your projects/portfolio.
+**PyRG** is a `Python` implementation of the **PRG** system. It is a simple `Python` script that allows you to easily create a project tier table for your **PRG Portfolio**. Also included is a GitHub Action CI/CD workflow that will automatically generate a table of all your repositories and their **PRG** tiers to deploy to GitHub Pages in order to showcase your projects/portfolio.
 
 Consult the [Table Generator Guide](./categories/table_generator_guide.md) for more details on how to setup the project tier table generator using GitHub Actions and GitHub Pages.
 
@@ -660,7 +669,7 @@ The following templates are provided for you to use in your repositories. These 
 ## Project Templates
 
 Consult the [Template Guide](./templates/template_guide.md) for more details on how to use the provided templates.
-  - Templates are broken down by the four (categorized) tiers of projects: ![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) **Platinum**, ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze**.
+  - Templates are broken down by the four (main) tiers of projects: ![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) **Platinum**, ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze**.
   - See the following related template repositories for each tier:
  
   | Icon | Tier | Template Repository |

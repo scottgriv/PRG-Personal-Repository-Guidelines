@@ -31,6 +31,7 @@ if GITHUB_TOKEN is None:
     sys.exit(1)
 
 # Required Configurations - PRG Collection URL, and Timezone:
+PRG_REPO_URL = f'https://github.com/scottgriv/PRG-Personal-Repository-Guidelines' # URL to the PRG repo main branch
 TIER_TABLE_URL = f'https://prgoptimized.com' # URL to the project tier table using GitHub Pages (update this if you're using a custom domain)
 MY_TIME_ZONE = 'America/New_York' # Your timezone (used for the last updated timestamp) for local testing, otherwise it will use an environment variable for GitHub Actions.
 # For a list of timezones: https://gist.github.com/heyalexej/8bf688fd67d7199be4a1682b3eec7568
@@ -89,7 +90,7 @@ def create_repo_badges(username):
     repo_badge_template = f"""
 
 <div align="center">
-    <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
+    <a href="{PRG_REPO_URL}" target="_blank">
         <img src="../docs/images/icon_2-rounded.png" width="200" height="200"/>
     </a>
 </div>
@@ -97,7 +98,7 @@ def create_repo_badges(username):
 <h1 align="center">Badge Reference Guide</h1>
 
 Utilize this file as a template for collecting and incorporating badges into your project `README` files.
-- Execute the GitHub action workflow to automatically modify badge links, directing them to your **PRG Collection's** website/domain.
+- Execute the GitHub action workflow to automatically modify badge links, directing them to your **PRG Portfolios's** website/domain.
 - Before initiating the workflow, ensure you update the `TIER_TABLE_URL` parameter in the `project_tier_table_generator.py` script.
 
 ---------------
@@ -177,23 +178,23 @@ Add the following badge to your profile `README` to showcase your **PRG Collecti
 ### ![#680F7F](https://via.placeholder.com/13/680F7F/000000?text=+) PRG Collection Badge (Optimized) (_Default_)
 
 <a href="{TIER_TABLE_URL}" target="_blank">
-    <img src="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_optimized.png" alt="Collection" width="138" height="51" />
+    <img src="{PRG_REPO_URL}/raw/main/docs/images/prg_optimized.png" alt="Collection" width="138" height="51" />
 </a>
 
 <a id="prg-collection-badge-collection"></a>
 
 ### ![#680F7F](https://via.placeholder.com/13/680F7F/000000?text=+) PRG Collection Badge (Collection) 
 
-<a href="https://prgoptimized.com" target="_blank">
-    <img src="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_collection.png" alt="Collection" width="138" height="51" />
+<a href="{TIER_TABLE_URL}" target="_blank">
+    <img src="{PRG_REPO_URL}/raw/main/docs/images/prg_collection.png" alt="Collection" width="138" height="51" />
 </a>
 
 <a id="prg-collection-badge-portfolio"></a>
 
 ### ![#680F7F](https://via.placeholder.com/13/680F7F/000000?text=+) PRG Collection Badge (Portfolio) 
 
-<a href="https://prgoptimized.com" target="_blank">
-    <img src="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_portfolio.png" alt="Collection" width="138" height="51" />
+<a href="{TIER_TABLE_URL}" target="_blank">
+    <img src="{PRG_REPO_URL}/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_portfolio.png" alt="Collection" width="138" height="51" />
 </a>
 
 ## Alternative Profile Badges
@@ -547,18 +548,30 @@ try:
                 else:
                     print(f"Icon found for {repo_data['name']}!")
 
+                # Check if the repo has a homepage URL, if so, use it as the icon link, otherwise, use the repo URL
+                # If the repo is private, use the homepage, otherwise, use the PRG repo default URL
                 if repo_data['homepage']:
                     icon = f'<a href="{repo_data["homepage"]}" class="icon-container" target="_blank"><img src="{icon_url}" width="100" height="100" alt="Icon"></a>'
                 else:
-                    icon = f'<a href="{repo_data["url"]}" class="icon-container" target="_blank"><img src="{icon_url}" width="100" height="100" alt="Icon"></a>'
+                    if repo['private']:
+                        icon = f'<a href="{PRG_REPO_URL}" class="icon-container" target="_blank"><img src="{icon_url}" width="100" height="100" alt="Icon"></a>'
+                    else:
+                        icon = f'<a href="{repo_data["url"]}" class="icon-container" target="_blank"><img src="{icon_url}" width="100" height="100" alt="Icon"></a>'
                 
-                # Handle organization special repo case
+                # Handle organization special repo case for .github repo name
                 if repo_data['name'] == '.github':
                         repo_data['name'] = owner
                         repo_data['url'] = f'https://github.com/{owner}/.github/blob/main/profile/README.md'
                 
-                # icon = f'<a href="{repo_data["url"]}" target="_blank"><img src="{icon_url}" width="100" height="100" alt="Icon"></a>'
-                name = f'<a href="{repo_data["url"]}" target="_blank">{repo_data["name"]}</a>'
+                # Get the repo name with a link to the repo
+                # If the repo is private, use the homepage if it exists, otherwise, the PRG repo default URL
+                if repo['private']:
+                    if repo_data['homepage']:
+                        name = f'<a href="{repo_data["homepage"]}" target="_blank">{repo_data["name"]}</a>'
+                    else:
+                        name = f'<a href="{PRG_REPO_URL}" target="_blank">{repo_data["name"]}</a>'
+                else:
+                    name = f'<a href="{repo_data["url"]}" target="_blank">{repo_data["name"]}</a>'
 
             # Get owner profile URL
             owner_url = f'<a href="https://github.com/{owner}" target="_blank">@{owner}</a>'

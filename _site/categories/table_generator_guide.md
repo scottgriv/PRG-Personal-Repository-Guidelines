@@ -35,8 +35,9 @@ In order to get the **PRG** system to work, you must perform the following pre-r
 
 ### PRG Connection File
 
-1. In each repository, inside the root project folder, there should be a markdown file called `PRG.md`.
-  - See the **PRG Connection File** used in this repo, [here](../PRG.md), for an example and more information on how to use it.
+1. In each repository, inside the root project folder, there should be a **PRG Connection File** (or PRGCF for short).
+  - The file should be a markdown file called `PRG.md`.
+    - See the **PRG Connection File** used in this repo, [here](../PRG.md), for an example and more information on how to use it.
   - Follow the instructions in the file to configure your repository.
   - The file name and path can be changed in the `project_tier_table_generator.py` script (default path is your project root directory).
 
@@ -206,4 +207,3 @@ See [Badge Reference Guide](../categories/badge_reference_guide.md) for more det
 - [GitHub Pages: Generate SSL certificate for www subdomain](https://github.com/isaacs/github/issues/1675) - GitHub Pages SSL Certificate Generation Discussion
 - [Securing your GitHub Pages site with HTTPS](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https) - GitHub Pages HTTPS Configuration
 - [Quickstart for GitHub REST API](https://docs.github.com/en/rest/quickstart?apiVersion=2022-11-28) - Learn how to get started with the GitHub REST API.
-

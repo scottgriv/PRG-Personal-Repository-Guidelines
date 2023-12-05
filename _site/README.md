@@ -379,7 +379,7 @@ Here are some definitions to help you understand the terminology used in this do
 - <ins><b>PRG</b></ins>: An acronym for **Personal Repository Guidelines**.
 - <ins><b>PRG Optimized</b></ins>: A repository/project that is categorized using the **PRG** system.
 - <ins><b>PRG Collection (aka PRG Portfolio)</b></ins>: The entire collection of repositories that are categorized using **PRG**.
-- <ins><b>PRG Connection File</b></ins>: [A special markdown file](PRG.md) placed in the root of each of your repositories that is used to categorize your repositories using **PRG**.
+- <ins><b>PRG Connection File (aka PRGCF)</b></ins>: [A special markdown file](PRG.md) placed in the root of each of your repositories that is used to categorize your repositories using **PRG**.
 - <ins><b>Project Tier</b></ins>: A tier/rank that is assigned to a repository based on the information in the **PRG Connection File** file.
 - <ins><b>Project Tier Table</b></ins>: A table that is automatically generated using GitHub Actions and hosted using GitHub Pages that displays your **PRG Collection**.
 - <ins><b>Project Tier Table Generator (PyRG)</b></ins>: A Python script and GitHub Action that is used to automatically generate a **Project Tier Table** for your **PRG Collection**.
@@ -505,7 +505,7 @@ To solve the **"GitHub Portfolio Problem"** above and to distinguished the quali
 ![#7A7A7A](https://via.placeholder.com/15/7A7A7A/000000?text=+) **None** (uncategorized, your average non-PRG repo on GitHub) <br> 
 
 <div align="center">
-  <a href="https://prgoptimized.com" target="_blank">
+  <a href="./guidelines/category_guidelines.md" target="_blank">
     <img src="./docs/images/demo/tier_graphic.png" alt="Tier Graphic" style="width: 75%; margin: 5px;">
   </a>
   <br>
@@ -514,7 +514,7 @@ To solve the **"GitHub Portfolio Problem"** above and to distinguished the quali
 
 ### PRG Connection File
 
-**PRG** achieves this by utilizing GitHub Actions to automatically create a project tier table based on a simple markdown file ([PRG Connection File](PRG.md)) placed in the root of each of your repositories.
+**PRG** achieves this by utilizing GitHub Actions to automatically create a project tier table based on a simple markdown file ([PRG Connection File](PRG.md)) or (PRGCF for short) placed in the root of each of your repositories.
 
 ### Tier Badges
 

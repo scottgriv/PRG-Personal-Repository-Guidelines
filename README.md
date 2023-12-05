@@ -505,7 +505,7 @@ To solve the **"GitHub Portfolio Problem"** above and to distinguished the quali
 ![#7A7A7A](https://via.placeholder.com/15/7A7A7A/000000?text=+) **None** (uncategorized, your average non-PRG repo on GitHub) <br> 
 
 <div align="center">
-  <a href="https://prgoptimized.com" target="_blank">
+  <a href="./guidelines/category_guidelines.md" target="_blank">
     <img src="./docs/images/demo/tier_graphic.png" alt="Tier Graphic" style="width: 75%; margin: 5px;">
   </a>
   <br>

@@ -45,12 +45,13 @@ PROJECT_ICON_PATH = 'docs/images/PRG.png' # Path to the project icons from your 
 
 # Tip: 
 # Private repo icons cannot be reached by users that are not logged in to GitHub and have access to the private repo.
-# Therefore, the best way to show private repos with icons is to add them to your private markdown file + don't add a PRG.md file to the repo.
+# Therefore, the best way to show private repos with icons is to add them to your private markdown file, an image in the docs/images/private_repos dirextory, + don't add a PRG.md file to the repo.
+# In the future, I may add a feature to allow you to add a custom icon for private repo in the private_repos folder and pick up the image from there to solve this problem instead of adding it to the private markdown file which can be used for other things.
 
 # Configuration Flags:
 # General Configuration:
 INCLUDE_PRG_FILE_PROJECTS = True  # Set to False if you want to include projects that don't have a PRG file
-INCLUDE_PRIVATE_FILE_PROJECTS = True  # Set to False if you want to exclude projects that are in the private markdown file
+INCLUDE_PRIVATE_FILE_PROJECTS = False  # Set to False if you want to exclude projects that are in the private markdown file
 MD_ONLY_TIER_TABLE = False  # Set to True if you only want to display the tier table in the markdown file and you don't plan on hosting it on GitHub Pages
 
 # User Repo Configuration:

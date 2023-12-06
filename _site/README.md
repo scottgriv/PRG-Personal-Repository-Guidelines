@@ -33,7 +33,7 @@
 
 <div align="center">
   <a href="https://prgoptimized.com" target="_blank">
-    <img src="./docs/images/demo/demo_1.gif" alt="Demo_1" style="width: 50%; margin: 5px;">
+    <img src="./docs/images/demo/demo_1.gif" alt="Demo_1" style="width: 75%; margin: 5px;">
   </a>
   <br>
   <i><b>PRG</b> creates a HTML table to showcase your projects in your GitHub Portfolio.</i>

@@ -46,24 +46,24 @@ PROJECT_ICON_PATH = 'docs/images/PRG.png' # Path to the project icons from your 
 # Tip: 
 # Private repo icons cannot be reached by users that are not logged in to GitHub and have access to the private repo.
 # Therefore, the best way to show private repos with icons is to add them to your private markdown file, an image in the docs/images/private_repos dirextory, + don't add a PRG.md file to the repo.
-# In the future, I may add a feature to allow you to add a custom icon for private repo in the private_repos folder and pick up the image from there to solve this problem instead of adding it to the private markdown file which can be used for other things.
+# In the future, I may add a feature to allow you to add a custom icon for private repo in the private_repos folder and pick up the image from there to solve this problem instead of adding it to the private markdown file which can be used for other things (Future Enhancement).
 
 # Configuration Flags:
-# General Configuration:
+# General PRG Configurations:
 INCLUDE_PRG_FILE_PROJECTS = True  # Set to False if you want to include projects that don't have a PRG file
-INCLUDE_PRIVATE_FILE_PROJECTS = False  # Set to False if you want to exclude projects that are in the private markdown file
+INCLUDE_PRIVATE_FILE_PROJECTS = True  # Set to False if you want to exclude projects that are in the private project tier table markdown file
 MD_ONLY_TIER_TABLE = False  # Set to True if you only want to display the tier table in the markdown file and you don't plan on hosting it on GitHub Pages
 
-# User Repo Configuration:
-INCLUDE_PRIVATE_REPOS = True  # Set to False if you don't want to include private repos
+# Personal Repo Configurations:
+INCLUDE_PRIVATE_REPOS = False  # Set to False if you don't want to include private repos
 INCLUDE_FORKS = True  # Set to False if you don't want to include forked repos
 
-## Organization Repos Configuration:
+## Organizational Repo Configurations:
 INCLUDE_ORG_REPOS = True  # Set to False if you don't want to include org repos
 INCLUDE_ORG_PRIVATE_REPOS = False  # Set to False if you don't want to include private org repos (requires INCLUDE_ORG_REPOS to be True)
 INCLUDE_ORG_FORKS = True  # Set to False if you don't want to include forked org repos (requires INCLUDE_ORG_REPOS to be True)
 
-# Misc Configuration:
+# Misc Configurations:
 # EXCLUDE_REPOS_LIST = []  # List of repos to be exclude from the project tier table output (Future Enhancement). Example: ['repo1', 'repo2']
 
 # Tip: 

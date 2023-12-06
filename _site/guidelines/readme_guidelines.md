@@ -118,19 +118,32 @@ Below is a description of each section of a **PRG** `README` and what it should 
 - A banner is a custom design created to represent your project.
     - I use [Sketch](https://www.sketch.com/) to create my banners and designs, but you can use any design software you want.
     - See [Brand Guidelines](brand_guidelines.md) for more information on creating banners and other graphics for your project.
-- For **Silver/Bronze** projects, you can use a logo of the technology you used to develop your project instead of a banner. 
+- For **Silver/Bronze** projects, you can use a custom icon or a logo of the technology you used to develop your project instead of a banner. 
 
     > [!TIP]  
     > There are plenty of free logos out there for most technologies, just make sure you give credit to the creator of the logo if it's required (follow the license for the image).
 
-    - e.g. Svelte + Firebase Logos <br>
-    <img src="./docs/images/demo/svelte_logo.png" alt="Svelte" style="width: 5%; vertical-align: left;" />
-    <img src="./docs/images/demo/plus-dark.png#gh-dark-mode-only" alt="+" style="width: 5%;vertical-align: left;"/>
-    <img src="./docs/images/demo/plus-light.png#gh-light-mode-only" alt="+" style="width: 5%; vertical-align: left;" />
-    <img src="./docs/images/demo/firebase_logo.png" alt="Firebase" style="width: 5%; vertical-align: left;" />
+- e.g. My logo for my Silver Project, [UWP Audio Recorder](https://github.com/scottgriv/uwp-audio_recorder):
 
-    > [!TIP]  
-    > Append `#gh-dark-mode-only` or `#gh-light-mode-only` to the end of the image URL to only show the image in dark or light mode respectively. Be sure to have both a dark and light version of the image when necessary. More on this (shameless plug) [here](https://github.com/scottgriv/markdown-demo#images).
+<div align="center">
+    <a href="https://github.com/scottgriv/uwp-audio_recorder" target="_blank">
+        <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="../docs/images/demo/icon-dark.png">
+            <source media="(prefers-color-scheme: light)" srcset="../docs/images/demo/icon-light.png">
+            <img alt="Icon" src="../docs/images/demo/icon-dark.png" width="207" height="207">
+        </picture>
+    </a>
+</div>
+
+> [!TIP]  
+> Append `#gh-dark-mode-only` or `#gh-light-mode-only` to the end of the image URL to only show the image in dark or light mode respectively. Be sure to have both a dark and light version of the image when necessary. More on this (shameless plug) [here](https://github.com/scottgriv/markdown-demo#images).
+
+- e.g. A logo for a Bronze project that showcases JavaScript code:
+    
+<div align="center">
+    <img src="../docs/images/demo/javascript.png" alt="JavaScript" style="width: 15%; vertical-align: left;" />
+</div>
+<br>
 
 - The header icon or banner should always be clickable and take you to your project's website/product/demo.
     - If you do not have a website/product/demo, you should link it to your projects repository main branch.

@@ -30,8 +30,8 @@ if GITHUB_TOKEN is None:
     print("GitHub token is not set. Set the GITHUB_TOKEN environment variable.")
     sys.exit(1)
 
-# Required Configurations - PRG Collection URL, and Timezone:
-PRG_REPO_URL = f'https://github.com/scottgriv/PRG-Personal-Repository-Guidelines' # URL to the PRG repo main branch
+# Required Configurations - PRG Portfolio URL, and Timezone:
+PRG_REPO_URL = f'https://github.com/scottgriv/PRG-Personal-Repository-Guidelines' # URL to the PRG repo (you can use your own fork if you want or the main repo)
 TIER_TABLE_URL = f'https://prgoptimized.com' # URL to the project tier table using GitHub Pages (update this if you're using a custom domain)
 MY_TIME_ZONE = 'America/New_York' # Your timezone (used for the last updated timestamp) for local testing, otherwise it will use an environment variable for GitHub Actions.
 # For a list of timezones: https://gist.github.com/heyalexej/8bf688fd67d7199be4a1682b3eec7568
@@ -41,33 +41,35 @@ MD_FILE_PATH = f'{path_start}/categories/project_tier_table.md' # Path to the th
 MD_FILE_PATH_PRIVATE = f'{path_start}/categories/project_tier_table_private.md' # Path to the private project tier table markdown file
 MD_BADGE_REF_PATH = f'{path_start}/categories/badge_reference_guide.md' # Path to the badge reference guide markdown file
 PLACEHOLDER_ICON = f'{path_start}/docs/images/prg-placeholder.png' # Placeholder for missing icons
-PROJECT_ICON_PATH = 'docs/images/PRG.png' # Path to the project icons from your root directory of your repository (don't adjust for local testing)
+PROJECT_ICON_PATH = 'docs/images/PRG.png' # Path to the project icons from your root directory of your repository (don't adjust for local testing) 
 
-# Note: 
+# Tip: 
 # Private repo icons cannot be reached by users that are not logged in to GitHub and have access to the private repo.
-# Therefore, the best way to show private repos with icons is to add them to your private markdown file + don't add a PRG.md file to the repo.
+# Therefore, the best way to show private repos with icons is to add them to your private markdown file, an image in the docs/images/private_repos dirextory, + don't add a PRG.md file to the repo.
+# In the future, I may add a feature to allow you to add a custom icon for private repo in the private_repos folder and pick up the image from there to solve this problem instead of adding it to the private markdown file which can be used for other things (Future Enhancement).
 
 # Configuration Flags:
-# General Configuration:
-INCLUDE_PRG_FILE_PROJECTS = False  # Set to False if you want to include projects that don't have a PRG file
-INCLUDE_PRIVATE_FILE_PROJECTS = True  # Set to False if you want to exclude projects that are in the private markdown file
+# General PRG Configurations:
+INCLUDE_PRG_FILE_PROJECTS = True  # Set to False if you want to include projects that don't have a PRG file
+INCLUDE_PRIVATE_FILE_PROJECTS = True  # Set to False if you want to exclude projects that are in the private project tier table markdown file
 MD_ONLY_TIER_TABLE = False  # Set to True if you only want to display the tier table in the markdown file and you don't plan on hosting it on GitHub Pages
 
-# Note: 
-# If you want to exclude public projects and only include private projects, 
-# set the INCLUDE_PRIVATE_FILE_PROJECTS flag to True 
-# and set the INCLUDE_PRG_FILE_PROJECTS to False (and don't add PRG.md files to your public projects)
-
-# User Repo Configuration:
+# Personal Repo Configurations:
 INCLUDE_PRIVATE_REPOS = False  # Set to False if you don't want to include private repos
 INCLUDE_FORKS = True  # Set to False if you don't want to include forked repos
 
-## Organization Repos Configuration:
+## Organizational Repo Configurations:
 INCLUDE_ORG_REPOS = True  # Set to False if you don't want to include org repos
 INCLUDE_ORG_PRIVATE_REPOS = False  # Set to False if you don't want to include private org repos (requires INCLUDE_ORG_REPOS to be True)
 INCLUDE_ORG_FORKS = True  # Set to False if you don't want to include forked org repos (requires INCLUDE_ORG_REPOS to be True)
 
+# Misc Configurations:
 # EXCLUDE_REPOS_LIST = []  # List of repos to be exclude from the project tier table output (Future Enhancement). Example: ['repo1', 'repo2']
+
+# Tip: 
+# If, for some reason, you want to exclude public projects and only include private projects:
+# set the INCLUDE_PRIVATE_FILE_PROJECTS flag to True 
+# and set the INCLUDE_PRG_FILE_PROJECTS to False (and don't add PRG.md files to your public projects)
 
 # Badges URLs:
 BADGES = {
@@ -378,6 +380,7 @@ try:
         data['size'] = repo['size']
         data['homepage'] = repo['homepage']
         data['owner'] = owner
+        data['private'] = repo['private']
 
         # Fetching the content of PRG.md to determine the tier
             # Adjust the URL to point to the correct path of the PRG.md file (if it is not in the root directory)
@@ -553,7 +556,7 @@ try:
                 if repo_data['homepage']:
                     icon = f'<a href="{repo_data["homepage"]}" class="icon-container" target="_blank"><img src="{icon_url}" width="100" height="100" alt="Icon"></a>'
                 else:
-                    if repo['private']:
+                    if repo_data['private']:
                         icon = f'<a href="{PRG_REPO_URL}" class="icon-container" target="_blank"><img src="{icon_url}" width="100" height="100" alt="Icon"></a>'
                     else:
                         icon = f'<a href="{repo_data["url"]}" class="icon-container" target="_blank"><img src="{icon_url}" width="100" height="100" alt="Icon"></a>'
@@ -565,7 +568,7 @@ try:
                 
                 # Get the repo name with a link to the repo
                 # If the repo is private, use the homepage if it exists, otherwise, the PRG repo default URL
-                if repo['private']:
+                if repo_data['private']:
                     if repo_data['homepage']:
                         name = f'<a href="{repo_data["homepage"]}" target="_blank">{repo_data["name"]}</a>'
                     else:

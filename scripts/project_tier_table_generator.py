@@ -545,6 +545,7 @@ try:
                     icon_response = requests.get(icon_url)
                     if icon_response.status_code != 200 or repo_data['size'] == 0:
 
+                        # Check if the repo is private to use the private repo icon (Issue #3)
                         if repo_data['private']:
                             # Construct the expected icon file path
                             expected_icon_path = os.path.join(PRIVATE_REPO_ICON_DIR, f"{repo_data['name']}.png")

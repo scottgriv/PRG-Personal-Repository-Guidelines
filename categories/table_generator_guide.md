@@ -207,3 +207,4 @@ See [Badge Reference Guide](../categories/badge_reference_guide.md) for more det
 - [GitHub Pages: Generate SSL certificate for www subdomain](https://github.com/isaacs/github/issues/1675) - GitHub Pages SSL Certificate Generation Discussion
 - [Securing your GitHub Pages site with HTTPS](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https) - GitHub Pages HTTPS Configuration
 - [Quickstart for GitHub REST API](https://docs.github.com/en/rest/quickstart?apiVersion=2022-11-28) - Learn how to get started with the GitHub REST API.
+- [Font Awesome](https://fontawesome.com/) - Font and Icon Toolkit used for the footer icons.

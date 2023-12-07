@@ -41,7 +41,8 @@ MD_FILE_PATH = f'{path_start}/categories/project_tier_table.md' # Path to the th
 MD_FILE_PATH_PRIVATE = f'{path_start}/categories/project_tier_table_private.md' # Path to the private project tier table markdown file
 MD_BADGE_REF_PATH = f'{path_start}/categories/badge_reference_guide.md' # Path to the badge reference guide markdown file
 PLACEHOLDER_ICON = f'{path_start}/docs/images/prg-placeholder.png' # Placeholder for missing icons
-PROJECT_ICON_PATH = 'docs/images/PRG.png' # Path to the project icons from your root directory of your repository (don't adjust for local testing) 
+PRIVATE_REPO_ICON_DIR = f'{path_start}/docs/images/private_repos' # Path to the private repo icons from your root directory of your repository (don't adjust for local testing)
+PROJECT_ICON_PATH = 'docs/images/PRG.png' # Path to the project icon from the root directory of your repositories (don't adjust for local testing) 
 
 # Tip: 
 # Private repo icons cannot be reached by users that are not logged in to GitHub and have access to the private repo.
@@ -544,10 +545,29 @@ try:
                     icon_response = requests.get(icon_url)
                     if icon_response.status_code != 200 or repo_data['size'] == 0:
 
-                        print(f"No icon found for {repo_data['name']} or the repository is empty, using a placeholder.")
-                        if MD_ONLY_TIER_TABLE:
-                            path_start = '..'
-                        icon_url = PLACEHOLDER_ICON
+                        if repo_data['private']:
+                            # Construct the expected icon file path
+                            expected_icon_path = os.path.join(PRIVATE_REPO_ICON_DIR, f"{repo_data['name']}.png")
+
+                            # Check if the icon file exists
+                            if os.path.isfile(expected_icon_path):
+                                # Use the relative path from your project root to the icon
+                                if MD_ONLY_TIER_TABLE:
+                                    path_start = '..'
+                                icon_url = f"{PRIVATE_REPO_ICON_DIR}/{repo_data['name']}.png"
+                                print(f"Using private repo icon for {repo_data['name']}.")
+                            else:
+                                # Use placeholder if the icon file does not exist
+                                if MD_ONLY_TIER_TABLE:
+                                    path_start = '..'
+                                icon_url = PLACEHOLDER_ICON
+                                print(f"Icon not found for private repo {repo_data['name']}, using placeholder.")
+
+                        else:
+                            print(f"No icon found for {repo_data['name']} or the repository is empty, using a placeholder.")
+                            if MD_ONLY_TIER_TABLE:
+                                path_start = '..'
+                            icon_url = PLACEHOLDER_ICON
                 else:
                     print(f"Icon found for {repo_data['name']}!")
 
@@ -572,7 +592,7 @@ try:
                     if repo_data['homepage']:
                         name = f'<a href="{repo_data["homepage"]}" target="_blank">{repo_data["name"]}</a>'
                     else:
-                        name = f'<a href="{PRG_REPO_URL}" target="_blank">{repo_data["name"]}</a>'
+                        name = f'<a href="https://github.com/{owner}" target="_blank">{repo_data["name"]}</a>'
                 else:
                     name = f'<a href="{repo_data["url"]}" target="_blank">{repo_data["name"]}</a>'
 

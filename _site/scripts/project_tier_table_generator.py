@@ -55,12 +55,12 @@ INCLUDE_PRIVATE_FILE_PROJECTS = True  # Set to False if you want to exclude proj
 MD_ONLY_TIER_TABLE = False  # Set to True if you only want to display the tier table in the markdown file and you don't plan on hosting it on GitHub Pages
 
 # Personal Repo Configurations:
-INCLUDE_PRIVATE_REPOS = False  # Set to False if you don't want to include private repos
+INCLUDE_PRIVATE_REPOS = True  # Set to False if you don't want to include private repos
 INCLUDE_FORKS = True  # Set to False if you don't want to include forked repos
 
 ## Organizational Repo Configurations:
 INCLUDE_ORG_REPOS = True  # Set to False if you don't want to include org repos
-INCLUDE_ORG_PRIVATE_REPOS = False  # Set to False if you don't want to include private org repos (requires INCLUDE_ORG_REPOS to be True)
+INCLUDE_ORG_PRIVATE_REPOS = True  # Set to False if you don't want to include private org repos (requires INCLUDE_ORG_REPOS to be True)
 INCLUDE_ORG_FORKS = True  # Set to False if you don't want to include forked org repos (requires INCLUDE_ORG_REPOS to be True)
 
 # Misc Configurations:

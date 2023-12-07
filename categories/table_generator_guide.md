@@ -18,7 +18,7 @@
 - [Python Build Script (PyRG)](#python-build-script-pyrg)
   - [Table Configuration](#table-configuration)
   - [Time Zone & Schedule Configuration](#time-zone--schedule-configuration)
-  - [Private or Closed Source Projects](#private-or-closed-source-projects)
+  - [Private Repositories and External Projects](#private-repositories-and-external-projects)
   - [Script Customization](#script-customization)
 - [GitHub Actions Workflow](#github-actions-workflow)
   - [Project Tier Table (Output) and Private Project Tier Table (Input)](#project-tier-table-output-and-private-project-tier-table-input)
@@ -83,7 +83,7 @@ In order to get the **PRG** system to work, you must perform the following pre-r
 ### Table Configuration
 
 - The build script that generates the project tier table is located in the `scripts` folder called [project_tier_table_generator.py](../scripts/project_tier_table_generator.py).
-- There are a number of configuration flags on the top of the script that you can set to customize the output of the table to your liking.
+- There are a number of configuration flags at the top of the script that you can set to customize the output of the table to your liking.
   - For example, you can exclude repositories from the project tier table completely by setting the `INCLUDE_PRG_FILE_PROJECTS` flag to `True` and not including a **PRG Connection File** in the root of the project.
 - The config file for Jekyll/GitHub Pages is located in the `_config.yml` file in the root of the project.
   - There are a number of titles and descriptions you can set to customize the output of the table to your liking.
@@ -97,13 +97,17 @@ The time zone will be updated on the bottom of the table to reflect the time zon
 - The script will run on a weekly basis (Sunday's at 12:00 AM - defined using a cron expression in the workflow file).
 - The script can also be run manually by clicking on the `Run workflow` button in the `Actions` tab in your repository.
 
-### Private or Closed Source Projects
+### Private Repositories and External Projects
 
-- If you have private or closed source projects, you can still use the **PRG** system.
-- You can manually add projects that are not on GitHub or are private (and/or excluded in the config flags) by adding them to the `categories/project_tier_table_private.md` file.
-  - Add images used in this private table in the `docs/images/private_repos` folder.
+- If you have private/closed source or external projects, you can still use the **PRG** system.
+- You can manually add external projects that are not on GitHub by adding them to the `categories/project_tier_table_private.md` file.
+- Private repositories that are on GitHub will be picked up if configured to do so in the script.
+  - Add icons for for your projects (private and external) in the `docs/images/private_repos` folder.
   - Projects in this file will be consolidated into the main table when the workflow runs.
   
+> [!IMPORTANT]
+> Even though the API can pick up private repositories, it will not be able to point to the repository URL to get the icon since it is private.
+
 ### Script Customization
 
 You can customize your build script however you want if you want to categorize your project tier table further.

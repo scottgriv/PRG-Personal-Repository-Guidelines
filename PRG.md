@@ -28,7 +28,8 @@ This file is used to connect this repository to the **PRG** project categorizati
 
 This file connects this repository to the **PRG** guideline and categorization system.
 - Include this file in your projects root folder for this repo to properly connect to your PRG system.
-- To include private repos (if configured to ignore private repos in the script) or an external project outside of GitHub, add them to the `categories/project_tier_table_private.md` table manually following the structure of the table.
+- To include external projects outside of GitHub (if configured to not ignore private projects in the script), add them to the `categories/project_tier_table_private.md` table manually following the structure of the table.
+- To include private repositories within GitHub (if configured to not ignore private repositories in the script), optionally include a icon for your private repo in the `images` folder and add them to the `categories/project_tier_table_private.md` table manually following the structure of the table.
 
 > [!CAUTION]
 > Lines 7-10 are mapped in the `scripts/project_tier_table.py` script to the PRG system. Do not move or change these lines without adjusting the script to account for this change.

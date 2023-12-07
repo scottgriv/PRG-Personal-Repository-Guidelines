@@ -31,13 +31,14 @@ This file connects this repository to the **PRG** guideline and categorization s
 - Follow the instructions in the [PRG-Personal-Repository-Guidelines - Table Generator Guide](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/categories/table_generator_guide.md) for more information on how to use the **PRG** system and **PRG Connection File (PRGCF)**.
 
 > [!CAUTION]
-> Lines 7-10 are mapped in the `scripts/project_tier_table.py` script to the PRG system. Do not move or change these lines without adjusting the script to account for this change.
+> Lines 15-18 are mapped in the `scripts/project_tier_table.py` script to the PRG system. Do not move or change these lines without adjusting the script to account for this change.
 
-## Visit the Official PRG Repository and Website
+## Resources
 
-Visit the official [Personal Repository Guidelines (PRG)](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines) repository for more details.
-
-Visit the official [The Official PRG Website](https://prgoptimized.com) to add your GitHub to the **PRG Showcase**.
+- Visit the official [Personal Repository Guidelines (PRG)](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines) repository for more details.
+- Visit an example of the [PRG Portfolio](https://prgportfolio.com) website to see how the **PRG** system can be used to create a portfolio of your projects.
+- Visit the [PRG Website](https://github.com/scottgriv/PRG-Website) repository to add your GitHub account name to the **PRG Showcase**.
+- Visit the official [PRG Website](https://prgoptimized.com) view the current **PRG Showcase**.
 
 <p align="center">
     <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">

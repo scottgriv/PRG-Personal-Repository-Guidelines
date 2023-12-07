@@ -52,7 +52,7 @@ PROJECT_ICON_PATH = 'docs/images/PRG.png' # Path to the project icon from the ro
 # Configuration Flags:
 # General PRG Configurations:
 INCLUDE_PRG_FILE_PROJECTS = True  # Set to False if you want to include projects that don't have a PRG file
-INCLUDE_PRIVATE_FILE_PROJECTS = True  # Set to False if you want to exclude projects that are in the private project tier table markdown file
+INCLUDE_PRIVATE_FILE_PROJECTS = False  # Set to False if you want to exclude projects that are in the private project tier table markdown file
 MD_ONLY_TIER_TABLE = False  # Set to True if you only want to display the tier table in the markdown file and you don't plan on hosting it on GitHub Pages
 
 # Personal Repo Configurations:

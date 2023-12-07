@@ -78,6 +78,7 @@
     - [![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) Bronze Tier Template](https://github.com/scottgriv/PRG-Bronze-Tier-Template)
   - [License Templates](#license-templates)
 - [Closing](#closing)
+  - [PRG Showcase](#prg-showcase)
 - [What's Next?](#whats-next)
 - [Project](#project)
 - [Contributing](#contributing)
@@ -380,6 +381,7 @@ Here are some definitions to help you understand the terminology used in this do
 - <ins><b>PRG Optimized</b></ins>: A repository/project that is categorized using the **PRG** system.
 - <ins><b>PRG Collection (aka PRG Portfolio)</b></ins>: The entire collection of repositories that are categorized using **PRG**.
 - <ins><b>PRG Connection File (aka PRGCF)</b></ins>: [A special markdown file](PRG.md) placed in the root of each of your repositories that is used to categorize your repositories using **PRG**.
+- <ins><b>PRG Showcase</b></ins>: A showcase of publically known users who are using **PRG** to categorize their repositories. [Visit The Official PRG Website](https://prgoptimized.com) to view and add your name to the showcase.
 - <ins><b>Project Tier</b></ins>: A tier/rank that is assigned to a repository based on the information in the **PRG Connection File** file.
 - <ins><b>Project Tier Table</b></ins>: A table that is automatically generated using GitHub Actions and hosted using GitHub Pages that displays your **PRG Collection**.
 - <ins><b>Project Tier Table Generator (PyRG)</b></ins>: A Python script and GitHub Action that is used to automatically generate a **Project Tier Table** for your **PRG Collection**.
@@ -704,6 +706,10 @@ Use or add more licenses to the [License Example Directory](templates/license_ex
 Thank you for taking the time to read through this document and I hope you find it useful!
 If you have any questions or suggestions, please feel free to reach out to me.
 > Please reference the [SUPPORT](.github/SUPPORT.md) file in this repository for more details.
+
+### PRG Showcase
+
+If you would like to add your **PRG Portfolio** to the **PRG Showcase**, please open a pull request with your information added to the [PRG Official Website Repository](https://github.com/scottgriv/PRG-Website) in order to be viewed on the [The Official PRG Website](https://prgoptimized.com).
 
 ## What's Next?
 

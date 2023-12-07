@@ -19,6 +19,8 @@
   - [Table Configuration](#table-configuration)
   - [Time Zone & Schedule Configuration](#time-zone--schedule-configuration)
   - [Private Repositories and External Projects](#private-repositories-and-external-projects)
+    - [Private Repositories](#private-repositories)
+    - [External Projects](#external-projects)
   - [Script Customization](#script-customization)
 - [GitHub Actions Workflow](#github-actions-workflow)
   - [Project Tier Table (Output) and Private Project Tier Table (Input)](#project-tier-table-output-and-private-project-tier-table-input)
@@ -99,14 +101,26 @@ The time zone will be updated on the bottom of the table to reflect the time zon
 
 ### Private Repositories and External Projects
 
-- If you have private/closed source or external projects, you can still use the **PRG** system.
-- You can manually add external projects that are not on GitHub by adding them to the `categories/project_tier_table_private.md` file.
+If you have private/closed source or external (non-GitHub) projects, you can still use the **PRG** system.
+
+
+#### Private Repositories
+
 - Private repositories that are on GitHub will be picked up if configured to do so in the script.
-  - Add icons for for your projects (private and external) in the `docs/images/private_repos` folder.
-  - Projects in this file will be consolidated into the main table when the workflow runs.
+  - Add icons for for your private repositories in the `docs/images/private_repos` folder.
+    - For private repositories, you must name the icon the same as the repository name (case sensitive), otherwise the placeholder image will be used.
   
-> [!IMPORTANT]
-> Even though the API can pick up private repositories, it will not be able to point to the repository URL to get the icon since it is private.
+  > [!IMPORTANT]
+  > Even though the API can pick up private repositories, it will not be able to point to the repository URL to get the icon since it is private so you will have to manually add the icon to the `docs/images/private_repos` folder and name it the same as the repository name (case sensitive).
+
+
+#### External Projects
+
+- You can manually add external projects that are not on GitHub by adding them to the `categories/project_tier_table_private.md` file.
+  - Follow the same format as the example placeholder repository in the file.
+  - Add icons for for your external projects in the `docs/images/private_repos` folder (same as private repositories).
+    - For external projects, you can name the icon whatever you want, just make sure you update the 
+  - Projects in this file will be consolidated into the main table when the workflow runs.
 
 ### Script Customization
 

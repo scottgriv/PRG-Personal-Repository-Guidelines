@@ -537,40 +537,41 @@ try:
                 owner = repo_data['owner_html']
             else: 
                 owner = repo_data['owner']
-                icon_url = f'https://github.com/{owner}/{repo_data["name"]}/raw/main/{PROJECT_ICON_PATH}'
-                icon_response = requests.get(icon_url)
-                if icon_response.status_code != 200 or repo_data['size'] == 0:
+                # Check if the repo is private to use the private repo icon (Issue #3)
+                if repo_data['private']:
+                    # Construct the expected icon file path
+                    expected_icon_path = os.path.join(PRIVATE_REPO_ICON_DIR, f"{repo_data['name']}.png")
 
-                    icon_url = f'https://github.com/{owner}/{repo_data["name"]}/raw/master/{PROJECT_ICON_PATH}'
+                    # Check if the icon file exists
+                    if os.path.isfile(expected_icon_path):
+                        # Use the relative path from your project root to the icon
+                        if MD_ONLY_TIER_TABLE:
+                            path_start = '..'
+                        icon_url = f"{PRIVATE_REPO_ICON_DIR}/{repo_data['name']}.png"
+                        print(f"Using private repo icon for {repo_data['name']}.")
+                    else:
+                        # Use placeholder if the icon file does not exist
+                        if MD_ONLY_TIER_TABLE:
+                            path_start = '..'
+                        icon_url = PLACEHOLDER_ICON
+                        print(f"Icon not found for private repo {repo_data['name']}, using placeholder.")
+                else:
+                    # Check if the repo has a homepage URL, if so, use it as the icon link, otherwise, use the repo URL
+                    icon_url = f'https://github.com/{owner}/{repo_data["name"]}/raw/main/{PROJECT_ICON_PATH}'
                     icon_response = requests.get(icon_url)
                     if icon_response.status_code != 200 or repo_data['size'] == 0:
 
-                        # Check if the repo is private to use the private repo icon (Issue #3)
-                        if repo_data['private']:
-                            # Construct the expected icon file path
-                            expected_icon_path = os.path.join(PRIVATE_REPO_ICON_DIR, f"{repo_data['name']}.png")
-
-                            # Check if the icon file exists
-                            if os.path.isfile(expected_icon_path):
-                                # Use the relative path from your project root to the icon
-                                if MD_ONLY_TIER_TABLE:
-                                    path_start = '..'
-                                icon_url = f"{PRIVATE_REPO_ICON_DIR}/{repo_data['name']}.png"
-                                print(f"Using private repo icon for {repo_data['name']}.")
-                            else:
-                                # Use placeholder if the icon file does not exist
-                                if MD_ONLY_TIER_TABLE:
-                                    path_start = '..'
-                                icon_url = PLACEHOLDER_ICON
-                                print(f"Icon not found for private repo {repo_data['name']}, using placeholder.")
-
-                        else:
+                        icon_url = f'https://github.com/{owner}/{repo_data["name"]}/raw/master/{PROJECT_ICON_PATH}'
+                        icon_response = requests.get(icon_url)
+                        if icon_response.status_code != 200 or repo_data['size'] == 0:
                             print(f"No icon found for {repo_data['name']} or the repository is empty, using a placeholder.")
                             if MD_ONLY_TIER_TABLE:
                                 path_start = '..'
                             icon_url = PLACEHOLDER_ICON
-                else:
-                    print(f"Icon found for {repo_data['name']}!")
+                        else:
+                            print(f"Icon found for {repo_data['name']}!")
+                    else:
+                        print(f"Icon found for {repo_data['name']}!")
 
                 # Check if the repo has a homepage URL, if so, use it as the icon link, otherwise, use the repo URL
                 # If the repo is private, use the homepage, otherwise, use the PRG repo default URL

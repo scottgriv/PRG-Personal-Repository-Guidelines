@@ -123,7 +123,7 @@ Below is a list of all the documents and resources available for **PRG**.
           <br>
           <b>README Guidelines</b>
         </a>
-        <p>Guidelines for repository READMEs</p>
+        <p>Guidelines for repository READMEs.</p>
       </div>
     </td>
   </tr>
@@ -296,6 +296,31 @@ Below is a list of all the documents and resources available for **PRG**.
       </div>
     </td>
     <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="https://prgoptimized.com">
+          <img src="./docs/images/icon_2-rounded.png" alt="PRG Website"
+               style="max-width: 85px; height: auto; width: 85px;">
+          <br>
+          <b>PRG's Official Website</b>
+        </a>
+        <p>A website dedicated to PRG and all of those who utilize it.</p>
+      </div>
+    </td>
+        <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="https://prgoptimized.com">
+          <img src="./docs/images/icon-rounded.png" alt="PRG Portfolio Website"
+               style="max-width: 85px; height: auto; width: 85px;">
+          <br>
+          <b>PRG Portfolio Website</b>
+        </a>
+        <p>An example PRG Portfolio from PRG's creator.</p>
+      </div>
+    </td>
+  </tr>
+  <!-- Row 7 -->
+  <tr>
+      <td align="center">
       <div style="margin: 10px; text-align: center;">
         <a href="https://prgoptimized.com">
           <img src="./docs/images/icon_2-rounded.png" alt="PRG Website"

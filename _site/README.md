@@ -24,7 +24,7 @@
 
 <h1 align="center">Personal Repository Guidelines (PRG)</h1>
 
-**PRG** is a system that transforms the way repositories are organized and presented in your GitHub Portfolio. By harnessing the power of GitHub Actions, it automatically crafts a tier-based display, neatly categorizing your repositories for enhanced clarity and impact. Beyond mere organization, it sets forth comprehensive guidelines for `READMEs` and overall repository structure, ensuring each project is showcased with maximum professionalism and coherence.
+**PRG** is a system that transforms the way repositories are organized and presented in your GitHub Portfolio. By harnessing the power of GitHub Actions, it automatically crafts a tier-based display, neatly categorizing your repositories for enhanced clarity and impact. Beyond mere organization, it sets forth comprehensive guidelines, templates for `READMEs`, and overall repository structure, ensuring each project is showcased with maximum professionalism and coherence.
 
 - Categorized your repositories and projects into ![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) **Platinum**, ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze** tiers for your GitHub Portfolio. 
   - Display your repositories in a searchable and sortable `HTML` table, created with GitHub Actions and displayed through GitHub Pages, to organize and showcase your projects to the world.
@@ -123,7 +123,7 @@ Below is a list of all the documents and resources available for **PRG**.
           <br>
           <b>README Guidelines</b>
         </a>
-        <p>Guidelines for repository READMEs</p>
+        <p>Guidelines for repository READMEs.</p>
       </div>
     </td>
   </tr>
@@ -296,6 +296,31 @@ Below is a list of all the documents and resources available for **PRG**.
       </div>
     </td>
     <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="https://prgoptimized.com">
+          <img src="./docs/images/icon_2-rounded.png" alt="PRG Website"
+               style="max-width: 85px; height: auto; width: 85px;">
+          <br>
+          <b>PRG's Official Website</b>
+        </a>
+        <p>A website dedicated to PRG and all of those who utilize it.</p>
+      </div>
+    </td>
+        <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="https://prgoptimized.com">
+          <img src="./docs/images/icon-rounded.png" alt="PRG Portfolio Website"
+               style="max-width: 85px; height: auto; width: 85px;">
+          <br>
+          <b>PRG Portfolio Website</b>
+        </a>
+        <p>An example PRG Portfolio from PRG's creator.</p>
+      </div>
+    </td>
+  </tr>
+  <!-- Row 7 -->
+  <tr>
+      <td align="center">
       <div style="margin: 10px; text-align: center;">
         <a href="https://prgoptimized.com">
           <img src="./docs/images/icon_2-rounded.png" alt="PRG Website"

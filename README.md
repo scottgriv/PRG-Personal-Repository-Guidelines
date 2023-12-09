@@ -657,7 +657,7 @@ Below are the guidelines for repository `READMEs`, files, and overall structure.
 > If you just want to use PRG for the portfolio table, feel free to do so.
 > The guidelines are there to help you create a better overall repository and portfolio.
 
-> [!CAUTION]
+> [!WARNING]
 > Some Guidelines are used for other **PRG** components but are located in the `guidelines` folder for convenience.
 > e.g. [Category Guidelines](./guidelines/category_guidelines.md) is for the Category component but is located in the `guidelines` folder.
 

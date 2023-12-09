@@ -159,7 +159,7 @@ Below is a list of all the documents and resources available for **PRG**.
           <br>
           <b>PRG Connection File</b>
         </a>
-        <p>Connection File for your repositories.</p>
+        <p>Connection File (PRGCF) for your repositories.</p>
       </div>
     </td>
   </tr>
@@ -298,17 +298,6 @@ Below is a list of all the documents and resources available for **PRG**.
     <td align="center">
       <div style="margin: 10px; text-align: center;">
         <a href="https://prgoptimized.com">
-          <img src="./docs/images/icon_2-rounded.png" alt="PRG Website"
-               style="max-width: 85px; height: auto; width: 85px;">
-          <br>
-          <b>PRG's Official Website</b>
-        </a>
-        <p>A website dedicated to PRG and all of those who utilize it.</p>
-      </div>
-    </td>
-        <td align="center">
-      <div style="margin: 10px; text-align: center;">
-        <a href="https://prgoptimized.com">
           <img src="./docs/images/icon-rounded.png" alt="PRG Portfolio Website"
                style="max-width: 85px; height: auto; width: 85px;">
           <br>
@@ -323,12 +312,23 @@ Below is a list of all the documents and resources available for **PRG**.
       <td align="center">
       <div style="margin: 10px; text-align: center;">
         <a href="https://prgoptimized.com">
-          <img src="./docs/images/icon_2-rounded.png" alt="PRG Website"
+          <img src="./docs/images/icon_2-rounded.png" alt="PRG's Official Website"
                style="max-width: 85px; height: auto; width: 85px;">
           <br>
           <b>PRG's Official Website</b>
         </a>
         <p>A website dedicated to PRG and all of those who utilize it.</p>
+      </div>
+    </td>
+      <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="https://github.com/scottgriv/PRG-Website">
+          <img src="./docs/images/icon_2-rounded.png" alt="PRG's Official Website Repository"
+               style="max-width: 85px; height: auto; width: 85px;">
+          <br>
+          <b>PRG's Official Website Repository</b>
+        </a>
+        <p>Submit a pull request to add your PRG Portfolio to the PRG Showcase.</p>
       </div>
     </td>
   </tr>

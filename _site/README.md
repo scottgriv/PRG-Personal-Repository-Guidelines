@@ -153,13 +153,13 @@ Below is a list of all the documents and resources available for **PRG**.
     </td>
     <td align="center">
       <div style="margin: 10px; text-align: center;">
-        <a href="PRG.md">
-          <img src="./docs/images/icon-placeholder-rounded.png" alt="PRG Connection File"
+        <a href="https://prgoptimized.com">
+          <img src="./docs/images/icon-rounded.png" alt="PRG Portfolio Website"
                style="max-width: 85px; height: auto; width: 85px;">
           <br>
-          <b>PRG Connection File</b>
+          <b>PRG Portfolio Website</b>
         </a>
-        <p>Connection File (PRGCF) for your repositories.</p>
+        <p>An example PRG Portfolio from PRG's creator.</p>
       </div>
     </td>
   </tr>
@@ -250,6 +250,17 @@ Below is a list of all the documents and resources available for **PRG**.
     </td>
     <td align="center">
       <div style="margin: 10px; text-align: center;">
+        <a href="PRG.md">
+          <img src="./docs/images/icon-placeholder-rounded.png" alt="PRG Connection File"
+               style="max-width: 85px; height: auto; width: 85px;">
+          <br>
+          <b>PRG Connection File</b>
+        </a>
+        <p>Connection File (PRGCF) for your repositories.</p>
+      </div>
+    </td>
+    <td align="center">
+      <div style="margin: 10px; text-align: center;">
         <a href="./categories/project_tier_table.md">
           <img src="./docs/images/icon-placeholder-rounded.png" alt="Project Tier Table"
                style="max-width: 85px; height: auto; width: 85px;">
@@ -259,6 +270,9 @@ Below is a list of all the documents and resources available for **PRG**.
         <p>Project tier table for your projects.</p>
       </div>
     </td>
+  </tr> 
+<!-- Row 6 -->
+  <tr>
     <td align="center">
       <div style="margin: 10px; text-align: center;">
         <a href="./categories/project_tier_table_private.md">
@@ -270,9 +284,6 @@ Below is a list of all the documents and resources available for **PRG**.
         <p>Project tier table for non-GitHub or private projects.</p>
       </div>
     </td>
-  </tr> 
-<!-- Row 6 -->
-  <tr>
     <td align="center">
       <div style="margin: 10px; text-align: center;">
         <a href="./scripts/project_tier_table_generator.py">
@@ -295,21 +306,10 @@ Below is a list of all the documents and resources available for **PRG**.
         <p>Directory for license examples for your repositories (MIT, Apache, etc.).</p>
       </div>
     </td>
-    <td align="center">
-      <div style="margin: 10px; text-align: center;">
-        <a href="https://prgoptimized.com">
-          <img src="./docs/images/icon-rounded.png" alt="PRG Portfolio Website"
-               style="max-width: 85px; height: auto; width: 85px;">
-          <br>
-          <b>PRG Portfolio Website</b>
-        </a>
-        <p>An example PRG Portfolio from PRG's creator.</p>
-      </div>
-    </td>
   </tr>
   <!-- Row 7 -->
   <tr>
-      <td align="center">
+    <td align="center">
       <div style="margin: 10px; text-align: center;">
         <a href="https://prgoptimized.com">
           <img src="./docs/images/icon_2-rounded.png" alt="PRG's Official Website"

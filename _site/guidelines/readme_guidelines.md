@@ -433,7 +433,7 @@ Use a divider to separate your `README` into two sections: the _header_ (after t
 ### Footer Icon
 
 - The footer icon  should contain a image of your application's icon (never a banner) for all tier projects.
-- The footer icon should also be a centered clickable image link o your personal website or GitHub profile.
+- The footer icon should also be a centered clickable image link to your personal website, GitHub profile, or main repo branch for said project.
 - Above the footer icon, you should include a [divider](#divider) to separate the footer icon from the rest of the `README`. 
     - e.g. `---------------`
 - See the [bottom of this project README](../README.md#credits) for an example.

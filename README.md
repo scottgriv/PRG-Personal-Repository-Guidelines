@@ -24,9 +24,9 @@
 
 <h1 align="center">Personal Repository Guidelines (PRG)</h1>
 
-**PRG** is a system that transforms the way repositories are organized and presented in your GitHub Portfolio. By harnessing the power of GitHub Actions, it automatically crafts a tier-based display, neatly categorizing your repositories for enhanced clarity and impact. Beyond mere organization, it sets forth comprehensive guidelines, templates for `READMEs`, and overall repository structure, ensuring each project is showcased with maximum professionalism and coherence.
+**PRG** is a system that transforms the way repositories are organized and presented in your GitHub portfolio. By harnessing the power of GitHub Actions, it automatically crafts a tier-based display, neatly categorizing your repositories for enhanced clarity and impact. Beyond mere organization, it sets forth comprehensive guidelines, templates for `READMEs`, and overall repository structure, ensuring each project is showcased with maximum professionalism and coherence.
 
-- Categorized your repositories and projects into ![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) **Platinum**, ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze** tiers for your GitHub Portfolio.
+- Categorized your repositories and projects into ![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) **Platinum**, ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze** tiers for your GitHub portfolio.
   - Display your repositories in a searchable and sortable `HTML` table, created with GitHub Actions and displayed through GitHub Pages, to organize and showcase your projects to the world.
 - Follow the defined guidelines to guide your repository structure and `README` content.
 - Utilize the predefined `README` templates to get your projects up and running quickly and easily so you can focus on what matters most - your code!
@@ -347,7 +347,7 @@ Below is a list of all the documents and resources available for **PRG**.
 
 This `README` highlights the **three** core components of **PRG**:
 
-1. [**Categorize**](#1-categories) your repositories into five tiers: ![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) **Platinum**, ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze**, and ![#6236FF](https://via.placeholder.com/10/6236FF/000000?text=+) **Optimized**, then display them in a project tier table (built using GitHub Actions, hosted and deployed using GitHub Pages) to showcase your **GitHub Portfolio**.
+1. [**Categorize**](#1-categories) your repositories into five tiers: ![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) **Platinum**, ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze**, and ![#6236FF](https://via.placeholder.com/10/6236FF/000000?text=+) **Optimized**, then display them in a project tier table (built using GitHub Actions, hosted and deployed using GitHub Pages) to showcase your **GitHub portfolio**.
 2. [**Guidelines**](#2-guidelines) defined for repository `README`, files, and overall structure.
 3. [**Templates**](#3-templates) for your `READMEs` and associated files. Templates are provided for each tier to help you get started quickly and easily by utilizing [README Driven Development (RDD)](#readme-driven-development-rdd).
    <br>
@@ -392,7 +392,7 @@ As one GitHub user points out in this great article on the problem, [How I Organ
 **PRG** was designed to solve this problem by categorizing your repositories into five tiers and then showcasing them in a project tier table for your **PRG Portfolio**.
 
 > [!IMPORTANT]
-> View the [Resources](#general-resources) section for more information around **GitHub Portfolios**.
+> View the [Resources](#general-resources) section for more information around **GitHub portfolios**.
 
 ### Telling a Story with your README
 
@@ -470,7 +470,7 @@ To begin, follow these steps:
 
 > [!IMPORTANT]
 > If you choose to fork or clone this repository and make modifications, please ensure to give appropriate credit. This can be done by including a link back to the main branch of this repository in your documentation or project in a clear and proper manner.
-> Thank you and good luck with your **GitHub Portfolio**!
+> Thank you and good luck with your **GitHub portfolio**!
 
 ## What's Inside?
 
@@ -739,7 +739,7 @@ If you would like to add your **PRG Portfolio** to the **PRG Showcase**, please 
 - [ ] Official version release v1.0.0 of **PRG**.
 - [ ] Write about the **GitHub Portfolio Problem** and rhw benefits of using **PRG** to solve it on [Medium](https://medium.com/).
 
-I'm looking forward to seeing how this project evolves over time and how it can help others with their GitHub Portfolio.
+I'm looking forward to seeing how this project evolves over time and how it can help others with their **GitHub portfolio**.
 
 > Please reference the [CHANGELOG](.github/CHANGELOG.md) file in this repository for more details.
 

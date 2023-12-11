@@ -6,7 +6,7 @@
 
 <h1 align="center">Table Generator Guide</h1>
 
-**PyRG** is a `Python` implementation of the **PRG** system. It is a simple `Python` script that allows you to easily create a project tier table for your **GitHub Portfolio**. Also included is a GitHub Action CI/CD workflow that will automatically generate a table of all your repositories and their **PRG** tiers to deploy to GitHub Pages in order to showcase your projects/portfolio.
+**PyRG** is a `Python` implementation of the **PRG** system. It is a simple `Python` script that allows you to easily create a project tier table for your **GitHub portfolio**. Also included is a GitHub Action CI/CD workflow that will automatically generate a table of all your repositories and their **PRG** tiers to deploy to GitHub Pages in order to showcase your projects/portfolio.
 
 ---------------
 

@@ -42,6 +42,6 @@ This file connects this repository to the **PRG** guideline and categorization s
 
 <p align="center">
     <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines" target="_blank">
-        <img src="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_optimized.png" alt="Optimized" width="138" height="51" />
+        <img src="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_optimized.png" alt="PRG Repository" width="138" height="51" />
     </a>
-</p>  
+</p>

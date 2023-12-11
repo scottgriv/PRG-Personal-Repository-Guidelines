@@ -32,7 +32,7 @@ if GITHUB_TOKEN is None:
 
 # Required Configurations - PRG Portfolio URL, and Timezone:
 PRG_REPO_URL = f'https://github.com/scottgriv/PRG-Personal-Repository-Guidelines' # URL to the PRG repo (you can use your own fork if you want or the main repo)
-TIER_TABLE_URL = f'https://prgoptimized.com' # URL to the project tier table using GitHub Pages (update this if you're using a custom domain)
+TIER_TABLE_URL = f'https://prgportfolio.com' # URL to the project tier table using GitHub Pages (update this if you're using a custom domain)
 MY_TIME_ZONE = 'America/New_York' # Your timezone (used for the last updated timestamp) for local testing, otherwise it will use an environment variable for GitHub Actions.
 # For a list of timezones: https://gist.github.com/heyalexej/8bf688fd67d7199be4a1682b3eec7568
 

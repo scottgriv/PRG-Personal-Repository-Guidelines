@@ -159,7 +159,7 @@ The typography for a **PRG** project is as follows:
     - The size of the `header.png` file used for the footer should be `200x200` pixels.
     - The size of the `footer.png` file used for the footer should be `100x100` pixels.
     - I personally use a rounded corner variation of this icon for my header and footer on Silver/Bronze projects. See [Rounded Corners](#rounded-corners) for more information.
-- The footer should also be a centered clickable link to your project's repositories main branch.
+- The footer should also be a centered clickable image link to your personal website or GitHub profile.
     - This is _required_ for **ALL** project tiers.
     - Reference the [Template Guide](../templates/template_guide.md) for more information.
 - The header icon should always be clickable and take you to your project's website/product/demo.

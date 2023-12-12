@@ -31,7 +31,7 @@ This file connects this repository to the **PRG** guideline and categorization s
 - Follow the instructions in the [PRG-Personal-Repository-Guidelines - Table Generator Guide](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/categories/table_generator_guide.md) for more information on how to use the **PRG** system and **PRG Connection File (PRGCF)**.
 
 > [!CAUTION]
-> Lines 15-18 are mapped in the `scripts/project_tier_table.py` script to the PRG system. Do not move or change these lines without adjusting the script to account for this change.
+> Lines 15-18 above are mapped in the `scripts/project_tier_table_generator.py` script for the PRG system. Do not move or change these lines without adjusting the script to account for this change.
 
 ## Resources
 

@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.0
+
+### Added or Changed
+- Official release of PRG
+
+### Removed
+- N/A
+
 ## v1.0-beta.1
 
 ### Added or Changed

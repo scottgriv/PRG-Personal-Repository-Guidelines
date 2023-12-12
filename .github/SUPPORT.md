@@ -60,4 +60,4 @@ See [`contributing.md`][contributing] on how to contribute.
 
 [cs]: https://codesandbox.io
 
-[contributing]: contributing.md
+[contributing]: CONTRIBUTING.md

@@ -354,8 +354,8 @@ This `README` highlights the **three** core components of **PRG**:
 2. [**Guidelines**](#2-guidelines) defined for repository `README`, files, and overall structure.
 3. [**Templates**](#3-templates) for your `READMEs` and associated files. Templates are provided for each tier to help you get started quickly and easily by utilizing [README Driven Development (RDD)](#readme-driven-development-rdd).
    <br>
-   > [!IMPORTANT]
-   > Each component above will have related documents that will provide more details.
+  > [!IMPORTANT]
+  > Each component above will have related documents that will provide more details.
 
 ## Background Story
 

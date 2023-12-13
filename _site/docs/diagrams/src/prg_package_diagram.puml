@@ -1,0 +1,70 @@
+@startuml prg_package_diagram
+package "PRG Application Diagram" {
+    package "Categories" {
+        class "Table Generator Guide" as Table_Generator_Guide {
+            + table_generator_guide.md
+        }
+        class "Badge Reference Guide" as Badge_Reference_Guide {
+            + badge_reference_guide.md
+        }
+        class "Project Tier Table (Private)" as Private_Project_Tier_Table {
+            + project_tier_table_private.md
+        }
+        class "Project Tier Table" as Project_Tier_Table {
+            + project_tier_table.md
+        }
+        class "Project Tier Table Generator Script" as Project_Tier_Table_Generator {
+            + project_tier_table_generator.py
+        }
+        class "PRG Portfolio" as PRG_Portfolio {
+            + [[https://prgportfolio PRG Portfolio Website]]
+        }
+    }
+
+    package "Guidelines" {
+        class "Brand Guidelines" {
+            + brand_guidelines.md
+        }
+        class "Category Guidelines" {
+            + category_guidelines.md
+        }
+        class "README Guidelines" {
+            + readme_guidelines.md
+        }
+        class "Repository Structure Guidelines" {
+            + repository_structure_guidelines.md
+        }
+        class "Repository Settings Guidelines" {
+            + repository_settings_guidelines.md
+        }
+
+    }
+
+    package "Templates" {
+        class "Platinum Tier Template" {
+            +[[https://github.com/scottgriv/PRG-Platinum-Tier-Template Platinum Tier Template Repo]]
+        }
+        class "Gold Tier Template" {
+            +[[https://github.com/scottgriv/PRG-Gold-Tier-Template Gold Tier Template Repo]]
+        }
+        class "Silver Tier Template" {
+            +[[https://github.com/scottgriv/PRG-Silver-Tier-Template Silver Tier Template Repo]]
+        }
+        class "Bronze Tier Template" {
+            +[[https://github.com/scottgriv/PRG-Bronze-Tier-Template Bronze Tier Template Repo]]
+        }
+    }
+
+    Templates ..> Guidelines : References
+
+    Categories ..> Templates : References
+
+    Table_Generator_Guide ..> Project_Tier_Table_Generator : References
+    Project_Tier_Table_Generator ..> Badge_Reference_Guide : Generates
+    Project_Tier_Table_Generator ..> Project_Tier_Table : Generates
+    Private_Project_Tier_Table <.. Project_Tier_Table_Generator : Depends
+    Project_Tier_Table ..> PRG_Portfolio : Generates
+
+}
+
+@enduml

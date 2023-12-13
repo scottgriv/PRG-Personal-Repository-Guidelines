@@ -3,7 +3,7 @@
 ## v1.0.0
 
 ### Added or Changed
-- Official release of PRG
+- Official Release of PRG
 
 ### Removed
 - N/A

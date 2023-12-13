@@ -85,6 +85,9 @@
 - [Project](#project)
 - [Contributing](#contributing)
 - [Resources](#resources)
+  - [General Resources](#general-resources)
+  - [GitHub Portfolio Related Resources](#github-portfolio-related-resources)
+  - [UML Diagram Resources](#uml-diagram-resources)
 - [License](#license)
 - [Credits](#credits)
 
@@ -770,7 +773,7 @@ Feel free to submit a pull request if you find any issues or have any suggestion
 
 Below are some external resources I found helpful when creating my repositories and **PRG** in general:
 
-**General Resources:**
+### General Resources
 
 - [GitHub Docs](https://docs.github.com/en) - GitHub documentation.
 - [Einstellung effect](https://en.wikipedia.org/wiki/Einstellung_effect) - Don't let your past experiences limit your creativity.
@@ -779,7 +782,7 @@ Below are some external resources I found helpful when creating my repositories 
 - [What your code repository says about you](https://opensource.com/open-organization/17/1/repo-tells-a-story) - Great article on how your repository can tell a story.
 - [How I Organize my GitHub Repositories](https://andreicioara.com/how-i-organize-my-github-repositories-ce877db2e8b6) - Great article on how some people have tried to solve the **"GitHub Portfolio Problem"**.
 
-**GitHub Portfolio Related Resources:**
+### GitHub Portfolio Related Resources
 
 - [Using GitHub as your portfolio](https://steven-giesel.com/blogPost/2516bdf5-43f3-4940-a0c0-ee83dcaa5e55)
 - [How to present a GitHub project for your resume](https://thehftguy.com/2016/10/24/heres-how-to-make-a-good-github-project-for-your-resume/)
@@ -789,6 +792,19 @@ Below are some external resources I found helpful when creating my repositories 
 - [How To Create a GitHub Portfolio](https://hoffstech.com/2023/03/how-to-create-a-github-portfolio/)
 - [How to efficiently build a portfolio on Github?](https://www.reddit.com/r/learnprogramming/comments/7r3gd4/how_to_efficiently_build_a_portfolio_on_github/)
 - [How To Create A GitHub Portfolio](https://nira.com/how-to-create-a-github-portfolio/)
+
+### UML Diagram Resources
+
+Below is a *UML Package Diagram* of the **PRG** system:
+
+![PRG Package Diagram](./docs/diagrams/out/prg_package_diagram.png)
+
+> [!NOTE]
+> The diagram was created using [PlantUML](https://plantuml.com/).
+> The source code for the diagram can be found [here](./docs/diagrams/src/prg_package_diagram.puml) and the generated image can be found [here](./docs/diagrams/out/prg_package_diagram.png).
+> Both are located in the `docs/diagrams` folder.
+
+- [PlantUML](https://plantuml.com/) - PlantUML is an open-source tool allowing users to create UML diagrams from a plain text language.
 
 ## License
 

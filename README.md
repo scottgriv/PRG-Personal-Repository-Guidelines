@@ -799,10 +799,10 @@ Below is a *UML Package Diagram* of the **PRG** system:
 
 ![PRG Package Diagram](./docs/diagrams/out/prg_package_diagram.png)
 
-  > [!NOTE]
-  > The diagram was created using [PlantUML](https://plantuml.com/).
-  > The source code for the diagram can be found [here](./docs/diagrams/src/prg_package_diagram.puml) and the generated image can be found [here](./docs/diagrams/out/prg_package_diagram.png).
-  > Both are located in the `docs/diagrams` folder.
+> [!NOTE]
+> The diagram was created using [PlantUML](https://plantuml.com/).
+> The source code for the diagram can be found [here](./docs/diagrams/src/prg_package_diagram.puml) and the generated image can be found [here](./docs/diagrams/out/prg_package_diagram.png).
+> Both are located in the `docs/diagrams` folder.
 
 - [PlantUML](https://plantuml.com/) - PlantUML is an open-source tool allowing users to create UML diagrams from a plain text language.
 

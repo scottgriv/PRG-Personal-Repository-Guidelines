@@ -393,7 +393,8 @@ try:
         data['tier'] = 'Optimized'  
         data['technology'] = ''
         data['category'] = ''
-        data['order'] = float('inf')  # Default to infinity for those without an order
+        data['order'] = float('inf')  # Default to infinity for those without an order, so they are sorted at the end
+                                      # If you don't want to sort by an order, I suggest using a large number like 9999
 
         if prg_md_response.status_code == 200 or not INCLUDE_PRG_FILE_PROJECTS:
             if prg_md_response.status_code == 200:

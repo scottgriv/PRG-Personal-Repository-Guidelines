@@ -96,7 +96,7 @@ The time zone will be updated on the bottom of the table to reflect the time zon
 - For local testing, adjust the `MY_TIME_ZONE` configuration in the `project_tier_table_generator.py` file.
 - For deployment with GitHub Pages, adjust the `TZ` environment variable under `env` to your time zone in the `.github/workflows/main.yml` file.
   - The default time zone is set to `America/New_York` for both local testing and deployment.
-- The script will run on a weekly basis (Sunday's at 12:00 AM - defined using a cron expression in the workflow file).
+- The script will run on a weekly basis (Monday's at 12:00 AM (Sunday Night) - defined using a cron expression in the workflow file).
 - The script can also be run manually by clicking on the `Run workflow` button in the `Actions` tab in your repository.
 
 ### Private Repositories and External Projects

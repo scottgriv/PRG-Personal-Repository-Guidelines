@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.1
+
+### Added or Changed
+- Minor security fixes and enhancements
+
+### Removed
+- N/A
+
 ## v1.0.0
 
 ### Added or Changed

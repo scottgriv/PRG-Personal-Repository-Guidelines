@@ -317,7 +317,7 @@ Below is a list of all the documents and resources available for **PRG**.
     <td align="center">
       <div style="margin: 10px; text-align: center;">
         <a href="https://prgoptimized.com">
-          <img src="./docs/images/icon_2-rounded.png" alt="PRG's Official Website"
+          <img src="./docs/images/icon-website-rounded.png" alt="PRG's Official Website"
                style="max-width: 85px; height: auto; width: 85px;">
           <br>
           <b>PRG's Official Website</b>

@@ -67,8 +67,11 @@ In order to get the **PRG** system to work, you must perform the following pre-r
      - Clicking on the name of the repository will always link to the repository.
 
 > [!IMPORTANT]
-> If you do not see your logo after you run the build script, give it a few minutes for GitHub to finish running its indexing and try again.
-> You can also try a hard refresh to reset your browsers cache on the web page.
+> If you do not see your new or updated logo after you run the build script, give it a few minutes for GitHub to finish running its indexing and try again.
+> You can also try a hard refresh to reset your browsers cache on the web page in order to see it.
+
+> [!TIP]
+> Troubleshooting: Check that the path is correct in the `project_tier_table.md` file, make sure the file is indeed in your repository `docs/images` folder and its correctly named `PRG.png` and that the build script is using this file name. Also, check the URL path to the file directly on GitHub to view it in a browser.
 
 ### Finish Setup
 

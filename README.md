@@ -328,7 +328,7 @@ Below is a list of all the documents and resources available for **PRG**.
       <td align="center">
       <div style="margin: 10px; text-align: center;">
         <a href="https://github.com/scottgriv/PRG-Website">
-          <img src="./docs/images/icon_2-rounded.png" alt="PRG's Official Website Repository"
+          <img src="./docs/images/icon-website-rounded.png" alt="PRG's Official Website Repository"
                style="max-width: 85px; height: auto; width: 85px;">
           <br>
           <b>PRG's Official Website Repository</b>
@@ -742,7 +742,7 @@ If you would like to add your **PRG Portfolio** to the **PRG Showcase**, please 
 
 - [X] Conform all of my repositories to **PRG**.
 - [X] Official version release v1.0.0 of **PRG**.
-- [ ] Write about the **GitHub Portfolio Problem** and rhw benefits of using **PRG** to solve it on [Medium](https://medium.com/).
+- [ ] Write about the **GitHub Portfolio Problem** and the benefits of using **PRG** to solve it on [Medium](https://medium.com/).
 
 I'm looking forward to seeing how this project evolves over time and how it can help others with their **GitHub portfolio**.
 

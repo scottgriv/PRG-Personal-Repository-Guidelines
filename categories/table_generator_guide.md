@@ -172,6 +172,8 @@ See [Badge Reference Guide](../categories/badge_reference_guide.md) for more det
   - `gem install bundler jekyll`
 - You can test the Jekyll build locally by running the following command in the root of the project:
   - `bundle exec jekyll serve`
+  or
+  - `jekyll build`
 - You can view the Jekyll build locally by going to the following URL in your browser:
   - `http://localhost:4000/`
 

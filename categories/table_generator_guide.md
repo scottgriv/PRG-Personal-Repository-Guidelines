@@ -67,7 +67,8 @@ In order to get the **PRG** system to work, you must perform the following pre-r
      - Clicking on the name of the repository will always link to the repository.
 
 > [!IMPORTANT]
-> If you do not see your new or updated logo after you run the build script, give it a few minutes for GitHub to finish running its indexing and try again.
+> If you do not see your new or updated logo after you run the build script, give it a few minutes for GitHub to finish running its index process and try again.
+> You can view the path manually by going to `https://github.com/your-username-here/your-repo-here/raw/main/docs/images/PRG.png` in your browser, which should redirect to `https://raw.githubusercontent.com/your-username-here/your-repo-here/main/docs/images/PRG.png`.
 > You can also try a hard refresh to reset your browsers cache on the web page in order to see it.
 
 > [!TIP]

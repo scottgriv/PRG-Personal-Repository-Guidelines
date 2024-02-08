@@ -276,8 +276,8 @@ def parse_private_md_file(file_path):
 
                     created_at = columns[3].strip()
                     description = columns[5].strip()
-                    category = columns[6].strip()
-                    technology = columns[7].strip()
+                    technology = columns[6].strip()
+                    category = columns[7].strip()
                     tier = columns[8].strip()
 
                     print(f"Found {name_html} in the private markdown file.")
@@ -292,8 +292,8 @@ def parse_private_md_file(file_path):
                         'url': url,
                         'created_at': created_at,
                         'description': description,
-                        'category': category,
                         'technology': technology,
+                        'category': category,
                         'tier': tier,
                         'order': order,
                         'icon_html': icon_html,
@@ -516,14 +516,14 @@ try:
         md_file.write('<p align="center"><em><strong>PRG</strong> is optimized for the following projects and repositories:</em></p>\n\n')
 
         if MD_ONLY_TIER_TABLE:
-            md_file.write('| Icon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Name | Created&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Owner | Description | Category | Technology | Tier&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |\n')
+            md_file.write('| Icon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Name | Created&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Owner | Description | Technology | Category | Tier&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |\n')
         else:
-            md_file.write('| Icon | Name | Created&nbsp;&nbsp;&nbsp;&nbsp; | Owner | Description | Category | Technology | Tier |\n')
+            md_file.write('| Icon | Name | Created&nbsp;&nbsp;&nbsp;&nbsp; | Owner | Description | Technology | Category | Tier |\n')
         md_file.write('| :---: | :---: | :---: | :---: | :--- | :--- | :--- | :---: |\n')
 
         for repo_data in sorted_repos:
 
-            print(f"Building Repo {counter} - {repo_data['name']} (Category: {repo_data['category']}, Technology: {repo_data['technology']}, Tier: {repo_data['tier']}, Order: {repo_data['order']})")
+            print(f"Building Repo {counter} - {repo_data['name']} (Technology: {repo_data['technology']}, Category: {repo_data['category']}, Tier: {repo_data['tier']}, Order: {repo_data['order']})")
 
             # Fetching the tier information and constructing the badge URL
             tier_key = repo_data['tier']
@@ -603,7 +603,7 @@ try:
             owner_url = f'<a href="https://github.com/{owner}" target="_blank">@{owner}</a>'
 
             # Writing the data to the markdown file
-            md_file.write(f'| {icon} | {name} | {repo_data["created_at"]} | {owner_url} | {repo_data["description"]} | {repo_data["category"]} | {repo_data["technology"]} | {tier} |\n')
+            md_file.write(f'| {icon} | {name} | {repo_data["created_at"]} | {owner_url} | {repo_data["description"]} | {repo_data["technology"]} | {repo_data["category"]} | {tier} |\n')
 
             # Increment the counter at the end of the loop
             counter += 1 

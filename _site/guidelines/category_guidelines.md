@@ -92,6 +92,9 @@ Consult this guideline for detailed information on the categorization of each ti
 - Adopts the following naming convention for this project tier:
   - **Format:** `technology/framework/language-project_name`
   - **Example:** [angular-github_user_info](https://github.com/scottgriv/angular-github_user_info)
+- Optionally, you can also follow the **Gold** project naming convention above for certain projects:
+  - **Format:** `Application-Brand-Name`
+  - **Example:** [Resolution-Scale-Calculator](https://github.com/scottgriv/Resolution-Scale-Calculator)
 
 <a id="bronze-tier-project"></a>
 
@@ -104,11 +107,15 @@ Consult this guideline for detailed information on the categorization of each ti
 
 - Projects that require 0-2 hours to complete.
 - Repositories created for learning or gaining a better understanding of a specific technology, language, framework, principle, etc.
+- Optionally, these projects may include unique graphic designs and brand-specific app icons, otherwise, it is suggested to find an image online that represents the primary technology used (i.e. javascript) and use that as the face of your project.
 - Adopts the following naming convention for this project tier:
   - **Format:** `technology/framework/language-project_name`
   - **Example:** [csharp-nunit_test_demo](https://github.com/scottgriv/csharp-nunit_test_demo)
   - **Example:** [rust-json_note_manager](https://github.com/scottgriv/rust-json_note_manager)
   - **Example:** [python-convert_html_table_to_csv](https://github.com/scottgriv/python-convert_html_table_to_csv)
+
+  > [!TIP]  
+  > There are plenty of free logos out there for most technologies, just make sure you give credit to the creator of the logo if it's required (follow the license for the image).
 
 ### Silver & Bronze Additional Requirements
 

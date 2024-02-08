@@ -50,10 +50,12 @@ I develop all of my UI/UX designs using [Figma](https://www.figma.com/) and [Ske
 **Design in Vectors not Pixels!**
 - This will allow you to export your designs as SVGs and high quality PNGs where applicable.
 - To read more about Raster (Bitmap/Pixel) images vs. Vector (math) images, see [this article](https://vector-conversions.com/vectorizing/raster_vs_vector.html).
-    - It's recommended to design your images using the dimensions below in this guide, but export your images double the size of the required dimensions.
-        - For example, if the dimensions are `100x100`, export the image as `200x200`.
+    - It's recommended to design your images using the dimensions below in this guide (@1x), but export your images double the size of the required dimensions (@2x).
+    - It's always recommended to design vectors @1x and scale up, vs. designing @3x and scaling down using rasters.
+        - For example, if the dimensions are `100x100` (@1x), export the image as `200x200` (@2x) or `300x300` (@3x).
         - This will allow you to have a higher quality image when you resize it to the dimensions listed below.
         - Most design tools will allow you to export your images at a higher resolution automatically by toggling `@2x` or `@3x` in the export settings.
+        - Checkout my handy little tool, [Resolution Scale Calculator](https://scottgriv.github.io/Resolution-Scale-Calculator/), to scale image dimensions up or down.
 
 > [!IMPORTANT] 
 > Be sure to document your colors, fonts, and designs in your project's `README` file and `docs` folder or a private design repository where your designs will be stored.
@@ -83,7 +85,7 @@ The typography for a **PRG** project is as follows:
 
 > [!NOTE] 
 > ```tex
-> Following the notation: Width×Height (in pixels)
+> Following the notation: Width×Height (in pixels), using vectors (@1x).
 > ```
 
 | Design            | File Name                    | Dimensions (WxH) |
@@ -98,7 +100,9 @@ The typography for a **PRG** project is as follows:
 | LinkedIn Banner   | banner_linkedin.png          | `1128x191`       |
 | PRG Profile Badge | prg_optimized/collection.png | `138x51`         |
 
-- Below breaks down the above table and provides more information on each design.
+> [!IMPORTANT]
+> I suggest exporting the vectors @2x to double the size for display.
+> View the below break down for the above table, it provides more information on each design.
 
 ## Icon
 

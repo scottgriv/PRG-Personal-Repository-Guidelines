@@ -88,6 +88,7 @@
   - [General Resources](#general-resources)
   - [GitHub Portfolio Related Resources](#github-portfolio-related-resources)
   - [UML Diagram Resources](#uml-diagram-resources)
+  - [Handy Web Tools](#handy-web-tools)
 - [License](#license)
 - [Credits](#credits)
 
@@ -804,7 +805,75 @@ Below is a *UML Package Diagram* of the **PRG** system:
 > The source code for the diagram can be found [here](./docs/diagrams/src/prg_package_diagram.puml) and the generated image can be found [here](./docs/diagrams/out/prg_package_diagram.png).
 > Both are located in the `docs/diagrams` folder.
 
-- [PlantUML](https://plantuml.com/) - PlantUML is an open-source tool allowing users to create UML diagrams from a plain text language.
+- [PlantUML](https://plantuml.com/) - PlantUML is an open-source tool allowing users to create UML diagrams from a plain text language. 
+
+### Handy Web Tools
+
+Below is a list of handy web applications I built that you can use to help develop your repositories and projects.
+
+<table>
+<!-- Row 1 -->
+  <tr>
+    <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="https://scottgriv.github.io/CREDITS-Generator">
+          <img src="./docs/images/web_apps/icon_1-rounded.png" alt="CREDITS Generator"
+               style="max-width: 85px; height: auto; width: 85px;">
+          <br>
+          <b>CREDITS Generator</b>
+        </a>
+        <p>Generate CREDITS.md files for your projects.</p>
+      </div>
+    </td>
+    <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="https://scottgriv.github.io/Resolution-Scale-Calculator">
+          <img src="./docs/images/web_apps/icon_2-rounded.png" alt="Resolution Scale Calculator"
+               style="max-width: 85px; height: auto; width: 85px;">
+          <br>
+          <b>Resolution Scale Calculator</b>
+        </a>
+        <p>Scale design dimension up or down from/to @1x, @2x, @3x.</p>
+      </div>
+    </td>
+    <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="https://scottgriv.github.io/GitHub-User-Info">
+          <img src="./docs/images/web_apps/icon_3-rounded.png" alt="GitHub User Info"
+               style="max-width: 85px; height: auto; width: 85px;">
+          <br>
+          <b>GitHub User Info</b>
+        </a>
+        <p>Find relevant info about GitHub users or organizations.</p>
+      </div>
+    </td>
+  </tr>
+<!-- Row 2 -->
+  <tr>
+    <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="https://scottgriv.github.io/Binary-Converter">
+          <img src="./docs/images/web_apps/icon_4-rounded.png" alt="Binary Converter"
+               style="max-width: 85px; height: auto; width: 85px;">
+          <br>
+          <b>Binary Converter</b>
+        </a>
+        <p>Convert text to binary and vice versa.</p>
+      </div>
+    </td>
+    <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="https://scottgriv.github.io/PWA-Demo-App">
+          <img src="./docs/images/web_apps/icon_5-rounded.png" alt="PWA - Demo Application"
+               style="max-width: 85px; height: auto; width: 85px;">
+          <br>
+          <b>PWA - Demo Application</b>
+        </a>
+        <p>PWA demo and tutorial application.</p>
+      </div>
+    </td>
+  </tr>
+</table>
 
 ## License
 

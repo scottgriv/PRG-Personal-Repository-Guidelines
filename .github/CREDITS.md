@@ -1,6 +1,6 @@
 # Credits
 
-This project owes its success to the following people and organizations:
+This project owes its success to the following people and organizations:s
 
 ## Contributors
 

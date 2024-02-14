@@ -270,6 +270,7 @@ The following are optional, but you made need them depending on your project:
 
 ## Resources
 
+- [Resolution Scale Calculator](https://scottgriv.github.io/Resolution-Scale-Calculator/) - Personal project I built to scale image dimensions up or down for @1x, @2x, or @3x.
 - [X Header Size](https://snappa.com/blog/twitter-header-size) - X Header Size
 - [LinkedIn Banner Size](https://www.linkedin.com/help/linkedin/answer/a563309/image-specifications-for-your-linkedin-pages-and-career-pages) - LinkedIn Banner Size
 - [PlantUML](https://plantuml.com/) - PlantUML, a free open-source tool that allows you to create UML diagrams using a simple text-based language.

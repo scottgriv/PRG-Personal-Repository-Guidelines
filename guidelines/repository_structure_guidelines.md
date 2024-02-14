@@ -80,9 +80,9 @@ This guideline details necessary files and overall structure for your repository
 - Compare this file to `AUTHORS`, `CONTRIBUTORS`, and `ACKNOWLEDGMENTS` files.
 
 **Resources:**
-- [CREDITS Generator (Personal Project - used to generate PRG's CREDITS file)](https://scottgriv.github.io/CREDITS-Generator)
-- [CREDITS Example (PRG's CREDITS file)](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/.github/CREDITS.md)
-- [CREDITS Example (Unaffiliated Project Example)](https://github.com/10up/Open-Source-Best-Practices/blob/gh-pages/CREDITS.md)
+- [CREDITS Generator](https://scottgriv.github.io/CREDITS-Generator) - Personal Project - used to generate PRG's CREDITS file.
+- [CREDITS Example 1](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/.github/CREDITS.md) - PRG's CREDITS file.
+- [CREDITS Example 2](https://github.com/10up/Open-Source-Best-Practices/blob/gh-pages/CREDITS.md) - Unaffiliated project example
 - [AUTHORS Explained - Recording Contributors for GNU License](https://www.gnu.org/prep/maintain/html_node/Recording-Contributors.html)
 
 ## .github/CHANGELOG.md File

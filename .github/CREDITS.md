@@ -18,6 +18,6 @@ This project owes its success to the following people and organizations:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](../LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](../LICENSE) file for details.
 
 This document is a way to publicly appreciate the contributions of those who have helped make this project what it is today. Thank you!

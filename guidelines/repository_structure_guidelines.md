@@ -77,13 +77,13 @@ This guideline details necessary files and overall structure for your repository
 > **OPTIONAL** file for **ALL** tiers.
 
 - This file should contain a list of people who have contributed to your project.
-- Compare this file to `AUTHORS`, `CONTRIBUTORS`, and `ACKNOWLEDGMENTS` files below.
+- Compare this file to `AUTHORS`, `CONTRIBUTORS`, and `ACKNOWLEDGMENTS` files.
 
 **Resources:**
-- [CREDITS Generator (Personal Project)](https://scottgriv.github.io/CREDITS-Generator)
-- [CREDITS Example (This Repository)](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/ece049c6078b20d605913ee8603c229239ef4ef9/.github/CREDITS.md)
-- [CREDITS Example (General)](https://github.com/10up/Open-Source-Best-Practices/blob/gh-pages/CREDITS.md)
-- [AUTHORS Explained - Recording Contributors](https://www.gnu.org/prep/maintain/html_node/Recording-Contributors.html)
+- [CREDITS Generator (Personal Project - used to generate PRG's CREDITS file)](https://scottgriv.github.io/CREDITS-Generator)
+- [CREDITS Example (PRG's CREDITS file)](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/.github/CREDITS.md)
+- [CREDITS Example (Unaffiliated Project Example)](https://github.com/10up/Open-Source-Best-Practices/blob/gh-pages/CREDITS.md)
+- [AUTHORS Explained - Recording Contributors for GNU License](https://www.gnu.org/prep/maintain/html_node/Recording-Contributors.html)
 
 ## .github/CHANGELOG.md File
 

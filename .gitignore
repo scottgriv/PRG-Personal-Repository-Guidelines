@@ -52,3 +52,14 @@ testem.log
 *.DS_Store
 Thumbs.db
 Icon?
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.bundle/
+vendor/
+
+# Personal project files
+.env
+config.yml

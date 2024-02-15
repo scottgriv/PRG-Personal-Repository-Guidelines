@@ -87,7 +87,7 @@
 - [Resources](#resources)
   - [General Resources](#general-resources)
   - [GitHub Portfolio Related Resources](#github-portfolio-related-resources)
-  - [UML Diagram Resources](#uml-diagram-resources)
+  - [UML Diagram](#uml-diagram)
   - [Handy Web Tools](#handy-web-tools)
 - [License](#license)
 - [Credits](#credits)
@@ -460,7 +460,7 @@ To begin, follow these steps:
 4. Place a optional logo for your repository in the `docs/images` folder named `PRG.png`.
    > See the [Table Generator Guide - PRG Project Logo](./categories/table_generator_guide.md#prg-project-logo) for more details about the logo.
    > Consult the [Brand Guidelines](./guidelines/brand_guidelines.md) for more details about designing your logo.
-5. Affix the appropriate tier badge at the top of your repository `READMEx`.
+5. Affix the appropriate tier badge at the top of your repository `README` to showcase the category of your repo/project.
    > Reference the [Badge Reference Guide - Tier Badges](./categories/badge_reference_guide.md#tier-badges) to gather the appropriate badge for your repository.
    > The tier you chose to use in the **PRG Connection File** should match the tier badge you use in your `README`.
 6. Implement GitHub Actions to automate the creation of your project tier table.
@@ -476,7 +476,7 @@ To begin, follow these steps:
 
 > [!IMPORTANT]
 > If you choose to fork or clone this repository and make modifications, please ensure to give appropriate credit. This can be done by including a link back to the main branch of this repository in your documentation or project in a clear and proper manner.
-> Thank you and good luck with your **GitHub portfolio**!
+> Thank you and good luck with your **GitHub Portfolio**!
 
 ## What's Inside?
 
@@ -649,7 +649,12 @@ Consult the [Table Generator Guide](./categories/table_generator_guide.md) for m
 
 **Related Component Documents:** <br>
 
-> [Category Guidelines](./guidelines/category_guidelines.md) <br> > [Table Generator Guide](./categories/table_generator_guide.md) <br> > [Badge Reference Guide](./categories/badge_reference_guide.md) <br> > [Project Tier Table](./categories/project_tier_table.md) <br> > [Private Project Tier Table](./categories/project_tier_table_private.md) <br> > [PRG Connection File](PRG.md)
+> [Category Guidelines](./guidelines/category_guidelines.md) <br> 
+> [Table Generator Guide](./categories/table_generator_guide.md) <br> 
+> [Badge Reference Guide](./categories/badge_reference_guide.md) <br> 
+> [Project Tier Table](./categories/project_tier_table.md) <br> 
+> [Private Project Tier Table](./categories/project_tier_table_private.md) <br> 
+> [PRG Connection File](PRG.md)
 
 ---
 
@@ -714,7 +719,7 @@ Consult the [Template Guide](./templates/template_guide.md) for more details on 
 - ![#6236FF](https://via.placeholder.com/10/6236FF/000000?text=+) **Optimized** tier projects are uncategorized and do not have a template. Use the template that best fits your project.
 
 > [!NOTE]
-> For example, I use this tier for my personal and organization profile `READMEs` since they don't fit into any of the other tiers.
+> For example, I use the **Optimized** tier for my personal and organization profile `READMEs` since they don't fit into any of the other tiers.
 
 ## License Templates
 
@@ -724,7 +729,12 @@ Use or add more licenses to the [License Example Directory](templates/license_ex
 
 **Related Component Documents:** <br>
 
-> [Template Guide](./templates/template_guide.md) <br> > [Platinum Tier Template](https://github.com/scottgriv/PRG-Platinum-Tier-Template) <br> > [Gold Tier Template](https://github.com/scottgriv/PRG-Gold-Tier-Template) <br> > [Silver Tier Template](https://github.com/scottgriv/PRG-Silver-Tier-Template) <br> > [Bronze Tier Template](https://github.com/scottgriv/PRG-Bronze-Tier-Template) <br> > [License Example Directory](templates/license_examples) <br>
+> [Template Guide](./templates/template_guide.md) <br> 
+> [Platinum Tier Template](https://github.com/scottgriv/PRG-Platinum-Tier-Template) <br> 
+> [Gold Tier Template](https://github.com/scottgriv/PRG-Gold-Tier-Template) <br> 
+> [Silver Tier Template](https://github.com/scottgriv/PRG-Silver-Tier-Template) <br> 
+> [Bronze Tier Template](https://github.com/scottgriv/PRG-Bronze-Tier-Template) <br> 
+> [License Example Directory](templates/license_examples) <br>
 
 ---
 
@@ -794,7 +804,7 @@ Below are some external resources I found helpful when creating my repositories 
 - [How to efficiently build a portfolio on Github?](https://www.reddit.com/r/learnprogramming/comments/7r3gd4/how_to_efficiently_build_a_portfolio_on_github/)
 - [How To Create A GitHub Portfolio](https://nira.com/how-to-create-a-github-portfolio/)
 
-### UML Diagram Resources
+### UML Diagram
 
 Below is a *UML Package Diagram* of the **PRG** system:
 

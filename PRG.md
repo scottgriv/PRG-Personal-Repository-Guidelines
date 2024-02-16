@@ -15,7 +15,7 @@ This file is used to connect this repository to the **PRG** project categorizati
 **Repository Tier:** Gold <br>
 **Technology:** Markdown, GitHub API, GitHub Actions, GitHub Pages, Jekyll, Python, DataTables, HTML, CSS <br>
 **Category:** Categorization, Guidelines, Templates, Standards, Documentation, Website <br>
-**Order:** 3 <br>
+**Order:** 1 <br>
 
 ## Parameters
 

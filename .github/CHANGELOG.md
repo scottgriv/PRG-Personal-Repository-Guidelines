@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.1.0
+
+### Added or Changed
+
+- Update CREDITS file, finalized project table, revised multiple guides
+
+### Removed
+
+- Jekyll build and cache files from the repository
+
 ## v1.0.2
 
 ### Added or Changed

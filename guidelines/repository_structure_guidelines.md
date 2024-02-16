@@ -31,6 +31,7 @@ This guideline details necessary files and overall structure for your repository
 - [CITATION.cff File](#citationcff-file)
 - [Other GitHub Special Files](#other-github-special-files)
 - [.gitignore File](#gitignore-file)
+- [.gitkeep File](#gitkeep-file)
 - [.gitattributes File](#gitattributes-file)
 - [.editorconfig File](#editorconfig-file)
 - [.prettierrc File](#prettierrc-file)
@@ -42,7 +43,7 @@ This guideline details necessary files and overall structure for your repository
 - [.github/dependabot.yml File](#githubdependabotyml-file)
 - [api Folder](#api-folder)
 - [Misc. Folders](#misc-folders)
-- [Images, Gifs, Videos, and Documents](#images-gifs-videos-and-documents)
+- [Images, Gifs, Videos, Diagrams, and Documents](#images-gifs-videos-diagrams-and-documents)
 - [Resources](#resources)
 
 
@@ -257,8 +258,30 @@ Below are some other popular files used in GitHub repositories:
 > **REQUIRED** file for **ALL** tiers.
 
 - This file should contain a list of files and folders that should be ignored by Git.
-- Its recommended to ignore your vscode workspace files, virtual environment files, and any sensitive information files.
+- Its recommended to ignore your vscode workspace files, virtual environment files, build folders, and any sensitive information files.
     - e.g. `.vscode/`, `venv/`, `.env`
+- This will dramatically reduce the size of your repository, making it easier to download.
+
+> [!TIP]
+> Use the [.gitignore](../.gitignore) file in the root of this repository as a good example and starting point for a .gitignore template for your projects.
+
+> [!NOTE]
+> It's good practice to research what the best files are to add to your .gitignore file based on the technology you're using to develop.
+
+## .gitkeep File
+
+> [!NOTE] 
+> **OPTIONAL** file for **ALL** tiers.
+
+- Sometimes you may want to include an empty directory as a resource in your project (say, a place to dump image files from an upload process).
+- Well, by default, git will ignore empty folders from being uploaded to your repository.
+    - This is because git can't track empty directories. It can only track files.
+    - Thus, no files/changes, no tracking.
+- Adding this file (with no content inside of it), will ensure that git will not ignore the file since a change has taken place.
+
+**Resources:**
+> [What is .gitkeep? How to Track and Push Empty Folders in Git](https://www.freecodecamp.org/news/what-is-gitkeep/)
+
 
 ## .gitattributes File
 
@@ -268,7 +291,7 @@ Below are some other popular files used in GitHub repositories:
 - One reason I use this file, is to adjust the linguist language statistics on GitHub.
 
 **Resources:**
-> [Linguist](https://github.com/github-linguist/linguist/tree/master) - 
+> [Linguist](https://github.com/github-linguist/linguist/tree/master)
 
 ## .editorconfig File
 
@@ -370,13 +393,14 @@ Below are some other popular files used in GitHub repositories:
 > [!IMPORTANT]
 > It's important to follow your frameworks conventions and [programming style guides](https://github.com/standard/standard).
 
-## Images, GIFs, Videos, and Documents
+## Images, GIFs, Videos, Diagrams, and Documents
 
 > [!NOTE] 
 > **OPTIONAL** files for **ALL** tiers.
 
 - Include repo images and GIFs in a `docs/images` folder.
 - Include repo videos in a `docs/videos` folder.
+- Include diagrams (such as UML diagrams) in a `docs/diagrams` folder.
 - Add important documents to the `docs` folder.
 - Add more folders as needed.
 

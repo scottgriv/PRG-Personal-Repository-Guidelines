@@ -475,7 +475,7 @@ try:
 
             # User profile and image
             md_file.write(f'<div style="text-align: center;">\n')  # Wrapper div for the user
-            md_file.write(f'<a href="{profile_url}" target="_blank" class="icon-container"><img src="{avatar_url}" alt="{USERNAME}" style="border-radius: 50%; width: 100px; height: 100px;"></a>\n')
+            md_file.write(f'<a href="{profile_url}" target="_blank" class="icon-container"><img src="{avatar_url}" alt="{USERNAME}" style="border-radius: 50%; width: 150px; height: 150px;"></a>\n')
             md_file.write(f'<br>\n')
             md_file.write(f'<a href="{profile_url}" target="_blank">@{USERNAME}</a>\n')
             md_file.write(f'</div>\n')

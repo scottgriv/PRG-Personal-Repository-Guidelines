@@ -8,20 +8,20 @@ from datetime import datetime
 import pytz
 
 # Local Testing Flag:
-LOCAL_TESTING = False # Set to True if you want to test locally, False if you want to test on GitHub Actions
+LOCAL_TESTING = False # Set to True if you want to test locally, False if you want to deploy using GitHub Actions
 
 print(f"Local Testing?: {LOCAL_TESTING}")
 
-# Local Test Check:
+# Local (Test/Development)
 if LOCAL_TESTING:
-    path_start = '..'
-    GITHUB_TOKEN = '' # Add your API token here
-    # WARNING: MAKE SURE YOU REMOVE THE ABOVE BEFORE PUSHING TO GITHUB!!!
+    path_start = '..' # Path Start
+    GITHUB_TOKEN = '' # Add your API token here (WARNING: MAKE SURE YOU REMOVE YOUR ACCESS TOKEN PRIOR TO COMMITTING TO GITHUB)
     USERNAME = '' # Add your username here
+# GitHub Actions (Production)
 else:
-    path_start = '.'
-    GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '') # Used for GitHub Actions (environment variable)
-    USERNAME = os.environ.get('GITHUB_ACTOR', 'default_username') # Used for GitHub Actions (environment variable)
+    path_start = '.' # Path Start
+    GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '') # Access Token used for GitHub Actions (Repository secret variable)
+    USERNAME = os.environ.get('GITHUB_ACTOR', 'default_username') # Used for GitHub Actions (Repository secret variable)
 
 print(f"GitHub Username: {USERNAME}")
 
@@ -496,7 +496,7 @@ try:
 
                         # Write the organization's details in a flex item
                         md_file.write(f'<div style="text-align: center;">\n')  # Wrapper div for each org
-                        md_file.write(f'<a href="{org_profile_url}" target="_blank" class="icon-container"><img src="{org_avatar_url}" alt="{org["login"]}" style="border-radius: 50%; width: 100px; height: 100px;"></a>\n')
+                        md_file.write(f'<a href="{org_profile_url}" target="_blank" class="icon-container"><img src="{org_avatar_url}" alt="{org["login"]}" style="border-radius: 50%; width: 150px; height: 150px;"></a>\n')
                         md_file.write(f'<br>\n')
                         md_file.write(f'<a href="{org_profile_url}" target="_blank">@{org["login"]}</a>\n')
                         md_file.write(f'</div>\n')

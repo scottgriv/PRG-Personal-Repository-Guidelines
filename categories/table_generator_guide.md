@@ -202,7 +202,7 @@ See [Badge Reference Guide](../categories/badge_reference_guide.md) for more det
 9. Go to your repository settings.
 10. Click on the `Secrets` tab.
 11. Click on the `New repository secret` button.
-12. Name the secret `MY_GITHUB_TOKEN`.
+12. Name the secret `MY_GITHUB_TOKEN` (referenced in the `main.yml` file, and used as the `GITHUB_TOKEN` variable in the `project_tier_table_generator.py` build script).
 
 - Some common errors you may see when running the workflow:
   - `Error: Resource not accessible by integration`

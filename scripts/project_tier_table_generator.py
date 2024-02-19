@@ -197,7 +197,7 @@ Add the following badge to your profile `README` to showcase your **PRG Collecti
 ### ![#680F7F](https://via.placeholder.com/13/680F7F/000000?text=+) PRG Collection Badge (Portfolio) 
 
 <a href="{TIER_TABLE_URL}" target="_blank">
-    <img src="{PRG_REPO_URL}/PRG-Personal-Repository-Guidelines/raw/main/docs/images/prg_portfolio.png" alt="Collection" width="138" height="51" />
+    <img src="{PRG_REPO_URL}/raw/main/docs/images/prg_portfolio.png" alt="Collection" width="138" height="51" />
 </a>
 
 ## Alternative Profile Badges

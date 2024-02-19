@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.1.1
+
+### Added or Changed
+
+- Misc. Bug Fixes
+
+### Removed
+
+- N/A
+
 ## v1.1.0
 
 ### Added or Changed

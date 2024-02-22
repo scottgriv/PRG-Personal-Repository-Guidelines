@@ -340,9 +340,9 @@ Below is a list of all the documents and resources available for **PRG**.
   </tr>
 </table>
 
-### Key
+### 🔑 Key
 
-| Color                                                                                                                                                                                                                                                           | Document Type  |
+| Icon Color                                                                                                                                                                                                                                                           | Document Type  |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
 | ![#6236FF](https://via.placeholder.com/10/6236FF/000000?text=+)                                                                                                                                                                                                 | Guideline      |
 | ![#680F7F](https://via.placeholder.com/10/680F7F/000000?text=+)                                                                                                                                                                                                 | Guide          |

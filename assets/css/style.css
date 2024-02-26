@@ -120,10 +120,22 @@ tbody tr:hover a {
   display: block; /* Initially show the desktop title */
 }
 
+
 /* Mobile Responsive Styles */
 @media screen and (max-width: 600px) {
+  .header-logo-desktop {
+    display: none;
+  }
+
+  .header-logo-mobile {
+    display: block;
+    width: 100%; /* Ensure logo takes full width of its container */
+    max-width: 100%; /* Prevent the logo from exceeding the screen width */
+  }
+
   table {
-    width: 1500px;
+    width: 100%; /* Make table width responsive */
+    overflow-x: auto; /* Enable horizontal scrolling for tables wider than the screen */
   }
 
   .title-welcome-mobile {
@@ -136,25 +148,16 @@ tbody tr:hover a {
 
   .dataTables_filter {
     float: none;
-    text-align: center; /* Optional: Center the search bar on mobile */
-    margin-bottom: 20px; /* Adjust the space below the search bar */
+    text-align: center; /* Center the search bar on mobile */
   }
 
   .dataTables_info {
-    position: static; /* Reset the position value on mobile */
-    float: none; /* Reset the float value on mobile */
+    position: static; /* Reset the position */
+    float: none; /* Reset the float */
     text-align: center; /* Center the info label */
-    padding-bottom: 20px;
-  }
-
-  .header-logo-desktop {
-    display: none;
-  }
-
-  .header-logo-mobile {
-    display: block;
   }
 }
+
 
 /* Hide the "Show entries" and pagination */
 .dataTables_length,

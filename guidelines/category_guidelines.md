@@ -128,9 +128,13 @@ Consult this guideline for detailed information on the categorization of each ti
 - The order of languages/technologies can vary; it's advisable to place the most prominent one first.
 - For forked repositories:
     - If unchanged, they won't automatically be part of **PRG** or have a tier. Add a **PRG Connection File** to classify them (see the [Table Generator Guide - PRG Connection File](../categories/table_generator_guide.md#prg-connection-file) for more details).
+      - Its good practice to not fork something, unless you're going to make changes to it.
+      - Otherwise, simply download/clone it if you're trying to use it or look under the hood for learning/idea purposes.
     - Slight modifications can classify the fork as a ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze** tier project.
-    - Significant alterations can elevate the fork to a ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver** tier.
-  - Note that a forked repository, not being original work, can only attain a maximum of ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver** tier status, never ![#E5E4E2](https://via.placeholder.com/15/E5E4E2/000000?text=+) **Platinum** or ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+)  **Gold**.
+    - Significant alterations can elevate the fork to a ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver** or ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold** tier project.
+
+> [!NOTE]
+> A forked repository, not being original work, can only attain a maximum of ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold** tier status, never ![#E5E4E2](https://via.placeholder.com/15/E5E4E2/000000?text=+) **Platinum** status.
 
 <a id="optimized-tier-project"></a>
 

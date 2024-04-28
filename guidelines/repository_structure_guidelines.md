@@ -92,22 +92,24 @@ This guideline details necessary files and overall structure for your repository
 > **OPTIONAL** file for **ALL** tiers.
 
 - This file contains a list of changes for each version of your project.
+- Use the [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) format for your changelog.
 - Follow [Semantic Versioning](https://semver.org/) guidelines.
-    - Given a version number **MAJOR.MINOR.PATCH** (e.g. 1.0.0), increment the:
-        - **MAJOR** version when you make incompatible API changes
-        - **MINOR** version when you add functionality in a backward compatible manner
-        - **PATCH** version when you make backward compatible bug fixes
+    - Given a version number **X.Y.Z** (**MAJOR.MINOR.PATCH**) (e.g. 1.0.0), increment the:
+        - **MAJOR** version when you make incompatible API changes.
+        - **MINOR** version when you add functionality in a backward compatible manner.
+        - **PATCH** version when you make backward compatible bug fixes.
+        - A normal version number MUST take the form X.Y.Z where X, Y, and Z are non-negative integers, and MUST NOT contain leading zeroes.
         - Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
+
     - For pre-release and build metadata, use the labels **alpha**, **beta**, **rc**, and **build** using the format **MAJOR.MINOR.PATCH-label.build**.
     - Examples:
-        - 1.0.0-alpha.1
-        - 1.0.0-beta.2
-        - 1.0.0-rc.1
+        - 1.0.0-alpha
+        - 1.0.0-beta
+        - 1.0.0-rc
             - **rc** stands for release candidate, which is a beta version with potential to be a final product, which is ready to release unless significant bugs emerge.
-            - **alpha** and **beta** are used for pre-release versions
-            - **build** is used to identify a build
+            - **alpha** and **beta** are used for pre-release versions.
+            - **build** is used to identify a build.
             - This scheme is not strictly enforced, but it is recommended by the Semantic Versioning (SemVer) specification, highlighted in their 2.0.0 release [here](https://semver.org/spec/v2.0.0.html#spec-item-9).
-- Use the [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) format for your changelog
 
 **Resources:**
 > [Semantic Versioning](https://semver.org/)

@@ -1,62 +1,53 @@
 # Changelog
 
-## v1.1.1
+All notable changes to this project will be documented in this file.
 
-### Added or Changed
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-- Misc. Bug Fixes
+## [1.1.2] - 2024-04-28
 
-### Removed
+### Fixed
 
-- N/A
+- This CHANGELOG file.
 
-## v1.1.0
+## [1.1.1] - 2024-02-19
 
-### Added or Changed
+### Fixed
 
-- Update CREDITS file, finalized project table, revised multiple guides
+- Misc. Bug Fixes.
 
-### Removed
+## [1.1.0] - 2024-02-15
 
-- Jekyll build and cache files from the repository
+### Changed
 
-## v1.0.2
-
-### Added or Changed
-
-- Update requirements file, removed unneeded dependencies
+- Update CREDITS file, finalized project table, revised multiple guides.
 
 ### Removed
 
-- N/A
+- Jekyll build and cache files from the repository.
 
-## v1.0.1
-
-### Added or Changed
-
-- Minor security fixes and enhancements
+## [1.0.2] - 2024-01-19
 
 ### Removed
 
-- N/A
+- Update requirements file, removed unneeded dependencies.
 
-## v1.0.0
+## [1.0.1] - 2024-01-09
 
-### Added or Changed
+### Changed
 
-- Official Release of PRG
+- Minor security fixes and enhancements.
 
-### Removed
+## [1.0.0] - 2023-12-12
 
-- N/A
+### Added
 
-## v1.0-beta.1
+- Official Release of PRG.
 
-### Added or Changed
-
-- Added this changelog file :D
-- Beta release of PRG
-
-### Removed
-
-- N/A
+[1.1.2]: https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/compare/v1.1.1...v1.1.2
+[1.1.1]: https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/compare/v1.1.0...v1.1.1
+[1.1.0]: https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/compare/v1.0.2...v1.1.0
+[1.0.2]: https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/compare/v1.0.1...v1.0.2
+[1.0.1]: https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/compare/v1.0.0...v1.0.1
+[1.0.0]: https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/releases/tag/v1.0.0

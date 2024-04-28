@@ -180,4 +180,7 @@ Consult this guideline for detailed information on the categorization of each ti
 > If you choose to not use GitHub pages, make sure you change the username in the badge to your own to link to your forked repositories Project Tier Table markdown file.
 
 ## Resources
-- [Try a Semantic Approach to Naming GitHub Repositories](https://moduscreate.com/blog/github-semantic-naming/) - A great article on naming conventions for GitHub repositories. This article made me consider the naming conventions for **PRG**.
+- [Try a Semantic Approach to Naming GitHub Repositories](https://moduscreate.com/blog/github-semantic-naming/)   
+  - A great article on naming conventions for GitHub repositories. This article made me consider the naming conventions for **PRG**.
+- [Semantic Versioning](https://semver.org/)
+- [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)

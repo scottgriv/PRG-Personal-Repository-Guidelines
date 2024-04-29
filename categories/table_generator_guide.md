@@ -188,6 +188,9 @@ See [Badge Reference Guide](../categories/badge_reference_guide.md) for more det
 - You can view the Jekyll build locally by going to the following URL in your browser:
   - `http://localhost:4000/`
 
+  > [!NOTE]
+  > You will need to download and install both Python and Jekyll to run PRG locally.
+
 ### GitHub Actions API Secret
 
 - You will need to create a GitHub Actions API Secret in order for the workflow to run:

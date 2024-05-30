@@ -31,6 +31,7 @@ Consult this guideline for detailed information on the categorization of each ti
 - [Optimized Tier Project](#optimized-tier-project)
 - [Non-PRG Project (None)](#non-prg-project)
 - [Profile PRG Collection](#profile-prg-collection)
+- [PRG Projects on App Stores](#prg-projects-on-app-stores)
 - [Resources](#resources)
 
 <a id="platinum-tier-project"></a>
@@ -179,7 +180,12 @@ Consult this guideline for detailed information on the categorization of each ti
 > [!WARN]
 > If you choose to not use GitHub pages, make sure you change the username in the badge to your own to link to your forked repositories Project Tier Table markdown file.
 
+## PRG Projects on App Stores
+
+Sometimes projects may require a *Duel Purpose README*, in otherwords, a `README` that is used not only for your GitHub Repository, but also for an App Store that you may be deploying to (i.e. VSCode Store). In this case, you can still classify your project under **PRG** by adding your project as an [External Project](../categories/table_generator_guide.md#external-projects) by following the [Table Generator Guide](../categories/table_generator_guide.md). That way, your project will still be included in your **PRG Portfolio** but you can utilize your `README` on whatever App Store you need. One caveat will be that you won't see a **PRG Badge** in your `README`, but there's not much you can do in this scenario other than manually adding it because you don't want to include a `PRG.md` file with your public facing application (which may be under scrutiny by the App Store you're releasing it on).
+
 ## Resources
+
 - [Try a Semantic Approach to Naming GitHub Repositories](https://moduscreate.com/blog/github-semantic-naming/)   
   - A great article on naming conventions for GitHub repositories. This article made me consider the naming conventions for **PRG**.
 - [Semantic Versioning](https://semver.org/)

@@ -887,9 +887,8 @@ Below is a list of handy web applications I built that you can use to help devel
 
 ## License
 
-This project is released under the terms of the **GNU General Public License, version 3 (GPLv3)**.
-
-- The GPLv3 is a "copyleft" license, ensuring that derivatives of the software remain open source and under the GPL.
+This project is released under the terms of the **GNU General Public License, version 3 (GNU GPLv3)**, which ensures that derivatives of the software remain open source.
+- The [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/) is a "copyleft" license, ensuring that derivatives of the software remain open source and under the GPL.
 - For more details and to understand all requirements and conditions, see the [LICENSE](LICENSE) file in this repository.
 
 ## Credits

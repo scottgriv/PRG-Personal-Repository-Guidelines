@@ -24,7 +24,7 @@
 
 ---
 
-<h1 align="center">Personal Repository Guidelines (PRG)</h1>
+<h1 align="center">📋 Personal Repository Guidelines (PRG)</h1>
 
 **PRG** is a system that transforms the way repositories are organized and presented in your GitHub portfolio. By harnessing the power of GitHub Actions, it automatically crafts a tier-based display, neatly categorizing your repositories for enhanced clarity and impact. Beyond mere organization, it sets forth comprehensive guidelines, templates for `READMEs`, and overall repository structure, ensuring each project is showcased with maximum professionalism and coherence.
 

@@ -6,12 +6,12 @@
 
 <h1 align="center">Table Generator Guide</h1>
 
-**PyRG** is a `Python` implementation of the **PRG** system. It is a simple `Python` script that allows you to easily create a project tier table for your **GitHub portfolio**. Also included is a GitHub Action CI/CD workflow that will automatically generate a table of all your repositories and their **PRG** tiers to deploy to GitHub Pages in order to showcase your projects/portfolio.
+**PyRG** is a `Python` implementation of the **PRG** framework. It is a simple `Python` script that allows you to easily create a project tier table for your **GitHub portfolio**. Also included is a GitHub Action CI/CD workflow that will automatically generate a table of all your repositories and their **PRG** tiers to deploy to GitHub Pages in order to showcase your projects/portfolio.
 
 ---------------
 
 ## Table of Contents
-- [Connecting Projects to the PRG System](#connecting-projects-to-the-prg-system)
+- [Connecting Projects to the PRG framework](#connecting-projects-to-the-prg-framework)
   - [PRG Connection File](#prg-connection-file)
   - [PRG Project Logo](#prg-project-logo)
   - [Finish Setup](#finish-setup)
@@ -31,9 +31,9 @@
 - [Running the Workflow](#running-the-workflow)
 - [Resources](#resources)
 
-## Connecting Projects to the PRG System
+## Connecting Projects to the PRG Framework
 
-In order to get the **PRG** system to work, you must perform the following pre-requisites:
+In order to get the **PRG** framework to work, you must perform the following pre-requisites:
 
 ### PRG Connection File
 
@@ -50,12 +50,12 @@ In order to get the **PRG** system to work, you must perform the following pre-r
 > You can have repeating numbers, but it should be unique by tier. For example, you can have a `Order: 1` for **Gold**, **Silver**, or **Bronze**. Rank your repos from `1-*` for *each* category.
 
 > [!CAUTION]
-> Lines 15-18 are mapped in the `scripts/project_tier_table_generator.py` script to the PRG system. Do not move or change these lines without adjusting the script to account for this change.
+> Lines 15-18 are mapped in the `scripts/project_tier_table_generator.py` script to the PRG framework. Do not move or change these lines without adjusting the script to account for this change.
 
    - The GitHub Action Workflow (explained below) uses this file to categorize your repositories.
    - You must have a _Repository Tier_ label for each repository for the categorization to work.
      - Change the repository's `Tier` label to match the tier of the repository (![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) **Platinum**, ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze**, or ![#6236FF](https://via.placeholder.com/10/6236FF/000000?text=+) **Optimized**).
-     - The `Tier` label is the only required label for the **PRG** system to work (if configured to look for a **PRG Connection File** file in the root folder).
+     - The `Tier` label is the only required label for the **PRG** framework to work (if configured to look for a **PRG Connection File** file in the root folder).
      - Optionally, if you don't want to categorize your project, but still want to display it in your table, you can use the ![#6236FF](https://via.placeholder.com/10/6236FF/000000?text=+) **Optimized** badge.
      - There are optional labels you can add to your repository as well: `Technology`, `Category`, and `Order`.
      - Place an empty values for `String` labels and `0` for `Integer` labels if you don't want to use them.
@@ -86,7 +86,7 @@ In order to get the **PRG** system to work, you must perform the following pre-r
 
 > [!TIP]
 > You can reference your built project tier table in your repository `README` or wherever you see fit.
-> This can be helpful showcasing your projects using the **PRG** system.
+> This can be helpful showcasing your projects using the **PRG** framework.
 
 ## Python Build Script (PyRG)
 
@@ -115,7 +115,7 @@ The time zone will be updated on the bottom of the table to reflect the time zon
 
 ### Private Repositories and External Projects
 
-If you have private/closed source or external (non-GitHub) projects, you can still use the **PRG** system.
+If you have private/closed source or external (non-GitHub) projects, you can still use the **PRG** framework.
 
 
 #### Private Repositories
@@ -169,7 +169,7 @@ You can customize your build script however you want if you want to categorize y
 ### Project Tier Badges (Output)
 
 See [Badge Reference Guide](../categories/badge_reference_guide.md) for more details on how to create badges for your repository.
-- Run the workflow above to get an update `categories/badge_reference_guide.md` file pointing to your **PRG** system.
+- Run the workflow above to get an update `categories/badge_reference_guide.md` file pointing to your **PRG** framework.
 - Place the badges in your repository `README` to showcase your **PRG Collection**.
 - Use my repos and **PRG Collection** as an example of how to use the badges in your `README` files.
 

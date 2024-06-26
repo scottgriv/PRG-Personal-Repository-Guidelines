@@ -6,7 +6,7 @@
 
 <h1 align="center">Personal Repository Guidelines (PRG) Connection File</h1>
 
-This file is used to connect this repository to the **PRG** project categorization system.
+This file is used to connect this repository to the **PRG** repository categorization and guideline framework.
 
 ---------------
 
@@ -26,17 +26,17 @@ This file is used to connect this repository to the **PRG** project categorizati
 
 ## How this works
 
-This file connects this repository to the **PRG** guideline and categorization system.
-- Include this file in your projects root folder for this repo to properly connect to your PRG system.
-- Follow the instructions in the [PRG-Personal-Repository-Guidelines - Table Generator Guide](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/categories/table_generator_guide.md) for more information on how to use the **PRG** system and **PRG Connection File (PRGCF)**.
+This file connects this repository to your **PRG** repository categorization and guideline framework.
+- Include this file in your projects root folder for this repo to properly connect to your PRG framework.
+- Follow the instructions in the [PRG-Personal-Repository-Guidelines - Table Generator Guide](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/categories/table_generator_guide.md) for more information on how to use the **PRG** framework and **PRG Connection File (PRGCF)**.
 
 > [!CAUTION]
-> Lines 15-18 above are mapped in the `scripts/project_tier_table_generator.py` script for the PRG system. Do not move or change these lines without adjusting the script to account for this change.
+> Lines 15-18 above are mapped in the `scripts/project_tier_table_generator.py` script for the PRG framework. Do not move or change these lines without adjusting the script to account for this change.
 
 ## Resources
 
 - Visit the official [Personal Repository Guidelines (PRG)](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines) repository for more details.
-- Visit an example of the [PRG Portfolio](https://prgportfolio.com) website to see how the **PRG** system can be used to create a portfolio of your projects.
+- Visit an example of the [PRG Portfolio](https://prgportfolio.com) website to see how the **PRG** framework can be used to create a portfolio of your projects.
 - Visit the [PRG Website](https://github.com/scottgriv/PRG-Website) repository to add your GitHub account name to the **PRG Showcase**.
 - Visit the official [PRG Website](https://prgoptimized.com) view the current **PRG Showcase**.
 

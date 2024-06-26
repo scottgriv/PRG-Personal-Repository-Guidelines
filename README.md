@@ -26,7 +26,7 @@
 
 <h1 align="center">📃 Personal Repository Guidelines (PRG)</h1>
 
-**PRG** is a system that transforms the way repositories are organized and presented in your GitHub portfolio. By harnessing the power of GitHub Actions, it automatically crafts a tier-based display, neatly categorizing your repositories for enhanced clarity and impact. Beyond mere organization, it sets forth comprehensive guidelines, templates for `READMEs`, and overall repository structure, ensuring each project is showcased with maximum professionalism and coherence.
+**PRG** is a repository categorization and guideline framework. By harnessing the power of GitHub Actions, it automatically crafts a tier-based display, neatly categorizing your repositories for enhanced clarity and impact. Beyond mere organization, it sets forth comprehensive guidelines, templates for `READMEs`, and overall repository structure, ensuring each project is showcased with maximum professionalism and coherence.
 
 - Categorized your repositories and projects into ![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) **Platinum**, ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze** tiers for your GitHub portfolio.
   - Display your repositories in a searchable and sortable `HTML` table, created with GitHub Actions and displayed through GitHub Pages, to organize and showcase your projects to the world.
@@ -411,7 +411,7 @@ Your `README` is the first thing people see when they visit your repository, it 
 Here are some definitions to help you understand the terminology used in this document:
 
 - <ins><b>PRG</b></ins>: An acronym for **Personal Repository Guidelines**.
-- <ins><b>PRG Optimized</b></ins>: A repository/project that is categorized using the **PRG** system.
+- <ins><b>PRG Optimized</b></ins>: A repository/project that is categorized using the **PRG** framework.
 - <ins><b>PRG Collection (aka PRG Portfolio)</b></ins>: The entire collection of repositories that are categorized using **PRG**.
 - <ins><b>PRG Connection File (aka PRGCF)</b></ins>: [A special markdown file](PRG.md) placed in the root of each of your repositories that is used to categorize your repositories using **PRG**.
 - <ins><b>PRG Showcase</b></ins>: A showcase of publically known users who are using **PRG** to categorize their repositories. [Visit The Official PRG Website](https://prgoptimized.com) to view and add your name to the showcase.
@@ -643,7 +643,7 @@ Consult the [Category Guidelines](./guidelines/category_guidelines.md) for more 
 </div>
 <br>
 
-**PyRG** is a `Python` implementation of the **PRG** system. It is a simple `Python` script that allows you to easily create a project tier table for your **PRG Portfolio**. Also included is a GitHub Action CI/CD workflow that will automatically generate a table of all your repositories and their **PRG** tiers to deploy to GitHub Pages in order to showcase your projects/portfolio.
+**PyRG** is a `Python` implementation of the **PRG** framework. It is a simple `Python` script that allows you to easily create a project tier table for your **PRG Portfolio**. Also included is a GitHub Action CI/CD workflow that will automatically generate a table of all your repositories and their **PRG** tiers to deploy to GitHub Pages in order to showcase your projects/portfolio.
 
 Consult the [Table Generator Guide](./categories/table_generator_guide.md) for more details on how to setup the project tier table generator using GitHub Actions and GitHub Pages.
 
@@ -700,7 +700,7 @@ Review the [Repository Settings Guidelines](./guidelines/repository_settings_gui
 
 ## 3. Templates
 
-The following templates are provided for you to use in your repositories. These templates are designed to be used with the **PRG** system.
+The following templates are provided for you to use in your repositories. These templates are designed to be used with the **PRG** framework.
 
 ## Project Templates
 
@@ -806,7 +806,7 @@ Below are some external resources I found helpful when creating my repositories 
 
 ### UML Diagram
 
-Below is a *UML Package Diagram* of the **PRG** system:
+Below is a *UML Package Diagram* of the **PRG** framework:
 
 ![PRG Package Diagram](./docs/diagrams/out/prg_package_diagram.png)
 

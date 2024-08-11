@@ -1,0 +1,15 @@
+[submodule "templates/PRG-Platinum-Tier-Template"]
+	path = templates/PRG-Platinum-Tier-Template
+	url = https://github.com/scottgriv/PRG-Platinum-Tier-Template
+[submodule "templates/PRG-Gold-Tier-Template"]
+	path = templates/PRG-Gold-Tier-Template
+	url = https://github.com/scottgriv/PRG-Gold-Tier-Template
+[submodule "templates/PRG-Silver-Tier-Template"]
+	path = templates/PRG-Silver-Tier-Template
+	url = https://github.com/scottgriv/PRG-Silver-Tier-Template
+[submodule "templates/PRG-Bronze-Tier-Template"]
+	path = templates/PRG-Bronze-Tier-Template
+	url = https://github.com/scottgriv/PRG-Bronze-Tier-Template
+[submodule "templates/PRG-Website"]
+	path = templates/PRG-Website
+	url = https://github.com/scottgriv/PRG-Website

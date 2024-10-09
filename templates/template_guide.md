@@ -10,6 +10,14 @@ This document serves as a comprehensive guide for accessing and utilizing the ti
 - Each categorized tier – ![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) **Platinum**, ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze** – has its own customized repository and `README` templates that cater to different levels of project complexity and requirements.
 - Consult the [Category Guidelines](../guidelines/category_guidelines.md) for more information on the different project categories and their respective tiers.
 
+> [!WARNING]
+> Be sure to change the templates corresponding **PRG Connection File** **Repository Tier** parameter from **Optimized** to the appropriate category your template is for in order to correctly categorize your repository when using a template.
+> All templates are currently set to the uncategorized "**Optimized**" option, so be sure to change this.
+
+> [!WARNING]
+> Be sure to change or remove the [.gitattributes](.gitattributes) file from this the template repository as well.
+> It's used to classify this template repository as a Markdown file on GitHub only, and is not needed.
+
 ---------------
 
 ## Table of Contents
@@ -82,8 +90,11 @@ To use the above templates, you can do one of two things:
     
 2. Click on the appropriate template link above, then **Fork** the template repository.
     - When you click **New Repository**, you will now have an option under **Repository template** to select the template you just forked. 
+        - Optionally, you can **Clone** the template, and mark it as a template when you push it to GitHub.
     - This will create a new repository with the template's contents, which you can then clone to your local machine and edit as needed.
     - View the [README Guidelines](../guidelines/readme_guidelines.md) for more information on how to edit the template's contents.
+    - Make sure you update the **PRG Connection File** to categorize your repository properly as well.
+        - Follow the instructions in the [PRG-Personal-Repository-Guidelines - Table Generator Guide](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/categories/table_generator_guide.md) for more information on how to use the **PRG** framework and **PRG Connection File (PRGCF)**.
 
 ## Resources
 

@@ -858,31 +858,6 @@ Below is a list of handy web applications I built that you can use to help devel
       </div>
     </td>
   </tr>
-<!-- Row 2 -->
-  <tr>
-    <td align="center">
-      <div style="margin: 10px; text-align: center;">
-        <a href="https://scottgriv.github.io/Binary-Converter">
-          <img src="./docs/images/web_apps/icon_4-rounded.png" alt="Binary Converter"
-               style="max-width: 85px; height: auto; width: 85px;">
-          <br>
-          <b>Binary Converter</b>
-        </a>
-        <p>Convert text to binary and vice versa.</p>
-      </div>
-    </td>
-    <td align="center">
-      <div style="margin: 10px; text-align: center;">
-        <a href="https://scottgriv.github.io/PWA-Demo-App">
-          <img src="./docs/images/web_apps/icon_5-rounded.png" alt="PWA - Demo Application"
-               style="max-width: 85px; height: auto; width: 85px;">
-          <br>
-          <b>PWA - Demo Application</b>
-        </a>
-        <p>PWA demo and tutorial application.</p>
-      </div>
-    </td>
-  </tr>
 </table>
 
 ## License

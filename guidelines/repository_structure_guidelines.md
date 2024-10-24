@@ -79,6 +79,22 @@ This guideline details necessary files and overall structure for your repository
 
 - This file should contain a list of people who have contributed to your project.
 - Compare this file to `AUTHORS`, `CONTRIBUTORS`, and `ACKNOWLEDGMENTS` files.
+- Try the [CREDITS Generator](https://scottgriv.github.io/CREDITS-Generator) app I made to easily generate your own `CREDITS` file.
+
+<table>
+  <tr>
+    <td align="center">
+      <div style="margin: 10px; text-align: center;">
+        <a href="https://scottgriv.github.io/CREDITS-Generator">
+          <img src="../docs/images/web_apps/icon_1-rounded.png" alt="CREDITS Generator"
+               style="max-width: 85px; height: auto; width: 85px;">
+          <br>
+          <b>CREDITS Generator</b>
+        </a>
+        <p>Generate CREDITS.md files for your projects.</p>
+      </div>
+    </td>
+</table>
 
 **Resources:**
 - [CREDITS Generator](https://scottgriv.github.io/CREDITS-Generator) - Personal Project - used to generate PRG's CREDITS file.

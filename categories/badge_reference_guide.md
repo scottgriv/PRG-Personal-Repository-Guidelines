@@ -80,7 +80,7 @@ Utilize this file as a template for collecting and incorporating badges into you
 
 ## Profile Badges
 
-Add the following badge to your profile `README` to showcase your **PRG Collection** for your **GitHub portfolio**.
+Add the following badge to your profile `README` to showcase your **PRG Collection** for your **GitHub Portfolio**.
 - The hyperlink will take your profile visitors to your categorized project tier table. 
 - This will complete the **PRG** experience for your profile visitors.
 

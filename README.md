@@ -741,7 +741,7 @@ Use or add more licenses to the [License Example Directory](templates/license_ex
 ## Closing
 
 Thank you for taking the time to read through this document and I hope you find it useful!
-If you have any questions or suggestions, please feel free to reach out to me.
+If you have any questions or suggestions, please feel free to reach out to me!
 
 > Please reference the [SUPPORT](.github/SUPPORT.md) file in this repository for more details.
 

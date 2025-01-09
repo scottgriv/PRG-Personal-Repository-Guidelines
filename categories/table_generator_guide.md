@@ -131,10 +131,12 @@ If you have private/closed source or external (non-GitHub) projects, you can sti
 #### External Projects
 
 - You can manually add external projects that are not on GitHub by adding them to the `categories/project_tier_table_private.md` file.
-  - Follow the same format as the example placeholder repository in the file.
-  - Add icons for for your external projects in the `docs/images/private_repos` folder (same as private repositories).
-    - For external projects, you can name the icon whatever you want, just make sure you update the 
   - Projects in this file will be consolidated into the main table when the workflow runs.
+  - Add icons for for your external projects in the `docs/images/private_repos` folder (same as private repositories).
+    - For external projects, you can name the icon whatever you want, just make sure the file name matches the file in the `categories/project_tier_table_private.md` file.
+
+  > [!IMPORTANT]
+  > Be sure to change the `INCLUDE_PRIVATE_FILE_PROJECTS` flag to `True` in the [project_tier_table_generator.py](../scripts/project_tier_table_generator.py) file.
 
 ### Script Customization
 

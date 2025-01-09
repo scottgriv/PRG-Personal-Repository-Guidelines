@@ -39,7 +39,7 @@ body {
 
 /* Set default link color */
 a {
-  color: #B39CD9; /* PRG Purple link */
+  color: #714EEE; /* PRG Purple link */
 }
 
 /* Table styles */
@@ -265,7 +265,7 @@ h2 {
 }
 
 .social-links a {
-  color: #B39CD9; /* Icon color */
+  color: #714EEE; /* Icon color */
   font-size: 17px; /* Icon size */
 }
 

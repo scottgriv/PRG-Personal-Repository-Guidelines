@@ -270,7 +270,14 @@ h2 {
 }
 
 .social-links a:hover {
-  color: #6236ff; /* Green color for links hover effect, change as needed */
+  color: #000000; /* Green color for links hover effect, change as needed */
+}
+
+.social-links-footer {
+  display: flex;
+  gap: 10px; /* Space between icons */
+  color: #7A7A7A; /* Icon color */
+  font-size: 17px; /* Icon size */
 }
 
 /* Remove the search icon from the search input on iOS */

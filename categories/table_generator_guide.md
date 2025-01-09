@@ -117,7 +117,6 @@ The time zone will be updated on the bottom of the table to reflect the time zon
 
 If you have private/closed source or external (non-GitHub) projects, you can still use the **PRG** framework.
 
-
 #### Private Repositories
 
 - Private repositories that are on GitHub will be picked up if configured to do so in the script.
@@ -126,7 +125,6 @@ If you have private/closed source or external (non-GitHub) projects, you can sti
   
   > [!IMPORTANT]
   > Even though the API can pick up private repositories, it will not be able to point to the repository URL to get the icon since it is private so you will have to manually add the icon to the `docs/images/private_repos` folder and name it the same as the repository name (case sensitive).
-
 
 #### External Projects
 
@@ -137,6 +135,7 @@ If you have private/closed source or external (non-GitHub) projects, you can sti
 
   > [!IMPORTANT]
   > Be sure to change the `INCLUDE_PRIVATE_FILE_PROJECTS` flag to `True` in the [project_tier_table_generator.py](../scripts/project_tier_table_generator.py) file.
+  > Check out [this handy tool](http://markdowntable.com/) if you need help formatting/viewing your markdown table.
 
 ### Script Customization
 

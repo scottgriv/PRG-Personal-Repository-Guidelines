@@ -185,6 +185,29 @@
           dom: "<if<t>>",
           pageLength: -1, // Show all rows
         });
+        // Get the 'search' parameter from the URL
+        const params = new URLSearchParams(window.location.search);
+        const searchQuery = params.get('search');
+
+        // Apply the search query if it exists
+        if (searchQuery) {
+            table.search(searchQuery).draw(); // Set the search value and redraw the table
+            $("#content input[type='search']").val(searchQuery); // Update the search input field
+        }
+
+      // Update the URL dynamically as the user types in the search bar
+      $("#content input[type='search']").on("input", function () {
+          const query = $(this).val();
+          const newUrl = new URL(window.location.href);
+
+          if (query) {
+              newUrl.searchParams.set("search", query); // Set the 'search' parameter
+          } else {
+              newUrl.searchParams.delete("search"); // Remove the 'search' parameter if empty
+          }
+
+          window.history.replaceState({}, "", newUrl);
+      });
 
         // Function to add data attributes
         function addDataAttributes() {

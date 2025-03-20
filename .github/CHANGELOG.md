@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.1.5] - 2025-03-19
 
-- Update broken color image previews.
+- Update broken color image previews and fix submodules.
 
 ## [1.1.4] - 2025-01-12
 

@@ -54,9 +54,9 @@ In order to get the **PRG** framework to work, you must perform the following pr
 
    - The GitHub Action Workflow (explained below) uses this file to categorize your repositories.
    - You must have a _Repository Tier_ label for each repository for the categorization to work.
-     - Change the repository's `Tier` label to match the tier of the repository (![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) **Platinum**, ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze**, or ![#6236FF](https://via.placeholder.com/10/6236FF/000000?text=+) **Optimized**).
+     - Change the repository's `Tier` label to match the tier of the repository (![#E5E4E2](https://placehold.co/10/E5E4E2/E5E4E2) **Platinum**, ![#FFD700](https://placehold.co/10/FFD700/FFD700) **Gold**, ![#C0C0C0](https://placehold.co/10/C0C0C0/C0C0C0) **Silver**, ![#CD7F32](https://placehold.co/10/CD7F32/CD7F32) **Bronze**, or ![#6236FF](https://placehold.co/10/6236FF/6236FF) **Optimized**).
      - The `Tier` label is the only required label for the **PRG** framework to work (if configured to look for a **PRG Connection File** file in the root folder).
-     - Optionally, if you don't want to categorize your project, but still want to display it in your table, you can use the ![#6236FF](https://via.placeholder.com/10/6236FF/000000?text=+) **Optimized** badge.
+     - Optionally, if you don't want to categorize your project, but still want to display it in your table, you can use the ![#6236FF](https://placehold.co/10/6236FF/6236FF) **Optimized** badge.
      - There are optional labels you can add to your repository as well: `Technology`, `Category`, and `Order`.
      - Place an empty values for `String` labels and `0` for `Integer` labels if you don't want to use them.
 
@@ -234,7 +234,7 @@ See [Badge Reference Guide](../categories/badge_reference_guide.md) for more det
 - The workflow should take about 1-2 minutes to run (depending on how many repositories you have).
 - Be sure to add **PRG Connection Files** to your repositories and add the `Tier` label to each repository or else the workflow will be blank.
   - Optionally, you can adjust the config files in the build script to ignore the **PRG Connection File** and pull in all of your repos without categorizing them.
-  - If you opt to do this, repositories will have the ![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) **Optimized** badge by default.
+  - If you opt to do this, repositories will have the ![#6236FF](https://placehold.co/15/6236FF/000000?text=+) **Optimized** badge by default.
 
 ## Resources
 

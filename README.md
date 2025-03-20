@@ -28,7 +28,7 @@
 
 **PRG** is a repository categorization and guideline framework. By harnessing the power of GitHub Actions, it automatically crafts a tier-based display, neatly categorizing your repositories for enhanced clarity and impact. Beyond mere organization, it sets forth comprehensive guidelines, templates for `READMEs`, and overall repository structure, ensuring each project is showcased with maximum professionalism and coherence.
 
-- Categorized your repositories and projects into ![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) **Platinum**, ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze** tiers for your **GitHub Portfolio**.
+- Categorized your repositories and projects into ![#E5E4E2](https://placehold.co.com/10/E5E4E2/E5E4E2) **Platinum**, ![#FFD700](https://placehold.co/10/FFD700/FFD700) **Gold**, ![#C0C0C0](https://placehold.co.com/10/C0C0C0/C0C0C0) **Silver**, and ![#CD7F32](https://placehold.co.com/10/CD7F32/CD7F32) **Bronze** tiers for your **GitHub Portfolio**.
   - Display your repositories in a searchable and sortable `HTML` table, created with GitHub Actions and displayed through GitHub Pages, to organize and showcase your projects to the world.
     - You can send specific projects via a predefined search URL parameter by appending `/?search=` to your `PRG` URL and add whatever project name, language, tech, category, etc.
 - Follow the defined guidelines to guide your repository structure and `README` content.
@@ -59,13 +59,13 @@
 - [1. Categories](#1-categories)
   - [PRG Connection File](#prg-connection-file)
   - [Tier Badges](#tier-badges)
-    - [![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) Platinum Tier Project Badge](#platinum-tier-project-badge)
-    - [![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) Gold Tier Project Badge](#gold-tier-project-badge)
-    - [![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) Silver Tier Project Badge](#silver-tier-project-badge)
-    - [![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) Bronze Tier Project Badge](#bronze-tier-project-badge)
-    - [![#6236FF](https://via.placeholder.com/10/6236FF/000000?text=+) Optimized Tier Project Badge](#optimized-tier-project-badge)
+    - [![#E5E4E2](https://placehold.co.com/10/E5E4E2/E5E4E2) Platinum Tier Project Badge](#platinum-tier-project-badge)
+    - [![#FFD700](https://placehold.co.com/10/FFD700/FFD700) Gold Tier Project Badge](#gold-tier-project-badge)
+    - [![#C0C0C0](https://placehold.co.com/10/C0C0C0/C0C0C0) Silver Tier Project Badge](#silver-tier-project-badge)
+    - [![#CD7F32](https://placehold.co.com/10/CD7F32/CD7F32) Bronze Tier Project Badge](#bronze-tier-project-badge)
+    - [![#6236FF](https://placehold.co.com/10/6236FF/6236FF) Optimized Tier Project Badge](#optimized-tier-project-badge)
   - [Profile Badges](#profile-badges)
-    - [![#680F7F](https://via.placeholder.com/10/680F7F/000000?text=+) PRG Collection Badge](#prg-collection-badge)
+    - [![#680F7F](https://placehold.co.com/10/680F7F/680F7F) PRG Collection Badge](#prg-collection-badge)
   - [Building the Project Tier Table](#building-the-project-tier-table)
 - [2. Guidelines](#2-guidelines)
   - [Category Guidelines](#category-guidelines)
@@ -75,10 +75,10 @@
   - [Repository Structure Guidelines](#repository-structure-guidelines)
 - [3. Templates](#3-templates)
   - [Project Templates](#project-templates)
-    - [![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) Platinum Tier Template](https://github.com/scottgriv/PRG-Platinum-Tier-Template)
-    - [![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) Gold Tier Template](https://github.com/scottgriv/PRG-Gold-Tier-Template)
-    - [![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) Silver Tier Template](https://github.com/scottgriv/PRG-Silver-Tier-Template)
-    - [![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) Bronze Tier Template](https://github.com/scottgriv/PRG-Bronze-Tier-Template)
+    - [![#E5E4E2](https://placehold.co.com/10/E5E4E2/E5E4E2) Platinum Tier Template](https://github.com/scottgriv/PRG-Platinum-Tier-Template)
+    - [![#FFD700](https://placehold.co.com/10/FFD700/FFD700) Gold Tier Template](https://github.com/scottgriv/PRG-Gold-Tier-Template)
+    - [![#C0C0C0](https://placehold.co.com/10/C0C0C0/C0C0C0) Silver Tier Template](https://github.com/scottgriv/PRG-Silver-Tier-Template)
+    - [![#CD7F32](https://placehold.co.com/10/CD7F32/CD7F32) Bronze Tier Template](https://github.com/scottgriv/PRG-Bronze-Tier-Template)
   - [License Templates](#license-templates)
 - [Closing](#closing)
   - [PRG Showcase](#prg-showcase)
@@ -345,16 +345,16 @@ Below is a list of all the documents and resources available for **PRG**.
 
 | Icon Color                                                                                                                                                                                                                                                           | Document Type  |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
-| ![#6236FF](https://via.placeholder.com/10/6236FF/000000?text=+)                                                                                                                                                                                                 | Guideline      |
-| ![#680F7F](https://via.placeholder.com/10/680F7F/000000?text=+)                                                                                                                                                                                                 | Guide          |
-| ![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) | Template       |
-| ![#FFFFFF](https://via.placeholder.com/10/FFFFFF/000000?text=+)                                                                                                                                                                                                 | File/Directory |
+| ![#6236FF](https://placehold.co.com/10/6236FF/6236FF+)                                                                                                                                                                                                 | Guideline      |
+| ![#680F7F](https://placehold.co.com/10/680F7F/680F7F+)                                                                                                                                                                                                 | Guide          |
+| ![#E5E4E2](https://placehold.co.com/10/E5E4E2/E5E4E2) ![#FFD700](https://placehold.co.com/10/FFD700/FFD700+) ![#C0C0C0](https://placehold.co.com/10/C0C0C0/C0C0C0) ![#CD7F32](https://placehold.co.com/10/CD7F32/CD7F32) | Template       |
+| ![#FFFFFF](https://placehold.co.com/10/FFFFFF/FFFFFF+)                                                                                                                                                                                                 | File/Directory |
 
 ## Features
 
 This `README` highlights the **three** core components of **PRG**:
 
-1. [**Categorize**](#1-categories) your repositories into five tiers: ![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) **Platinum**, ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze**, and ![#6236FF](https://via.placeholder.com/10/6236FF/000000?text=+) **Optimized**, then display them in a project tier table (built using GitHub Actions, hosted and deployed using GitHub Pages) to showcase your **GitHub Portfolio**.
+1. [**Categorize**](#1-categories) your repositories into five tiers: ![#E5E4E2](https://placehold.co.com/10/E5E4E2/E5E4E2) **Platinum**, ![#FFD700](https://placehold.co.com/10/FFD700/FFD700) **Gold**, ![#C0C0C0](https://placehold.co.com/10/C0C0C0/C0C0C0) **Silver**, ![#CD7F32](https://placehold.co.com/10/CD7F32/CD7F32) **Bronze**, and ![#6236FF](https://placehold.co.com/10/6236FF/6236FF) **Optimized**, then display them in a project tier table (built using GitHub Actions, hosted and deployed using GitHub Pages) to showcase your **GitHub Portfolio**.
 2. [**Guidelines**](#2-guidelines) defined for repository `README`, files, and overall structure.
 3. [**Templates**](#3-templates) for your `READMEs` and associated files. Templates are provided for each tier to help you get started quickly and easily by utilizing [README Driven Development (RDD)](#readme-driven-development-rdd).
    <br>
@@ -535,12 +535,12 @@ PRG-Personal-Repository-Guidelines # Root folder
 
 To solve the **"GitHub Portfolio Problem"** above and to distinguished the quality of the project, **PRG** categorizes repositories into five tiers: <br>
 <br>
-![#E5E4E2](https://via.placeholder.com/15/E5E4E2/000000?text=+) **Platinum** <br>
-![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) **Gold** <br>
-![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) **Silver** <br>
-![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) **Bronze** <br>  
-![#6236FF](https://via.placeholder.com/15/6236FF/000000?text=+) **Optimized** (included in PRG, but not within a specific tier) <br>
-![#7A7A7A](https://via.placeholder.com/15/7A7A7A/000000?text=+) **None** (uncategorized, your average non-PRG repo on GitHub) <br>
+![#E5E4E2](https://placehold.co.com/15/E5E4E2/E5E4E2) **Platinum** <br>
+![#FFD700](https://placehold.co.com/15/FFD700/FFD700) **Gold** <br>
+![#C0C0C0](https://placehold.co.com/15/C0C0C0/C0C0C0) **Silver** <br>
+![#CD7F32](https://placehold.co.com/15/CD7F32/CD7F32) **Bronze** <br>  
+![#6236FF](https://placehold.co.com/15/6236FF/6236FF) **Optimized** (included in PRG, but not within a specific tier) <br>
+![#7A7A7A](https://placehold.co.com/15/7A7A7A/7A7A7A) **None** (uncategorized, your average non-PRG repo on GitHub) <br>
 
 <div align="center">
   <a href="./guidelines/category_guidelines.md" target="_blank">
@@ -561,14 +561,14 @@ To solve the **"GitHub Portfolio Problem"** above and to distinguished the quali
 
 <a id="platinum-tier-project-badge"></a>
 
-#### ![#E5E4E2](https://via.placeholder.com/13/E5E4E2/000000?text=+) Platinum Tier Project Badge
+#### ![#E5E4E2](https://placehold.co.com/13/E5E4E2/E5E4E2) Platinum Tier Project Badge
 
 <a href="https://prgportfolio.com" target="_blank">
     <img src="https://img.shields.io/badge/PRG-Platinum Project-E5E4E2?style=for-the-badge&logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjYuMDAwMDAwcHQiIGhlaWdodD0iMzQuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCAyNi4wMDAwMDAgMzQuMDAwMDAwIgogcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+Cgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwzNC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiNFNUU0RTIiIHN0cm9rZT0ibm9uZSI+CjxwYXRoIGQ9Ik0xMiAzMjggYy04IC04IC0xMiAtNTEgLTEyIC0xMzUgMCAtMTA5IDIgLTEyNSAxOSAtMTQwIDQyIC0zOCA0OAotNDIgNTkgLTMxIDcgNyAxNyA2IDMxIC0xIDEzIC03IDIxIC04IDIxIC0yIDAgNiAyOCAxMSA2MyAxMyBsNjIgMyAwIDE1MCAwCjE1MCAtMTE1IDMgYy04MSAyIC0xMTkgLTEgLTEyOCAtMTB6IG0xMDIgLTc0IGMtNiAtMzMgLTUgLTM2IDE3IC0zMiAxOCAyIDIzCjggMjEgMjUgLTMgMjQgMTUgNDAgMzAgMjUgMTQgLTE0IC0xNyAtNTkgLTQ4IC02NiAtMjAgLTUgLTIzIC0xMSAtMTggLTMyIDYKLTIxIDMgLTI1IC0xMSAtMjIgLTE2IDIgLTE4IDEzIC0xOCA2NiAxIDc3IDAgNzIgMTggNzIgMTMgMCAxNSAtNyA5IC0zNnoKbTExNiAtMTY5IGMwIC0yMyAtMyAtMjUgLTQ5IC0yNSAtNDAgMCAtNTAgMyAtNTQgMjAgLTMgMTQgLTE0IDIwIC0zMiAyMCAtMTgKMCAtMjkgLTYgLTMyIC0yMCAtNyAtMjUgLTIzIC0yNiAtMjMgLTIgMCAyOSA4IDMyIDEwMiAzMiA4NyAwIDg4IDAgODggLTI1eiIvPgo8L2c+Cjwvc3ZnPgo=" alt="Platinum PRG Badge" />
 </a>
 <br>
 
-#### ![#FFD700](https://via.placeholder.com/13/FFD700/000000?text=+) Gold Tier Project Badge
+#### ![#FFD700](https://placehold.co.com/13/FFD700/FFD700) Gold Tier Project Badge
 
 <a href="https://prgportfolio.com" target="_blank">
     <img src="https://img.shields.io/badge/PRG-Gold Project-FFD700?style=for-the-badge&logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjYuMDAwMDAwcHQiIGhlaWdodD0iMzQuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCAyNi4wMDAwMDAgMzQuMDAwMDAwIgogcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+Cgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwzNC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiNGRkQ3MDAiIHN0cm9rZT0ibm9uZSI+CjxwYXRoIGQ9Ik0xMiAzMjggYy04IC04IC0xMiAtNTEgLTEyIC0xMzUgMCAtMTA5IDIgLTEyNSAxOSAtMTQwIDQyIC0zOCA0OAotNDIgNTkgLTMxIDcgNyAxNyA2IDMxIC0xIDEzIC03IDIxIC04IDIxIC0yIDAgNiAyOCAxMSA2MyAxMyBsNjIgMyAwIDE1MCAwCjE1MCAtMTE1IDMgYy04MSAyIC0xMTkgLTEgLTEyOCAtMTB6IG0xMDIgLTc0IGMtNiAtMzMgLTUgLTM2IDE3IC0zMiAxOCAyIDIzCjggMjEgMjUgLTMgMjQgMTUgNDAgMzAgMjUgMTQgLTE0IC0xNyAtNTkgLTQ4IC02NiAtMjAgLTUgLTIzIC0xMSAtMTggLTMyIDYKLTIxIDMgLTI1IC0xMSAtMjIgLTE2IDIgLTE4IDEzIC0xOCA2NiAxIDc3IDAgNzIgMTggNzIgMTMgMCAxNSAtNyA5IC0zNnoKbTExNiAtMTY5IGMwIC0yMyAtMyAtMjUgLTQ5IC0yNSAtNDAgMCAtNTAgMyAtNTQgMjAgLTMgMTQgLTE0IDIwIC0zMiAyMCAtMTgKMCAtMjkgLTYgLTMyIC0yMCAtNyAtMjUgLTIzIC0yNiAtMjMgLTIgMCAyOSA4IDMyIDEwMiAzMiA4NyAwIDg4IDAgODggLTI1eiIvPgo8L2c+Cjwvc3ZnPgo=" alt="Gold" />
@@ -577,7 +577,7 @@ To solve the **"GitHub Portfolio Problem"** above and to distinguished the quali
 
 <a id="silver-tier-project-badge"></a>
 
-#### ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) Silver Tier Project Badge
+#### ![#C0C0C0](https://placehold.co.com/15/C0C0C0/C0C0C0) Silver Tier Project Badge
 
 <a href="https://prgportfolio.com" target="_blank">
     <img src="https://img.shields.io/badge/PRG-Silver Project-C0C0C0?style=for-the-badge&logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjYuMDAwMDAwcHQiIGhlaWdodD0iMzQuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCAyNi4wMDAwMDAgMzQuMDAwMDAwIgogcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+Cgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwzNC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiNDMEMwQzAiIHN0cm9rZT0ibm9uZSI+CjxwYXRoIGQ9Ik0xMiAzMjggYy04IC04IC0xMiAtNTEgLTEyIC0xMzUgMCAtMTA5IDIgLTEyNSAxOSAtMTQwIDQyIC0zOCA0OAotNDIgNTkgLTMxIDcgNyAxNyA2IDMxIC0xIDEzIC03IDIxIC04IDIxIC0yIDAgNiAyOCAxMSA2MyAxMyBsNjIgMyAwIDE1MCAwCjE1MCAtMTE1IDMgYy04MSAyIC0xMTkgLTEgLTEyOCAtMTB6IG0xMDIgLTc0IGMtNiAtMzMgLTUgLTM2IDE3IC0zMiAxOCAyIDIzCjggMjEgMjUgLTMgMjQgMTUgNDAgMzAgMjUgMTQgLTE0IC0xNyAtNTkgLTQ4IC02NiAtMjAgLTUgLTIzIC0xMSAtMTggLTMyIDYKLTIxIDMgLTI1IC0xMSAtMjIgLTE2IDIgLTE4IDEzIC0xOCA2NiAxIDc3IDAgNzIgMTggNzIgMTMgMCAxNSAtNyA5IC0zNnoKbTExNiAtMTY5IGMwIC0yMyAtMyAtMjUgLTQ5IC0yNSAtNDAgMCAtNTAgMyAtNTQgMjAgLTMgMTQgLTE0IDIwIC0zMiAyMCAtMTgKMCAtMjkgLTYgLTMyIC0yMCAtNyAtMjUgLTIzIC0yNiAtMjMgLTIgMCAyOSA4IDMyIDEwMiAzMiA4NyAwIDg4IDAgODggLTI1eiIvPgo8L2c+Cjwvc3ZnPgo=" alt="Silver" />
@@ -586,7 +586,7 @@ To solve the **"GitHub Portfolio Problem"** above and to distinguished the quali
 
 <a id="bronze-tier-project-badge"></a>
 
-#### ![#CD7F32](https://via.placeholder.com/13/CD7F32/000000?text=+) Bronze Tier Project Badge
+#### ![#CD7F32](https://placehold.co.com/13/CD7F32/CD7F32) Bronze Tier Project Badge
 
 <a href="https://prgportfolio.com" target="_blank">
     <img src="https://img.shields.io/badge/PRG-Bronze Project-CD7F32?style=for-the-badge&logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjYuMDAwMDAwcHQiIGhlaWdodD0iMzQuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCAyNi4wMDAwMDAgMzQuMDAwMDAwIgogcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+Cgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwzNC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiNDRDdGMzIiIHN0cm9rZT0ibm9uZSI+CjxwYXRoIGQ9Ik0xMiAzMjggYy04IC04IC0xMiAtNTEgLTEyIC0xMzUgMCAtMTA5IDIgLTEyNSAxOSAtMTQwIDQyIC0zOCA0OAotNDIgNTkgLTMxIDcgNyAxNyA2IDMxIC0xIDEzIC03IDIxIC04IDIxIC0yIDAgNiAyOCAxMSA2MyAxMyBsNjIgMyAwIDE1MCAwCjE1MCAtMTE1IDMgYy04MSAyIC0xMTkgLTEgLTEyOCAtMTB6IG0xMDIgLTc0IGMtNiAtMzMgLTUgLTM2IDE3IC0zMiAxOCAyIDIzCjggMjEgMjUgLTMgMjQgMTUgNDAgMzAgMjUgMTQgLTE0IC0xNyAtNTkgLTQ4IC02NiAtMjAgLTUgLTIzIC0xMSAtMTggLTMyIDYKLTIxIDMgLTI1IC0xMSAtMjIgLTE2IDIgLTE4IDEzIC0xOCA2NiAxIDc3IDAgNzIgMTggNzIgMTMgMCAxNSAtNyA5IC0zNnoKbTExNiAtMTY5IGMwIC0yMyAtMyAtMjUgLTQ5IC0yNSAtNDAgMCAtNTAgMyAtNTQgMjAgLTMgMTQgLTE0IDIwIC0zMiAyMCAtMTgKMCAtMjkgLTYgLTMyIC0yMCAtNyAtMjUgLTIzIC0yNiAtMjMgLTIgMCAyOSA4IDMyIDEwMiAzMiA4NyAwIDg4IDAgODggLTI1eiIvPgo8L2c+Cjwvc3ZnPgo=" alt="Bronze" />
@@ -595,7 +595,7 @@ To solve the **"GitHub Portfolio Problem"** above and to distinguished the quali
 
 <a id="optimized-tier-project-badge"></a>
 
-#### ![#6236FF](https://via.placeholder.com/13/6236FF/000000?text=+) Optimized Tier Project Badge
+#### ![#6236FF](https://placehold.co.com/13/6236FF/6236FF) Optimized Tier Project Badge
 
 <a href="https://prgportfolio.com" target="_blank">
     <img src="https://img.shields.io/badge/PRG-Optimized-6236FF?style=for-the-badge&logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjYuMDAwMDAwcHQiIGhlaWdodD0iMzQuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCAyNi4wMDAwMDAgMzQuMDAwMDAwIgogcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+Cgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwzNC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiNGRkZGRkYiIHN0cm9rZT0ibm9uZSI+CjxwYXRoIGQ9Ik0xMiAzMjggYy04IC04IC0xMiAtNTEgLTEyIC0xMzUgMCAtMTA5IDIgLTEyNSAxOSAtMTQwIDQyIC0zOCA0OAotNDIgNTkgLTMxIDcgNyAxNyA2IDMxIC0xIDEzIC03IDIxIC04IDIxIC0yIDAgNiAyOCAxMSA2MyAxMyBsNjIgMyAwIDE1MCAwCjE1MCAtMTE1IDMgYy04MSAyIC0xMTkgLTEgLTEyOCAtMTB6IG0xMDIgLTc0IGMtNiAtMzMgLTUgLTM2IDE3IC0zMiAxOCAyIDIzCjggMjEgMjUgLTMgMjQgMTUgNDAgMzAgMjUgMTQgLTE0IC0xNyAtNTkgLTQ4IC02NiAtMjAgLTUgLTIzIC0xMSAtMTggLTMyIDYKLTIxIDMgLTI1IC0xMSAtMjIgLTE2IDIgLTE4IDEzIC0xOCA2NiAxIDc3IDAgNzIgMTggNzIgMTMgMCAxNSAtNyA5IC0zNnoKbTExNiAtMTY5IGMwIC0yMyAtMyAtMjUgLTQ5IC0yNSAtNDAgMCAtNTAgMyAtNTQgMjAgLTMgMTQgLTE0IDIwIC0zMiAyMCAtMTgKMCAtMjkgLTYgLTMyIC0yMCAtNyAtMjUgLTIzIC0yNiAtMjMgLTIgMCAyOSA4IDMyIDEwMiAzMiA4NyAwIDg4IDAgODggLTI1eiIvPgo8L2c+Cjwvc3ZnPgo=" alt="Optimized" />
@@ -606,7 +606,7 @@ To solve the **"GitHub Portfolio Problem"** above and to distinguished the quali
 
 <a id="prg-collection-badge"></a>
 
-#### ![#680F7F](https://via.placeholder.com/13/680F7F/000000?text=+) PRG Collection Badge
+#### ![#680F7F](https://placehold.co.com/13/680F7F/680F7F) PRG Collection Badge
 
 - The **PRG Collection Badge** should be prominently displayed in your GitHub profile `README` to indicate that you are using **PRG** to categorize your repositories.
 - This badge will link to your project tier table for your **PRG Portfolio**, clearly displaying your categorized repositories and closing the loop on the **GitHub Portfolio Problem**.
@@ -707,17 +707,17 @@ The following templates are provided for you to use in your repositories. These 
 
 Consult the [Template Guide](./templates/template_guide.md) for more details on how to use the provided templates.
 
-- Templates are broken down by the four (main) tiers of projects: ![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) **Platinum**, ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze**.
+- Templates are broken down by the four (main) tiers of projects: ![#E5E4E2](https://placehold.co.com/10/E5E4E2/E5E4E2) **Platinum**, ![#FFD700](https://placehold.co.com/10/FFD700/FFD700) **Gold**, ![#C0C0C0](https://placehold.co.com/10/C0C0C0/C0C0C0) **Silver**, and ![#CD7F32](https://placehold.co.com/10/CD7F32/CD7F32) **Bronze**.
 - See the following related template repositories for each tier:
 
 |                                                                                                     Icon                                                                                                      |                                     Tier                                     |                                  Template Repository                                  |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: |
-| <a href="https://github.com/scottgriv/PRG-Platinum-Tier-Template" target="_blank"><img src="./docs/images/template_icons/icon-platinum-rounded.png" alt="Platinum Template Logo" width="50" height="50"/></a> | ![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) **Platinum** | [PRG-Platinum-Tier-Template](https://github.com/scottgriv/PRG-Platinum-Tier-Template) |
-|       <a href="https://github.com/scottgriv/PRG-Gold-Tier-Template" target="_blank"><img src="./docs/images/template_icons/icon-gold-rounded.png" alt="Gold Template Logo" width="50" height="50"/></a>       |   ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**   |     [PRG-Gold-Tier-Template](https://github.com/scottgriv/PRG-Gold-Tier-Template)     |
-|    <a href="https://github.com/scottgriv/PRG-Silver-Tier-Template" target="_blank"><img src="./docs/images/template_icons/icon-silver-rounded.png" alt="Silver Template Logo" width="50" height="50"/></a>    |  ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**  |   [PRG-Silver-Tier-Template](https://github.com/scottgriv/PRG-Silver-Tier-Template)   |
-|    <a href="https://github.com/scottgriv/PRG-Bronze-Tier-Template" target="_blank"><img src="./docs/images/template_icons/icon-bronze-rounded.png" alt="Bronze Template Logo" width="50" height="50"/></a>    |  ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze**  |   [PRG-Bronze-Tier-Template](https://github.com/scottgriv/PRG-Bronze-Tier-Template)   |
+| <a href="https://github.com/scottgriv/PRG-Platinum-Tier-Template" target="_blank"><img src="./docs/images/template_icons/icon-platinum-rounded.png" alt="Platinum Template Logo" width="50" height="50"/></a> | ![#E5E4E2](https://placehold.co.com/10/E5E4E2/E5E4E2) **Platinum** | [PRG-Platinum-Tier-Template](https://github.com/scottgriv/PRG-Platinum-Tier-Template) |
+|       <a href="https://github.com/scottgriv/PRG-Gold-Tier-Template" target="_blank"><img src="./docs/images/template_icons/icon-gold-rounded.png" alt="Gold Template Logo" width="50" height="50"/></a>       |   ![#FFD700](https://placehold.co.com/10/FFD700/FFD700) **Gold**   |     [PRG-Gold-Tier-Template](https://github.com/scottgriv/PRG-Gold-Tier-Template)     |
+|    <a href="https://github.com/scottgriv/PRG-Silver-Tier-Template" target="_blank"><img src="./docs/images/template_icons/icon-silver-rounded.png" alt="Silver Template Logo" width="50" height="50"/></a>    |  ![#C0C0C0](https://placehold.co.com/10/C0C0C0/C0C0C0) **Silver**  |   [PRG-Silver-Tier-Template](https://github.com/scottgriv/PRG-Silver-Tier-Template)   |
+|    <a href="https://github.com/scottgriv/PRG-Bronze-Tier-Template" target="_blank"><img src="./docs/images/template_icons/icon-bronze-rounded.png" alt="Bronze Template Logo" width="50" height="50"/></a>    |  ![#CD7F32](https://placehold.co.com/10/CD7F32/CD7F32) **Bronze**  |   [PRG-Bronze-Tier-Template](https://github.com/scottgriv/PRG-Bronze-Tier-Template)   |
 
-- ![#6236FF](https://via.placeholder.com/10/6236FF/000000?text=+) **Optimized** tier projects are uncategorized and do not have a template. Use the template that best fits your project.
+- ![#6236FF](https://placehold.co.com/10/6236FF/6236FF) **Optimized** tier projects are uncategorized and do not have a template. Use the template that best fits your project.
 
 > [!NOTE]
 > For example, I use the **Optimized** tier for my personal and organization profile `READMEs` since they don't fit into any of the other tiers.

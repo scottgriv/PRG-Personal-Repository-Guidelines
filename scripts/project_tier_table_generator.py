@@ -126,7 +126,7 @@ Utilize this file as a template for collecting and incorporating badges into you
 
 <a id="platinum-tier-project-badge"></a>
 
-### ![#E5E4E2](https://via.placeholder.com/13/E5E4E2/000000?text=+) Platinum Tier Project Badge
+### ![#E5E4E2](https://placehold.co/13x13/E5E4E2/E5E4E2) Platinum Tier Project Badge
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Platinum']}" alt="Platinum" />
@@ -134,7 +134,7 @@ Utilize this file as a template for collecting and incorporating badges into you
 
 <a id="gold-tier-project-badge"></a>
 
-### ![#FFD700](https://via.placeholder.com/13/FFD700/000000?text=+) Gold Tier Project Badge
+### ![#FFD700](https://placehold.co/13x13/FFD700/FFD700) Gold Tier Project Badge
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Gold']}" alt="Gold" />
@@ -142,7 +142,7 @@ Utilize this file as a template for collecting and incorporating badges into you
 
 <a id="silver-tier-project-badge"></a>
 
-### ![#C0C0C0](https://via.placeholder.com/13/C0C0C0/000000?text=+) Silver Tier Project Badge
+### ![#C0C0C0](https://placehold.co/13x13/C0C0C0/C0C0C0) Silver Tier Project Badge
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Silver']}" alt="Silver" />
@@ -150,7 +150,7 @@ Utilize this file as a template for collecting and incorporating badges into you
 
 <a id="bronze-tier-project-badge"></a>
 
-### ![#CD7F32](https://via.placeholder.com/13/CD7F32/000000?text=+) Bronze Tier Project Badge
+### ![#CD7F32](https://placehold.co/13x13/CD7F32/CD7F32) Bronze Tier Project Badge
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Bronze']}" alt="Bronze" />
@@ -158,7 +158,7 @@ Utilize this file as a template for collecting and incorporating badges into you
 
 <a id="optimized-tier-project-badge"></a>
 
-### ![#6236FF](https://via.placeholder.com/13/6236FF/000000?text=+) Optimized Tier Project Badge
+### ![#6236FF](https://placehold.co/13x13/6236FF/6236FF) Optimized Tier Project Badge
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Optimized']}" alt="Optimized" />
@@ -178,7 +178,7 @@ Add the following badge to your profile `README` to showcase your **PRG Collecti
 
 <a id="prg-collection-badge"></a>
 
-### ![#680F7F](https://via.placeholder.com/13/680F7F/000000?text=+) PRG Collection Badge (Optimized) (_Default_)
+### ![#680F7F](https://placehold.co/13x13/680F7F/680F7F) PRG Collection Badge (Optimized) (_Default_)
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{PRG_REPO_URL}/raw/main/docs/images/prg_optimized.png" alt="Collection" width="138" height="51" />
@@ -186,7 +186,7 @@ Add the following badge to your profile `README` to showcase your **PRG Collecti
 
 <a id="prg-collection-badge-collection"></a>
 
-### ![#680F7F](https://via.placeholder.com/13/680F7F/000000?text=+) PRG Collection Badge (Collection) 
+### ![#680F7F](https://placehold.co/13x13/680F7F/680F7F) PRG Collection Badge (Collection) 
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{PRG_REPO_URL}/raw/main/docs/images/prg_collection.png" alt="Collection" width="138" height="51" />
@@ -194,7 +194,7 @@ Add the following badge to your profile `README` to showcase your **PRG Collecti
 
 <a id="prg-collection-badge-portfolio"></a>
 
-### ![#680F7F](https://via.placeholder.com/13/680F7F/000000?text=+) PRG Collection Badge (Portfolio) 
+### ![#680F7F](https://placehold.co/13x13/680F7F/680F7F) PRG Collection Badge (Portfolio) 
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{PRG_REPO_URL}/raw/main/docs/images/prg_portfolio.png" alt="Collection" width="138" height="51" />
@@ -204,7 +204,7 @@ Add the following badge to your profile `README` to showcase your **PRG Collecti
 
 <a id="prg-collection-badge-purple"></a>
 
-### ![#6236FF](https://via.placeholder.com/13/6236FF/000000?text=+) PRG Collection Badge (Purple Book)
+### ![#6236FF](https://placehold.co/13x13/6236FF/6236FF) PRG Collection Badge (Purple Book)
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Purple_Collection']}" alt="Collection" />
@@ -217,7 +217,7 @@ Add the following badge to your profile `README` to showcase your **PRG Collecti
 
 <a id="prg-collection-badge-black"></a>
 
-### ![#000000](https://via.placeholder.com/13/000000/000000?text=+) PRG Collection Badge (Black Book)
+### ![#000000](https://placehold.co/13x13/000000/000000) PRG Collection Badge (Black Book)
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['Black_Collection']}" alt="Collection" />
@@ -230,7 +230,7 @@ Add the following badge to your profile `README` to showcase your **PRG Collecti
 
 <a id="prg-collection-badge-white"></a>
 
-### ![#FFFFFF](https://via.placeholder.com/13/FFFFFF/000000?text=+) PRG Collection Badge (White Book)
+### ![#FFFFFF](https://placehold.co/13x13/FFFFFF/FFFFFF) PRG Collection Badge (White Book)
 
 <a href="{TIER_TABLE_URL}" target="_blank">
     <img src="{BADGES['White_Collection']}" alt="Collection" />

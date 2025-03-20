@@ -7,7 +7,7 @@
 <h1 align="center">Template Guide</h1>
 
 This document serves as a comprehensive guide for accessing and utilizing the tier-specific templates within **PRG**. 
-- Each categorized tier – ![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) **Platinum**, ![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) **Gold**, ![#C0C0C0](https://via.placeholder.com/10/C0C0C0/000000?text=+) **Silver**, and ![#CD7F32](https://via.placeholder.com/10/CD7F32/000000?text=+) **Bronze** – has its own customized repository and `README` templates that cater to different levels of project complexity and requirements.
+- Each categorized tier – ![#E5E4E2](https://placehold.co/10x10/E5E4E2/E5E4E2) **Platinum**, ![#FFD700](https://placehold.co/10x10/FFD700/FFD700) **Gold**, ![#C0C0C0](https://placehold.co/10x10/C0C0C0/C0C0C0) **Silver**, and ![#CD7F32](https://placehold.co/10x10/CD7F32/CD7F32) **Bronze** – has its own customized repository and `README` templates that cater to different levels of project complexity and requirements.
 - Consult the [Category Guidelines](../guidelines/category_guidelines.md) for more information on the different project categories and their respective tiers.
 
 > [!WARNING]
@@ -30,53 +30,53 @@ This document serves as a comprehensive guide for accessing and utilizing the ti
 
 <a id="platinum-tier-template"></a>
 
-## ![#E5E4E2](https://via.placeholder.com/15/E5E4E2/000000?text=+) Platinum Tier Template
+## ![#E5E4E2](https://placehold.co/15x15/E5E4E2/E5E4E2) Platinum Tier Template
 
 <a href="https://github.com/scottgriv/PRG-Platinum-Tier-Template" target="_blank">
     <img src="../docs/images/template_icons/banner_social-platinum.png" width="320" height="160"/>
 </a>
 <br>
 
-[![#E5E4E2](https://via.placeholder.com/10/E5E4E2/000000?text=+) PRG Platinum Tier Public Template Repository](https://github.com/scottgriv/PRG-Platinum-Tier-Template)
+[![#E5E4E2](https://placehold.co/10x10/E5E4E2/E5E4E2) PRG Platinum Tier Public Template Repository](https://github.com/scottgriv/PRG-Platinum-Tier-Template)
 
  Designed for the most ambitious and sophisticated projects, this template transcends the ordinary, offering a comprehensive framework for thorough documentation, advanced feature integration, and high-level project presentation.
 
 <a id="gold-tier-template"></a>
 
-## ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) Gold Tier Template
+## ![#FFD700](https://placehold.co/15x15/FFD700/FFD700) Gold Tier Template
 
 <a href="https://github.com/scottgriv/PRG-Gold-Tier-Template" target="_blank">
     <img src="../docs/images/template_icons/banner_social-gold.png" width="320" height="160"/>
 </a>
 <br>
 
-[![#FFD700](https://via.placeholder.com/10/FFD700/000000?text=+) PRG Gold Tier Public Template Repository](https://github.com/scottgriv/PRG-Gold-Tier-Template)
+[![#FFD700](https://placehold.co/10x10/FFD700/FFD700) PRG Gold Tier Public Template Repository](https://github.com/scottgriv/PRG-Gold-Tier-Template)
 
 Tailored for advanced and comprehensive projects, this template includes extensive sections and badges suitable for a robust and detailed presentation. 
 
 <a id="silver-tier-template"></a>
 
-## ![#C0C0C0](https://via.placeholder.com/15/C0C0C0/000000?text=+) Silver Tier Template
+## ![#C0C0C0](https://placehold.co/15x15/C0C0C0/C0C0C0) Silver Tier Template
 
 <a href="https://github.com/scottgriv/PRG-Silver-Tier-Template" target="_blank">
     <img src="../docs/images/template_icons/banner_social-silver.png" width="320" height="160"/>
 </a>
 <br>
 
-[![#FFD700](https://via.placeholder.com/10/C0C0C0/000000?text=+) PRG Silver Tier Public Template Repository](https://github.com/scottgriv/PRG-Silver-Tier-Template)
+[![#FFD700](https://placehold.co/10x10/FFD700/FFD700) PRG Silver Tier Public Template Repository](https://github.com/scottgriv/PRG-Silver-Tier-Template)
 
 Designed for intermediate-level projects, this template balances detail and simplicity, providing a streamlined yet informative layout. 
 
 <a id="bronze-tier-template"></a>
 
-## ![#CD7F32](https://via.placeholder.com/15/CD7F32/000000?text=+) Bronze Tier Template
+## ![#CD7F32](https://placehold.co/15x15/CD7F32/CD7F32) Bronze Tier Template
 
 <a href="https://github.com/scottgriv/PRG-Bronze-Tier-Template" target="_blank">
     <img src="../docs/images/template_icons/banner_social-bronze.png" width="320" height="160"/>
 </a>
 <br>
 
-[![#FFD700](https://via.placeholder.com/10/CD7F32/000000?text=+) PRG Bronze Tier Public Template Repository](https://github.com/scottgriv/PRG-Bronze-Tier-Template)
+[![#FFD700](https://placehold.co/10x10/FFD700/FFD700) PRG Bronze Tier Public Template Repository](https://github.com/scottgriv/PRG-Bronze-Tier-Template)
 
 Ideal for basic or beginner-level projects, this template focuses on simplicity and ease of use, ensuring a clear and concise project overview. 
 

@@ -66,15 +66,15 @@ The color palette for a **PRG** project is as follows:
 
 | Color         | Hex                                                                |
 | ------------- | ------------------------------------------------------------------ |
-| White         | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) `#FFFFFF` |
-| Black         | ![#000000](https://via.placeholder.com/10/000000?text=+) `#000000` |
-| Gray          | ![#7A7A7A](https://via.placeholder.com/10/7A7A7A?text=+) `#7A7A7A` |
-| Purple 1      | ![#6236FF](https://via.placeholder.com/10/6236FF?text=+) `#6236FF` |
-| Purple 2      | ![#680F7F](https://via.placeholder.com/10/680F7F?text=+) `#680F7F` |
-| Platinum      | ![#E5E4E2](https://via.placeholder.com/10/E5E4E2?text=+) `#E5E4E2` |
-| Gold          | ![#FFD700](https://via.placeholder.com/10/FFD700?text=+) `#FFD700` |
-| Silver        | ![#C0C0C0](https://via.placeholder.com/10/C0C0C0?text=+) `#C0C0C0` |
-| Bronze        | ![#CD7F32](https://via.placeholder.com/10/CD7F32?text=+) `#CD7F32` |
+| White         | ![#FFFFFF](https://placehold.co/10/FFFFFF/FFFFFF) `#FFFFFF` |
+| Black         | ![#000000](https://placehold.co/10/000000/000000) `#000000` |
+| Gray          | ![#7A7A7A](https://placehold.co/10/7A7A7A/7A7A7A) `#7A7A7A` |
+| Purple 1      | ![#6236FF](https://placehold.co/10/6236FF/6236FF) `#6236FF` |
+| Purple 2      | ![#680F7F](https://placehold.co/10/680F7F/680F7F) `#680F7F` |
+| Platinum      | ![#E5E4E2](https://placehold.co/10/E5E4E2/E5E4E2) `#E5E4E2` |
+| Gold          | ![#FFD700](https://placehold.co/10/FFD700/FFD700) `#FFD700` |
+| Silver        | ![#C0C0C0](https://placehold.co/10/C0C0C0/C0C0C0) `#C0C0C0` |
+| Bronze        | ![#CD7F32](https://placehold.co/10/CD7F32/CD7F32) `#CD7F32` |
 
 ## Typography
 

@@ -39,7 +39,8 @@
     <img src="./docs/images/demo/demo_1.gif" alt="Demo_1" style="width: 75%; margin: 5px;">
   </a>
   <br>
-  <i><b>PRG</b> creates a HTML table to showcase your projects in your <b>GitHub Portfolio</b>.</i>
+  <i><b>PRG</b> creates a HTML table to showcase your projects in your <b>GitHub Portfolio</b>.</i><br />
+  <a href="https://prgportfolio.com" target="_blank"><b>Click here to view the example</b></a>
 </div>
 
 ---

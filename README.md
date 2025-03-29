@@ -28,11 +28,11 @@
 
 **PRG** is a repository categorization and guideline framework. By harnessing the power of GitHub Actions, it automatically crafts a tier-based display, neatly categorizing your repositories for enhanced clarity and impact. Beyond mere organization, it sets forth comprehensive guidelines, templates for `READMEs`, and overall repository structure, ensuring each project is showcased with maximum professionalism and coherence.
 
-- Categorized your repositories and projects into ![#E5E4E2](https://placehold.co/10/E5E4E2/E5E4E2) **Platinum**, ![#FFD700](https://placehold.co/10/FFD700/FFD700) **Gold**, ![#C0C0C0](https://placehold.co/10/C0C0C0/C0C0C0) **Silver**, and ![#CD7F32](https://placehold.co/10/CD7F32/CD7F32) **Bronze** tiers for your **GitHub Portfolio**.
+- [x] Categorize your repositories and projects into ![#E5E4E2](https://placehold.co/10/E5E4E2/E5E4E2) **Platinum**, ![#FFD700](https://placehold.co/10/FFD700/FFD700) **Gold**, ![#C0C0C0](https://placehold.co/10/C0C0C0/C0C0C0) **Silver**, and ![#CD7F32](https://placehold.co/10/CD7F32/CD7F32) **Bronze** tiers for your **GitHub Portfolio**.
   - Display your repositories in a searchable and sortable `HTML` table, created with GitHub Actions and displayed through GitHub Pages, to organize and showcase your projects to the world.
     - You can send specific projects via a predefined search URL parameter by appending `/?search=` to your `PRG` URL and add whatever project name, language, tech, category, etc.
-- Follow the defined guidelines to guide your repository structure and `README` content.
-- Utilize the predefined `README` templates to get your projects up and running quickly and easily so you can focus on what matters most - your code!
+- [x] Follow the defined guidelines to guide your repository structure and `README` content.
+- [x] Utilize the predefined `README` templates to get your projects up and running quickly and easily so you can focus on what matters most - your code!
 
 <div align="center">
   <a href="https://prgportfolio.com" target="_blank">

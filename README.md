@@ -26,6 +26,16 @@
 
 <h1 align="center">📃 Personal Repository Guidelines (PRG)</h1>
 
+**Create a Living Portfolio for your GitHub**
+- Add a `PRG.md` file to each repo with basic metadata
+- Optionally include a project image for visual flair
+- Configure global settings once in your main **PRG** repo
+- Automatically build a dynamic, tiered portfolio with GitHub Actions
+- Includes templates for clean `READMEs` and repo structure
+- Setup takes just *minutes*—fully automated, minimal effort
+
+---
+
 **PRG** is a repository categorization and guideline framework. By harnessing the power of GitHub Actions, it automatically crafts a tier-based display, neatly categorizing your repositories for enhanced clarity and impact. Beyond mere organization, it sets forth comprehensive guidelines, templates for `READMEs`, and overall repository structure, ensuring each project is showcased with maximum professionalism and coherence.
 
 - [x] Categorize your repositories and projects into ![#E5E4E2](https://placehold.co/10/E5E4E2/E5E4E2) **Platinum**, ![#FFD700](https://placehold.co/10/FFD700/FFD700) **Gold**, ![#C0C0C0](https://placehold.co/10/C0C0C0/C0C0C0) **Silver**, and ![#CD7F32](https://placehold.co/10/CD7F32/CD7F32) **Bronze** tiers for your **GitHub Portfolio**.

@@ -26,7 +26,7 @@
 
 <h1 align="center">📃 Personal Repository Guidelines (PRG)</h1>
 
-**Create a Living Portfolio for your GitHub**
+**Create a Living Portfolio for Your GitHub**
 - Add a `PRG.md` file to each repo with basic metadata
 - Optionally include a project image for visual flair
 - Configure global settings once in your main **PRG** repo

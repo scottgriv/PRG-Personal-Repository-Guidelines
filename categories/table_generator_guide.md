@@ -72,6 +72,12 @@ In order to get the **PRG** framework to work, you must perform the following pr
      - If a homepage/website is not defined in the repository settings, clicking on the icon will link to the repository.
      - Clicking on the name of the repository will always link to the repository.
 
+> [!NOTE]
+> The image size is `100px x 100px` (Width x Height)
+> Search for the `CSS` class: `icon-container` if you want to modify the class
+> Keep in mind, if you're using icons that are not symmetrical, it can appear distorted in the table. In cases like this, I would advise editing the logo and making a symmetrical shape/padding around your icon so when it scales down to 100, it won't appear distorted.
+> Icons smaller than 100px will also appear distorted.
+
 > [!IMPORTANT]
 > If you do not see your new or updated logo after you run the build script, give it a few minutes for GitHub to finish running its index process and try again.
 > You can view the path manually by going to `https://github.com/your-username-here/your-repo-here/raw/main/docs/images/PRG.png` in your browser, which should redirect to `https://raw.githubusercontent.com/your-username-here/your-repo-here/main/docs/images/PRG.png`.

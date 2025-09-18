@@ -882,7 +882,7 @@ This project is released under the terms of the **GNU General Public License, ve
 
 **Author:** [Scott Grivner](https://github.com/scottgriv) <br>
 **Email:** [scott.grivner@gmail.com](mailto:scott.grivner@gmail.com) <br>
-**Website:** [scottgrivner.dev](https://www.scottgrivner.dev) <br>
+**Website:** [linktr.ee/scottgriv](https://www.linktr.ee/scottgriv) <br>
 **Reference:** [Main Branch](https://github.com/scottgriv/PRG-Personal-Repository-Guidelines) <br>
 
 ---

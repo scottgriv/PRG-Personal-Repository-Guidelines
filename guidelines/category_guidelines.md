@@ -32,6 +32,7 @@ Consult this guideline for detailed information on the categorization of each ti
 - [Non-PRG Project (None)](#non-prg-project)
 - [Profile PRG Collection](#profile-prg-collection)
 - [PRG Projects on App Stores](#prg-projects-on-app-stores)
+- [Local Repository Folder Structure](#local-repository-folder-structure)
 - [Resources](#resources)
 
 <a id="platinum-tier-project"></a>
@@ -155,7 +156,7 @@ Consult this guideline for detailed information on the categorization of each ti
 
 - This is not a category, but rather a lack of one - your average GitHub repository.
 - This is a project that does not follow the **Personal Repository Guidelines (PRG)**.
-- It is considered unoptimized and will not be included in your **PRG Collection** unless you add a **PRG Connection File** (unless the flags are configured to bring it in, and if that is the case, it will come over as **Optimized**).
+- It is considered an unoptimized or "standard" projects, and will not be included in your **PRG Collection** unless you add a **PRG Connection File** (unless the flags are configured to bring it in, and if that is the case, it will come over as **Optimized**).
 
 <a id="profile-prg-collection"></a>
 
@@ -183,6 +184,26 @@ Consult this guideline for detailed information on the categorization of each ti
 ## PRG Projects on App Stores
 
 Sometimes projects may require a *Duel Purpose README*, in otherwords, a `README` that is used not only for your GitHub Repository, but also for an App Store that you may be deploying to (i.e. VSCode Store). In this case, you can still classify your project under **PRG** by adding your project as an [External Project](../categories/table_generator_guide.md#external-projects) by following the [Table Generator Guide](../categories/table_generator_guide.md). That way, your project will still be included in your **PRG Portfolio** but you can utilize your `README` on whatever App Store you need. One caveat will be that you won't see a **PRG Badge** in your `README`, but there's not much you can do in this scenario other than manually adding it because you don't want to include a `PRG.md` file with your public facing application (which may be under scrutiny by the App Store you're releasing it on).
+
+## Local Repository Folder Structure
+
+I found using the categorization system locally can help when organizing and ordering your **PRG** projects.
+
+It goes something like this:
+
+```bash
+GitHub Projects # Root folder on your Desktop or wherever
+├─ Platinium Projects # PRG Platinium Categorized Projects
+├─ Gold Projects # PRG Gold Categorized Projects
+├─ Silver Projects # PRG Silver Categorized Projects
+├─ Bronze Projects # PRG Bronze Categorized Projects
+├─ Optimized Projects # PRG Optimized Projects (Included in your PRG Portfolio, but not categorized)
+├─ Standard Projects # Projects not included in your PRG Portfolio
+└─ Forked Projects # Forks you're going to delete later (i.e. after a PR is merged), also not included in your PRG Collection/Portfolio
+```
+
+> [!TIP]
+> Use aliases (folder shortcuts) to still include your projects you don't want in the above structure to reference and visual ordering.
 
 ## Resources
 

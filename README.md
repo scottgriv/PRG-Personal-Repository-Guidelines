@@ -27,11 +27,11 @@
 <h1 align="center">📃 Personal Repository Guidelines (PRG)</h1>
 
 **Create a Living Portfolio for Your GitHub**
-- Add a `PRG.md` file to each repo with basic metadata
+- Add a `PRG.md` file to each repo (of your choice) with basic metadata
 - Optionally include a project image for visual flair
 - Configure global settings once in your main **PRG** repo
-- Automatically build a dynamic, tiered portfolio with GitHub Actions
-- Includes templates for clean `READMEs` and repo structure
+- Automatically build a dynamic, tiered portfolio web page with GitHub Actions
+- Includes templates and guides for clean `READMEs` and overall repo structure
 - Setup takes just *minutes*—fully automated, minimal effort
 
 ---
@@ -41,6 +41,7 @@
 - [x] Categorize your repositories and projects into ![#E5E4E2](https://placehold.co/10/E5E4E2/E5E4E2) **Platinum**, ![#FFD700](https://placehold.co/10/FFD700/FFD700) **Gold**, ![#C0C0C0](https://placehold.co/10/C0C0C0/C0C0C0) **Silver**, and ![#CD7F32](https://placehold.co/10/CD7F32/CD7F32) **Bronze** tiers for your **GitHub Portfolio**.
   - Display your repositories in a searchable and sortable `HTML` table, created with GitHub Actions and displayed through GitHub Pages, to organize and showcase your projects to the world.
     - You can send specific projects via a predefined search URL parameter by appending `/?search=` to your `PRG` URL and add whatever project name, language, tech, category, etc.
+    - You decide what projects/repositories you want included in **PRG**; you can also show private repositories (which will still be unaccessable to others) on this list or projects not even on GitHub.
 - [x] Follow the defined guidelines to guide your repository structure and `README` content.
 - [x] Utilize the predefined `README` templates to get your projects up and running quickly and easily so you can focus on what matters most - your code!
 
@@ -424,7 +425,8 @@ Here are some definitions to help you understand the terminology used in this do
 
 - <ins><b>PRG</b></ins>: An acronym for **Personal Repository Guidelines**.
 - <ins><b>PRG Optimized</b></ins>: A repository/project that is categorized using the **PRG** framework.
-- <ins><b>PRG Collection (aka PRG Portfolio)</b></ins>: The entire collection of repositories that are categorized using **PRG**.
+- <ins><b>PRG Collection</b></ins>: The entire collection of repositories that are categorized using **PRG**.
+- <ins><b>PRG Portfolio</b></ins>: Similar to the **PRG Collection**, your **PRG Portfolio** is the output (visual display table) you get when compiling your **PRG Collection** -- they're esentially the same thing, just two different ways of looking at it.
 - <ins><b>PRG Connection File (aka PRGCF)</b></ins>: [A special markdown file](PRG.md) placed in the root of each of your repositories that is used to categorize your repositories using **PRG**.
 - <ins><b>PRG Showcase</b></ins>: A showcase of publically known users who are using **PRG** to categorize their repositories. [Visit The Official PRG Website](https://prgoptimized.netlify.app) to view and add your name to the showcase.
 - <ins><b>Project Tier</b></ins>: A tier/rank that is assigned to a repository based on the information in the **PRG Connection File** file.

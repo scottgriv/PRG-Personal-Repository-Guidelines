@@ -450,7 +450,7 @@ Below are some common questions and answers about **PRG**:
 - <ins><b>Q</b></ins>: How do I determine the tier/category of my repository?
 - <ins><b>A</b></ins>: See the [Category Guidelines](./guidelines/category_guidelines.md) for more information.
 - <ins><b>Q</b></ins>: What if I don't want to categorize my repository?
-- <ins><b>A</b></ins>: You can leave your repository uncategorized (by not including a **PRG Connection File**), and it will be brought into the tier table as **Optimized**.
+- <ins><b>A</b></ins>: You can leave your repository uncategorized (by not including a **PRG Connection File**); it will not be brought into your **PRG Portfolio**.
 - <ins><b>A</b></ins>: If you want to exclude it from the tier table completely, you can configure the flags in the tier table generator script for this purpose. See the [Table Generator Guide - Configuration](./categories/table_generator_guide.md#table-configuration) for more information.
 - <ins><b>Q</b></ins>: You keep saying "Optimized", what does that mean?
 - <ins><b>A</b></ins>: **Optimized** simply means: a repository that is categorized using **PRG**.
@@ -552,8 +552,8 @@ To solve the **"GitHub Portfolio Problem"** above and to distinguished the quali
 ![#FFD700](https://placehold.co/15/FFD700/FFD700) **Gold** <br>
 ![#C0C0C0](https://placehold.co/15/C0C0C0/C0C0C0) **Silver** <br>
 ![#CD7F32](https://placehold.co/15/CD7F32/CD7F32) **Bronze** <br>  
-![#6236FF](https://placehold.co/15/6236FF/6236FF) **Optimized** (included in PRG, but not within a specific tier) <br>
-![#7A7A7A](https://placehold.co/15/7A7A7A/7A7A7A) **None** (uncategorized, your average non-PRG repo on GitHub) <br>
+![#6236FF](https://placehold.co/15/6236FF/6236FF) **Optimized** (or uncategorized; included in PRG, but not within a specific tier) <br>
+![#7A7A7A](https://placehold.co/15/7A7A7A/7A7A7A) **Unoptimized** (or standard/none; your average non-PRG repo on GitHub) <br>
 
 <div align="center">
   <a href="./guidelines/category_guidelines.md" target="_blank">

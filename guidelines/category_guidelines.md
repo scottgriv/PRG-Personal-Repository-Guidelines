@@ -29,7 +29,7 @@ Consult this guideline for detailed information on the categorization of each ti
 - [Bronze Tier Project](#bronze-tier-project)
   - [Silver & Bronze Additional Requirements](#silver--bronze-additional-requirements)
 - [Optimized Tier Project](#optimized-tier-project)
-- [Non-PRG Project (None)](#non-prg-project)
+- [Non-PRG Project (Unoptimized/Standard)](#non-prg-project)
 - [Profile PRG Collection](#profile-prg-collection)
 - [PRG Projects on App Stores](#prg-projects-on-app-stores)
 - [Local Repository Folder Structure](#local-repository-folder-structure)
@@ -148,15 +148,14 @@ Consult this guideline for detailed information on the categorization of each ti
 
 - This is considered a "uncategorized" tier project included in your **PRG Collection**.
   - Use this badge to output your project in your **PRG Collection** tier table if you have a project that doesn't fit into any of the other tiers but you still want to include it in your **PRG Collection**.
-  - By default, if all repositories are brought in without a **PRG Connection File** file, they will be considered **Optimized**.
 
 <a id="non-prg-project"></a>
 
-## ![#7A7A7A](https://placehold.co/15/7A7A7A/7A7A7A) Non-PRG Project (None)
+## ![#7A7A7A](https://placehold.co/15/7A7A7A/7A7A7A) Non-PRG Project (Unoptimized/Standard)
 
 - This is not a category, but rather a lack of one - your average GitHub repository.
 - This is a project that does not follow the **Personal Repository Guidelines (PRG)**.
-- It is considered an unoptimized or "standard" projects, and will not be included in your **PRG Collection** unless you add a **PRG Connection File** (unless the flags are configured to bring it in, and if that is the case, it will come over as **Optimized**).
+- It is considered an "unoptimized" or "standard" projects, and will not be included in your **PRG Collection** unless you add a **PRG Connection File** (unless the flags are configured to bring it in, and if that is the case, it will come over as **Optimized**).
 
 <a id="profile-prg-collection"></a>
 

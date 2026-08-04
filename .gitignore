@@ -63,3 +63,4 @@ vendor/
 # Personal project files
 .env
 config.yml
+private_reasons.md
